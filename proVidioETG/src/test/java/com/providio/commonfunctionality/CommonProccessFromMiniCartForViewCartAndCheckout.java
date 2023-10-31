@@ -19,15 +19,14 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	 public void clickContinueAsGuest() throws InterruptedException {
-	        List<WebElement> continueasAGuest = driver.findElements(By.xpath("//button[contains(text(),'Guest Checkout')]"));
+	        List<WebElement> continueasAGuest = driver.findElements(By.xpath("//input[@id='email-guest']"));
 	        logger.info(continueasAGuest.size());
 
 	        if (continueasAGuest.size() > 0) {
 	        	 //if guest checkout label is displayed then only this if condition executes 
-	        	 	if(driver.findElement(By.xpath("//button[contains(text(),'Guest Checkout')]")).isDisplayed()) {
+	        	 	if(driver.findElement(By.xpath("//input[@id='email-guest']")).isDisplayed()) {
 			            guestUserLoginPage guestLoginPage = new guestUserLoginPage(driver);
-			            guestLoginPage.clickOnGuestCheckOut();
-			            logger.info("Guest checkout");
+			           
 			            guestLoginPage.clickOnEmail(reEnterMail);
 			            logger.info("Guest mail again");
 			            guestLoginPage.clickOnContinueAsGuest();

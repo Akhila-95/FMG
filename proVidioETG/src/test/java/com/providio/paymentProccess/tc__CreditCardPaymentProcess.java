@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import com.providio.Validations.Checkout_Validation;
 import com.providio.Validations.preValidationCheck;
+import com.providio.commonfunctionality.AddressDetails;
 import com.providio.commonfunctionality.paymentMethods;
 import com.providio.creditCardPaymentMethods.allPaymentMethods;
 import com.providio.pageObjects.paymentpPage;
@@ -21,38 +22,22 @@ public class tc__CreditCardPaymentProcess extends baseClass{
 	// Define a method named "paymentByCreditCard"
 	public void paymentByCreditCard() throws InterruptedException {
 		
-		List<WebElement> billingPage = driver.findElements(By.xpath("//label[contains(text(),'Billing Address')]"));		
+		List<WebElement> paymnetPage= driver.findElements(By.xpath("//h2[contains(text(),'Payment Method')]"));	
 	
-		if(billingPage.size()>0 ) {
+		if(paymnetPage.size()>0 ) {
 			
-			WebElement billingAddressDisplay = driver.findElement(By.xpath("//label[contains(text(),'Billing Address')]"));	
+			WebElement paymentPageDisplay = driver.findElement(By.xpath("//h2[contains(text(),'Payment Method')]"));	
 			
-				if(billingAddressDisplay.isDisplayed()) {
+				if(paymentPageDisplay.isDisplayed()) {
 					
-					// Validate the payment page
-					preValidationCheck.validatePaymentButtonClk();
-			       
-					// total price of products 
-					List<WebElement> totalPriceList = driver.findElements(By.xpath("//span[@class='grand-total-sum']"));
-					if(totalPriceList.size()>0) {
-						WebElement totalPrice = driver.findElement(By.xpath("//span[@class='grand-total-sum']"));
-						test.info("The total price of products is " + totalPrice.getText());
-					}					
+								
 					// Detect payment methods
 					// Brain Tree
 					List<WebElement> brainTree = driver.findElements(By.xpath("//a[@class ='nav-link creditcard-tab active']"));
-				    // Credit Card Salesforce
-					List<WebElement> creditcardsSalesForce = driver.findElements(By.xpath("//div[@class='sfpp-payment-method-header sfpp-payment-method-header-card']"));
-				    // Stripe
-				    List<WebElement> stripePayment = driver.findElements(By.xpath("(//div[contains(@class,'StripeElement')])[1]"));
-				    // CyberSource
-				    List<WebElement> cyberSourcePayment = driver.findElements(By.xpath("//li[@data-method-id='CREDIT_CARD']"));
 				   
 				    // Create an instance of the "allPaymentMethods" class
 				    allPaymentMethods bpm = new allPaymentMethods();
-				    
-				    JavascriptExecutor js = (JavascriptExecutor) driver;	    		  
-		    		js.executeScript("window.scrollBy(0,900)", "");
+				  
 				    
 				    // Determine the payment method and proceed accordingly
 				    if(brainTree.size()>0) {
@@ -62,56 +47,29 @@ public class tc__CreditCardPaymentProcess extends baseClass{
 				    	//adding new card to account				    	
 				    		//bpm.addNewCardThoughExistingCards();
 				    	
-				    } else if(creditcardsSalesForce.size()>0) {
-				    	
-				    	bpm.salesForce();
-				    	
-				    } else if(stripePayment.size()>0) {
-				    	
-				    	bpm.stripe();	
-				    	
-				    	//wantedly calling 
-				    		// bpm.addNewCardThoughExistingCards();
-				    	
-				    } else if(cyberSourcePayment.size()>0){
-				    	
-				    	//guest and reg user
-				    		bpm.cyberSource();
-				    	
-				    	//adding new paymnet
-				    		//bpm.addNewCardThoughExistingCards();
-				    	
-				    	//backToSavedCards
-				    		//paymentMethods  pp = new  paymentMethods ();
-				    		//pp.backToSavedCards();
-				    	
-				    }		
-		
-				    // Salesforce payment integration: place the order
-				    if(creditcardsSalesForce.size()>0) {
-				    	logger.info("Clicking the Salesforce place the order");
-				    	paymentpPage pp = new paymentpPage(driver);
-				    	// Click the place order button
-				    	pp.placetheOrder(driver);
-				    	
-				    } else {
+				    } 
+				    
+				    // address details
+		            AddressDetails address = new AddressDetails();
+					address.address();
+					
 				    	// Review order page
 			    		reviewOrderPage rop = new reviewOrderPage(driver);
 			    		Thread.sleep(4000);			    		
 
 				    		rop.clickonReviewOrder(driver);
 				    		logger.info("Clicked on review order button");
-				    		test.info("Clicked on review order button");
+				    		
 				    		Thread.sleep(4000);		    		
 	
 				    		
 				    		 rop.clickonplaceorderwithJsExuter(driver);
 				    		 logger.info("successfully click on the place order button by normal click");
-				    		 test.info("Clicked on place order button");
+				    		 
 			    		
-			    		}
+			    	
 				    
-				    Thread.sleep(7000);
+				    Thread.sleep(9000);
 					 // Checkout validation
 		    		if(driver.getTitle().endsWith("Order Confirmation | Providio")) {
 		    			

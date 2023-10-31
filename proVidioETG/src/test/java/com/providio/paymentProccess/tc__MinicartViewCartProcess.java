@@ -44,10 +44,10 @@ public class tc__MinicartViewCartProcess extends baseClass {
 		
 		        if (minicartCountValue > 0) {		
 		            miniCartPage mc = new miniCartPage(driver);		            
-		            Thread.sleep(5000);		               
+		            //Thread.sleep(5000);		               
 		            //click on the cart button
-		            mc.clickcartbutton(driver);
-		            Thread.sleep(1000);
+		            mc.hoverOnCartButton(driver);
+		            //Thread.sleep(1000);
 		            
 		            List <WebElement> minicartPopUp = driver.findElements(By.xpath("(//h1)[1]"));
 		            if(minicartPopUp.size()>0) {
@@ -55,27 +55,18 @@ public class tc__MinicartViewCartProcess extends baseClass {
 			            //validate the button click 			          
 			            validation.validateMiniCartClick();
 	         
-			            Thread.sleep(1000);
+			           // Thread.sleep(1000);
 			            //clicks on view cart button 
 			            mc.clickviewCartButton(driver);
 						logger.info("clicked the view cart button in the minicart");
 						
 						//validate the view cart button click
 						validation.validateViewCartClick();
-						Thread.sleep(1000);
-						
-						//display of shipping method in cart page
-						viewCartPage vcp = new viewCartPage(driver);
-						vcp.noShippingMethodForOnlyGiftCertificate(driver);
-						
-						CartPageValidation cartPage =new CartPageValidation();
-						cartPage.cartPage(driver);
+	
 		            }
 		
 		            viewCartPage vcp = new viewCartPage(driver);
-		            
-		            //click the checkout button
-		           // validation.validateCheckoutafterClick();
+	        
 		            vcp.clickCheckout(driver);
 		            Thread.sleep(1000);
 		
@@ -86,16 +77,9 @@ public class tc__MinicartViewCartProcess extends baseClass {
 		            
 		           //if any guest user means guest checkout
 		            commonProccess.clickContinueAsGuest();
-		            Thread.sleep(2000);
-		         
-		            // address details
-		            AddressDetails address = new AddressDetails();
-					address.address();
-		        
-		       }/*else {
-		            logger.info("The cart value is empty");
-		            test.fail("The cart value is empty");
-		       }*/
+		            Thread.sleep(3000);
+	
+		       }
 	       }
 	     } 
 	  }

@@ -445,59 +445,29 @@ WebDriver lDriver;
     public void braintreePaypal(WebDriver driver) throws InterruptedException {
         // Create an instance of Actions class
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,100)", "");
-                      
         js.executeScript("arguments[0].click();", paypal);
         System.out.println("Clicked on paypal icon");
     }
     
     //After the paypal button click
     public void brainTreeAfterClick(WebDriver driver) throws InterruptedException {
-        WebElement parentDiv= driver.findElement(By.xpath("//a[contains(@class, 'paypal-tab active')]"));               
-        WebElement regPaypalCheckoutText=parentDiv.findElement(By.xpath("//label[contains(text(),'Select a PayPal account')]"));
-        if(regPaypalCheckoutText.isDisplayed()) {                	 
-       	  
-       	 
-        }else { 
+        WebElement paypalButton= driver.findElement(By.xpath("//li[@data-method-id='PayPal']"));               
+       
+       // if(paypalButton.isDisplayed()) {  
+        	// click on paypal radio button
+        	//paypalButton.click();  
             JavascriptExecutor js = (JavascriptExecutor) driver;  
             WebElement paypalCheckout=driver.findElement(By.xpath("//div[@class='js_braintree_paypal_billing_button']")); 
             if(paypalCheckout.isDisplayed()) {
-           	   js.executeScript("arguments[0].click();", paypalCheckout);                	
-               Thread.sleep(1000);
-	        	if(paypalCheckout.isDisplayed()) {
-	        		//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",  paypalCheckout);
-	        		paypalCheckout.click();
-	            }
-            }	                 
+            	//click on paypal checkout button 
+           	   //js.executeScript("arguments[0].click();", paypalCheckout);    
+            	paypalCheckout.click();
+              
+          //  }	                 
          }                 
    }
     
-   //SalesForce paypal payment page
-    public void salesforcePaypalCheckout(WebDriver driver) throws InterruptedException {
-        WebElement parentDiv= driver.findElement(By.xpath("//div[contains(@class,'sfpp-payment-method-header-paypal')]"));
-        Thread.sleep(4000);
-        WebElement paypalCheckout=parentDiv.findElement(By.xpath("//div[contains(text(),'Pay with PayPal')]"));
-        
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,700)", "");
-        js.executeScript("arguments[0].click();", paypalCheckout);
-       
-        Thread.sleep(3000);
-      
-        List<WebElement> salesforcePaypalCheckout=parentDiv.findElements(By.xpath("//div[contains(@class,'paypal-buttons-context-iframe paypal-buttons-label-paypal')]"));  
-        if(salesforcePaypalCheckout.size()>0) {
-            WebElement salesforcePaypalCheckout1=parentDiv.findElement(By.xpath("(//iframe[@title='PayPal'])[2]"));
-          if(salesforcePaypalCheckout1.isDisplayed()) {
-        	  	 Thread.sleep(3000);
-            	 salesforcePaypalCheckout1.click();
-            	 System.out.println("First click");
-          }if(salesforcePaypalCheckout1.isDisplayed()) {    
-              js.executeScript("arguments[0].click();", salesforcePaypalCheckout1);
-             
-          }
-            	
-        }
-    }
+
     
     //addpaymentbutton
     @FindBy(xpath ="//button[@class ='btn btn-block add-payment btn-outline-primary']")
@@ -542,7 +512,7 @@ WebDriver lDriver;
     
     //paypal payment details
     
-    @FindBy(xpath = "//img[@alt='PayPal Credit']")
+    @FindBy(xpath = "//li[@data-method-id='PayPal']")
     WebElement paypal;
 
     @FindBy(xpath = "//div[@aria-label='PayPal Checkout']")

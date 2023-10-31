@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,30 +27,9 @@ public class miniCartPage {
     WebElement CartButton;
 
     // Method to click on the Cart Button
-    public void clickcartbutton(WebDriver driver) throws InterruptedException {
-        CartButton.click();
-        Thread.sleep(2000);
-
-        try {
-            // Use JavaScript to click on the Cart Button (fallback)
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("arguments[0].click();", CartButton);
-        } catch (Exception e) {
-            e.printStackTrace();
-            // Handle the exception or perform an alternative action if necessary
-            CartButton.click();
-        }
-    }
-
-    // Element for Cart Button (JavaScript click)
-    @FindBy(xpath = "//a[@class='minicart-link']")
-    WebElement CartButtonjs;
-
-    // Method to click on the Cart Button using JavaScript
-    public void clickcartbuttonjs(WebDriver driver) throws InterruptedException {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        //s.executeScript("arguments[0].click();", CartButton);
-        CartButtonjs.click();
+    public void hoverOnCartButton(WebDriver driver) throws InterruptedException {
+    		Actions action = new Actions(driver);
+	        action.moveToElement(CartButton).perform();      
     }
 
     // Element for View Cart Button
@@ -57,10 +37,8 @@ public class miniCartPage {
     WebElement viewCartButton;
 
     // Method to click on the View Cart Button
-    public void clickviewCartButton(WebDriver driver) throws InterruptedException {
-        Thread.sleep(5000);
-        viewCartButton.click();
-        Thread.sleep(2000);
+    public void clickviewCartButton(WebDriver driver) throws InterruptedException {    
+        viewCartButton.click();    
     }
 
     // Element for Checkout Button

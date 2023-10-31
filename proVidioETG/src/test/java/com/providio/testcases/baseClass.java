@@ -11,13 +11,16 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.mail.EmailException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.TestNG;
 import org.testng.annotations.AfterMethod;
@@ -28,6 +31,7 @@ import org.testng.xml.XmlSuite;
 
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
+import com.providio.pageObjects.ConsentTracking;
 import com.providio.pageObjects.homePage;
 import com.providio.utilities.readConfig;
 import com.providio.utilities.reportToMail;
@@ -38,6 +42,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 
 
 public class baseClass {
+	
 	
 	
 	readConfig readconfig = new readConfig();
@@ -200,7 +205,7 @@ public class baseClass {
 
 	       //driver.quit();
 	      //Report send to mail
-		 reportToMail.Reporttomail();
+				//reportToMail.Reporttomail();
 	    }
 	   
 	   //Invoking the web chrome driver
@@ -220,7 +225,7 @@ public class baseClass {
 	        
 	     // Clear cookies
 	        driver.manage().deleteAllCookies();
-	       
+  
 	    }
 		
 	   

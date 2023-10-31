@@ -52,7 +52,7 @@ public void commonScript() throws InterruptedException {
 	        Thread.sleep(4000);
 	           
 	        //click on the cart button
-	        mc.clickcartbutton(driver);
+	        mc.hoverOnCartButton(driver);
 	        Thread.sleep(2000);
 	        
 	        quantityValidationInMinicart();

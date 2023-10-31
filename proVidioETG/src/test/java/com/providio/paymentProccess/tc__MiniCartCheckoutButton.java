@@ -41,7 +41,7 @@ public class tc__MiniCartCheckoutButton extends baseClass {
    		            miniCartPage mc = new miniCartPage(driver);		            
    		            Thread.sleep(5000);		               
    		            //click on the cart button
-   		            mc.clickcartbutton(driver);
+   		            mc.hoverOnCartButton(driver);
    		            Thread.sleep(1000);
    		            
    		            List <WebElement> minicartPopUp = driver.findElements(By.xpath("(//h1)[1]"));

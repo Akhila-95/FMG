@@ -28,11 +28,11 @@ public class GiftCertificate {
 	//gift card of xpaths, actionMethods and passing data and adding the gift card to cart
 	
 	//gift card
-	@FindBy(xpath = "//a[contains(text(),'Gift Registry')]")
+	@FindBy(className  = "gift-certificate")
 	WebElement giftCardElement;
 	
 	//gift card
-	@FindBy(xpath = "//a[contains(text(),'Gift Registry')]")
+	@FindBy(className  = "premega-nav-block")
 	List<WebElement> giftCardElementList;
 	
 	//amount

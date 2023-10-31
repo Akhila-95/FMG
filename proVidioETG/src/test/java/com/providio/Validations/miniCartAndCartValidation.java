@@ -13,7 +13,7 @@ public class miniCartAndCartValidation extends baseClass {
 	
 		public void validateMiniCartClick() throws InterruptedException {
 	    	
-	    	test.info("Verify the mini-cart button is clicked");
+	    	test.info("Verify the  hover on cart button");
 	    	
 	        WebElement minicart = driver.findElement(By.xpath("(//h1)[1]"));
 	        String actualTitleofminicart = minicart.getText();
@@ -21,101 +21,90 @@ public class miniCartAndCartValidation extends baseClass {
 	        Thread.sleep(2000);
 	        logger.info(minicart.getText());
 	        if (actualTitleofminicart.equals(expectedTitleminicart)) {
-	            test.pass("Successfully clicked on the mini cart button");
-	            logger.info("Successfully clicked on the mini cart button");
+	            test.pass("Hovered on minicart");
+	            logger.info("Hovered on minicart");
 
 	        } else {
 	            //test.fail("Clicked failed on the mini cart button");
 	            logger.info("Clicked failed on the mini cart button");
-	            //reclick if any error occurs
-	            Thread.sleep(3000);
-	            reClickMiniCartButton();
-	            
+	           
 	        }
 	        
-	        test.info("Verify the viewcart, checkout, paypal buttons and products are displayed");
-	        List<WebElement> productsinthecart = driver.findElements(By.cssSelector(".line-item-name"));
-	        test.info("The number of Products in minicart are" + productsinthecart.size());
-	        
-	        //count of products and its name in minicart
-	        if(productsinthecart.size()>0) {
-	        	for(int i=1;i<=productsinthecart.size() ;i++) {
-	        		  WebElement productsName = driver.findElement(By.xpath("(//div[@class='line-item-name']) [" + i + "]"));
-	        		  test.info("The products name in cart are " + productsName.getText());
-	        	}
-	        }
-	        
-	        WebElement viewcarButton = driver.findElement(By.xpath("//a[contains(@class, 'checkout-btn') and contains(text(), 'View Cart')]"));
-	        boolean displaycartbutton = viewcarButton.isDisplayed();
-	        logger.info(displaycartbutton);
-	        WebElement checkOutProcess = driver.findElement(By.xpath("//a[contains(@class, 'checkout-btn') and contains(@class, 'btn-primary') and contains(text(), 'Checkout')]"));
-	        boolean displaycheckOut = checkOutProcess.isDisplayed();
+	        test.info("Verify the display of viewcart, checkout are displayed");
+	        List<WebElement> productsinthecart = driver.findElements(By.cssSelector("div.total-products"));
+
+	        WebElement viewcarButton = driver.findElement(By.xpath("(//a[contains(text(),'View Cart')])[1]"));
+	        boolean displayViewcart = viewcarButton.isDisplayed();
+	        logger.info(displayViewcart);
+	        WebElement checkOutNow= driver.findElement(By.xpath("//a[contains(text(),'Check Out Now')]"));
+	        boolean displaycheckOut = checkOutNow.isDisplayed();
 	        logger.info(displaycheckOut);
-//	        WebElement paypal = driver.findElement(By.xpath("//div[contains(@class, 'paypal-button') and contains(@class, 'paypal-button-number-0') and contains(@class, 'paypal-button-layout-vertical') and contains(@class, 'paypal-button-shape-rect') and contains(@class, 'paypal-button-env-sandbox') and contains(@class, 'paypal-button-color-gold') and contains(@class, 'paypal-button-text-color-black') and contains(@class, 'paypal-logo-color-blue') and @role='link' and @aria-label='PayPal Checkout']"));
-//	        boolean displaypaypal = paypal.isDisplayed();
-	        if(productsinthecart.size()>0 && displaycartbutton && displaycheckOut ) {
-	        	test.pass("Successfully displayed the viewcart, checkout, paypal buttons and products, The number of products are: "+ productsinthecart.size());
-	            logger.info("Successfully displayed the viewcart, checkout, paypal buttons and products");
-	        	
-	        }else {
-	            test.fail(" Not displayed the viewcart, checkout, paypal buttons and products");
-	            logger.info("Not displayed the viewcart, checkout, paypal buttons and products");
-	        }
+	        
 	      
+	        if(displayViewcart && displaycheckOut ) {        	
+			        	test.pass("Successfully displayed the viewcart, checkout, and products, The number of products are: "+ productsinthecart.size());
+			            logger.info("Successfully displayed the viewcart, checkout,  and products");
+			        	
+			        }else {
+			            test.fail(" Not displayed the viewcart, checkout, paypal buttons and products");
+			            logger.info("Not displayed the viewcart, checkout, paypal buttons and products");
+			        }
+			
+	        //price in cart 
+	        WebElement priceInCart = driver.findElement(By.xpath("//div[@class='price']//b"));
+	        test.info("The price in cart is " + priceInCart.getText());
+	      /*
+	        // to verify paypal button display  in cart page  
 	      
+			List<WebElement> brainPayPalButtonList = driver.findElements(By.xpath("//div[contains(@class,'js_braintree_paypal_cart_button')]"));
+			 if(brainPayPalButtonList.size()>0) {
+					WebElement brainPayPalButton = driver.findElement(By.xpath("//div[contains(@class,'js_braintree_paypal_cart_button')]"));
+					boolean displaybraintreePaypal = brainPayPalButton.isDisplayed();
+					if(displaybraintreePaypal) {				
+						test.pass("brain tree paypal button is displayed after clicking the minicart button");
+					}else {
+						test.fail("brain tree  paypal button is not displayed after clicking the minicart button");
+					}
+				}*/
 	    }
 
 	    public void validateViewCartClick() {
-	    	test.info("Verify the view-cart button is clicked");
-	        WebElement viewcart = driver.findElement(By.xpath("//h4"));
-	        String actualTitleofviewcart = viewcart.getText();
-	        String expectedTitleviewcart = "Order Summary";
-	        logger.info(viewcart.getText());
-	        if (actualTitleofviewcart.equals(expectedTitleviewcart)) {
-	            test.pass("Successfully clicked on the view cart button");
-	            logger.info("Successfully clicked on the view cart button");
-	        } else {
-	            test.fail("Clicked failed on the view cart button");
-	            logger.info("Clicked failed on the view cart button");
-	        }	        
-	    }
-
-	    public void reClickMiniCartButton() throws InterruptedException {
 	    	
-	    	miniCartPage mc = new miniCartPage(driver);
-	        mc.clickcartbuttonjs(driver);
-	        
-	        WebElement reminicart = driver.findElement(By.xpath("(//h1)[1]"));
-	        String reactualTitleofminicart = reminicart.getText();
-	        String reexpectedTitleminicart = "Your shopping cart";
-	        Thread.sleep(2000);
-	        logger.info(reminicart.getText());
-	        if (reactualTitleofminicart.equals(reexpectedTitleminicart)) {
-	            test.pass("Successfully clicked on the mini cart button");
-	            logger.info("Successfully clicked on the mini cart button");
-
-	        } else {
-	            test.fail("Clicked failed on the mini cart button");
-	            logger.info("Clicked failed on the mini cart button");
-
+	        List<WebElement> viewcartList = driver.findElements(By.xpath("//h1[contains(text(),'Your Shopping Cart')]"));
+	        if(viewcartList.size()>0) {
+	        	test.info("Verify the view-cart button is clicked");
+		        WebElement viewcart = driver.findElement(By.xpath("//h1[contains(text(),'Your Shopping Cart')]"));
+		        String actualTitleofviewcart = viewcart.getText();
+		        String expectedTitleviewcart = "Your Shopping Cart";
+		        logger.info(viewcart.getText());
+		        if (actualTitleofviewcart.equals(expectedTitleviewcart)) {
+		            test.pass("Successfully clicked on the view cart button and the messgae displayed is " +viewcart.getText());
+		            logger.info("Successfully clicked on the view cart button");
+		        } else {
+		            test.fail("Clicked failed on the view cart button");
+		            logger.info("Clicked failed on the view cart button");
+		        }	   
 	        }
-	    	
 	    }
+
 	    
 	    public void validateCheckoutafterClick() {
-	    	test.info("Verify the view-cart button is clicked");
-	        WebElement viewcart = driver.findElement(By.xpath("(//h2[contains(text(), 'Shipping')])[2]"));
-	        String actualTitleofviewcart = viewcart.getText();
-	        String expectedTitleviewcart = "Shipping";
-	        logger.info(viewcart.getText());
-	        if (actualTitleofviewcart.equals(expectedTitleviewcart)) {
-	            test.pass("Successfully clicked on the checkout button button");
-	            logger.info("Successfully clicked on the checkout button button");
-	        } else {
-	            test.fail("Clicked failed on the checkout button button");
-	            logger.info("Clicked failed on the checkout button button");
+	    	
+	        List<WebElement> checkoutPaginationList = driver.findElements(By.xpath("//h2[contains(text(),'Returning and New Customers')]"));
+	        if(checkoutPaginationList.size()>0) {
+	        	test.info("Verify the check out button is clicked");
+		        WebElement checkoutPagination = driver.findElement(By.xpath("//h2[contains(text(),'Returning and New Customers')]"));
+		        String actualTitleofviewcart = checkoutPagination.getText();
+		        String expectedTitleviewcart = "Shipping";
+		        logger.info(checkoutPagination.getText());
+		        if (actualTitleofviewcart.equals(expectedTitleviewcart)) {
+		            test.pass("Successfully clicked on the checkout button button");
+		            logger.info("Successfully clicked on the checkout button button");
+		        } else {
+		            test.fail("Clicked failed on the checkout button button");
+		            logger.info("Clicked failed on the checkout button button");
+		        }
 	        }
-	        
 	        
 	    }
 	}

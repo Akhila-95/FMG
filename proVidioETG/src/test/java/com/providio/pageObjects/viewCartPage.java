@@ -27,7 +27,7 @@ WebDriver lDriver;
 	public void clickCheckout(WebDriver driver) throws InterruptedException{		
 		JavascriptExecutor js = (JavascriptExecutor) driver; 
 		js.executeScript("arguments[0].click();", Checkout);		
-        Thread.sleep(5000);
+       
 	}
 	
 	//Removeitem	

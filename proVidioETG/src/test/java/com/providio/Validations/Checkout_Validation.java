@@ -121,7 +121,7 @@ public class Checkout_Validation extends baseClass {
     public void reClickMiniCartButton() throws InterruptedException {
     	
     	miniCartPage mc = new miniCartPage(driver);
-        mc.clickcartbutton(driver);
+        mc.hoverOnCartButton(driver);
         
         WebElement reminicart = driver.findElement(By.xpath("(//h1)[1]"));
         String reactualTitleofminicart = reminicart.getText();

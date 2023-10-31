@@ -96,7 +96,7 @@ public class CheckoutPage1_Validation extends baseClass {
         Thread.sleep(4000);
 
         //click on the cart button
-        mc.clickcartbutton(driver);
+        mc.hoverOnCartButton(driver);
         Thread.sleep(2000);
         mc.clickCheckout();
         logger.info("Clicked on checkout button");
