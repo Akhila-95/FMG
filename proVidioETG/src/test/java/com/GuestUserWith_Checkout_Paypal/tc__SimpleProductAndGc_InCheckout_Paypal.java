@@ -3,7 +3,9 @@ package com.GuestUserWith_Checkout_Paypal;
 import org.testng.annotations.Test;
 
 import com.providio.Scenarios.SimpleProduct;
+import com.providio.Scenarios.giftCard;
 import com.providio.commonfunctionality.findAStore;
+import com.providio.commonfunctionality.navigationProccess;
 import com.providio.launchingbrowser.launchBrowsering;
 import com.providio.paymentProccess.tc__MinicartViewCartProcess;
 import com.providio.paymentProccess.tc__CheckOutProcessByPayPal;
@@ -23,10 +25,13 @@ public class tc__SimpleProductAndGc_InCheckout_Paypal extends baseClass {
 	     findAStore  store = new findAStore();
 	     store.findStore();
 		
+	     //adding GC into cart
+		    giftCard gc = new giftCard();
+		    gc.giftCards(); 
+		    
 		//simple product
-	    SimpleProduct sp = new SimpleProduct();
-	    sp.simpleProdcut();
-		
+	     navigationProccess  navProccess  = new navigationProccess ();	
+ 	 	 navProccess.commonNavigationProccess();
 
 		 //checkoutProcess				        
 	     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     

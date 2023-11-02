@@ -2,59 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-31T18:17:54 IST" name="Default suite" finished-at="2023-10-31T18:19:00 IST" duration-ms="65904">
+  <suite started-at="2023-11-02T12:15:38 IST" name="Default suite" finished-at="2023-11-02T12:15:50 IST" duration-ms="12731">
     <groups>
     </groups>
-    <test started-at="2023-10-31T18:17:54 IST" name="Default test" finished-at="2023-10-31T18:19:00 IST" duration-ms="65904">
-      <class name="com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards">
-        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards@630bf683]" started-at="2023-10-31T18:17:51 IST" name="setUpforReport" finished-at="2023-10-31T18:17:54 IST" duration-ms="2777" status="PASS">
+    <test started-at="2023-11-02T12:15:38 IST" name="Default test" finished-at="2023-11-02T12:15:50 IST" duration-ms="12731">
+      <class name="com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp">
+        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp@630bf683]" started-at="2023-11-02T12:15:35 IST" name="setUpforReport" finished-at="2023-11-02T12:15:38 IST" duration-ms="2742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpforReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards@630bf683]" started-at="2023-10-31T18:17:54 IST" name="setUp" finished-at="2023-10-31T18:17:56 IST" duration-ms="2041" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp@630bf683]" started-at="2023-11-02T12:15:38 IST" name="setUp" finished-at="2023-11-02T12:15:40 IST" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="OnlyGiftCards()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards@630bf683]" started-at="2023-10-31T18:17:56 IST" name="OnlyGiftCards" finished-at="2023-10-31T18:18:51 IST" duration-ms="55604" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method signature="orderbyFavouritesFromPdp()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp@630bf683]" started-at="2023-11-02T12:15:40 IST" name="orderbyFavouritesFromPdp" finished-at="2023-11-02T12:15:42 IST" duration-ms="2106" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=118.0.5993.118)
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3392afd80ecd64cefedd819a15c57c4d, sendKeysToElement {id=4C5FE07A33E00EA13591D7C231C3A755_element_290, value=[Ljava.lang.CharSequence;@1f18af30}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58628/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3392afd80ecd64cefedd819a15c57c4d)] -> xpath: //input[@id='password']]
-Session ID: 3392afd80ecd64cefedd819a15c57c4d]]>
+Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=118.0.5993.118)
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3392afd80ecd64cefedd819a15c57c4d, sendKeysToElement {id=4C5FE07A33E00EA13591D7C231C3A755_element_290, value=[Ljava.lang.CharSequence;@1f18af30}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58628/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3392afd80ecd64cefedd819a15c57c4d)] -> xpath: //input[@id='password']]
-Session ID: 3392afd80ecd64cefedd819a15c57c4d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-at com.providio.pageObjects.paymentpPage.paypalPopup(paymentpPage.java:573)
-at com.providio.paymentProccess.tc__CheckOutProcessByPayPal.checkoutprocessFromCheckout(tc__CheckOutProcessByPayPal.java:136)
-at com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards.OnlyGiftCards(tc__OnlyGiftCards.java:32)
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:309)
+at org.openqa.selenium.By.className(By.java:100)
+at com.providio.pageObjects.Favourites.addToFavouritesFromPdp(Favourites.java:24)
+at com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp.orderbyFavouritesFromPdp(FavouritesFromPdp.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,15 +64,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OnlyGiftCards -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards@630bf683]" started-at="2023-10-31T18:18:51 IST" name="afterMethod" finished-at="2023-10-31T18:19:00 IST" duration-ms="8220" status="FAIL">
+        </test-method> <!-- orderbyFavouritesFromPdp -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp@630bf683]" started-at="2023-11-02T12:15:42 IST" name="afterMethod" finished-at="2023-11-02T12:15:50 IST" duration-ms="8525" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=OnlyGiftCards status=FAILURE method=tc__OnlyGiftCards.OnlyGiftCards()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards@630bf683] output={null}]]]>
+                <![CDATA[[TestResult name=orderbyFavouritesFromPdp status=FAILURE method=FavouritesFromPdp.orderbyFavouritesFromPdp()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp@630bf683] output={null}]]]>
               </value>
             </param>
           </params>
@@ -105,9 +84,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3392afd80ecd64cefedd819a15c57c4d, findElement {using=xpath, value=//img[@class='logo']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58628/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3392afd80ecd64cefedd819a15c57c4d]]>
+Command: [a2efcf55cd5438d4f7767422e488dd33, findElement {using=xpath, value=//img[@class='logo']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51774/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2efcf55cd5438d4f7767422e488dd33]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='logo']"}
@@ -116,9 +95,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3392afd80ecd64cefedd819a15c57c4d, findElement {using=xpath, value=//img[@class='logo']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58628/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3392afd80ecd64cefedd819a15c57c4d
+Command: [a2efcf55cd5438d4f7767422e488dd33, findElement {using=xpath, value=//img[@class='logo']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51774/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2efcf55cd5438d4f7767422e488dd33
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -188,11 +167,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards@630bf683]" started-at="2023-10-31T18:19:00 IST" name="tearDown" finished-at="2023-10-31T18:19:06 IST" duration-ms="6677" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp@630bf683]" started-at="2023-11-02T12:15:50 IST" name="tearDown" finished-at="2023-11-02T12:16:01 IST" duration-ms="10802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards -->
+      </class> <!-- com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

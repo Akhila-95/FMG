@@ -23,16 +23,11 @@ public class tc__BySearchingProduct_GuestUser_InCheckoutPaypal extends baseClass
 		//launching the browser and passing the url into it
 		launchBrowsering lb = new launchBrowsering();
 		lb.chromeBrowser();
-			
-		// to pick the store
-	    findAStore  store = new findAStore();
-	    store.findStore();
-		
+
         //searching a product 		
 		SearchingProduct sp = new SearchingProduct();
 		sp.searchingProduct();
-
-		        
+       
        //checkoutProcess	        
         tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();            
         cp.checkoutprocess();

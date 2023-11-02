@@ -38095,3 +38095,1416 @@ $1,035.97
 2023-10-31 18:35:20,697 [main] INFO Providio - Clicked on paypal button
 2023-10-31 18:35:32,460 [main] INFO Providio - Clicked on review order button
 2023-10-31 18:35:49,660 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 09:47:46,990 [main] INFO Providio - Entered into url
+2023-11-01 09:47:46,997 [main] INFO Providio - Placing the order as guest user
+2023-11-01 09:47:58,571 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 09:48:04,030 [main] INFO Providio - Gift Certificates
+2023-11-01 09:48:04,030 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 09:48:04,083 [main] INFO Providio - true
+2023-11-01 09:48:04,111 [main] INFO Providio - true
+2023-11-01 09:48:04,112 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 09:48:12,442 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 09:48:12,516 [main] INFO Providio - Your Shopping Cart
+2023-11-01 09:48:12,532 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 09:48:20,895 [main] INFO Providio - 1
+2023-11-01 09:48:21,048 [main] INFO Providio - Guest mail again
+2023-11-01 09:48:21,147 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 09:48:26,568 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 09:50:02,499 [main] INFO Providio - Entered into url
+2023-11-01 09:50:02,507 [main] INFO Providio - Placing the order as guest user
+2023-11-01 09:50:12,200 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 09:50:17,596 [main] INFO Providio - Gift Certificates
+2023-11-01 09:50:17,596 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 09:50:17,643 [main] INFO Providio - true
+2023-11-01 09:50:17,673 [main] INFO Providio - true
+2023-11-01 09:50:17,674 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 09:50:24,483 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 09:50:24,549 [main] INFO Providio - Your Shopping Cart
+2023-11-01 09:50:24,559 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 09:50:32,147 [main] INFO Providio - 1
+2023-11-01 09:50:33,458 [main] INFO Providio - Guest mail again
+2023-11-01 09:50:33,559 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 09:50:39,040 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 09:50:50,594 [main] INFO Providio - Clicked on paypal button
+2023-11-01 09:50:54,693 [main] INFO Providio - Clicked on review order button
+2023-11-01 09:51:11,880 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 09:52:37,919 [main] INFO Providio - Entered into url
+2023-11-01 09:52:37,927 [main] INFO Providio - Placing the order as guest user
+2023-11-01 09:52:49,290 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 09:52:54,751 [main] INFO Providio - Gift Certificates
+2023-11-01 09:52:54,751 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 09:52:54,794 [main] INFO Providio - true
+2023-11-01 09:52:54,823 [main] INFO Providio - true
+2023-11-01 09:52:54,824 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 09:53:01,043 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 09:53:01,107 [main] INFO Providio - Your Shopping Cart
+2023-11-01 09:53:01,121 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 09:53:08,073 [main] INFO Providio - 1
+2023-11-01 09:53:08,289 [main] INFO Providio - Guest mail again
+2023-11-01 09:53:08,377 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 09:53:13,824 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 09:53:25,291 [main] INFO Providio - Clicked on paypal button
+2023-11-01 09:53:29,377 [main] INFO Providio - Clicked on review order button
+2023-11-01 09:53:45,709 [main] INFO Providio - Entered into url
+2023-11-01 09:53:45,731 [main] INFO Providio - Placing the order as guest user
+2023-11-01 09:53:46,535 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 09:53:59,993 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 09:54:05,606 [main] INFO Providio - Gift Certificates
+2023-11-01 09:54:05,607 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 09:54:05,660 [main] INFO Providio - true
+2023-11-01 09:54:05,696 [main] INFO Providio - true
+2023-11-01 09:54:05,697 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 09:54:11,495 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 09:54:11,568 [main] INFO Providio - Your Shopping Cart
+2023-11-01 09:54:11,582 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 09:54:18,825 [main] INFO Providio - 1
+2023-11-01 09:54:18,989 [main] INFO Providio - Guest mail again
+2023-11-01 09:54:19,085 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 09:54:24,527 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 09:54:36,076 [main] INFO Providio - Clicked on paypal button
+2023-11-01 09:54:40,163 [main] INFO Providio - Clicked on review order button
+2023-11-01 09:54:57,319 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 09:56:10,095 [main] INFO Providio - Entered into url
+2023-11-01 09:56:10,103 [main] INFO Providio - Placing the order as guest user
+2023-11-01 09:56:20,162 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 09:56:25,612 [main] INFO Providio - Gift Certificates
+2023-11-01 09:56:25,614 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 09:56:25,660 [main] INFO Providio - true
+2023-11-01 09:56:25,691 [main] INFO Providio - true
+2023-11-01 09:56:25,692 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 09:56:30,656 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 09:56:30,723 [main] INFO Providio - Your Shopping Cart
+2023-11-01 09:56:30,734 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 09:56:36,534 [main] INFO Providio - 1
+2023-11-01 09:56:36,666 [main] INFO Providio - Guest mail again
+2023-11-01 09:56:36,775 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 09:57:12,982 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 09:57:35,827 [main] INFO Providio - Clicked on paypal button
+2023-11-01 09:57:47,522 [main] INFO Providio - Clicked on review order button
+2023-11-01 09:58:04,720 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:22:15,981 [main] INFO Providio - Entered into url
+2023-11-01 10:22:15,987 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:22:25,555 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:22:30,966 [main] INFO Providio - Gift Certificates
+2023-11-01 10:22:30,967 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:22:31,015 [main] INFO Providio - true
+2023-11-01 10:22:31,044 [main] INFO Providio - true
+2023-11-01 10:22:31,045 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:22:36,141 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:22:36,207 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:22:36,218 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:22:42,220 [main] INFO Providio - 1
+2023-11-01 10:22:42,381 [main] INFO Providio - Guest mail again
+2023-11-01 10:22:42,504 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:24:05,226 [main] INFO Providio - Entered into url
+2023-11-01 10:24:05,238 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:24:16,147 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:24:21,809 [main] INFO Providio - Gift Certificates
+2023-11-01 10:24:21,809 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:24:21,867 [main] INFO Providio - true
+2023-11-01 10:24:21,901 [main] INFO Providio - true
+2023-11-01 10:24:21,901 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:24:28,746 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:24:28,907 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:24:28,921 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:24:36,598 [main] INFO Providio - 1
+2023-11-01 10:24:36,736 [main] INFO Providio - Guest mail again
+2023-11-01 10:24:36,870 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:25:09,667 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:25:31,779 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:25:48,506 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:26:00,129 [main] INFO Providio - Successfully Order is Placed and the Order number is R000010999
+2023-11-01 10:26:00,258 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 10:28:01,869 [main] INFO Providio - Entered into url
+2023-11-01 10:28:01,876 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:28:11,158 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:28:16,582 [main] INFO Providio - Gift Certificates
+2023-11-01 10:28:16,583 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:28:16,643 [main] INFO Providio - true
+2023-11-01 10:28:16,672 [main] INFO Providio - true
+2023-11-01 10:28:16,673 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:28:22,405 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:28:22,464 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:28:22,476 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:28:28,357 [main] INFO Providio - 1
+2023-11-01 10:28:28,482 [main] INFO Providio - Guest mail again
+2023-11-01 10:28:28,597 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:28:32,079 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:28:43,554 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:28:52,817 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:32:52,323 [main] INFO Providio - Entered into url
+2023-11-01 10:32:52,338 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:33:03,588 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:33:09,018 [main] INFO Providio - Gift Certificates
+2023-11-01 10:33:09,019 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:33:09,080 [main] INFO Providio - true
+2023-11-01 10:33:09,109 [main] INFO Providio - true
+2023-11-01 10:33:09,110 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:33:14,288 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:33:14,400 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:33:14,429 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:33:20,772 [main] INFO Providio - 1
+2023-11-01 10:33:20,911 [main] INFO Providio - Guest mail again
+2023-11-01 10:33:21,010 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:33:24,473 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:33:43,756 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:33:49,680 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:34:53,362 [main] INFO Providio - Entered into url
+2023-11-01 10:34:53,366 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:35:03,184 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:35:08,554 [main] INFO Providio - Gift Certificates
+2023-11-01 10:35:08,554 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:35:08,599 [main] INFO Providio - true
+2023-11-01 10:35:08,629 [main] INFO Providio - true
+2023-11-01 10:35:08,630 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:35:14,455 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:35:14,508 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:35:14,519 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:35:22,169 [main] INFO Providio - 1
+2023-11-01 10:35:22,320 [main] INFO Providio - Guest mail again
+2023-11-01 10:35:22,421 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:35:25,896 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:35:43,252 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:35:48,377 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:39:17,273 [main] INFO Providio - Entered into url
+2023-11-01 10:39:17,277 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:39:29,392 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:39:34,827 [main] INFO Providio - Gift Certificates
+2023-11-01 10:39:34,828 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:39:34,895 [main] INFO Providio - true
+2023-11-01 10:39:34,923 [main] INFO Providio - true
+2023-11-01 10:39:34,924 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:39:39,573 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:39:39,638 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:39:39,651 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:39:45,662 [main] INFO Providio - 1
+2023-11-01 10:39:45,807 [main] INFO Providio - Guest mail again
+2023-11-01 10:39:45,897 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:39:49,330 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:40:06,367 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:40:12,488 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:41:50,758 [main] INFO Providio - Entered into url
+2023-11-01 10:41:50,762 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:42:00,055 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:42:05,538 [main] INFO Providio - Gift Certificates
+2023-11-01 10:42:05,539 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:42:05,580 [main] INFO Providio - true
+2023-11-01 10:42:05,609 [main] INFO Providio - true
+2023-11-01 10:42:05,610 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:42:12,474 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:42:12,545 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:42:12,558 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:42:19,846 [main] INFO Providio - 1
+2023-11-01 10:42:19,988 [main] INFO Providio - Guest mail again
+2023-11-01 10:42:20,077 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:42:23,541 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:42:40,638 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:44:17,858 [main] INFO Providio - Entered into url
+2023-11-01 10:44:17,862 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:45:33,790 [main] INFO Providio - Entered into url
+2023-11-01 10:45:33,806 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:45:44,495 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:45:49,967 [main] INFO Providio - Gift Certificates
+2023-11-01 10:45:49,968 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:45:50,027 [main] INFO Providio - true
+2023-11-01 10:45:50,058 [main] INFO Providio - true
+2023-11-01 10:45:50,059 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:45:55,456 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:45:55,522 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:45:55,531 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:46:04,818 [main] INFO Providio - 1
+2023-11-01 10:46:04,978 [main] INFO Providio - Guest mail again
+2023-11-01 10:46:05,073 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:46:35,980 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:47:00,220 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:47:08,830 [main] INFO Providio - Clicked on review order button
+2023-11-01 10:47:20,991 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:47:32,546 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011097
+2023-11-01 10:47:32,665 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 10:52:52,196 [main] INFO Providio - Entered into url
+2023-11-01 10:52:52,199 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:53:02,865 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:53:08,389 [main] INFO Providio - Gift Certificates
+2023-11-01 10:53:08,389 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:53:08,445 [main] INFO Providio - true
+2023-11-01 10:53:08,476 [main] INFO Providio - true
+2023-11-01 10:53:08,478 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:53:13,590 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:53:13,645 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:53:13,657 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:53:19,728 [main] INFO Providio - 1
+2023-11-01 10:53:19,860 [main] INFO Providio - Guest mail again
+2023-11-01 10:53:19,953 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:53:23,393 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:53:40,106 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:53:40,147 [main] INFO Providio - Clicked on review order button
+2023-11-01 10:53:46,330 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:54:51,595 [main] INFO Providio - Entered into url
+2023-11-01 10:54:51,598 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:55:01,108 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:55:06,504 [main] INFO Providio - Gift Certificates
+2023-11-01 10:55:06,505 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:55:06,558 [main] INFO Providio - true
+2023-11-01 10:55:06,591 [main] INFO Providio - true
+2023-11-01 10:55:06,591 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:55:11,673 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:55:11,736 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:55:11,747 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:55:17,762 [main] INFO Providio - 1
+2023-11-01 10:55:17,902 [main] INFO Providio - Guest mail again
+2023-11-01 10:55:18,005 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:55:21,430 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:55:39,274 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:55:39,312 [main] INFO Providio - Clicked on review order button
+2023-11-01 10:55:45,402 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:57:29,399 [main] INFO Providio - Entered into url
+2023-11-01 10:57:29,403 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:57:39,022 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:57:44,447 [main] INFO Providio - Gift Certificates
+2023-11-01 10:57:44,448 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:57:44,502 [main] INFO Providio - true
+2023-11-01 10:57:44,530 [main] INFO Providio - true
+2023-11-01 10:57:44,531 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:57:49,789 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:57:49,856 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:57:49,867 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 10:57:57,888 [main] INFO Providio - 1
+2023-11-01 10:57:58,025 [main] INFO Providio - Guest mail again
+2023-11-01 10:57:58,116 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 10:58:01,590 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 10:58:18,217 [main] INFO Providio - Clicked on paypal button
+2023-11-01 10:58:18,239 [main] INFO Providio - Clicked on review order button
+2023-11-01 10:58:24,392 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 10:59:32,686 [main] INFO Providio - Entered into url
+2023-11-01 10:59:32,690 [main] INFO Providio - Placing the order as guest user
+2023-11-01 10:59:42,427 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 10:59:47,833 [main] INFO Providio - Gift Certificates
+2023-11-01 10:59:47,834 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 10:59:47,896 [main] INFO Providio - true
+2023-11-01 10:59:47,926 [main] INFO Providio - true
+2023-11-01 10:59:47,927 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 10:59:54,553 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 10:59:54,646 [main] INFO Providio - Your Shopping Cart
+2023-11-01 10:59:54,656 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 11:00:01,614 [main] INFO Providio - 1
+2023-11-01 11:00:01,759 [main] INFO Providio - Guest mail again
+2023-11-01 11:00:01,858 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 11:00:05,281 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 11:00:22,296 [main] INFO Providio - Clicked on paypal button
+2023-11-01 11:00:22,321 [main] INFO Providio - Clicked on review order button
+2023-11-01 11:00:31,420 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 11:00:41,533 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011002
+2023-11-01 11:00:41,624 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 11:05:57,023 [main] INFO Providio - Entered into url
+2023-11-01 11:05:57,028 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:06:06,369 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:06:11,773 [main] INFO Providio - Gift Certificates
+2023-11-01 11:06:11,774 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 11:06:11,818 [main] INFO Providio - true
+2023-11-01 11:06:11,845 [main] INFO Providio - true
+2023-11-01 11:06:11,845 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 11:06:15,591 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 11:06:15,705 [main] INFO Providio - Your Shopping Cart
+2023-11-01 11:06:15,714 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 11:06:22,441 [main] INFO Providio - 1
+2023-11-01 11:06:22,626 [main] INFO Providio - Guest mail again
+2023-11-01 11:06:22,783 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 11:06:26,326 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 11:06:43,410 [main] INFO Providio - Clicked on paypal button
+2023-11-01 11:06:43,470 [main] INFO Providio - Clicked on review order button
+2023-11-01 11:06:52,651 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 11:07:02,744 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011100
+2023-11-01 11:07:02,821 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 11:40:55,265 [main] INFO Providio - Entered into url
+2023-11-01 11:40:55,270 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:41:05,878 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:41:55,144 [main] INFO Providio - Entered into url
+2023-11-01 11:41:55,149 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:42:06,023 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:43:24,927 [main] INFO Providio - Entered into url
+2023-11-01 11:43:24,931 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:43:35,555 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:43:53,834 [main] INFO Providio - Gift Certificates
+2023-11-01 11:43:53,836 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 11:43:54,019 [main] INFO Providio - true
+2023-11-01 11:43:54,180 [main] INFO Providio - true
+2023-11-01 11:43:54,182 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 11:43:59,422 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 11:43:59,507 [main] INFO Providio - Your Shopping Cart
+2023-11-01 11:43:59,524 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 11:45:10,160 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011106
+2023-11-01 11:45:10,272 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 11:47:03,551 [main] INFO Providio - Entered into url
+2023-11-01 11:47:03,555 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:47:14,285 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:47:19,704 [main] INFO Providio - Gift Certificates
+2023-11-01 11:47:19,704 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 11:47:19,760 [main] INFO Providio - true
+2023-11-01 11:47:19,788 [main] INFO Providio - true
+2023-11-01 11:47:19,789 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 11:47:24,840 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 11:47:24,906 [main] INFO Providio - Your Shopping Cart
+2023-11-01 11:47:24,921 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 11:48:40,939 [main] INFO Providio - Entered into url
+2023-11-01 11:48:40,961 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:49:03,588 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:49:09,266 [main] INFO Providio - Gift Certificates
+2023-11-01 11:49:09,268 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 11:49:09,335 [main] INFO Providio - true
+2023-11-01 11:49:09,374 [main] INFO Providio - true
+2023-11-01 11:49:09,374 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 11:49:24,360 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 11:49:24,433 [main] INFO Providio - Your Shopping Cart
+2023-11-01 11:49:24,451 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 11:50:05,750 [main] INFO Providio - Entered into url
+2023-11-01 11:50:05,757 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:50:43,344 [main] INFO Providio - Entered into url
+2023-11-01 11:50:43,350 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:51:42,313 [main] INFO Providio - Entered into url
+2023-11-01 11:51:42,317 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:51:51,466 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:51:56,901 [main] INFO Providio - Gift Certificates
+2023-11-01 11:51:56,902 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 11:51:56,969 [main] INFO Providio - true
+2023-11-01 11:51:56,996 [main] INFO Providio - true
+2023-11-01 11:51:56,997 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 11:52:02,342 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 11:52:02,401 [main] INFO Providio - Your Shopping Cart
+2023-11-01 11:52:02,413 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 11:53:18,131 [main] INFO Providio - Entered into url
+2023-11-01 11:53:18,151 [main] INFO Providio - Placing the order as guest user
+2023-11-01 11:53:32,664 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 11:53:38,105 [main] INFO Providio - Gift Certificates
+2023-11-01 11:53:38,105 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 11:53:38,163 [main] INFO Providio - true
+2023-11-01 11:53:38,191 [main] INFO Providio - true
+2023-11-01 11:53:38,192 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 11:53:44,089 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 11:53:44,150 [main] INFO Providio - Your Shopping Cart
+2023-11-01 11:53:44,162 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:00:41,759 [main] INFO Providio - Entered into url
+2023-11-01 12:00:41,763 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:00:51,877 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:00:57,289 [main] INFO Providio - Gift Certificates
+2023-11-01 12:00:57,290 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:00:57,349 [main] INFO Providio - true
+2023-11-01 12:00:57,378 [main] INFO Providio - true
+2023-11-01 12:00:57,379 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:01:02,169 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:01:02,228 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:01:02,240 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:01:59,749 [main] INFO Providio - Entered into url
+2023-11-01 12:01:59,752 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:02:09,488 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:02:30,082 [main] INFO Providio - Gift Certificates
+2023-11-01 12:02:30,084 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:02:30,270 [main] INFO Providio - true
+2023-11-01 12:02:30,430 [main] INFO Providio - true
+2023-11-01 12:02:30,431 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:02:35,511 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:02:35,589 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:02:35,607 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:03:42,785 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011107
+2023-11-01 12:03:42,904 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 12:05:02,515 [main] INFO Providio - Entered into url
+2023-11-01 12:05:02,519 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:05:13,433 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:05:18,820 [main] INFO Providio - Gift Certificates
+2023-11-01 12:05:18,821 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:05:18,866 [main] INFO Providio - true
+2023-11-01 12:05:18,894 [main] INFO Providio - true
+2023-11-01 12:05:18,895 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:05:24,900 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:05:24,966 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:05:24,978 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:07:02,263 [main] INFO Providio - Entered into url
+2023-11-01 12:07:02,266 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:07:11,579 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:07:16,984 [main] INFO Providio - Gift Certificates
+2023-11-01 12:07:16,985 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:07:17,038 [main] INFO Providio - true
+2023-11-01 12:07:17,065 [main] INFO Providio - true
+2023-11-01 12:07:17,065 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:07:21,415 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:07:21,489 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:07:21,499 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:09:04,210 [main] INFO Providio - Entered into url
+2023-11-01 12:09:04,214 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:09:15,132 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:09:20,766 [main] INFO Providio - Gift Certificates
+2023-11-01 12:09:20,766 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:09:20,840 [main] INFO Providio - true
+2023-11-01 12:09:20,869 [main] INFO Providio - true
+2023-11-01 12:09:20,870 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:09:26,154 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:09:26,288 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:09:26,299 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:12:30,218 [main] INFO Providio - Entered into url
+2023-11-01 12:12:30,224 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:12:41,620 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:12:47,025 [main] INFO Providio - Gift Certificates
+2023-11-01 12:12:47,026 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:12:47,070 [main] INFO Providio - true
+2023-11-01 12:12:47,099 [main] INFO Providio - true
+2023-11-01 12:12:47,100 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:12:52,136 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:12:52,207 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:12:52,217 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:13:35,046 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011109
+2023-11-01 12:13:35,139 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 12:14:00,552 [main] INFO Providio - Entered into url
+2023-11-01 12:14:00,560 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:14:11,281 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:14:16,712 [main] INFO Providio - Gift Certificates
+2023-11-01 12:14:16,712 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:14:16,756 [main] INFO Providio - true
+2023-11-01 12:14:16,784 [main] INFO Providio - true
+2023-11-01 12:14:16,785 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:14:21,946 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:14:22,021 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:14:22,033 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:15:22,364 [main] INFO Providio - Entered into url
+2023-11-01 12:15:22,369 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:15:32,249 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:15:37,740 [main] INFO Providio - Gift Certificates
+2023-11-01 12:15:37,741 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:15:37,795 [main] INFO Providio - true
+2023-11-01 12:15:37,825 [main] INFO Providio - true
+2023-11-01 12:15:37,825 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:15:42,498 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:15:42,568 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:15:42,580 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:16:40,299 [main] INFO Providio - Entered into url
+2023-11-01 12:16:40,305 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:16:50,328 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:17:12,673 [main] INFO Providio - Gift Certificates
+2023-11-01 12:17:12,674 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:17:12,858 [main] INFO Providio - true
+2023-11-01 12:17:13,021 [main] INFO Providio - true
+2023-11-01 12:17:13,022 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:17:20,248 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:17:20,336 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:17:20,353 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:18:49,465 [main] INFO Providio - Entered into url
+2023-11-01 12:18:49,469 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:18:58,859 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:19:20,725 [main] INFO Providio - Gift Certificates
+2023-11-01 12:19:20,725 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:19:20,904 [main] INFO Providio - true
+2023-11-01 12:19:21,067 [main] INFO Providio - true
+2023-11-01 12:19:21,068 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:19:26,126 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:19:26,208 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:19:26,223 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:21:10,025 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011113
+2023-11-01 12:21:10,185 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 12:22:12,930 [main] INFO Providio - Entered into url
+2023-11-01 12:22:12,934 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:22:22,722 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:22:28,093 [main] INFO Providio - Gift Certificates
+2023-11-01 12:22:28,094 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:22:28,168 [main] INFO Providio - true
+2023-11-01 12:22:28,196 [main] INFO Providio - true
+2023-11-01 12:22:28,197 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:22:34,423 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:22:34,482 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:22:34,497 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:23:18,314 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011114
+2023-11-01 12:23:18,427 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 12:23:55,202 [main] INFO Providio - Entered into url
+2023-11-01 12:23:55,211 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:24:04,465 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:24:09,872 [main] INFO Providio - Gift Certificates
+2023-11-01 12:24:09,873 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:24:09,926 [main] INFO Providio - true
+2023-11-01 12:24:09,955 [main] INFO Providio - true
+2023-11-01 12:24:09,956 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:24:15,769 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:24:15,875 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:24:15,883 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:25:02,003 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011009
+2023-11-01 12:25:02,096 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 12:34:10,144 [main] INFO Providio - Entered into url
+2023-11-01 12:34:10,147 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:34:19,519 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:34:30,435 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:34:41,280 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:34:52,116 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:35:02,521 [main] INFO Providio - Gift Certificates
+2023-11-01 12:35:02,522 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:35:02,569 [main] INFO Providio - true
+2023-11-01 12:35:02,598 [main] INFO Providio - true
+2023-11-01 12:35:02,599 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:35:20,005 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:35:20,076 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:35:20,088 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:35:27,999 [main] INFO Providio - 1
+2023-11-01 12:35:28,157 [main] INFO Providio - Guest mail again
+2023-11-01 12:35:28,265 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 12:35:31,849 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 12:35:51,900 [main] INFO Providio - Clicked on paypal button
+2023-11-01 12:35:51,935 [main] INFO Providio - Clicked on review order button
+2023-11-01 12:36:01,031 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 12:36:11,143 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011118
+2023-11-01 12:36:11,226 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 12:38:50,932 [main] INFO Providio - Entered into url
+2023-11-01 12:38:50,935 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:39:00,809 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:39:14,213 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:39:41,827 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:40:08,492 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:40:18,868 [main] INFO Providio - Gift Certificates
+2023-11-01 12:40:18,869 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:40:18,916 [main] INFO Providio - true
+2023-11-01 12:40:18,943 [main] INFO Providio - true
+2023-11-01 12:40:18,944 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:40:29,887 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:40:29,983 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:40:29,997 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:41:46,861 [main] INFO Providio - Entered into url
+2023-11-01 12:41:46,864 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:41:57,593 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:42:08,670 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:42:20,252 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:42:30,936 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:42:36,337 [main] INFO Providio - Gift Certificates
+2023-11-01 12:42:36,337 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:42:36,378 [main] INFO Providio - true
+2023-11-01 12:42:36,404 [main] INFO Providio - true
+2023-11-01 12:42:36,404 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:42:41,636 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:42:41,701 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:42:41,714 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:44:01,843 [main] INFO Providio - Entered into url
+2023-11-01 12:44:01,847 [main] INFO Providio - Placing the order as guest user
+2023-11-01 12:44:17,245 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:44:29,493 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:44:41,009 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:44:52,676 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 12:44:58,055 [main] INFO Providio - Gift Certificates
+2023-11-01 12:44:58,056 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 12:44:58,115 [main] INFO Providio - true
+2023-11-01 12:44:58,145 [main] INFO Providio - true
+2023-11-01 12:44:58,146 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 12:45:04,859 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 12:45:04,914 [main] INFO Providio - Your Shopping Cart
+2023-11-01 12:45:04,927 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 12:45:50,976 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011121
+2023-11-01 12:45:51,047 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 13:00:16,955 [main] INFO Providio - Entered into url
+2023-11-01 13:00:16,968 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:01:22,341 [main] INFO Providio - Entered into url
+2023-11-01 13:01:22,346 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:02:56,475 [main] INFO Providio - Entered into url
+2023-11-01 13:02:56,480 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:03:10,396 [main] INFO Providio - Hover on create and login account
+2023-11-01 13:03:10,584 [main] INFO Providio - Clicked on Sign In
+2023-11-01 13:04:38,628 [main] INFO Providio - Entered into url
+2023-11-01 13:04:38,632 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:04:49,496 [main] INFO Providio - Hover on create and login account
+2023-11-01 13:04:49,672 [main] INFO Providio - Clicked on Sign In
+2023-11-01 13:06:52,669 [main] INFO Providio - Entered into url
+2023-11-01 13:06:52,676 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:08:07,596 [main] INFO Providio - Entered into url
+2023-11-01 13:08:07,602 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:08:16,748 [main] INFO Providio - Hover on create and login account
+2023-11-01 13:09:40,370 [main] INFO Providio - Entered into url
+2023-11-01 13:09:40,385 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:10:26,525 [main] INFO Providio - Hover on create and login account
+2023-11-01 13:10:26,699 [main] INFO Providio - Clicked on Sign In
+2023-11-01 13:10:29,110 [main] INFO Providio - Entered email
+2023-11-01 13:10:31,450 [main] INFO Providio - Entered password
+2023-11-01 13:10:43,600 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 13:11:38,673 [main] INFO Providio - Entered into url
+2023-11-01 13:11:38,680 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:11:47,330 [main] INFO Providio - Hover on create and login account
+2023-11-01 13:11:47,522 [main] INFO Providio - Clicked on Sign In
+2023-11-01 13:11:49,727 [main] INFO Providio - Entered email
+2023-11-01 13:11:51,911 [main] INFO Providio - Entered password
+2023-11-01 13:12:04,013 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 13:16:14,823 [main] INFO Providio - Entered into url
+2023-11-01 13:16:14,835 [main] INFO Providio - Placing the order as guest user
+2023-11-01 13:16:23,526 [main] INFO Providio - Hover on create and login account
+2023-11-01 13:16:23,622 [main] INFO Providio - Clicked on Sign In
+2023-11-01 13:16:25,831 [main] INFO Providio - Entered email
+2023-11-01 13:16:27,989 [main] INFO Providio - Entered password
+2023-11-01 13:16:40,084 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 14:46:58,339 [main] INFO Providio - Entered into url
+2023-11-01 14:46:58,344 [main] INFO Providio - Placing the order as guest user
+2023-11-01 14:47:01,872 [main] INFO Providio - Hover on create and login account
+2023-11-01 14:47:01,959 [main] INFO Providio - Clicked on Sign In
+2023-11-01 14:47:04,118 [main] INFO Providio - Entered email
+2023-11-01 14:47:06,267 [main] INFO Providio - Entered password
+2023-11-01 14:47:18,363 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 14:47:25,199 [main] INFO Providio - Hover on create and login account
+2023-11-01 14:47:25,244 [main] INFO Providio - User logged in successfully
+2023-11-01 14:47:25,293 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 14:49:18,583 [main] INFO Providio - Opened browser
+2023-11-01 14:49:21,895 [main] INFO Providio - Hover on create and login account
+2023-11-01 14:49:46,560 [main] INFO Providio - Opened browser
+2023-11-01 14:49:48,753 [main] INFO Providio - Hover on create and login account
+2023-11-01 14:50:19,350 [main] INFO Providio - Opened browser
+2023-11-01 14:50:21,540 [main] INFO Providio - Hover on create and login account
+2023-11-01 14:51:24,643 [main] INFO Providio - Entered into url
+2023-11-01 14:51:24,647 [main] INFO Providio - Placing the order as guest user
+2023-11-01 14:51:27,989 [main] INFO Providio - Hover on create and login account
+2023-11-01 14:51:28,094 [main] INFO Providio - clicked on sign in
+2023-11-01 14:51:30,344 [main] INFO Providio - entered empty email
+2023-11-01 14:51:32,490 [main] INFO Providio - entered  password
+2023-11-01 14:51:44,619 [main] INFO Providio - click on the submit button without entering email
+2023-11-01 14:51:49,689 [main] INFO Providio - true
+2023-11-01 14:51:54,693 [main] INFO Providio - User clicked the submit button with out entering userName and  error displayed successfully
+2023-11-01 14:51:56,818 [main] INFO Providio - entered empty email
+2023-11-01 14:51:58,947 [main] INFO Providio - entered empty password
+2023-11-01 14:52:14,052 [main] INFO Providio - click on the submit button without entering email and password
+2023-11-01 14:52:14,082 [main] INFO Providio - true
+2023-11-01 14:52:19,130 [main] INFO Providio - true
+2023-11-01 14:52:19,131 [main] INFO Providio - User clicked the submit button with out entering the user name and pwd and  error displayed successfully
+2023-11-01 14:52:21,387 [main] INFO Providio - entered email
+2023-11-01 14:52:23,519 [main] INFO Providio - entered empty password
+2023-11-01 14:52:35,607 [main] INFO Providio - click on the submit button without entering password
+2023-11-01 14:52:40,638 [main] INFO Providio - true
+2023-11-01 14:52:40,639 [main] INFO Providio - User clicked the submit button with out entering the PWD and  error displayed successfully
+2023-11-01 14:52:42,827 [main] INFO Providio - entered email
+2023-11-01 14:52:45,143 [main] INFO Providio - entered password
+2023-11-01 14:52:57,255 [main] INFO Providio - click on the submit button
+2023-11-01 14:53:02,310 [main] INFO Providio - false
+2023-11-01 14:53:02,311 [main] INFO Providio - User entered the wrong creditials and error not displayed
+2023-11-01 14:53:04,486 [main] INFO Providio - entered invalid email
+2023-11-01 14:53:06,691 [main] INFO Providio - entered incorrectpassword
+2023-11-01 14:59:56,966 [main] INFO Providio - Entered into url
+2023-11-01 14:59:56,974 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:01:19,117 [main] INFO Providio - Entered into url
+2023-11-01 15:01:19,122 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:01:29,080 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:01:41,070 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:01:52,700 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:02:03,641 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:02:09,043 [main] INFO Providio - Gift Certificates
+2023-11-01 15:02:09,043 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:02:09,094 [main] INFO Providio - true
+2023-11-01 15:02:09,123 [main] INFO Providio - true
+2023-11-01 15:02:09,123 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:02:14,176 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:02:14,239 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:02:14,253 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:02:20,189 [main] INFO Providio - 1
+2023-11-01 15:02:30,078 [main] INFO Providio - Relauching the browsesr
+2023-11-01 15:03:07,950 [main] INFO Providio - Entered into url
+2023-11-01 15:03:07,957 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:03:17,667 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:03:23,144 [main] INFO Providio - Gift Certificates
+2023-11-01 15:03:23,144 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:03:23,206 [main] INFO Providio - true
+2023-11-01 15:03:23,254 [main] INFO Providio - true
+2023-11-01 15:03:23,255 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:03:28,639 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:03:28,752 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:03:28,760 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:03:35,313 [main] INFO Providio - 1
+2023-11-01 15:03:51,699 [main] INFO Providio - Guest mail again
+2023-11-01 15:03:51,818 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 15:07:58,005 [main] INFO Providio - Entered into url
+2023-11-01 15:07:58,008 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:08:07,455 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:08:12,939 [main] INFO Providio - Gift Certificates
+2023-11-01 15:08:12,940 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:08:12,992 [main] INFO Providio - true
+2023-11-01 15:08:13,020 [main] INFO Providio - true
+2023-11-01 15:08:13,020 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:08:17,807 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:08:17,869 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:08:17,877 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:08:25,365 [main] INFO Providio - 1
+2023-11-01 15:08:25,545 [main] INFO Providio - Guest mail again
+2023-11-01 15:08:25,625 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 15:08:28,911 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 15:08:40,216 [main] INFO Providio - Clicked on paypal button
+2023-11-01 15:08:40,233 [main] INFO Providio - Clicked on review order button
+2023-11-01 15:08:49,336 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:09:56,824 [main] INFO Providio - Entered into url
+2023-11-01 15:09:56,837 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:10:11,871 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:10:17,340 [main] INFO Providio - Gift Certificates
+2023-11-01 15:10:17,340 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:10:17,382 [main] INFO Providio - true
+2023-11-01 15:10:17,413 [main] INFO Providio - true
+2023-11-01 15:10:17,414 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:10:23,057 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:10:23,147 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:10:23,160 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:10:30,357 [main] INFO Providio - 1
+2023-11-01 15:10:30,522 [main] INFO Providio - Guest mail again
+2023-11-01 15:10:30,610 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 15:10:34,027 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 15:10:53,925 [main] INFO Providio - Clicked on paypal button
+2023-11-01 15:10:53,954 [main] INFO Providio - Clicked on review order button
+2023-11-01 15:11:03,051 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:11:14,443 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011221
+2023-11-01 15:11:14,546 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-01 15:18:21,196 [main] INFO Providio - Entered into url
+2023-11-01 15:18:21,205 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:18:31,398 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:18:36,887 [main] INFO Providio - Gift Certificates
+2023-11-01 15:18:36,888 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:18:36,939 [main] INFO Providio - true
+2023-11-01 15:18:36,972 [main] INFO Providio - true
+2023-11-01 15:18:36,973 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:18:42,811 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:18:42,883 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:18:42,894 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:18:48,717 [main] INFO Providio - 1
+2023-11-01 15:18:48,916 [main] INFO Providio - Guest mail again
+2023-11-01 15:18:49,127 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 15:18:53,561 [main] INFO Providio - entered card name
+2023-11-01 15:18:53,744 [main] INFO Providio - entered card number
+2023-11-01 15:18:53,892 [main] INFO Providio - entered cvv
+2023-11-01 15:18:54,029 [main] INFO Providio - entered exp
+2023-11-01 15:18:55,372 [main] INFO Providio - Entered fname
+2023-11-01 15:18:56,472 [main] INFO Providio - Entered lname
+2023-11-01 15:19:00,811 [main] INFO Providio - Entered phone number
+2023-11-01 15:19:13,061 [main] INFO Providio - Clicked on review order button
+2023-11-01 15:19:23,141 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:21:35,736 [main] INFO Providio - Entered into url
+2023-11-01 15:21:35,741 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:21:59,510 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:22:09,941 [main] INFO Providio - Gift Certificates
+2023-11-01 15:22:09,942 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:22:09,997 [main] INFO Providio - true
+2023-11-01 15:22:10,027 [main] INFO Providio - true
+2023-11-01 15:22:10,028 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:22:24,043 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:22:24,117 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:22:24,128 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:22:31,455 [main] INFO Providio - 1
+2023-11-01 15:22:31,617 [main] INFO Providio - Guest mail again
+2023-11-01 15:22:31,708 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 15:22:36,091 [main] INFO Providio - entered card name
+2023-11-01 15:22:36,296 [main] INFO Providio - entered card number
+2023-11-01 15:22:36,433 [main] INFO Providio - entered cvv
+2023-11-01 15:22:36,558 [main] INFO Providio - entered exp
+2023-11-01 15:22:37,856 [main] INFO Providio - Entered fname
+2023-11-01 15:22:38,971 [main] INFO Providio - Entered lname
+2023-11-01 15:22:43,508 [main] INFO Providio - Entered phone number
+2023-11-01 15:22:55,792 [main] INFO Providio - Clicked on review order button
+2023-11-01 15:23:05,894 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:23:15,005 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011225
+2023-11-01 15:23:15,125 [main] INFO Providio - Successfully Order is Placed and the Order number is MASTERCARD
+XXXX-XXXX-XXXX-0011
+2023-11-01 15:24:18,948 [main] INFO Providio - Entered into url
+2023-11-01 15:24:18,954 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:24:22,306 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:24:22,405 [main] INFO Providio - Clicked on Sign In
+2023-11-01 15:24:24,622 [main] INFO Providio - Entered email
+2023-11-01 15:24:26,812 [main] INFO Providio - Entered password
+2023-11-01 15:24:38,936 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 15:24:44,085 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:24:44,145 [main] INFO Providio - User logged in successfully
+2023-11-01 15:24:44,184 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 15:24:56,039 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:25:01,573 [main] INFO Providio - Gift Certificates
+2023-11-01 15:25:01,574 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:25:01,616 [main] INFO Providio - true
+2023-11-01 15:25:01,643 [main] INFO Providio - true
+2023-11-01 15:25:01,644 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:25:07,888 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:25:07,983 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:25:08,000 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:25:16,491 [main] INFO Providio - 0
+2023-11-01 15:25:20,473 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 15:25:30,656 [main] INFO Providio - Clicked on paypal button
+2023-11-01 15:25:30,677 [main] INFO Providio - Clicked on review order button
+2023-11-01 15:25:39,811 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:35:41,579 [main] INFO Providio - Entered into url
+2023-11-01 15:35:41,585 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:35:44,970 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:35:45,080 [main] INFO Providio - Clicked on Sign In
+2023-11-01 15:35:47,250 [main] INFO Providio - Entered email
+2023-11-01 15:35:49,430 [main] INFO Providio - Entered password
+2023-11-01 15:36:01,528 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 15:36:06,672 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:36:06,710 [main] INFO Providio - User logged in successfully
+2023-11-01 15:36:06,755 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 15:36:18,721 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:36:24,173 [main] INFO Providio - Gift Certificates
+2023-11-01 15:36:24,174 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:36:24,225 [main] INFO Providio - true
+2023-11-01 15:36:24,254 [main] INFO Providio - true
+2023-11-01 15:36:24,255 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:36:31,202 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:36:31,271 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:36:31,282 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:36:38,588 [main] INFO Providio - 0
+2023-11-01 15:36:42,085 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 15:36:52,216 [main] INFO Providio - Clicked on paypal button
+2023-11-01 15:36:52,234 [main] INFO Providio - Clicked on review order button
+2023-11-01 15:37:01,341 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:39:18,910 [main] INFO Providio - Entered into url
+2023-11-01 15:39:18,929 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:39:26,939 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:39:27,026 [main] INFO Providio - Clicked on Sign In
+2023-11-01 15:39:29,257 [main] INFO Providio - Entered email
+2023-11-01 15:39:31,424 [main] INFO Providio - Entered password
+2023-11-01 15:39:43,521 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 15:39:48,672 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:39:48,728 [main] INFO Providio - User logged in successfully
+2023-11-01 15:39:48,767 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 15:39:59,235 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:40:04,609 [main] INFO Providio - Gift Certificates
+2023-11-01 15:40:04,610 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:40:04,656 [main] INFO Providio - true
+2023-11-01 15:40:04,684 [main] INFO Providio - true
+2023-11-01 15:40:04,684 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:40:12,507 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:40:12,591 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:40:12,602 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:40:20,799 [main] INFO Providio - 0
+2023-11-01 15:40:24,286 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 15:40:44,216 [main] INFO Providio - Clicked on paypal button
+2023-11-01 15:40:49,340 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:50:51,672 [main] INFO Providio - Entered into url
+2023-11-01 15:50:51,676 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:50:54,997 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:50:55,105 [main] INFO Providio - Clicked on Sign In
+2023-11-01 15:50:57,274 [main] INFO Providio - Entered email
+2023-11-01 15:50:59,424 [main] INFO Providio - Entered password
+2023-11-01 15:51:11,526 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 15:51:16,706 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:51:16,771 [main] INFO Providio - User logged in successfully
+2023-11-01 15:51:16,814 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 15:51:29,202 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 15:51:34,550 [main] INFO Providio - Gift Certificates
+2023-11-01 15:51:34,550 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 15:51:34,595 [main] INFO Providio - true
+2023-11-01 15:51:34,621 [main] INFO Providio - true
+2023-11-01 15:51:34,622 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 15:51:43,690 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 15:51:43,784 [main] INFO Providio - Your Shopping Cart
+2023-11-01 15:51:43,796 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 15:51:55,237 [main] INFO Providio - 0
+2023-11-01 15:51:58,771 [main] INFO Providio - A click to Enter into paypal
+2023-11-01 15:52:08,927 [main] INFO Providio - Clicked on paypal button
+2023-11-01 15:52:14,062 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 15:55:43,805 [main] INFO Providio - Entered into url
+2023-11-01 15:55:43,812 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:56:24,401 [main] INFO Providio - Entered into url
+2023-11-01 15:56:24,408 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:57:15,941 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:57:16,121 [main] INFO Providio - Clicked on Sign In
+2023-11-01 15:57:18,520 [main] INFO Providio - Entered email
+2023-11-01 15:57:20,851 [main] INFO Providio - Entered password
+2023-11-01 15:57:33,005 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 15:57:46,963 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:57:47,082 [main] INFO Providio - User logged in successfully
+2023-11-01 15:57:47,224 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 15:58:31,019 [main] INFO Providio - Entered into url
+2023-11-01 15:58:31,025 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:58:53,432 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:59:25,194 [main] INFO Providio - Entered into url
+2023-11-01 15:59:25,206 [main] INFO Providio - Placing the order as guest user
+2023-11-01 15:59:28,537 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:59:28,638 [main] INFO Providio - Clicked on Sign In
+2023-11-01 15:59:30,814 [main] INFO Providio - Entered email
+2023-11-01 15:59:32,984 [main] INFO Providio - Entered password
+2023-11-01 15:59:45,114 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 15:59:50,257 [main] INFO Providio - Hover on create and login account
+2023-11-01 15:59:50,297 [main] INFO Providio - User logged in successfully
+2023-11-01 15:59:50,336 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 16:00:02,606 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:00:08,036 [main] INFO Providio - Gift Certificates
+2023-11-01 16:00:08,037 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:00:08,084 [main] INFO Providio - false
+2023-11-01 16:00:08,113 [main] INFO Providio - false
+2023-11-01 16:00:08,113 [main] INFO Providio - Not displayed the viewcart, checkout, paypal buttons and products
+2023-11-01 16:00:48,029 [main] INFO Providio - Entered into url
+2023-11-01 16:00:48,037 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:00:51,421 [main] INFO Providio - Hover on create and login account
+2023-11-01 16:00:51,581 [main] INFO Providio - Clicked on Sign In
+2023-11-01 16:00:53,786 [main] INFO Providio - Entered email
+2023-11-01 16:00:55,925 [main] INFO Providio - Entered password
+2023-11-01 16:01:08,040 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 16:01:13,232 [main] INFO Providio - Hover on create and login account
+2023-11-01 16:01:13,267 [main] INFO Providio - User logged in successfully
+2023-11-01 16:01:13,306 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 16:01:23,399 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:01:28,861 [main] INFO Providio - Gift Certificates
+2023-11-01 16:01:28,861 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:01:28,908 [main] INFO Providio - true
+2023-11-01 16:01:28,936 [main] INFO Providio - true
+2023-11-01 16:01:28,937 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:01:35,456 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:01:35,580 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:01:35,592 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:01:42,760 [main] INFO Providio - 0
+2023-11-01 16:03:20,428 [main] INFO Providio - Entered into url
+2023-11-01 16:03:20,454 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:03:28,685 [main] INFO Providio - Hover on create and login account
+2023-11-01 16:03:28,790 [main] INFO Providio - Clicked on Sign In
+2023-11-01 16:03:30,970 [main] INFO Providio - Entered email
+2023-11-01 16:03:33,145 [main] INFO Providio - Entered password
+2023-11-01 16:03:45,233 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 16:03:50,384 [main] INFO Providio - Hover on create and login account
+2023-11-01 16:03:50,454 [main] INFO Providio - User logged in successfully
+2023-11-01 16:03:50,493 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 16:04:00,834 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:04:06,283 [main] INFO Providio - Gift Certificates
+2023-11-01 16:04:06,284 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:04:06,330 [main] INFO Providio - true
+2023-11-01 16:04:06,359 [main] INFO Providio - true
+2023-11-01 16:04:06,360 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:04:13,010 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:04:13,072 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:04:13,087 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:04:21,027 [main] INFO Providio - 0
+2023-11-01 16:05:08,956 [main] INFO Providio - Clicked on paypal button
+2023-11-01 16:05:23,538 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:09:52,957 [main] INFO Providio - Entered into url
+2023-11-01 16:09:52,971 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:11:31,142 [main] INFO Providio - Entered into url
+2023-11-01 16:11:31,148 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:11:41,312 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:11:46,762 [main] INFO Providio - Gift Certificates
+2023-11-01 16:11:46,763 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:11:46,816 [main] INFO Providio - true
+2023-11-01 16:11:46,845 [main] INFO Providio - true
+2023-11-01 16:11:46,845 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:11:52,741 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:11:52,799 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:11:52,812 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:11:59,668 [main] INFO Providio - 1
+2023-11-01 16:11:59,824 [main] INFO Providio - Guest mail again
+2023-11-01 16:11:59,912 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:12:04,321 [main] INFO Providio - entered card name
+2023-11-01 16:12:04,521 [main] INFO Providio - entered card number
+2023-11-01 16:12:04,660 [main] INFO Providio - entered cvv
+2023-11-01 16:12:04,797 [main] INFO Providio - entered exp
+2023-11-01 16:12:06,100 [main] INFO Providio - Entered fname
+2023-11-01 16:12:07,231 [main] INFO Providio - Entered lname
+2023-11-01 16:12:11,542 [main] INFO Providio - Entered phone number
+2023-11-01 16:12:19,849 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:12:19,849 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:12:25,942 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:12:29,952 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:12:39,063 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011148
+2023-11-01 16:12:39,150 [main] INFO Providio - Successfully Order is Placed and the Order number is AMERICAN EXPRESS
+XXXX-XXXX-XXXX-8431
+2023-11-01 16:12:53,552 [main] INFO Providio - Entered into url
+2023-11-01 16:12:53,552 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:13:02,873 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:13:08,934 [main] INFO Providio - Gift Certificates
+2023-11-01 16:13:08,935 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:13:08,972 [main] INFO Providio - true
+2023-11-01 16:13:08,997 [main] INFO Providio - true
+2023-11-01 16:13:08,997 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:13:14,125 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:13:14,180 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:13:14,195 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:13:20,068 [main] INFO Providio - 1
+2023-11-01 16:13:20,233 [main] INFO Providio - Guest mail again
+2023-11-01 16:13:20,341 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:13:24,694 [main] INFO Providio - entered card name
+2023-11-01 16:13:24,881 [main] INFO Providio - entered card number
+2023-11-01 16:13:25,011 [main] INFO Providio - entered cvv
+2023-11-01 16:13:25,140 [main] INFO Providio - entered exp
+2023-11-01 16:13:26,426 [main] INFO Providio - Entered fname
+2023-11-01 16:13:27,536 [main] INFO Providio - Entered lname
+2023-11-01 16:13:31,866 [main] INFO Providio - Entered phone number
+2023-11-01 16:13:40,029 [main] INFO Providio - Relauching the browsesr
+2023-11-01 16:14:34,096 [main] INFO Providio - Entered into url
+2023-11-01 16:14:34,102 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:14:45,537 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:14:50,984 [main] INFO Providio - Gift Certificates
+2023-11-01 16:14:50,984 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:14:51,027 [main] INFO Providio - true
+2023-11-01 16:14:51,054 [main] INFO Providio - true
+2023-11-01 16:14:51,054 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:14:57,004 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:14:57,070 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:14:57,079 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:15:03,967 [main] INFO Providio - 1
+2023-11-01 16:15:04,115 [main] INFO Providio - Guest mail again
+2023-11-01 16:15:04,211 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:15:08,659 [main] INFO Providio - entered card name
+2023-11-01 16:15:08,863 [main] INFO Providio - entered card number
+2023-11-01 16:15:09,030 [main] INFO Providio - entered cvv
+2023-11-01 16:15:09,166 [main] INFO Providio - entered exp
+2023-11-01 16:15:10,420 [main] INFO Providio - Entered fname
+2023-11-01 16:15:11,557 [main] INFO Providio - Entered lname
+2023-11-01 16:15:15,846 [main] INFO Providio - Entered phone number
+2023-11-01 16:15:24,053 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:15:24,054 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:15:30,144 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:15:34,150 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:15:43,257 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011150
+2023-11-01 16:15:43,342 [main] INFO Providio - Successfully Order is Placed and the Order number is VISA
+XXXX-XXXX-XXXX-1111
+2023-11-01 16:15:57,287 [main] INFO Providio - Entered into url
+2023-11-01 16:15:57,288 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:16:05,303 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:16:10,654 [main] INFO Providio - Gift Certificates
+2023-11-01 16:16:10,655 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:16:10,699 [main] INFO Providio - true
+2023-11-01 16:16:10,724 [main] INFO Providio - true
+2023-11-01 16:16:10,724 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:16:16,987 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:16:17,037 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:16:17,046 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:16:24,614 [main] INFO Providio - 1
+2023-11-01 16:16:24,766 [main] INFO Providio - Guest mail again
+2023-11-01 16:16:24,846 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:16:29,180 [main] INFO Providio - entered card name
+2023-11-01 16:16:29,411 [main] INFO Providio - entered card number
+2023-11-01 16:16:29,558 [main] INFO Providio - entered cvv
+2023-11-01 16:16:29,729 [main] INFO Providio - entered exp
+2023-11-01 16:16:30,987 [main] INFO Providio - Entered fname
+2023-11-01 16:16:32,102 [main] INFO Providio - Entered lname
+2023-11-01 16:16:36,445 [main] INFO Providio - Entered phone number
+2023-11-01 16:16:44,698 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:16:44,698 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:16:50,811 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:16:54,820 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:17:03,921 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011151
+2023-11-01 16:17:03,992 [main] INFO Providio - Successfully Order is Placed and the Order number is MASTERCARD
+XXXX-XXXX-XXXX-0011
+2023-11-01 16:17:18,798 [main] INFO Providio - Entered into url
+2023-11-01 16:17:18,798 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:17:25,972 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:17:31,323 [main] INFO Providio - Gift Certificates
+2023-11-01 16:17:31,323 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:17:31,360 [main] INFO Providio - true
+2023-11-01 16:17:31,383 [main] INFO Providio - true
+2023-11-01 16:17:31,384 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:17:36,229 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:17:36,312 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:17:36,325 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:17:43,326 [main] INFO Providio - 1
+2023-11-01 16:17:43,461 [main] INFO Providio - Guest mail again
+2023-11-01 16:17:43,546 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:17:47,882 [main] INFO Providio - entered card name
+2023-11-01 16:17:48,082 [main] INFO Providio - entered card number
+2023-11-01 16:17:48,230 [main] INFO Providio - entered cvv
+2023-11-01 16:17:48,412 [main] INFO Providio - entered exp
+2023-11-01 16:17:49,662 [main] INFO Providio - Entered fname
+2023-11-01 16:17:50,799 [main] INFO Providio - Entered lname
+2023-11-01 16:17:55,123 [main] INFO Providio - Entered phone number
+2023-11-01 16:18:03,392 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:18:03,393 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:18:09,469 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:18:13,474 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:18:22,562 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011152
+2023-11-01 16:18:22,663 [main] INFO Providio - Successfully Order is Placed and the Order number is MASTERCARD
+XXXX-XXXX-XXXX-4444
+2023-11-01 16:18:36,958 [main] INFO Providio - Entered into url
+2023-11-01 16:18:36,958 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:18:43,925 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:18:49,290 [main] INFO Providio - Gift Certificates
+2023-11-01 16:18:49,290 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:18:49,348 [main] INFO Providio - true
+2023-11-01 16:18:49,370 [main] INFO Providio - true
+2023-11-01 16:18:49,370 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:18:55,382 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:18:55,453 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:18:55,466 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:19:00,945 [main] INFO Providio - 1
+2023-11-01 16:19:01,108 [main] INFO Providio - Guest mail again
+2023-11-01 16:19:01,188 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:19:05,526 [main] INFO Providio - entered card name
+2023-11-01 16:19:05,731 [main] INFO Providio - entered card number
+2023-11-01 16:19:05,862 [main] INFO Providio - entered cvv
+2023-11-01 16:19:06,009 [main] INFO Providio - entered exp
+2023-11-01 16:19:07,254 [main] INFO Providio - Entered fname
+2023-11-01 16:19:08,388 [main] INFO Providio - Entered lname
+2023-11-01 16:19:12,763 [main] INFO Providio - Entered phone number
+2023-11-01 16:19:20,983 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:19:20,984 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:19:27,089 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:19:31,094 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:19:40,186 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011153
+2023-11-01 16:19:40,260 [main] INFO Providio - Successfully Order is Placed and the Order number is MASTERCARD
+XXXX-XXXX-XXXX-4444
+2023-11-01 16:19:56,783 [main] INFO Providio - Entered into url
+2023-11-01 16:19:56,784 [main] INFO Providio - Placing the order as guest user
+2023-11-01 16:20:06,195 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 16:20:11,517 [main] INFO Providio - Gift Certificates
+2023-11-01 16:20:11,517 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 16:20:11,550 [main] INFO Providio - true
+2023-11-01 16:20:11,573 [main] INFO Providio - true
+2023-11-01 16:20:11,573 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 16:20:17,913 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 16:20:17,964 [main] INFO Providio - Your Shopping Cart
+2023-11-01 16:20:17,980 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 16:20:24,780 [main] INFO Providio - 1
+2023-11-01 16:20:24,923 [main] INFO Providio - Guest mail again
+2023-11-01 16:20:25,025 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 16:20:29,394 [main] INFO Providio - entered card name
+2023-11-01 16:20:29,563 [main] INFO Providio - entered card number
+2023-11-01 16:20:29,681 [main] INFO Providio - entered cvv
+2023-11-01 16:20:29,815 [main] INFO Providio - entered exp
+2023-11-01 16:20:31,074 [main] INFO Providio - Entered fname
+2023-11-01 16:20:32,194 [main] INFO Providio - Entered lname
+2023-11-01 16:20:36,500 [main] INFO Providio - Entered phone number
+2023-11-01 16:20:44,696 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:20:44,700 [main] INFO Providio - Clicked on review order button
+2023-11-01 16:20:50,762 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:20:54,768 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 16:21:03,860 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011155
+2023-11-01 16:21:03,944 [main] INFO Providio - Successfully Order is Placed and the Order number is AMERICAN EXPRESS
+XXXX-XXXX-XXXX-8431
+2023-11-01 18:09:34,064 [main] INFO Providio - Entered into url
+2023-11-01 18:09:34,069 [main] INFO Providio - Placing the order as guest user
+2023-11-01 18:09:37,381 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:09:37,475 [main] INFO Providio - Clicked on Sign In
+2023-11-01 18:09:39,684 [main] INFO Providio - Entered email
+2023-11-01 18:09:41,834 [main] INFO Providio - Entered password
+2023-11-01 18:09:53,947 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 18:09:59,092 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:09:59,180 [main] INFO Providio - User logged in successfully
+2023-11-01 18:09:59,225 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 18:10:10,316 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 18:10:15,743 [main] INFO Providio - Gift Certificates
+2023-11-01 18:10:15,744 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 18:10:15,817 [main] INFO Providio - true
+2023-11-01 18:10:15,846 [main] INFO Providio - true
+2023-11-01 18:10:15,846 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 18:10:21,683 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 18:10:21,752 [main] INFO Providio - Your Shopping Cart
+2023-11-01 18:10:21,764 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 18:10:27,957 [main] INFO Providio - 0
+2023-11-01 18:13:34,105 [main] INFO Providio - Entered into url
+2023-11-01 18:13:34,110 [main] INFO Providio - Placing the order as guest user
+2023-11-01 18:13:37,469 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:13:37,605 [main] INFO Providio - Clicked on Sign In
+2023-11-01 18:13:39,778 [main] INFO Providio - Entered email
+2023-11-01 18:13:41,944 [main] INFO Providio - Entered password
+2023-11-01 18:13:54,050 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 18:13:59,204 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:13:59,267 [main] INFO Providio - User logged in successfully
+2023-11-01 18:13:59,307 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 18:14:10,860 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 18:14:16,273 [main] INFO Providio - Gift Certificates
+2023-11-01 18:14:16,273 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 18:14:16,319 [main] INFO Providio - true
+2023-11-01 18:14:16,347 [main] INFO Providio - true
+2023-11-01 18:14:16,348 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 18:14:23,168 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 18:14:23,225 [main] INFO Providio - Your Shopping Cart
+2023-11-01 18:14:23,236 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 18:14:30,334 [main] INFO Providio - 0
+2023-11-01 18:17:18,088 [main] INFO Providio - Entered into url
+2023-11-01 18:17:18,094 [main] INFO Providio - Placing the order as guest user
+2023-11-01 18:17:21,419 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:17:21,504 [main] INFO Providio - Clicked on Sign In
+2023-11-01 18:17:23,719 [main] INFO Providio - Entered email
+2023-11-01 18:17:25,906 [main] INFO Providio - Entered password
+2023-11-01 18:17:37,988 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 18:17:43,144 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:17:43,184 [main] INFO Providio - User logged in successfully
+2023-11-01 18:17:43,222 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 18:17:53,923 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 18:17:59,369 [main] INFO Providio - Gift Certificates
+2023-11-01 18:17:59,369 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 18:17:59,412 [main] INFO Providio - true
+2023-11-01 18:17:59,440 [main] INFO Providio - true
+2023-11-01 18:17:59,440 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 18:18:04,182 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 18:18:04,279 [main] INFO Providio - Your Shopping Cart
+2023-11-01 18:18:04,289 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 18:18:10,223 [main] INFO Providio - 0
+2023-11-01 18:18:58,793 [main] INFO Providio - Clicked on the payment button
+2023-11-01 18:23:18,593 [main] INFO Providio - Entered into url
+2023-11-01 18:23:18,613 [main] INFO Providio - Placing the order as guest user
+2023-11-01 18:23:21,988 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:23:22,079 [main] INFO Providio - Clicked on Sign In
+2023-11-01 18:23:24,731 [main] INFO Providio - Entered email
+2023-11-01 18:23:26,948 [main] INFO Providio - Entered password
+2023-11-01 18:23:39,068 [main] INFO Providio - Clicked on the Submit button
+2023-11-01 18:23:44,258 [main] INFO Providio - Hover on create and login account
+2023-11-01 18:23:44,298 [main] INFO Providio - User logged in successfully
+2023-11-01 18:23:44,339 [main] INFO Providio - Name of User name is Akhila
+2023-11-01 18:23:55,502 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 18:24:00,901 [main] INFO Providio - Gift Certificates
+2023-11-01 18:24:00,902 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 18:24:00,947 [main] INFO Providio - true
+2023-11-01 18:24:00,977 [main] INFO Providio - true
+2023-11-01 18:24:00,978 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 18:24:06,066 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 18:24:06,151 [main] INFO Providio - Your Shopping Cart
+2023-11-01 18:24:06,163 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 18:24:12,410 [main] INFO Providio - 0
+2023-11-01 18:25:47,633 [main] INFO Providio - Entered into url
+2023-11-01 18:25:47,637 [main] INFO Providio - Placing the order as guest user
+2023-11-01 18:25:57,663 [main] INFO Providio - Gift Certificate added to cart
+2023-11-01 18:26:03,924 [main] INFO Providio - Gift Certificates
+2023-11-01 18:26:03,924 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-01 18:26:03,972 [main] INFO Providio - true
+2023-11-01 18:26:04,000 [main] INFO Providio - true
+2023-11-01 18:26:04,001 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-01 18:26:09,335 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-01 18:26:09,397 [main] INFO Providio - Your Shopping Cart
+2023-11-01 18:26:09,411 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-01 18:26:14,471 [main] INFO Providio - 1
+2023-11-01 18:26:14,655 [main] INFO Providio - Guest mail again
+2023-11-01 18:26:14,759 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-01 18:26:19,165 [main] INFO Providio - entered card name
+2023-11-01 18:26:19,353 [main] INFO Providio - entered card number
+2023-11-01 18:26:19,499 [main] INFO Providio - entered cvv
+2023-11-01 18:26:19,634 [main] INFO Providio - entered exp
+2023-11-01 18:26:20,887 [main] INFO Providio - Entered fname
+2023-11-01 18:26:21,982 [main] INFO Providio - Entered lname
+2023-11-01 18:26:26,295 [main] INFO Providio - Entered phone number
+2023-11-01 18:26:34,464 [main] INFO Providio - Clicked on review order button
+2023-11-01 18:26:34,465 [main] INFO Providio - Clicked on review order button
+2023-11-01 18:26:40,582 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-01 18:26:44,586 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-02 09:18:53,364 [main] INFO Providio - Entered into url
+2023-11-02 09:18:53,372 [main] INFO Providio - Placing the order as guest user
+2023-11-02 09:18:56,836 [main] INFO Providio - Hover on create and login account
+2023-11-02 09:18:56,949 [main] INFO Providio - Clicked on Sign In
+2023-11-02 09:18:59,179 [main] INFO Providio - Entered email
+2023-11-02 09:19:01,346 [main] INFO Providio - Entered password
+2023-11-02 09:19:13,453 [main] INFO Providio - Clicked on the Submit button
+2023-11-02 09:19:22,445 [main] INFO Providio - Hover on create and login account
+2023-11-02 09:19:22,515 [main] INFO Providio - User logged in successfully
+2023-11-02 09:19:22,557 [main] INFO Providio - Name of User name is Akhila
+2023-11-02 09:19:33,549 [main] INFO Providio - Gift Certificate added to cart
+2023-11-02 09:19:39,057 [main] INFO Providio - Gift Certificates
+2023-11-02 09:19:39,057 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-02 09:19:39,132 [main] INFO Providio - true
+2023-11-02 09:19:39,161 [main] INFO Providio - true
+2023-11-02 09:19:39,162 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-02 09:19:45,321 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-02 09:19:45,406 [main] INFO Providio - Your Shopping Cart
+2023-11-02 09:19:45,417 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-02 09:19:53,969 [main] INFO Providio - 0
+2023-11-02 09:21:10,247 [main] INFO Providio - Clicked on the payment button
+2023-11-02 09:21:57,387 [main] INFO Providio - Clicked on review order button
+2023-11-02 09:22:05,654 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-02 09:22:27,427 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011246
+2023-11-02 09:22:32,945 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-02 09:23:05,395 [main] INFO Providio - Gift Certificate added to cart
+2023-11-02 09:23:15,277 [main] INFO Providio - Gift Certificates
+2023-11-02 09:23:15,279 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-02 09:23:15,476 [main] INFO Providio - true
+2023-11-02 09:23:15,634 [main] INFO Providio - true
+2023-11-02 09:23:15,635 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-02 09:23:21,195 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-02 09:23:21,330 [main] INFO Providio - Your Shopping Cart
+2023-11-02 09:23:31,398 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-02 09:23:38,877 [main] INFO Providio - 0
+2023-11-02 09:57:19,477 [main] INFO Providio - Entered into url
+2023-11-02 09:57:19,500 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:14:59,654 [main] INFO Providio - Entered into url
+2023-11-02 11:14:59,670 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:16:33,781 [main] INFO Providio - Entered into url
+2023-11-02 11:16:33,786 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:18:22,597 [main] INFO Providio - Entered into url
+2023-11-02 11:18:22,601 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:18:30,374 [main] INFO Providio - Relauching the browsesr
+2023-11-02 11:19:06,927 [main] INFO Providio - Entered into url
+2023-11-02 11:19:06,937 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:20:07,218 [main] INFO Providio - Entered into url
+2023-11-02 11:20:07,225 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:26:19,318 [main] INFO Providio - Entered into url
+2023-11-02 11:26:19,322 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:26:58,197 [main] INFO Providio - 1
+2023-11-02 11:27:33,467 [main] INFO Providio - No enabled color buttons found.
+2023-11-02 11:27:33,468 [main] INFO Providio - No available size buttons found.
+2023-11-02 11:27:33,469 [main] INFO Providio - No available price range buttons found.
+2023-11-02 11:27:33,470 [main] INFO Providio - No available brand buttons found.
+2023-11-02 11:27:33,471 [main] INFO Providio - No available type buttons found.
+2023-11-02 11:27:33,471 [main] INFO Providio - No available GPS type buttons found.
+2023-11-02 11:27:33,472 [main] INFO Providio - No available GPS feature buttons found.
+2023-11-02 11:27:33,473 [main] INFO Providio - No available resolution buttons found.
+2023-11-02 11:27:33,473 [main] INFO Providio - No available display size buttons found.
+2023-11-02 11:27:33,474 [main] INFO Providio - No available pixel resolution buttons found.
+2023-11-02 11:27:33,475 [main] INFO Providio - No available new arrival buttons found.
+2023-11-02 11:27:33,476 [main] INFO Providio - No available type/use buttons found.
+2023-11-02 11:27:41,843 [main] INFO Providio - 0
+2023-11-02 11:30:12,046 [main] INFO Providio - Entered into url
+2023-11-02 11:30:12,057 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:30:47,735 [main] INFO Providio - 1
+2023-11-02 11:31:11,435 [main] INFO Providio - No enabled color buttons found.
+2023-11-02 11:31:11,436 [main] INFO Providio - No available size buttons found.
+2023-11-02 11:31:11,437 [main] INFO Providio - No available price range buttons found.
+2023-11-02 11:31:11,438 [main] INFO Providio - No available brand buttons found.
+2023-11-02 11:31:11,438 [main] INFO Providio - No available type buttons found.
+2023-11-02 11:31:11,439 [main] INFO Providio - No available GPS type buttons found.
+2023-11-02 11:31:11,440 [main] INFO Providio - No available GPS feature buttons found.
+2023-11-02 11:31:11,440 [main] INFO Providio - No available resolution buttons found.
+2023-11-02 11:31:11,441 [main] INFO Providio - No available display size buttons found.
+2023-11-02 11:31:11,442 [main] INFO Providio - No available pixel resolution buttons found.
+2023-11-02 11:31:11,443 [main] INFO Providio - No available new arrival buttons found.
+2023-11-02 11:31:11,443 [main] INFO Providio - No available type/use buttons found.
+2023-11-02 11:31:19,522 [main] INFO Providio - 0
+2023-11-02 11:34:47,171 [main] INFO Providio - Entered into url
+2023-11-02 11:34:47,176 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:35:17,742 [main] INFO Providio - Entered into url
+2023-11-02 11:35:17,757 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:36:11,834 [main] INFO Providio - Entered into url
+2023-11-02 11:36:11,840 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:36:34,049 [main] INFO Providio - add to cart  button enabled
+2023-11-02 11:38:28,752 [main] INFO Providio - Entered into url
+2023-11-02 11:38:28,757 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:38:51,262 [main] INFO Providio - add to cart  button enabled
+2023-11-02 11:39:14,011 [main] INFO Providio - Wire, sterling silver, half-hard, square, 22 gauge. Sold per pkg of 5 feet.
+2023-11-02 11:39:14,012 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-02 11:39:14,201 [main] INFO Providio - true
+2023-11-02 11:39:14,370 [main] INFO Providio - true
+2023-11-02 11:39:14,371 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-02 11:39:19,858 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-02 11:39:19,954 [main] INFO Providio - Your Shopping Cart
+2023-11-02 11:39:19,972 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-02 11:39:28,134 [main] INFO Providio - 1
+2023-11-02 11:39:40,265 [main] INFO Providio - Guest mail again
+2023-11-02 11:39:40,375 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-02 11:40:26,087 [main] INFO Providio - Entered shipping fname
+2023-11-02 11:40:27,404 [main] INFO Providio - Entered shipping lname
+2023-11-02 11:40:29,938 [main] INFO Providio - Entered shipping address
+2023-11-02 11:40:33,089 [main] INFO Providio - Entered phone number
+2023-11-02 11:40:49,195 [main] INFO Providio - Clicked on the payment button
+2023-11-02 11:41:37,326 [main] INFO Providio - A click to Enter into paypal
+2023-11-02 11:43:13,033 [main] INFO Providio - Clicked on paypal button
+2023-11-02 11:43:28,401 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-02 11:43:44,854 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011252
+2023-11-02 11:43:55,444 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-02 11:50:26,146 [main] INFO Providio - Entered into url
+2023-11-02 11:50:26,151 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:50:35,057 [main] INFO Providio - Gift Certificate added to cart
+2023-11-02 11:50:40,202 [main] INFO Providio - 0
+2023-11-02 11:50:42,630 [main] INFO Providio - Gift Certificates
+2023-11-02 11:50:42,631 [main] INFO Providio - Clicked failed on the mini cart button
+2023-11-02 11:50:42,700 [main] INFO Providio - true
+2023-11-02 11:50:42,727 [main] INFO Providio - true
+2023-11-02 11:50:42,727 [main] INFO Providio - Successfully displayed the viewcart, checkout,  and products
+2023-11-02 11:50:48,109 [main] INFO Providio - clicked the view cart button in the minicart
+2023-11-02 11:50:48,185 [main] INFO Providio - Your Shopping Cart
+2023-11-02 11:50:48,195 [main] INFO Providio - Successfully clicked on the view cart button
+2023-11-02 11:50:53,688 [main] INFO Providio - 1
+2023-11-02 11:50:53,849 [main] INFO Providio - Guest mail again
+2023-11-02 11:50:53,932 [main] INFO Providio - Guest user : continue's  as guest
+2023-11-02 11:50:57,389 [main] INFO Providio - A click to Enter into paypal
+2023-11-02 11:51:16,465 [main] INFO Providio - Clicked on paypal button
+2023-11-02 11:51:21,618 [main] INFO Providio - successfully click on the place order button by normal click
+2023-11-02 11:51:38,369 [main] INFO Providio - Successfully Order is Placed and the Order number is R000011253
+2023-11-02 11:51:38,453 [main] INFO Providio - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-02 11:54:08,689 [main] INFO Providio - Entered into url
+2023-11-02 11:54:08,693 [main] INFO Providio - Placing the order as guest user
+2023-11-02 11:54:17,319 [main] INFO Providio - 1
+2023-11-02 11:54:26,782 [main] INFO Providio - 0
+2023-11-02 11:54:28,819 [main] INFO Providio - add to cart  button enabled

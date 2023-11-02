@@ -1,5 +1,6 @@
 package com.providio.login;
 
+import com.providio.launchingbrowser.launchBrowsering;
 import com.providio.pageObjects.loginPage;
 import com.providio.testcases.baseClass;
 
@@ -17,11 +18,19 @@ public class tc__LoginSc extends baseClass {
     public void openBrowserandClickSignInButton() throws InterruptedException {
         test.info("Open browser");
         // Test Case 0: Open browser
-        driver.get(baseURL); 
-        logger.info("Opened browser");
+        
+        //launching the browser and passing the url into it
+  		launchBrowsering lb = new launchBrowsering();
+  		lb.chromeBrowser();
+        
+        
         Thread.sleep(2000L);
         loginPage lp = new loginPage(driver);
-        lp.clickSign();
+        
+        lp.hoverOnCreateloginAcc(driver);
+        logger.info("Hover on create and login account");
+        
+        lp.clickOnLogin();
         logger.info("clicked on sign in");
         
         openBrowserandClickSignInButtonset = true;

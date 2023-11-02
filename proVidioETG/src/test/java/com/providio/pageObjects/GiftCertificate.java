@@ -101,35 +101,37 @@ public class GiftCertificate {
 	        js.executeScript("arguments[0].click();", 	giftCardElement);
 	        //amount
 	    	//Thread.sleep(1000);
-	    	amount.click();
-	    	//dropdown
-	        List<WebElement> dropdown= amountDropdown.findElements(By.tagName("li"));
-	        int randomIndex = new Random().nextInt(dropdown.size());
-	        dropdown.get(randomIndex).click();
-	        System.out.println("Selected from dropdown");
-	        
-	        // friendsname
-	        String fakeName1 = faker.name().fullName();
-	        friendsNameElement.sendKeys(fakeName1);
-	
-	        //yours name
-	        String yoursFakeName = faker.name().fullName();
-	        fromName.sendKeys(yoursFakeName);
-	        
-	        //friends mail
-	        String fakeEmail = faker.internet().emailAddress();
-	        friendsMail.sendKeys(fakeEmail);
-	
-	        confirmFriendsMail.sendKeys(fakeEmail);
-	     
-	        Thread.sleep(2000);
-	        //addToCart.click();
-	        js.executeScript("arguments[0].click();", 	addToCart);
-	
-	        //validating the gift card is add to the cart
-		    addtoCartValidation.validatingGiftCardAddtoCart(driver);
-	        
-	        Thread.sleep(3000);
+	        if(amount.isDisplayed()) {
+		    	amount.click();
+		    	//dropdown
+		        List<WebElement> dropdown= amountDropdown.findElements(By.tagName("li"));
+		        int randomIndex = new Random().nextInt(dropdown.size());
+		        dropdown.get(randomIndex).click();
+		        System.out.println("Selected from dropdown");
+		        
+		        // friendsname
+		        String fakeName1 = faker.name().fullName();
+		        friendsNameElement.sendKeys(fakeName1);
+		
+		        //yours name
+		        String yoursFakeName = faker.name().fullName();
+		        fromName.sendKeys(yoursFakeName);
+		        
+		        //friends mail
+		        String fakeEmail = faker.internet().emailAddress();
+		        friendsMail.sendKeys(fakeEmail);
+		
+		        confirmFriendsMail.sendKeys(fakeEmail);
+		     
+		        Thread.sleep(2000);
+		        //addToCart.click();
+		        js.executeScript("arguments[0].click();", 	addToCart);
+		
+		        //validating the gift card is add to the cart
+			    addtoCartValidation.validatingGiftCardAddtoCart(driver);
+		        
+		        Thread.sleep(3000);
+	        }
 		}
 	}
 	

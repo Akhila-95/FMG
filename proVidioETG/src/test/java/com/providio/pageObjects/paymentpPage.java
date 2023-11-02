@@ -462,7 +462,7 @@ WebDriver lDriver;
             	//click on paypal checkout button 
            	   //js.executeScript("arguments[0].click();", paypalCheckout);    
             	paypalCheckout.click();
-              
+            	logger.info("A click to Enter into paypal");	
           //  }	                 
          }                 
    }
@@ -552,56 +552,54 @@ WebDriver lDriver;
                 break;
             }
         }
-        // test.info("Entered into paypal window");
-        //	List<WebElement> paypalPage = driver.findElements(By.id("headerText"));
-        //	System.out.println("The url for payapal is " + paypalPage.size());
-         Thread.sleep(3000);
+       
+         Thread.sleep(4000);
          if(emailLogin.size()>0) {
         	 WebElement  emailLogin1=driver.findElement(By.xpath("//input[@name='login_email']")); 
-        	 emailLogin1.clear();
-        	 emailLogin1.sendKeys("rahulnaik@etisbew.com");
-        	 test.info("Entered username");
+        	 if(emailLogin1.isDisplayed()) {
+	        	 emailLogin1.clear();
+	        	 emailLogin1.sendKeys("rahulnaik@etisbew.com");
+	        	 test.info("Entered username");
+        	 }
          }
          Thread.sleep(3000);
          if(nextButton.size()>0) {
         	 WebElement nextButton1=driver.findElement(By.cssSelector("#btnNext"));
-             nextButton1.click();
-             Thread.sleep(1000);
+        	 if(nextButton1.isDisplayed()) {
+	             nextButton1.click();
+	             Thread.sleep(1000);
+        	 }
          }
          if(password.size()>0) {
         	 WebElement password1=driver.findElement(By.xpath("//input[@id='password']"));
-        	// password1.clear();
-             password1.sendKeys("Etgsfcc245@");
-             test.info("Entered password");
-             Thread.sleep(1000);
+        	if(password1.isDisplayed()) {
+	             password1.sendKeys("Etgsfcc245@");
+	             test.info("Entered password");
+	             Thread.sleep(1000);
+        	}
          }
          if(loginbutton.size()>0) {
         	 WebElement loginbutton1=driver.findElement(By.xpath("//button[contains(text(), 'Log In')]"));
-             loginbutton1.click();
-             Thread.sleep(1000);
-         }
-        
-
-         Thread.sleep(2000);
-         if(reviewOrderButton.size()>0) {
-        	WebElement reviewOrder=driver.findElement(By.id("payment-submit-btn"));
-        	reviewOrder.click();
-        	Thread.sleep(7000);
-        /*	if(reviewOrderButton.size()>0 && reviewOrder.isDisplayed()) {
-        	      JavascriptExecutor js = (JavascriptExecutor) driver;                       
-                  js.executeScript("arguments[0].click();", reviewOrder);
-                 
-        	}*/
-        	//reviewOrder.click();
-        	                	
-         }else {
-        	 if(saveAndContinue.size()>0) {
-        		 WebElement saveAndContinue1=driver.findElement(By.xpath("//button[contains(text(), 'Save and Continue')]"));
-        		 saveAndContinue1.click();
+        	 if(loginbutton1.isDisplayed()) {
+	             loginbutton1.click();
+	             test.info("Clicked on login button");
+	             Thread.sleep(1000);
         	 }
-         }                 
+         }
+         Thread.sleep(2000);
+    	 if(saveAndContinue.size()>0) {
+    		 WebElement saveAndContinue1=driver.findElement(By.xpath("//button[contains(text(), 'Save and Continue')]"));
+    		 if(saveAndContinue1.isDisplayed()) {
+    			 JavascriptExecutor js = (JavascriptExecutor) driver;
+    			 Thread.sleep(1000);
+    		     js.executeScript("arguments[0].click();", saveAndContinue1);
+    			 test.info("Clicked on save and  continue");
+    		 }
+    	 }      
+    	 
          driver.switchTo().window(mainWindowHandle);
          Thread.sleep(1000);
+         logger.info("Clicked on paypal button");
          
       }          
 		    

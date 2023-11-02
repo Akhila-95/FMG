@@ -146,13 +146,13 @@ public class checkOutPage {
 	}
 	
 	//buttonforthepaymentpage
-	@FindBy(xpath ="//button[contains(text(),'Next: Payment')]")
-	WebElement paymentbutton;
+	@FindBy(className ="submit-shipping")
+	WebElement continueButton;
     public void clickpaymentbutton(WebDriver driver) throws InterruptedException {
-    	if(paymentbutton.isDisplayed()) {
+    	if(continueButton.isDisplayed()) {
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
-	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", paymentbutton);
-	        js.executeScript("arguments[0].click();", paymentbutton);
+	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", continueButton);
+	        js.executeScript("arguments[0].click();", continueButton);
 	        Thread.sleep(5000);
     	}/*if(paymentbutton.isDisplayed()) {
     		paymentbutton.click();

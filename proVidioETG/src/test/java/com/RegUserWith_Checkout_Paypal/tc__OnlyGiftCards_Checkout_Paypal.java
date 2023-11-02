@@ -1,21 +1,16 @@
 package com.RegUserWith_Checkout_Paypal;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.providio.Scenarios.giftCard;
-import com.providio.pageObjects.GiftCertificate;
-import com.providio.paymentProccess.tc__MinicartViewCartProcess;
 import com.providio.paymentProccess.tc__CheckOutProcessByPayPal;
+import com.providio.paymentProccess.tc__MinicartViewCartProcess;
 import com.providio.testcases.baseClass;
 
 public class tc__OnlyGiftCards_Checkout_Paypal extends baseClass{
 	int minicartCountValue ;
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true,invocationCount = 1)  
 	public void OnlyGiftCards() throws InterruptedException {
 		if(isLoggedIn) {     
 		 

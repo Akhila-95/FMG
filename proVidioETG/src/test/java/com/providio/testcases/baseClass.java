@@ -205,7 +205,7 @@ public class baseClass {
 
 	       //driver.quit();
 	      //Report send to mail
-				//reportToMail.Reporttomail();
+				reportToMail.Reporttomail();
 	    }
 	   
 	   //Invoking the web chrome driver

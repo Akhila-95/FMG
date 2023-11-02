@@ -3,6 +3,7 @@ package com.providio.pageObjects;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -16,17 +17,28 @@ public class loginPage {
         PageFactory.initElements(rDriver, this);
     }
 
+    
+
     // Element for Sign In button
-    @FindBy(xpath = "//span[contains(text(), 'Sign In')]")
-    WebElement signIn;
+    @FindBy(className  = "login-section")
+    WebElement hoverLogin;
+    
+    public void hoverOnCreateloginAcc(WebDriver driver){
+    	Actions action = new Actions(driver);
+        action.moveToElement(hoverLogin).perform();    
+    }
+    
+    // Element for Sign In button
+    @FindBy(className = "login-button")
+    WebElement loginButton;
 
     // Method to click on the Sign In button
-    public void clickSign() {
-        signIn.click();
+    public void clickOnLogin() {
+    	loginButton.click();
     }
 
     // Element for email input field
-    @FindBy(name = "loginEmail")
+    @FindBy(id = "login-form-email-modal-login")
     WebElement email;
 
     // Method to set the email input field
@@ -36,7 +48,7 @@ public class loginPage {
     }
 
     // Element for password input field
-    @FindBy(name = "loginPassword")
+    @FindBy(id = "login-form-password-modal-login")
     WebElement Password;
 
     // Method to set the password input field
@@ -68,13 +80,12 @@ public class loginPage {
     }
 
     // Element for Home page logo
-    @FindBy(xpath = "//img[@class='logo']")
+    @FindBy(xpath = "(//img[@class='fmg-logo'])[1]")
     WebElement forHomePage;
 
     // Method to click on the Home page logo using JavaScript with a sleep
     public void clickOnLogo(WebDriver driver) throws InterruptedException {
         Thread.sleep(5000);
-
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", forHomePage);
     }

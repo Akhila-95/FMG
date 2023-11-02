@@ -27,12 +27,13 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 	        	 	if(driver.findElement(By.xpath("//input[@id='email-guest']")).isDisplayed()) {
 			            guestUserLoginPage guestLoginPage = new guestUserLoginPage(driver);
 			           
-			            guestLoginPage.clickOnEmail(reEnterMail);
+			            guestLoginPage.clickOnEmail(driver);
 			            logger.info("Guest mail again");
 			            guestLoginPage.clickOnContinueAsGuest();
 			            logger.info("Guest user : continue's  as guest");	           
-	        	 	}
-	          
+	        	 	}	          
+	        }else {
+	        	test.info("User is already in login");
 	        }
 	  
 	    }
@@ -40,53 +41,40 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 	    public void selectShippingAddress(checkOutPage cp) throws InterruptedException {
 	    	
 	    	//selecting shipping address for reg and guest user
-	        List<WebElement> existingAddress1 = driver.findElements(By.xpath("(//label[contains(text(),'Shipping To')])[1]"));
+	    	 List<WebElement> shippingAddressList = driver.findElements(By.xpath("(//h2[contains(text(),'Shipping Address')])[1]"));
 	        
 	        	//if user is registered then if condition executes
-		        if(existingAddress1.size()>0) {
+		        if(shippingAddressList.size()>0) {
 		        	
-		        	  WebElement shippingToDisplay = driver.findElement(By.xpath("(//label[contains(text(),'Shipping To')])[1]"));
-		        	  
-		        	  List<WebElement> saveShippingAddressList = driver.findElements(By.xpath("(//input[@id='addShippingAddressToMyAccount'])[1]"));
+		        	  //if user is register will have RecipientLabel  and  saveShippingAddressList 
+		        	  List<WebElement> recipientLabel = driver.findElements(By.xpath("//label[contains(text(),'Recipient')]"));
+		        	  List<WebElement> saveShippingAddressList = driver.findElements(By.id("addShippingAddressToMyAccount-single-shipping"));
 		        	  	
+		        	  //if have save address label then it is registered user
 			        	  if(saveShippingAddressList.size()>0) {
-			        		  
-			        		  WebElement saveShippingAddress = driver.findElement(By.xpath("(//input[@id='addShippingAddressToMyAccount'])[1]"));
-			        	  
-				        	  	if(shippingToDisplay.isDisplayed() || saveShippingAddress.isDisplayed() ) {
-				        	 		
-				        	 		  WebElement addressDropDownSelect = driver.findElement(By.id("shipmentSelector-default"));
-				        	 		  if(addressDropDownSelect.isDisplayed()) {
-				        	 			 // addressDropDownSelect.click();
-				        	 		  }
-				        	 		  
-				        	 		 List<WebElement> savedAddress = driver.findElements(By.xpath("//select[@id='shipmentSelector-default']/option"));
-						        	 if(savedAddress.size()>2) {
-						        		 
-								          //randomizing the saved address
-						        		 		//selectingRandomSavedShippingAddress();
-									        				        
-									      //if user want to add new address though having saved address
-						        		 		// addNewAddress(cp);
-							            
-						        	 }else{
-								        test.info("User logged-in and have no saved  address");
-								        		
-								          //Enters name and address			        	
-									        	shippingAddressDetailsWithName(cp);	
-									        	
-									       //adds the addres to account
-									        	saveTheShippingAddress();				        	
-								        	}
-		        	}
-		        	   	
-			        }else {	
-			        	//if user is guest this else part will execute 
-		        			test.info("User is a Guest");
-		        			
-		        		//Enters name and address	
-		        			shippingAddressDetailsWithName(cp);				        					
-			        	}	
+			        		  WebElement shippingToDisplay = driver.findElement(By.xpath("(//h2[contains(text(),'Shipping Address')])[1]"));
+			        		  if(shippingToDisplay.isDisplayed()) {
+				        		  test.info("User is Registered");
+				        		  if(recipientLabel.size()>0 && saveShippingAddressList.size()>0) {
+				        			  test.info("User is Registered and have saved address");
+				        		
+				        		  }else if(saveShippingAddressList.size()>0) {
+				        			  test.info("User have no saved cards");
+	
+							          //Enters name and address			        	
+								        	shippingAddressDetailsWithName(cp);	
+								        	
+								       //adds the addres to account
+								        	saveTheShippingAddress();	
+				        		  }
+			        		  }
+				        	}else {	
+					        	//if user is guest this else part will execute 
+			        			test.info("User is a Guest");
+			        			
+			        		//Enters name and address	
+			        			shippingAddressDetailsWithName(cp);				        					
+				        	}			        
 		        }
 	    }
 	    
@@ -153,10 +141,9 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 	    	 }	        
 	    }
 	    
-	    public void selectPaymentMethod(checkOutPage cp) throws InterruptedException {
+	    public void clickOnContinueBilling(checkOutPage cp) throws InterruptedException {
 	    	
-	    	//if payment button is available then  then it clicks on payment button
-	    	
+	    	//if payment button is available then  then it clicks on payment button	    	
 	        List<WebElement> paymentButton = driver.findElements(By.cssSelector(".submit-shipping"));
 	        if(paymentButton.size()>0 ) {
 	        	 Thread.sleep(2000);	        	
@@ -223,7 +210,7 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 		        test.info("Entered phone number");
 		        Thread.sleep(2000);   
 		        
-			}else {
+			}/*else {
 				
 				List<WebElement> firstNameList = driver.findElements(By.xpath("(//input[@class='form-control shippingFirstName'])[2]"));
 				if(firstNameList.size()>0) {
@@ -258,7 +245,7 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 						phoneNumber.sendKeys("9876543212");
 					}
 				}
-			}
+			}*/
 	  }
 	  
 		  public void shippingAddressDetailsOnly() throws InterruptedException{
@@ -318,11 +305,11 @@ public class CommonProccessFromMiniCartForViewCartAndCheckout extends baseClass 
 		  public void saveTheShippingAddress() {
 			  
 			  //if user is registered and entered new address then if user want to save the address then below condition executes
-			  List<WebElement> saveShippingAddressList = driver.findElements(By.xpath("(//input[@id='addShippingAddressToMyAccount'])[1]"));
+			  List<WebElement> saveShippingAddressList = driver.findElements(By.id("addShippingAddressToMyAccount-single-shipping"));
 			  
 			  if(saveShippingAddressList.size()>0) {
 				  
-					  WebElement saveShippingAddress = driver.findElement(By.xpath("(//input[@id='addShippingAddressToMyAccount'])[1]"));
+					  WebElement saveShippingAddress = driver.findElement(By.id("addShippingAddressToMyAccount-single-shipping"));
 					  
 					  if(saveShippingAddress.isDisplayed()) {
 						  

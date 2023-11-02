@@ -132,61 +132,28 @@ public class attributesSelection extends baseClass{
 	
 	
 	//color Selection
-	public static void colorSelection() throws InterruptedException {
+	public static void packageSizeSelection() throws InterruptedException {
  		
- 		List<WebElement> colorBox= driver.findElements(By.xpath("//button[contains(@class,'color-attribute')]"));
- 		logger.info(colorBox.size());
+		List <WebElement> packageSizeList= driver.findElements(By.id("package-qty-feet-1"));
+ 		logger.info(packageSizeList.size());
  		
  		
- 		if(colorBox.size()>0) {
- 			for(int i=1; i<=colorBox.size();i++) {
- 			if (!colorBox.isEmpty()) {
- 			    // Find all the color buttons that are selectable
- 			    List<WebElement> colorButtons = driver.findElements(By.cssSelector(".color-attribute.selectable"));
- 			    if (!colorButtons.isEmpty()) {
- 			        // Create a random instance
- 			        Random random = new Random();
- 			        // Choose a random index
- 			        int randomIndex = random.nextInt(colorButtons.size());
- 			        // Get the randomly selected color button
- 			        WebElement selectedColorButton = colorButtons.get(randomIndex);
- 			        // Click the selected color button
- 			        JavascriptExecutor js = (JavascriptExecutor) driver;
- 			        js.executeScript("arguments[0].click();", selectedColorButton);
- 			    }
+ 		if(packageSizeList.size()>0) {
+ 			
+ 			if (!packageSizeList.isEmpty()) {
+ 			    // Find all the packAGE buttons that are selectable
+ 			//	WebElement ParentPackageSize= driver.findElement(By.id("package-qty-feet-1"));
+ 			  //  List<WebElement> slickList = ParentPackageSize.findElements(By.xpath("//div[@class='slick-track']"));
+ 			 //  System.out.println("The packages sizees count " + slickList.size());
+ 				
+ 				List<WebElement> elementList = driver.findElements(By.cssSelector(".slick-slide.slick-active .single-custom-attribute"));
+ 				Random random = new Random();
+ 				int randomIndex = random.nextInt(elementList.size());
+ 				WebElement randomElement = elementList.get(randomIndex);
+ 				randomElement.click();
+ 			      
  			}
- 			}
- 		}else {
- 		    // Create a Select object and select the first enabled size
-			List<WebElement> colors= driver.findElements(By.xpath("//select[contains(@class,'select-color-swatch')]"));
-			logger.info(colors.size());
-			for(int i=1; i<=colors.size();i++) {
-			WebElement color = driver.findElement(By.xpath("(//select[contains(@class,'select-color-swatch')])[" + i + "]"));
-
-		    Select colorElement = new Select(color);
-		    List<WebElement> options = colorElement.getOptions();
-		    List<String> enabledSizes = new ArrayList<>();
-		    int optionIndex = 0;
-		    System.out.println(options.size());
-		    for (WebElement option : options) {
-		    	if (optionIndex > 0 && option.isEnabled()) {					    		
-		    		String text = option.getText();
-		    		  //System.out.println(text);
-		            if (!text.isEmpty()) {      	
-		            	String value = option.getAttribute("data-attr-value");
-		                enabledSizes.add(value);
-		                //System.out.println(value);
-		                option.click();
-		                Thread.sleep(5000);
-		                break; 				                
-		            }
-		        }
-
-		    	 optionIndex++;
-		    }
-
-	     }
-	   
+ 		
 	
    
     }

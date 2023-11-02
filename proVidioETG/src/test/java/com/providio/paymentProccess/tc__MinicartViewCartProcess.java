@@ -78,8 +78,17 @@ public class tc__MinicartViewCartProcess extends baseClass {
 		           //if any guest user means guest checkout
 		            commonProccess.clickContinueAsGuest();
 		            Thread.sleep(3000);
-	
-		       }
+		            
+		         // address details
+		            List<WebElement> shippingAddressList = driver.findElements(By.xpath("(//h2[contains(text(),'Shipping Address')])[1]"));
+		            if(shippingAddressList.size()>0) {
+		            WebElement shippingAddress = driver.findElement(By.xpath("(//h2[contains(text(),'Shipping Address')])[1]"));
+			            if(shippingAddress.isDisplayed()) {
+			            AddressDetails address = new AddressDetails();
+						address.address();
+			            }
+		            }
+		        }
 	       }
 	     } 
 	  }

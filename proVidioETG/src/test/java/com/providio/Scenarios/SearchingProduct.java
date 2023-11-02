@@ -25,7 +25,7 @@ public class SearchingProduct extends baseClass{
        test.info("clicked on searched product");
    
 		
-		 List<WebElement> pdpPage = driver.findElements(By.xpath("//button[contains(@class,'add-to-cart btn btn-primary')]"));
+		 List<WebElement> pdpPage = driver.findElements(By.xpath("//span[contains(text(),'Add to Cart')]"));
 		 if( pdpPage.size()>0) {
 			 allAttributesinOneFile.selectTheAttributesInPdp(driver);
 		 }

@@ -139,29 +139,57 @@ public class Checkout_Validation extends baseClass {
         }	        	
     }
     
+    
+	//validate the place the order page
+    public void validatePlacetheOrderPage() throws InterruptedException {
+ 	   
+ 	    List<WebElement> orderConfirmationPage = driver.findElements(By.xpath("//h2[@class ='order-thank-you-msg']"));
+ 			 if(orderConfirmationPage.size()>0) {
+ 			    	test.info("verify that order is placed");
+ 					
+ 					//validate the orderstatus
+ 			    	Thread.sleep(3000);
+ 				    WebElement PlacetheOrder = driver.findElement(By.xpath("//h2[@class ='order-thank-you-msg']"));
+ 				    String ActualTitleofPlacetheOrder = PlacetheOrder.getText();
+ 				    String ExpectedTitlePlacetheOrder = "Your order was received. Thank you! Confirmation will be sent to your email shortly.";
+ 				    logger.info(PlacetheOrder.getText());
+ 				    
+ 				    if (ActualTitleofPlacetheOrder.equals(ExpectedTitlePlacetheOrder)) {
+ 				        test.pass("Successfully Order is Placed");
+ 				        logger.info("Successfully Order is Placed");
+ 				    } else {
+ 				        test.fail( "The page Title does not match expected " + ExpectedTitlePlacetheOrder + " " + "  but found" + " " + ActualTitleofPlacetheOrder + " ");
+ 				        logger.info("Click failed");
+ 				    }
+ 				    WebElement userName = driver.findElement(By.cssSelector("p.order-thank-you-email-msg"));
+ 				    test.info("User name is " +userName.getText());
+ 				    
+ 				   // Thread.sleep(5000);	
+ 			 }
+     }
 	//validate the order number and date of order
 	public void ordernumberandOrderdate() throws InterruptedException {
 		
-	      List<WebElement> orderConfirmationPage = driver.findElements(By.xpath("//h2[@class ='order-thank-you-msg']"));
+	      List<WebElement> orderConfirmationPage = driver.findElements(By.cssSelector("p.order-thank-you-email-msg"));
 				 if(orderConfirmationPage.size()>0) {
 					//displayordernumberandplaceddate
 					 
 					 JavascriptExecutor js = (JavascriptExecutor) driver;
-		             js.executeScript("window.scrollBy(0,400)", "");
+		             js.executeScript("window.scrollBy(0,300)", "");
 				    
-				    WebElement orderNumeber = driver.findElement(By.xpath("//span[@class ='summary-details order-number']"));
+				    WebElement orderNumeber = driver.findElement(By.xpath("//span[contains(@class,'order-number')]"));
 				    String Ordernumber = orderNumeber.getText();
 			        test.pass("Successfully Order is Placed and the Order number is "+ Ordernumber);
 			        logger.info("Successfully Order is Placed and the Order number is "+ Ordernumber);
 				    
 				    //order date
-				    WebElement OrderDate = driver.findElement(By.xpath("//span[@class ='summary-details order-date']"));
+				    WebElement OrderDate = driver.findElement(By.xpath("//span[contains(@class,'order-date')]"));
 			        String Orderdate = OrderDate.getText();
 			        test.pass("Successfully Order is Placed and the Ordered date is "+ Orderdate);
 			       
 			        //shipping details
 			       List<WebElement> shippingDetailsList = driver.findElements(By.xpath("//div[@class='single-shipping']"));	
-			       if(shippingDetailsList .size()>0) {
+			       if(shippingDetailsList.size()>0) {
 				        WebElement shippingDetails = driver.findElement(By.xpath("//div[@class='single-shipping']"));			        
 				        test.info("Shipping Details of placed orders " + shippingDetails.getText());
 			       }
@@ -171,37 +199,10 @@ public class Checkout_Validation extends baseClass {
 			        test.pass("Successfully Order is Placed and payment is "+ paymentDetails);
 			        logger.info("Successfully Order is Placed and the Order number is "+  paymentDetails);
 			        Thread.sleep(5000);
-			        
-			       
+			       		       
 				 }
 	}
 	
 	
-	//validate the place the order page
-   public void validatePlacetheOrderPage() throws InterruptedException {
-	   
-	    List<WebElement> orderConfirmationPage = driver.findElements(By.xpath("//h2[@class ='order-thank-you-msg']"));
-			 if(orderConfirmationPage.size()>0) {
-			    	test.info("verify that order is placed");
-					
-					//validate the orderstatus
-			    	Thread.sleep(3000);
-				    WebElement PlacetheOrder = driver.findElement(By.xpath("//h2[@class ='order-thank-you-msg']"));
-				    String ActualTitleofPlacetheOrder = PlacetheOrder.getText();
-				    String ExpectedTitlePlacetheOrder = "Thank you for your order.";
-				    logger.info(PlacetheOrder.getText());
-				    
-				    if (ActualTitleofPlacetheOrder.equals(ExpectedTitlePlacetheOrder)) {
-				        test.pass("Successfully Order is Placed");
-				        logger.info("Successfully Order is Placed");
-				    } else {
-				        test.fail( "The page Title does not match expected " + ExpectedTitlePlacetheOrder + " " + "  but found" + " " + ActualTitleofPlacetheOrder + " ");
-				        logger.info("Click failed");
-				    }
-				    WebElement userName = driver.findElement(By.cssSelector("p.order-thank-you-email-msg"));
-				    test.info("User name is " +userName.getText());
-				    
-				    Thread.sleep(5000);	
-			 }
-    }
+
 }

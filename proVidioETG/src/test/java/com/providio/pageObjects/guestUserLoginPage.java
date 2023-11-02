@@ -5,15 +5,20 @@
 
 package com.providio.pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.model.Test;
+import com.github.javafaker.Faker;
+import com.providio.testcases.baseClass;
+
 import net.bytebuddy.asm.MemberSubstitution.FieldValue;
 
-public class guestUserLoginPage {
+public class guestUserLoginPage extends baseClass{
     WebDriver lDriver;
   //pageFactory constructor for this page
     public guestUserLoginPage(WebDriver rDriver) {
@@ -39,8 +44,19 @@ public class guestUserLoginPage {
        
      }
     //actionMethod
-    public void clickOnEmail(String reEnterMail) {
-        this.reEnterMailInGuest.sendKeys(new CharSequence[]{reEnterMail});
+    public void clickOnEmail(WebDriver driver) {
+    		Faker faker = new Faker();
+      // this.reEnterMailInGuest.sendKeys(new CharSequence[]{reEnterMail});
+    	
+             // Generate a unique email address with the suffix
+    		 String firstName = faker.name().firstName();
+             String email = firstName+ "@etg.digital"; // Change suffix as needed
+             System.out.println("Email id is " + email);
+             test.info("Guest user email is " + email);
+             // Fill out the registration form
+             WebElement emailInput = driver.findElement(By.xpath("//input[@id='email-guest']")); // Replace with the actual email input field ID
+             emailInput.sendKeys(email);
+
     } 
     
     //Continue as guest

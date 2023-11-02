@@ -13,17 +13,14 @@ import com.providio.testcases.baseClass;
 
 public class tc__GuestUser_InCc extends baseClass {
 
-    @Test
+    @Test(invocationCount = 5)
     public void guestlogin() throws InterruptedException {
     	
     	//launching the browser and passing the url into it
 		launchBrowsering lb = new launchBrowsering();
 		lb.chromeBrowser();
 		
-    	// to pick the store
-	    findAStore  store = new findAStore();
-	    store.findStore();
-		
+    	
 	    //selects a random catgory and product add to cart
         navigationProccess navProccess = new navigationProccess();
         navProccess.commonNavigationProccess();

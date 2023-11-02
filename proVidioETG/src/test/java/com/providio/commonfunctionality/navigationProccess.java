@@ -15,32 +15,25 @@ public class navigationProccess extends baseClass {
 	 
 	
 	public void commonNavigationProccess() throws InterruptedException {
-		
-		for(int i=1;i<=1; i++) {
-			
-			 // to pick the store
-			     findAStore  store = new findAStore();
-			     store.findStore();
 			
 			//navigating to random menu by validating the plp page  
 				 navigationProcessWithValidation  navPage =new navigationProcessWithValidation (driver);
 		    	 navPage.selectRandomMenu(driver);
 	    	
 		    //apply filters to products		    	
-		    	 selectingFilterFromPlp. selectingFilterisFormplp();
+		    	// selectingFilterFromPlp. selectingFilterisFormplp();
 		    	 
 	    	//selecting Random product
 				productListingPage plp = new productListingPage(driver);
 				plp.selectProductRandom(driver);
 	   	
 			//selecting attributes from the  pdp page by checking the condition 
-		   		 List<WebElement> pdpPage = driver.findElements(By.xpath("//button[contains(@class,'add-to-cart btn btn-primary')]"));
+		   		 List<WebElement> pdpPage = driver.findElements(By.xpath("//span[contains(text(),'Add to Cart')]"));
 		   		 if( pdpPage.size()>0) {
 		   			allAttributesinOneFile.selectTheAttributesInPdp(driver);
 			    		 }
 	   	  //validating the product is add to the cart
-	  	         addtoCartValidation.validatingProductisAddtoCart(driver);
-	    }			
+	  	         addtoCartValidation.validatingProductisAddtoCart(driver); 		
 	}
 	
 	

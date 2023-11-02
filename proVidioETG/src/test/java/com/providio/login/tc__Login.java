@@ -1,17 +1,14 @@
 // Import necessary packages and classes
 package com.providio.login;
 
-import com.providio.commonfunctionality.waitForTheElement;
-import com.providio.pageObjects.loginPage;
-import com.providio.testcases.baseClass;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import com.providio.launchingbrowser.launchBrowsering;
+import com.providio.pageObjects.loginPage;
+import com.providio.testcases.baseClass;
 
 // Define a test class named "tc__Login"
 public class tc__Login extends baseClass {
@@ -25,16 +22,21 @@ public class tc__Login extends baseClass {
         // Log test information
         test.info("Test case validation started");
         
-        // Navigate to the application's base URL
-        driver.get(baseURL);
-        logger.info("Entered into URL");
+     
+      //launching the browser and passing the url into it
+		launchBrowsering lb = new launchBrowsering();
+		lb.chromeBrowser();
+			 		
         Thread.sleep(2000L);
         
         // Create an instance of the "loginPage" class
-        loginPage lp = new loginPage(driver);
+        loginPage lp = new loginPage(driver);        
+        
+        lp.hoverOnCreateloginAcc(driver);
+        logger.info("Hover on create and login account");
         
         // Click on the "Sign In" button
-        lp.clickSign();
+        lp.clickOnLogin();
         logger.info("Clicked on Sign In");
         Thread.sleep(2000L);
         
@@ -53,13 +55,16 @@ public class tc__Login extends baseClass {
         logger.info("Clicked on the Submit button");
         Thread.sleep(5000L);
         
-        // Use FluentWait to wait for the visibility of the "Dashboard" element
-        Wait<WebDriver> wait = waitForTheElement.createFluentWait(driver);
-        WebElement loginTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(" //h1[@class ='account-page-title']")));
+        // hover on my account to know the user is logged or not 
+        lp.hoverOnCreateloginAcc(driver);
+        logger.info("Hover on create and login account");
+        
+       
+        WebElement welcomeLabel = driver.findElement(By.xpath("//b[contains(text(),'Welcome Back!')]"));
         
         // Get the actual title from the "Dashboard" element
-        String expectedTitle = "Dashboard";
-        String actualTitle = loginTitle.getText();
+        String expectedTitle = "Welcome Back!";
+        String actualTitle = welcomeLabel.getText();
         
         // Check if the actual title matches the expected title
         if (actualTitle.equals(expectedTitle)) {
@@ -69,22 +74,20 @@ public class tc__Login extends baseClass {
             isLoggedIn = true;
             
             //registered user name 
-            WebElement userName = driver.findElement(By.xpath("(//dd)[1]"));
+            WebElement userName = driver.findElement(By.className("registered-user-message"));
             test.info("Name of User name is " + userName.getText());
             logger.info("Name of User name is " + userName.getText());
-            
+           /* 
             //registered email id 
             WebElement regMail = driver.findElement(By.xpath("(//dd)[2]"));
             test.info("Email is " + regMail.getText());
             logger.info("Email  is " + regMail.getText());
-            
+            */
         } else {
         	// Log a fail message if the page title does not match the expected title
         	test.fail("The page Title does not match expected " + expectedTitle + " but found " + actualTitle);
             logger.info("Click failed");
         }
-        
-        // Assert all the soft assertions
-        softAssert.assertAll();
+   
     }
 }

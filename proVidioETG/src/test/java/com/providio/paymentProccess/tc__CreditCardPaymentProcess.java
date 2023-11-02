@@ -50,46 +50,30 @@ public class tc__CreditCardPaymentProcess extends baseClass{
 				    } 
 				    
 				    // address details
-		            AddressDetails address = new AddressDetails();
-					address.address();
+			            AddressDetails address = new AddressDetails();
+						address.address();
 					
-				    	// Review order page
-			    		reviewOrderPage rop = new reviewOrderPage(driver);
-			    		Thread.sleep(4000);			    		
-
-				    		rop.clickonReviewOrder(driver);
-				    		logger.info("Clicked on review order button");
-				    		
-				    		Thread.sleep(4000);		    		
+			    	// Review order page
+			    		reviewOrderPage rop = new reviewOrderPage(driver);			    				    		
+			    		rop.clickonReviewOrder(driver);			   	    		
+			    		Thread.sleep(4000);		    		
 	
-				    		
-				    		 rop.clickonplaceorderwithJsExuter(driver);
-				    		 logger.info("successfully click on the place order button by normal click");
-				    		 
-			    		
-			    	
-				    
-				    Thread.sleep(9000);
-					 // Checkout validation
-		    		if(driver.getTitle().endsWith("Order Confirmation | Providio")) {
-		    			
-		    			 Checkout_Validation checkout= new Checkout_Validation();
+				 //placeorder   		
+			    		 rop.clickonplaceorderwithJsExuter(driver);			    		  
+			    		 Thread.sleep(9000);
+			    		 
+					//order page validation		    	
+	    			 Checkout_Validation checkout= new Checkout_Validation();
 		    			 
 		    		 // Validate the final place the order page
 		    			 checkout.validatePlacetheOrderPage();
 		    		
 		    	     // Order number and order date
 		    			 checkout.ordernumberandOrderdate();
-		    			 //Thread.sleep(5000);
-		    		}else if(driver.findElements(By.xpath("//p[contains(text(),'There was a problem processing your payment. Please verify your payment information and try again.')]")).size()>0) {
-		    			
-		    			test.info("Returned back to payment page , as the Expected behaviour in brain tree is, the order will be failed for 2000-2999.99 $ ,3000.00-3000.99 $ 5000.00 $ ");
-	
-		    	
-		    		}
+		    			 Thread.sleep(2000);
 				}
 		  }else {
-			  test.fail("Nex payment button is not enabled and clicked ");
+			  test.fail("Next payment button is not enabled and clicked ");
 		  }
 	}
  }//method

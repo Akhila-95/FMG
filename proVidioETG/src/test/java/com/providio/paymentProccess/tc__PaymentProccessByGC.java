@@ -84,29 +84,31 @@ public class tc__PaymentProccessByGC extends baseClass{
 						}
 						if (randomValue != null) {
 							
-						JavascriptExecutor js = (JavascriptExecutor) driver;				
-						WebElement giftcertificate = driver.findElement(By.xpath("//input[@id='giftCert']"));
-						js.executeScript("arguments[0].click();", giftcertificate);	
-						giftcertificate.sendKeys(randomValue);
+						JavascriptExecutor js = (JavascriptExecutor) driver;	
+						//click on radio button
+						WebElement giftCertificateRadioButton = driver.findElement(By.id("gift-promo"));
+						 giftCertificateRadioButton.click();
+						 //send the code to Gc 
+						WebElement giftCertificate = driver.findElement(By.xpath("//input[@id='giftCert']"));
+						js.executeScript("arguments[0].click();", giftCertificate);	
+						giftCertificate.sendKeys(randomValue);
 						Thread.sleep(2000);
 							
 							  
-		            //check balance validation and checking the bal of GC
-		             WebElement checkBalButton= driver.findElement(By.xpath("//button[@class='btn btn-primary check-balance']"));
-		             test.info("Verifying check balance button");
+			            //check balance validation and checking the bal of GC
+			             WebElement checkBalButton= driver.findElement(By.xpath("//button[@class='btn btn-primary check-balance']"));
+			             test.info("Verifying check balance button");
 		            
-		                // Scroll down by 500 pixels
-		             js.executeScript("window.scrollBy(0, 500);");                 
+			             //clicked on check bal button
 		                js.executeScript("arguments[0].click();",checkBalButton);
-		                //checkBalButton.click();
+		                
 		                Thread.sleep(2000);
 		                List<WebElement> checkBalList= driver.findElements(By.xpath("//div[@class='balance success']"));
 		                if(checkBalList.size()>0) {
 				                WebElement checkBal= driver.findElement(By.xpath("//div[@class='balance success']"));
 				                logger.info(checkBal.getText()); 
-				                if(checkBalButton.isDisplayed()) {
-				                	
-			                	test.pass("Check button is enabled and selected");
+				                if(checkBalButton.isDisplayed()) {				                	
+				                	test.pass("Check button is enabled and selected");
 				                	logger.info("Check button is enabled and selected");
 				                }else {
 				                	test.fail("Check button is not enabled and not selected");
@@ -117,15 +119,13 @@ public class tc__PaymentProccessByGC extends baseClass{
 		            // Click the apply button by passing GC
 		            try {
 		            	Thread.sleep(2000);
-		            	js.executeScript("arguments[0].click();", giftcertificate);	
-						giftcertificate.sendKeys(randomValue);
+		            	js.executeScript("arguments[0].click();", giftCertificate);	
+						giftCertificate.sendKeys(randomValue);
 			            Thread.sleep(2000);
 			            
 		                WebElement applyGiftCard = driver.findElement(By.xpath("//button[@value='submit-gifrcert']"));
 		                Thread.sleep(3000);	              
-		                // Scroll down by 500 pixels
-		                js.executeScript("window.scrollBy(0, 500);");  
-		             
+		                
 		                // apply button validation
 		                test.info("Verifying apply button is selected");
 		                if(applyGiftCard.isDisplayed()) {
@@ -136,15 +136,15 @@ public class tc__PaymentProccessByGC extends baseClass{
 				                Thread.sleep(2000);
 									if(driver.findElements(By.xpath("//div[contains(text(),'Insufficient Gift Certificate balance')]")).size()!=0) {
 										logger.info("Insufficent funds in this " +randomValue + " gift card" );
-										giftcertificate.clear();
+										giftCertificate.clear();
 									}else if(driver.findElements(By.xpath("//div[contains(text(),'Gift card belongs to a different customer')]")).size()!=0){
 										logger.info("This " + randomValue + "Gift Card belongs to different customer ");
-										giftcertificate.clear();
+										giftCertificate.clear();
 									}
 									
 							        if (driver.findElements(By.xpath("//div[contains(text(),'Your order has no balance, so no payment method is necessary to complete this order')]")).size()!=0) {
 								    	 logger.info("Your order has no balance,so no payment method is necessary");
-								    	 giftcertificate.clear();
+								    	 giftCertificate.clear();
 								    	 break;
 							        } else {
 								        	

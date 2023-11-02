@@ -65,11 +65,11 @@ public class homePage extends baseClass{
 	@FindBy(xpath = "//input[@name='q']")
 	WebElement searchBar;
 	public void clickOnSearchBar(String typeSomething) throws InterruptedException {
-		Thread.sleep(2000);
+	//	Thread.sleep(2000);
 		searchBar.sendKeys(typeSomething);
 	}
 	//clicked on searched product
-	@FindBy(xpath = " (//span[@class='name'])[2]")
+	@FindBy(xpath = "//div[@class='name']")
 	WebElement searchProduct;
 	public void clickOnSearchedProduct() throws InterruptedException {
 		Thread.sleep(3000);

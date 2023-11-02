@@ -28,52 +28,37 @@ WebDriver lDriver;
    
     	JavascriptExecutor js = (JavascriptExecutor) driver;     
     	// Brain Tree
-		List<WebElement> creditcardscheck = driver.findElements(By.xpath("//a[@class ='nav-link creditcard-tab active']"));
-	    if(creditcardscheck.size()>0) {
 	    		Thread.sleep(3000);
 		    	if(reviewOrderPage.isDisplayed()) {
 		    		 js.executeScript("window.scrollBy(0,100)", "");
-		    		// js.executeScript("arguments[0].click();",reviewOrderPage);
+		    		 js.executeScript("arguments[0].click();",reviewOrderPage);
 		    		 Thread.sleep(1000);
-		    		 reviewOrderPage.click();
+		    		 //reviewOrderPage.click();
 		    		 test.info("Clicked on review order button");
-		    	}
-	    	}
-	  if((reviewOrderPage.isDisplayed() )&& !(creditcardscheck.size()>0)) {
-	    	js.executeScript("arguments[0].click();",reviewOrderPage);
-	    	Thread.sleep(3000);
-	    	 test.info("Clicked on review order button");
-	  }
+		    		 logger.info("Clicked on review order button");	
+		    	}	 
     }
   
     
     //In checkout page if the it will check the button of revieworder and place order buttons
-	@FindBy(xpath ="//button[contains(@class,' place-order')]")
+	@FindBy(xpath ="(//button[contains(@class,' place-order')])[1]")
 	WebElement placetheorderwithJsExuter;
 	
-	@FindBy(xpath ="//button[contains(@class,' place-order')]")
+	@FindBy(xpath ="(//button[contains(@class,' place-order')])[1]")
 	List<WebElement> placetheorderList;
 	
     public void clickonplaceorderwithJsExuter(WebDriver driver) throws InterruptedException {
-    	Thread.sleep(3000);
-    	JavascriptExecutor js = (JavascriptExecutor) driver; 
-    	List<WebElement> creditcardscheck = driver.findElements(By.xpath("//a[@class ='nav-link creditcard-tab active']"));
+    	
+    	JavascriptExecutor js = (JavascriptExecutor) driver;    	
     	if(placetheorderList.size()>0) {
-	    	 Thread.sleep(2000);
-	    	 if(creditcardscheck.size()>0 ) {  
-	    			js.executeScript("window.scrollBy(0,100)", "");
-	    		 //placetheorderwithJsExuter.click();
-	    		 js.executeScript("arguments[0].click();", placetheorderwithJsExuter);
-	    		 test.info("Clicked on place order button");
-		    		Thread.sleep(4000);	    			    		
-	    	 }else if(!(creditcardscheck.size()>0)) {  
-	    			js.executeScript("window.scrollBy(0,100)", "");
-	    			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", placetheorderwithJsExuter);
+	    	 		 Thread.sleep(2000);	    	 
+	    			 js.executeScript("window.scrollBy(0,100)", "");
+		    		// placetheorderwithJsExuter.click();
 		    		 js.executeScript("arguments[0].click();", placetheorderwithJsExuter);
 		    		 test.info("Clicked on place order button");
-		    		Thread.sleep(4000);	    			    		
-	    	 }
-	    	 
+		    		 logger.info("successfully click on the place order button by normal click");
+		    		 Thread.sleep(4000);	    			    		
+	    	    	 
     	}
     } 
 	

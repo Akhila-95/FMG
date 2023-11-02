@@ -12,7 +12,7 @@ import com.providio.testcases.baseClass;
 
 public class tc__OnlyGiftCardsInCc extends baseClass{
 	int minicartCountValue ;
-	@Test
+	 @Test(invocationCount = 1)
 	public void OnlyGiftCards() throws InterruptedException {
 		
 		//launching the browser and passing the url into it
@@ -30,5 +30,7 @@ public class tc__OnlyGiftCardsInCc extends baseClass{
 	     //Payment process		     
 	     tc__CreditCardPaymentProcess cc = new tc__CreditCardPaymentProcess();			     
 	     cc.paymentByCreditCard();
+	     
+	     Thread.sleep(2000);
 	}
 }

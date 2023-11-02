@@ -6,6 +6,7 @@
 		import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
+import com.providio.launchingbrowser.launchBrowsering;
 import com.providio.pageObjects.CreateAccount;
 import com.providio.pageObjects.guestUserLoginPage;
 import com.providio.pageObjects.loginPage;
@@ -17,19 +18,21 @@ import com.providio.pageObjects.loginPage;
 			@Test
 			public void openBrowserandClickSignInButton() throws InterruptedException {
 			    test.info("Open browser");
-			    // Test Case 0: Open browser
-			    driver.get(baseURL);
-			    logger.info("Opened browser");
-			    Thread.sleep(2000L);
-			    loginPage lp = new loginPage(driver);
-			    lp.clickSign();
-			    logger.info("clicked on sign in");
 			    
-		        CreateAccount createAcc= new CreateAccount(driver);
-		        
-				createAcc.clickOnCreateAcc(driver);		
-				logger.info("Clicked on create Account");
-			   openBrowserandClickSignInButtonset = true;
+			      //launching the browser and passing the url into it
+					launchBrowsering lb = new launchBrowsering();
+					lb.chromeBrowser();
+					
+				    Thread.sleep(2000L);
+				    loginPage lp = new loginPage(driver);
+				    lp.clickSign();
+				    logger.info("clicked on sign in");
+				    
+			        CreateAccount createAcc= new CreateAccount(driver);
+			        
+					createAcc.clickOnCreateAcc(driver);		
+					logger.info("Clicked on create Account");
+				   openBrowserandClickSignInButtonset = true;
 			}
 		
 			
