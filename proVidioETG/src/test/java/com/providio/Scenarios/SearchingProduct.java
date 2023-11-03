@@ -5,10 +5,10 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import com.providio.commonfunctionality.addtoCartValidation;
-import com.providio.commonfunctionality.allAttributesinOneFile;
-import com.providio.pageObjects.homePage;
-import com.providio.testcases.baseClass;
+import com.PageObjects.homePage;
+import com.commonfunctionality.addtoCartValidation;
+import com.commonfunctionality.allAttributesinOneFile;
+import com.testcases.baseClass;
 
 public class SearchingProduct extends baseClass{
 
@@ -21,6 +21,7 @@ public class SearchingProduct extends baseClass{
        test.info("searched a product " + this.searchBar);
        
        //clicked on searched product
+       Thread.sleep(2000);
        homepage.clickOnSearchedProduct();
        test.info("clicked on searched product");
    

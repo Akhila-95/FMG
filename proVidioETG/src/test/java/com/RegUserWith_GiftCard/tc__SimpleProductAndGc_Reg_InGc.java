@@ -1,21 +1,13 @@
 package com.RegUserWith_GiftCard;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.providio.Scenarios.SimpleProductAndGc;
-import com.providio.commonfunctionality.Gc__CC_Paypal;
-import com.providio.commonfunctionality.findAStore;
-import com.providio.pageObjects.GiftCertificate;
-import com.providio.pageObjects.SimpleProductFromExcel;
-import com.providio.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.providio.paymentProccess.tc__CreditCardPaymentProcess;
-import com.providio.testcases.baseClass;
+import com.commonfunctionality.Gc__CC_Paypal;
+import com.commonfunctionality.SelectionFromNavToPdp;
+import com.paymentProccess.tc__MinicartViewCartProcess;
+import com.providio.Scenarios.giftCard;
+import com.testcases.baseClass;
 
 public class tc__SimpleProductAndGc_Reg_InGc extends baseClass {
 	
@@ -24,21 +16,20 @@ public class tc__SimpleProductAndGc_Reg_InGc extends baseClass {
 	public void simpleProduct_Gc() throws InterruptedException {
 		if(isLoggedIn) {      
 			
-			// to pick the store
-		     findAStore  store = new findAStore();
-		     store.findStore();
-			     
-			//simple proudct
-			SimpleProductAndGc spGc = new SimpleProductAndGc();
-			spGc.simpleProductAndGc();
+			//adding GC into cart
+		    giftCard gc = new giftCard();
+		    gc.giftCards(); 
+	    
+		 //selecting random menu and product and adding to cart
+		    SelectionFromNavToPdp.selectingFromPdp();
 			 
 			 //checkoutProcess				        
 		     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
 		     cp.checkoutprocess();
 		     
 			 //gc payment 
-		     Gc__CC_Paypal gc = new Gc__CC_Paypal ();
-		     gc.paymentByGiftCard();
+		     Gc__CC_Paypal gc1 = new Gc__CC_Paypal ();
+		     gc1.paymentByGiftCard();
 		 
 		 }else {
 		   	 Assert.fail("User not logged in");

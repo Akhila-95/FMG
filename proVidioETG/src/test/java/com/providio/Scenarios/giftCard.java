@@ -1,7 +1,7 @@
 package com.providio.Scenarios;
 
-import com.providio.pageObjects.GiftCertificate;
-import com.providio.testcases.baseClass;
+import com.PageObjects.GiftCertificate;
+import com.testcases.baseClass;
 
 public class giftCard extends baseClass{
 	

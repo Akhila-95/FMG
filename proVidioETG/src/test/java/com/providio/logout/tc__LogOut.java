@@ -4,10 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.providio.pageObjects.homePage;
-import com.providio.pageObjects.logOut;
-import com.providio.pageObjects.profilePage;
-import com.providio.testcases.baseClass;
+import com.PageObjects.homePage;
+import com.PageObjects.logOut;
+import com.PageObjects.loginPage;
+import com.PageObjects.profilePage;
+import com.testcases.baseClass;
 
  
 
@@ -22,14 +23,17 @@ public class tc__LogOut extends baseClass {
 	       	 homePage homePage = new  homePage(driver);
 	       	 homePage.clickOnLogo();
 	        	
-            profilePage pp1 = new profilePage(driver);
-            pp1.howeraccount(driver);
+	      // Create an instance of the "loginPage" class
+	         loginPage lp = new loginPage(driver);        
+	         
+	         lp.hoverOnCreateloginAcc(driver);
+	         logger.info("Hover on create and login account");
             logOut lo = new logOut(driver);
             logger.info("Hovered the myaccout");
             Thread.sleep(10000L);
             lo.clicklogout(driver);
             logger.info("clicked the logout button and successfully logged out");
-            String expectedTitlelogout = "Sites-RefArch-Site";
+            String expectedTitlelogout = "Sites-fireMountainGems-Site";
             String actualTitlelogout = driver.getTitle();
             if (actualTitlelogout.equals(expectedTitlelogout)) {
                 test.pass("Successfully clicked on the Logout button");

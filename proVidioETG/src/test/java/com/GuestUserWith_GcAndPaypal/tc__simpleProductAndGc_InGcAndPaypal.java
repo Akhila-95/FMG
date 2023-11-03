@@ -1,21 +1,14 @@
 package com.GuestUserWith_GcAndPaypal;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.providio.Scenarios.SimpleProductAndGc;
-import com.providio.commonfunctionality.Gc__CC_Paypal;
-import com.providio.commonfunctionality.addtoCartValidation;
-import com.providio.commonfunctionality.findAStore;
-import com.providio.commonfunctionality.validatingInstock;
+import com.commonfunctionality.Gc__CC_Paypal;
+import com.commonfunctionality.SelectionFromNavToPdp;
+import com.paymentProccess.tc__MinicartViewCartProcess;
+import com.providio.Scenarios.SearchingProduct;
+import com.providio.Scenarios.giftCard;
 import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.GiftCertificate;
-import com.providio.pageObjects.SimpleProductFromExcel;
-import com.providio.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.testcases.baseClass;
+import com.testcases.baseClass;
 
 public class tc__simpleProductAndGc_InGcAndPaypal extends baseClass {
 	
@@ -27,15 +20,19 @@ public class tc__simpleProductAndGc_InGcAndPaypal extends baseClass {
 		launchBrowsering lb = new launchBrowsering();
 		lb.chromeBrowser();
 		
-		// to pick the store
-	     findAStore  store = new findAStore();
-	     store.findStore();
-	     
-		
-		//simple proudct
-		SimpleProductAndGc spGc = new SimpleProductAndGc();
-		spGc.simpleProductAndGc();
-		 
+
+	 //adding GC into cart
+	    giftCard gc = new giftCard();
+	    gc.giftCards(); 
+	    
+	  //selecting random menu and product and adding to cart
+	 	//SelectionFromNavToPdp.selectingFromPdp();
+	    
+	  //searching a product 		
+  		SearchingProduct sp1 = new SearchingProduct();
+  		sp1.searchingProduct();
+
+		 	
 		 //checkoutProcess				        
 	     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
 	     cp.checkoutprocess();

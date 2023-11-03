@@ -2,10 +2,9 @@
 
 package com.RegUserWith_ViewCart_Paypal;
 
+import com.paymentProccess.tc__CheckOutProcessByPayPal;
 import com.providio.Scenarios.SearchingProduct;
-import com.providio.commonfunctionality.findAStore;
-import com.providio.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.providio.testcases.baseClass;
+import com.testcases.baseClass;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,18 +18,15 @@ public class tc__BySearchingProduct_Reg_InVC_Paypal extends baseClass {
     public void bySearchingProduct() throws InterruptedException {
 		if(isLoggedIn) {			
 
-			// to pick the store
-			     findAStore  store = new findAStore();
-			     store.findStore();
-			     
+		
 			 //searching a product 
 				SearchingProduct sp = new SearchingProduct();
 				sp.searchingProduct();
 			
-	    	//paypal checkout form view cart page
-	          tc__CheckOutProcessByPayPal paypal= new tc__CheckOutProcessByPayPal();	         
-	          paypal.checkoutprocessFromViewCart(); 
-	          
+		    	//paypal checkout form view cart page
+		          tc__CheckOutProcessByPayPal paypal= new tc__CheckOutProcessByPayPal();	         
+		          paypal.checkoutprocessFromViewCart(); 
+		          
 	}  else {
         Assert.fail("User not logged in");
     }

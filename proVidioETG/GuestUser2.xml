@@ -17,18 +17,18 @@
   <!-- credit card -->
   
 	
-		
 	
 	
-			<class name= "com.RegUserWith_CreditCard.tc__BundleProductRegUser_InCC" />     
-			
-				<class name= "com.RegUserWith_CreditCard.tc__Bundle_GcAndAllPromotions_Reg_InCC" />	         
-  <!--  logout-->      
+	         
+  <!--  logout     
     	
     	<class name="com.providio.logout.tc__LogOut"/>
-	    	
+	    	--> 
     </classes>
-   
+    <packages>
+   			 <!--  <package name="com.RegUserWith_Checkout_Paypal"> </package>-->
+   			  <package name="com.RegUserWith_CreditCard"> </package>
+   </packages>
    </test> 
 </suite> <!-- ProvidioTestcases -->
 

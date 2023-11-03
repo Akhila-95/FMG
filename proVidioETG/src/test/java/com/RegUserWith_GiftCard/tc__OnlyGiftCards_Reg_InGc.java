@@ -7,12 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.PageObjects.GiftCertificate;
+import com.commonfunctionality.Gc__CC_Paypal;
+import com.paymentProccess.tc__CheckOutProcessByPayPal;
+import com.paymentProccess.tc__MinicartViewCartProcess;
 import com.providio.Scenarios.giftCard;
-import com.providio.commonfunctionality.Gc__CC_Paypal;
-import com.providio.pageObjects.GiftCertificate;
-import com.providio.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.providio.testcases.baseClass;
+import com.testcases.baseClass;
 
 public class tc__OnlyGiftCards_Reg_InGc extends baseClass{
 	int minicartCountValue ;

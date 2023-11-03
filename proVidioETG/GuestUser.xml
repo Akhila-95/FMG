@@ -8,18 +8,14 @@
   <test thread-count="5" name="Automation">
   
     <packages>	
-  							
-  			
-  					
-  					<package name="com.GuestUserWith_GcAndCC"></package> 
+	
 			 		<package name="com.GuestUserWith_CreditCard"></package>
-  	 	  			<package name="com.GuestUserWith_GiftCard"></package>
-
-  			 		<package name="com.GuestUserWith_Minicart_Paypal"></package>
+  	 	  		 	<package name="com.GuestUserWith_GiftCard"></package>
+  	 	  			<package name="com.GuestUserWith_GcAndCC"></package>   	 	  		
   					<package name="com.GuestUserWith_ViewCart_Paypal"></package>
   					<package name="com.GuestUserWith_Checkout_Paypal"></package>
-  					<package name="com.GuestUserWith_GcAndPaypal"></package>
-  					
+  				 	<package name="com.GuestUserWith_GcAndPaypal"></package> 
+
   </packages>
   
   </test>

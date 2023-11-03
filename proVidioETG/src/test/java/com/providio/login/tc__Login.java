@@ -6,9 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.PageObjects.loginPage;
 import com.providio.launchingbrowser.launchBrowsering;
-import com.providio.pageObjects.loginPage;
-import com.providio.testcases.baseClass;
+import com.providio.logout.tc__LogOut;
+import com.testcases.baseClass;
 
 // Define a test class named "tc__Login"
 public class tc__Login extends baseClass {
@@ -87,7 +88,6 @@ public class tc__Login extends baseClass {
         	// Log a fail message if the page title does not match the expected title
         	test.fail("The page Title does not match expected " + expectedTitle + " but found " + actualTitle);
             logger.info("Click failed");
-        }
-   
+        }      
     }
 }

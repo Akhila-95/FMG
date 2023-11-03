@@ -3,15 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp">
+      <class name="com.providio.login.tc__Login">
         <methods>
-          <include name="setUpforReport"/>
-          <include name="orderbyFavouritesFromPdp"/>
-          <include name="afterMethod"/>
           <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="loginTest"/>
+          <include name="setUpforReport"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.GuestUserWith_Checkout_Paypal.FavouritesFromPdp -->
+      </class> <!-- com.providio.login.tc__Login -->
+      <class name="com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="setUpforReport"/>
+          <include name="tearDown"/>
+          <include name="bySearchingProduct"/>
+        </methods>
+      </class> <!-- com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

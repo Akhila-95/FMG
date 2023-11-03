@@ -3,7 +3,7 @@ package com.providio.Scenarios;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.providio.testcases.baseClass;
+import com.testcases.baseClass;
 
 public class AddAddressFromMyAccountPage extends baseClass{
 

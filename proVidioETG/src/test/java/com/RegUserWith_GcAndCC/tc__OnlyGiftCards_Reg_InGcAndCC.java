@@ -3,10 +3,10 @@ package com.RegUserWith_GcAndCC;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.commonfunctionality.Gc__CC_Paypal;
+import com.paymentProccess.tc__MinicartViewCartProcess;
 import com.providio.Scenarios.giftCard;
-import com.providio.commonfunctionality.Gc__CC_Paypal;
-import com.providio.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.testcases.baseClass;
+import com.testcases.baseClass;
 
 public class tc__OnlyGiftCards_Reg_InGcAndCC extends baseClass{
 	int minicartCountValue ;
