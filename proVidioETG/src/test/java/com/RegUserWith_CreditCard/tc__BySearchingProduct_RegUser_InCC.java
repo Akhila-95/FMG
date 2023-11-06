@@ -6,16 +6,16 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.Scenarios.SearchingProduct;
 import com.paymentProccess.CreditCardPaymentProcess;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.SearchingProduct;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 
 public class tc__BySearchingProduct_RegUser_InCC extends baseClass {
 	 
 	SoftAssert softAssert = new SoftAssert();
 
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
     public void bySearchingProduct() throws InterruptedException {
 		if(isLoggedIn) {
 		
@@ -25,7 +25,7 @@ public class tc__BySearchingProduct_RegUser_InCC extends baseClass {
 			sp.searchingProduct();
 		        
 	      //checkoutProcess	        
-            tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();            
+            MinicartViewCartProcess cp = new MinicartViewCartProcess();            
             cp.checkoutprocess();
             
            //payment by credit card

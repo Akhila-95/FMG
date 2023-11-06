@@ -5,10 +5,10 @@ package com.GuestUserWith_Checkout_Paypal;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.Scenarios.SearchingProduct;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.CheckOutProcessByPayPal;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 
 public class tc__BySearchingProduct_GuestUser_InCheckoutPaypal extends baseClass {
@@ -27,11 +27,11 @@ public class tc__BySearchingProduct_GuestUser_InCheckoutPaypal extends baseClass
 		sp.searchingProduct();
        
        //checkoutProcess	        
-        tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();            
+        MinicartViewCartProcess cp = new MinicartViewCartProcess();            
         cp.checkoutprocess();
                     
 	  //paypal process from checkout page
-		 tc__CheckOutProcessByPayPal cpp = new tc__CheckOutProcessByPayPal();
+		 CheckOutProcessByPayPal cpp = new CheckOutProcessByPayPal();
 		 cpp.checkoutprocessFromCheckout();
     }
 }

@@ -6,13 +6,13 @@ import org.testng.asserts.SoftAssert;
 import com.PageObjects.homePage;
 import com.paymentProccess.CreditCardPaymentProcess;
 
-import com.paymentProccess.tc__MinicartViewCartProcess;
+import com.paymentProccess.MinicartViewCartProcess;
 
 public class tc__WishListtoAddtoCart extends baseClass {
 	
 	SoftAssert softAssert = new SoftAssert();
 
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
     public void wishListtoCart() throws InterruptedException {
 
     	tc__WishlistProccess wsh = new tc__WishlistProccess();
@@ -22,7 +22,7 @@ public class tc__WishListtoAddtoCart extends baseClass {
         //checkout process
     	Thread.sleep(5000);
     	
-    	tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();
+    	MinicartViewCartProcess cp = new MinicartViewCartProcess();
         
         cp.checkoutprocess();
         

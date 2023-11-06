@@ -4,16 +4,16 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.giftCard;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.CheckOutProcessByPayPal;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__SimpleProductAndGc_InCheckout_Paypal_RegUser extends baseClass {
 	
 	  
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void simpleProduct_Gc() throws InterruptedException {
 		if(isLoggedIn) { 
 				//launching the browser and passing the url into it
@@ -28,11 +28,11 @@ public class tc__SimpleProductAndGc_InCheckout_Paypal_RegUser extends baseClass 
 			 	SelectionFromNavToPdp.selectingFromPdp();
 			 	
 			 //checkoutProcess				        
-			     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+			     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 			     cp.checkoutprocess();
 			     
 			  //paypal process from checkout page
-				 tc__CheckOutProcessByPayPal cpp = new tc__CheckOutProcessByPayPal();
+				 CheckOutProcessByPayPal cpp = new CheckOutProcessByPayPal();
 				 cpp.checkoutprocessFromCheckout();
 			 
 		 }else {

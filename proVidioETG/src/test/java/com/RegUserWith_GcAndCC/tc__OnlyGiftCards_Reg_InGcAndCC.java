@@ -4,13 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.commonfunctionality.Gc__CC_Paypal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.giftCard;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__OnlyGiftCards_Reg_InGcAndCC extends baseClass{
 	int minicartCountValue ;
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void OnlyGiftCards() throws InterruptedException {
 		if(isLoggedIn) {     
 		 
@@ -19,7 +19,7 @@ public class tc__OnlyGiftCards_Reg_InGcAndCC extends baseClass{
 		    gc.giftCards();
 			 
 	    //checkoutProcess				        
-	     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+	     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 	     cp.checkoutprocess();
 		        
 		    

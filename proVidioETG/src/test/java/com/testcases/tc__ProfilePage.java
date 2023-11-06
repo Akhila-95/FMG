@@ -15,7 +15,7 @@ import com.PageObjects.profilePage;
 public class tc__ProfilePage extends baseClass{
 	SoftAssert softAssert = new SoftAssert();
 	
-	 @Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	 @Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void profilePage() throws InterruptedException {
 	    // Validate login
 	    if (isLoggedIn) {

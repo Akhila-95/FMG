@@ -2,13 +2,13 @@ package com.RegUserWith_GcAndPaypal;
 
 import org.testng.annotations.Test;
 
+import com.Scenarios.SearchingProduct;
 import com.commonfunctionality.Gc__CC_Paypal;
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.Scenarios.giftCard;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__simpleProductAndGc_InGcAndPaypal extends baseClass {
 	
@@ -30,7 +30,7 @@ public class tc__simpleProductAndGc_InGcAndPaypal extends baseClass {
 	
 		 	
 		 //checkoutProcess				        
-	     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+	     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 	     cp.checkoutprocess();
 	     
 	   //gc and paypal

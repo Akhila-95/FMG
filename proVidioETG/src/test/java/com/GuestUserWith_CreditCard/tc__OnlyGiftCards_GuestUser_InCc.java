@@ -2,11 +2,11 @@ package com.GuestUserWith_CreditCard;
 
 import org.testng.annotations.Test;
 
+import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CreditCardPaymentProcess;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.giftCard;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__OnlyGiftCards_GuestUser_InCc extends baseClass{
 	int minicartCountValue ;
@@ -22,7 +22,7 @@ public class tc__OnlyGiftCards_GuestUser_InCc extends baseClass{
 	    gc.giftCards();
 		
 		 //checkoutProcess
-		 tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+		 MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 	     cp.checkoutprocess();
 			     
 	     CreditCardPaymentProcess cc = new CreditCardPaymentProcess();

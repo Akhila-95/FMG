@@ -17,7 +17,7 @@ public class tc__NavigationAllMenus extends baseClass {
 
 	SoftAssert softAssert = new SoftAssert();
 
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
     public void Navigation() throws InterruptedException {
         test.info("Test case for the Login Page");
         

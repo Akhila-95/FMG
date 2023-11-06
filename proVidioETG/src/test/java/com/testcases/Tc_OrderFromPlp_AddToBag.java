@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import com.paymentProccess.CreditCardPaymentProcess;
-import com.paymentProccess.tc__MinicartViewCartProcess;
+import com.paymentProccess.MinicartViewCartProcess;
 
 public class Tc_OrderFromPlp_AddToBag extends baseClass{
 @Test
@@ -66,7 +66,7 @@ public class Tc_OrderFromPlp_AddToBag extends baseClass{
 	          logger.info("Product is not added to cart");
 	      }
 	      
-	      tc__MinicartViewCartProcess checkout = new  tc__MinicartViewCartProcess();
+	      MinicartViewCartProcess checkout = new  MinicartViewCartProcess();
 	      checkout.checkoutprocess();
 	      
 	      CreditCardPaymentProcess cc = new CreditCardPaymentProcess();

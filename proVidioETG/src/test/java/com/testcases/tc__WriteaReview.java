@@ -14,7 +14,7 @@ import com.PageObjects.productListingPage;
 
 public class tc__WriteaReview extends baseClass{
 	//tc__Login.loginTest tc__LoginSc.verifySuccessfulLogin
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void writeReview() throws InterruptedException {
 		
 		if (isLoggedIn) {

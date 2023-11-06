@@ -23,7 +23,7 @@ import com.commonfunctionality.addtoCartValidation;
 import com.commonfunctionality.allAttributesinOneFile;
 
 import com.github.javafaker.Faker;
-import com.providio.logout.tc__LogOut;
+import com.logout.tc__LogOut;
 import com.testcases.baseClass;
 import com.testcases.tc__createAccount;
 

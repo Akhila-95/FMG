@@ -5,11 +5,11 @@ package com.GuestUserWith_CreditCard;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.Scenarios.SearchingProduct;
+import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CreditCardPaymentProcess;
 
-import com.paymentProccess.tc__MiniCartCheckoutButton;
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MiniCartCheckoutButton;
 import com.testcases.baseClass;
 
 public class tc__BySearchingProduct_GuestUser_InCC extends baseClass {
@@ -30,7 +30,7 @@ public class tc__BySearchingProduct_GuestUser_InCC extends baseClass {
 
 	        
        //checkoutProcess	        
-		tc__MiniCartCheckoutButton cp = new tc__MiniCartCheckoutButton();            
+		MiniCartCheckoutButton cp = new MiniCartCheckoutButton();            
         cp.checkoutprocess();
         
         //payment by credit card

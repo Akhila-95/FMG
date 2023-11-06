@@ -65,7 +65,7 @@ public class paymentMethods extends baseClass{
 				test.info("User have saved cards");
 				
 				 	Actions action = new Actions(driver);
-			    	action.moveToElement(savedCardsDropDown).perform();
+			    	//action.moveToElement(savedCardsDropDown).perform();
 			    	Thread.sleep(5000);
 			    	WebElement savedCardsInBrainTree= driver.findElement(By.cssSelector("option.js_stored_card"));
 			    	savedCardsInBrainTree.click();

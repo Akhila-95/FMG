@@ -4,14 +4,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.CheckOutProcessByPayPal;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 
 public class tc__RandomProducts_CheckoutPaypal_RegUser extends baseClass {
 	int  minicartCountValue=0;
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void randomProducts() throws InterruptedException {
 		
 		if(isLoggedIn) { 
@@ -24,11 +24,11 @@ public class tc__RandomProducts_CheckoutPaypal_RegUser extends baseClass {
 			SelectionFromNavToPdp.selectingFromPdp();
 	        
 		  // common checkoutProcess	         
-			 tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();         
+			 MinicartViewCartProcess cp = new MinicartViewCartProcess();         
 			 cp.checkoutprocess();
 	         
 		 //paypal process from checkout page
-			 tc__CheckOutProcessByPayPal cpp = new tc__CheckOutProcessByPayPal();
+			 CheckOutProcessByPayPal cpp = new CheckOutProcessByPayPal();
 			 cpp.checkoutprocessFromCheckout();
 			 
 		 }else {

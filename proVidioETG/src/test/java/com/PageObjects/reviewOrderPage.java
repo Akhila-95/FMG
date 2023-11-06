@@ -24,17 +24,22 @@ WebDriver lDriver;
 	
 	@FindBy(xpath ="//button[contains(text(), 'Next: Review Order')]")
 	WebElement reviewOrderPage;
+	
+	@FindBy(xpath ="//button[contains(text(), 'Next: Review Order')]")
+	List<WebElement> reviewOrderPageList;
+	
     public void clickonReviewOrder(WebDriver driver) throws InterruptedException {	 
-    	
+    	JavascriptExecutor js = (JavascriptExecutor) driver; 
     	((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", reviewOrderPage);
-    	reviewOrderPage.click();
+    	js.executeScript("arguments[0].click();",reviewOrderPage);
     	Thread.sleep(2000);
-    	if(reviewOrderPage.isDisplayed()) {
-    		JavascriptExecutor js = (JavascriptExecutor) driver; 
+    	if((reviewOrderPage.isDisplayed() && reviewOrderPageList.size()>0 )) {
+    		
     		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", reviewOrderPage);
-    		js.executeScript("arguments[0].click();",reviewOrderPage);
+    		
+    		reviewOrderPage.click();
     	}
-    	
+    	test.info("Clicked on review order button");
     }
   
     

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.PageObjects.contactUsCustomerSupport;
 
 public class tc__CustomerSupport extends baseClass{
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void customerSuppor() throws InterruptedException {
 		test.info("Contact us button on homepage");
 		WebElement contactUsButton= driver.findElement(By.xpath("//div[@class='embeddedServiceHelpButton']//button"));

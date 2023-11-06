@@ -3,11 +3,11 @@ package com.GuestUserWith_ViewCart_Paypal;
 import org.testng.annotations.Test;
 
 import com.PageObjects.GiftCertificate;
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.giftCard;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.CheckOutProcessByPayPal;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__OnlyGiftCards_GuestUser_VC_Paypal extends baseClass{
 	int minicartCountValue ;
@@ -24,7 +24,7 @@ public class tc__OnlyGiftCards_GuestUser_VC_Paypal extends baseClass{
 		    gc.giftCards();
 		
 		    //paypal checkout form view cart page
-	          tc__CheckOutProcessByPayPal paypal= new tc__CheckOutProcessByPayPal();	         
+	          CheckOutProcessByPayPal paypal= new CheckOutProcessByPayPal();	         
 	          paypal.checkoutprocessFromViewCart();
 	}
 }

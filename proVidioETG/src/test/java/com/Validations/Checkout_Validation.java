@@ -199,10 +199,12 @@ public class Checkout_Validation extends baseClass {
 			        test.pass("Successfully Order is Placed and payment is "+ paymentDetails);
 			        logger.info("Successfully Order is Placed and the Order number is "+  paymentDetails);
 			        Thread.sleep(5000);
-			       		       
+			        
+			        //clicks on continue shopping
+			       
+		             js.executeScript("window.scrollBy(0,200)", "");
+			         WebElement continueShoppingButton = driver.findElement(By.xpath("//a[contains(text(),'Continue Shopping')]"));
+			       	 continueShoppingButton.click();	       
 				 }
 	}
-	
-	
-
 }

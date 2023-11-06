@@ -43,6 +43,9 @@ public class homePage extends baseClass{
 		}
 
 	}
+	
+
+	
 	//search bar
 		@FindBy(xpath = "//input[@name='q']")
 		WebElement searchBar;

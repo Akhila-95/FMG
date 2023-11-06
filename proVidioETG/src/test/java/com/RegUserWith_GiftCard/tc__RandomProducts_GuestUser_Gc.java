@@ -5,13 +5,13 @@ import org.testng.annotations.Test;
 
 import com.commonfunctionality.Gc__CC_Paypal;
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 
 public class tc__RandomProducts_GuestUser_Gc extends baseClass {
 	 
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void paymentByGiftCardInGuestUser() throws InterruptedException  {
 		
 		if(isLoggedIn) {
@@ -23,7 +23,7 @@ public class tc__RandomProducts_GuestUser_Gc extends baseClass {
 				SelectionFromNavToPdp.selectingFromPdp();		
 				
 		 //checkoutProcess				        
-			     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+			     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 			     cp.checkoutprocess();
 			     
 		//gc payment 

@@ -15,7 +15,7 @@ import com.PageObjects.navigationPage;
 import com.PageObjects.productListingPage;
 import com.commonfunctionality.addtoCartValidation;
 import com.commonfunctionality.allAttributesinOneFile;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
 import com.testcases.baseClass;
 
 public class QuantityValidation extends baseClass {

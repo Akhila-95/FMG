@@ -116,7 +116,7 @@ package com.Validations;
 //	 			        logger.info(continueasAGuest.size());
 //	 			        if(continueasAGuest.size()>0) {
 //	 			        	
-//	 			        	tc__MinicartViewCartProcess cop = new tc__MinicartViewCartProcess();
+//	 			        	MinicartViewCartProcess cop = new MinicartViewCartProcess();
 //	 			        	cop.clickContinueAsGuest();
 //	 			        	
 //	 			        	toVerifyTheDisplayOfAllElements();
@@ -153,7 +153,7 @@ package com.Validations;
 //				checkOutPage cp = new checkOutPage(driver);
 //		         //selecting shipping address
 //	            
-//	            tc__MinicartViewCartProcess cop = new tc__MinicartViewCartProcess();         
+//	            MinicartViewCartProcess cop = new MinicartViewCartProcess();         
 //	            cop.selectPaymentMethod(cp);
 //	            
 //	            WebElement firstNameError = driver.findElement(By.xpath("//div[contains(text(),'Please enter a First name')]"));
@@ -190,7 +190,7 @@ package com.Validations;
 //			cop.setPhone(phonenumber);
 //			
 //			checkOutPage cp = new checkOutPage(driver);
-//			tc__MinicartViewCartProcess cop1 = new tc__MinicartViewCartProcess();         
+//			MinicartViewCartProcess cop1 = new MinicartViewCartProcess();         
 //	        cop1.selectPaymentMethod(cp);
 //			WebElement invalidCodeError= driver.findElement(By.xpath("//div[contains(text(),'Please enter a valid code')]"));
 //			
@@ -207,7 +207,7 @@ package com.Validations;
 //			
 //			test.info("Verifying the pagination when valid address is given");
 //			checkOutPage cp = new checkOutPage(driver);
-//			tc__MinicartViewCartProcess cop1 = new tc__MinicartViewCartProcess();       
+//			MinicartViewCartProcess cop1 = new MinicartViewCartProcess();       
 //			//cop1.selectShippingAddress(cp);
 //	        cop1.selectPaymentMethod(cp);
 //	        

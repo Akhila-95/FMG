@@ -4,7 +4,7 @@ package com.RegUserWith_GcAndCC;
 
 import com.commonfunctionality.Gc__CC_Paypal;
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__MinicartViewCartProcess;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,7 +14,7 @@ public class tc__BySearchingProduct_RegUser_InGcAndCc extends baseClass {
 	 
 	SoftAssert softAssert = new SoftAssert();
 
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
     public void bySearchingProduct() throws InterruptedException {
 		 
 		if(isLoggedIn) {
@@ -23,7 +23,7 @@ public class tc__BySearchingProduct_RegUser_InGcAndCc extends baseClass {
 					SelectionFromNavToPdp.selectingFromPdp();
 					
 			        //checkoutProcess	        
-			        tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();	        
+			        MinicartViewCartProcess cp = new MinicartViewCartProcess();	        
 			        cp.checkoutprocess();
 		            
 			      //semi gc and cc 

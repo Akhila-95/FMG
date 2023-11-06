@@ -3,14 +3,14 @@ package com.RegUserWith_Checkout_Paypal;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.giftCard;
+import com.paymentProccess.CheckOutProcessByPayPal;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__OnlyGiftCards_Checkout_Paypal_RegUser extends baseClass{
 	int minicartCountValue ;
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true,invocationCount = 1)  
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
 	public void OnlyGiftCards() throws InterruptedException {
 		if(isLoggedIn) {     
 		 
@@ -18,11 +18,11 @@ public class tc__OnlyGiftCards_Checkout_Paypal_RegUser extends baseClass{
 			    giftCard gc = new giftCard();
 			    gc.giftCards();
 			 
-				tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+				MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 			    cp.checkoutprocess();
 			     
 			   //paypal process from checkout page
-				 tc__CheckOutProcessByPayPal cpp = new tc__CheckOutProcessByPayPal();
+				 CheckOutProcessByPayPal cpp = new CheckOutProcessByPayPal();
 				 cpp.checkoutprocessFromCheckout();
 				 
 		}else {

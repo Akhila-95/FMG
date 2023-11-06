@@ -6,10 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.Scenarios.SearchingProduct;
 import com.commonfunctionality.Gc__CC_Paypal;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.SearchingProduct;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 
 public class tc__BySearchingProduct_Guest_InGc extends baseClass {
@@ -28,7 +28,7 @@ public class tc__BySearchingProduct_Guest_InGc extends baseClass {
 		SearchingProduct sp = new SearchingProduct();
 		sp.searchingProduct();
 
-		tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+		MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 	    cp.checkoutprocess();
 	     
         //gc payment 

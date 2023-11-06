@@ -4,8 +4,8 @@ import org.testng.annotations.Test;
 
 import com.commonfunctionality.Gc__CC_Paypal;
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
 
 public class tc__simpleProductAndGc_GuestUser_InCcAndGc extends baseClass {
@@ -22,7 +22,7 @@ public class tc__simpleProductAndGc_GuestUser_InCcAndGc extends baseClass {
 		SelectionFromNavToPdp.selectingFromPdp();
 		 
 		 //checkoutProcess				        
-	     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+	     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 	     cp.checkoutprocess();
 	     
 	   //semi gc and cc 

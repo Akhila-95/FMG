@@ -12,7 +12,7 @@
 		
 		   
  <!-- login  --> 
-    	<class name= "com.providio.login.tc__Login" />   
+    	<class name= "com.login.tc__Login" />   
     	
   <!-- credit card -->
  
@@ -34,7 +34,7 @@
 		
 		<class name= "com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC" />
 		
-		<class name= "com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndCc_InRegUser" />
+		<class name= "com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndGc_InRegUser" />
 		
 	
 	
@@ -53,14 +53,6 @@
 		
 		
 	
-	<!-- GC AND CC -->
-		<class name= "com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc" />
-		
-		<class name= "com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC" />
-		
-		<class name= "com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndCc_InRegUser" />
-		
-				
 	  <!--  Gc and Paypal --> 
 		
 		
@@ -97,7 +89,7 @@
 	<!-- logout  -->		
 	     
     	
-    	<class name="com.providio.logout.tc__LogOut"/>
+    	<class name="com.logout.tc__LogOut"/>
 	    	
     </classes>
    

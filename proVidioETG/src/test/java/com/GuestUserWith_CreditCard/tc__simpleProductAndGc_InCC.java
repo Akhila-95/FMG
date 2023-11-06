@@ -3,11 +3,11 @@ package com.GuestUserWith_CreditCard;
 import org.testng.annotations.Test;
 
 import com.commonfunctionality.SelectionFromNavToPdp;
+import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CreditCardPaymentProcess;
-import com.paymentProccess.tc__MinicartViewCartProcess;
-import com.providio.Scenarios.giftCard;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
+import com.utilities.giftCard;
 
 public class tc__simpleProductAndGc_InCC extends baseClass {
 	
@@ -28,7 +28,7 @@ public class tc__simpleProductAndGc_InCC extends baseClass {
 		    SelectionFromNavToPdp.selectingFromPdp();
 		 
 		 //checkoutProcess				        
-		     tc__MinicartViewCartProcess cp = new tc__MinicartViewCartProcess();				     
+		     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     
 		     cp.checkoutprocess();
 	     
 		     CreditCardPaymentProcess cc = new CreditCardPaymentProcess();

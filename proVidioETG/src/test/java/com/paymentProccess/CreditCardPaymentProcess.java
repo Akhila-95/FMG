@@ -137,14 +137,13 @@ public class CreditCardPaymentProcess extends baseClass{
 	    		Thread.sleep(4000);			    		
 	    		
 	    		rop.clickonReviewOrder(driver);
-	    		logger.info("Clicked on review order button");
+	    		
 	    		Thread.sleep(4000);		    		
 
 		    		
-	    		 rop.clickonplaceorderwithJsExuter(driver);
-	    		 logger.info("successfully click on the place order button by normal click");
-                Thread.sleep(2000);
-                logger.info(driver.getTitle());
+	    		 rop.clickonplaceorderwithJsExuter(driver);	    		
+                 Thread.sleep(2000);
+                 logger.info(driver.getTitle());
 				    
 				    Thread.sleep(7000);
 					 // Checkout validation

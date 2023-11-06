@@ -3,8 +3,8 @@ package com.GuestUserWith_ViewCart_Paypal;
 import org.testng.annotations.Test;
 
 import com.commonfunctionality.SelectionFromNavToPdp;
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.providio.launchingbrowser.launchBrowsering;
+import com.launchingbrowser.launchBrowsering;
+import com.paymentProccess.CheckOutProcessByPayPal;
 import com.testcases.baseClass;
 
 public class tc__simpleProductAndGc_InVC_Paypal extends baseClass {
@@ -21,7 +21,7 @@ public class tc__simpleProductAndGc_InVC_Paypal extends baseClass {
 		 SelectionFromNavToPdp.selectingFromPdp();	
 		
 	     //paypal checkout form view cart page
-	      tc__CheckOutProcessByPayPal paypal= new tc__CheckOutProcessByPayPal();	         
+	      CheckOutProcessByPayPal paypal= new CheckOutProcessByPayPal();	         
 	      paypal.checkoutprocessFromViewCart();
 	   
 	}

@@ -2,8 +2,8 @@
 
 package com.RegUserWith_ViewCart_Paypal;
 
-import com.paymentProccess.tc__CheckOutProcessByPayPal;
-import com.providio.Scenarios.SearchingProduct;
+import com.Scenarios.SearchingProduct;
+import com.paymentProccess.CheckOutProcessByPayPal;
 import com.testcases.baseClass;
 
 import org.testng.Assert;
@@ -14,7 +14,7 @@ public class tc__BySearchingProduct_Reg_InVC_Paypal extends baseClass {
 	 
 	SoftAssert softAssert = new SoftAssert();
 
-	@Test(dependsOnMethods = {"com.providio.login.tc__Login.loginTest"}, alwaysRun = true)
+	@Test(dependsOnMethods = {"com.login.tc__Login.loginTest"}, alwaysRun = true)
     public void bySearchingProduct() throws InterruptedException {
 		if(isLoggedIn) {			
 
@@ -24,7 +24,7 @@ public class tc__BySearchingProduct_Reg_InVC_Paypal extends baseClass {
 				sp.searchingProduct();
 			
 		    	//paypal checkout form view cart page
-		          tc__CheckOutProcessByPayPal paypal= new tc__CheckOutProcessByPayPal();	         
+		          CheckOutProcessByPayPal paypal= new CheckOutProcessByPayPal();	         
 		          paypal.checkoutprocessFromViewCart(); 
 		          
 	}  else {

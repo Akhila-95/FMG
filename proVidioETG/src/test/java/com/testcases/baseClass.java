@@ -30,8 +30,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
-import com.providio.utilities.readConfig;
-import com.providio.utilities.reportToMail;
+
+import com.utilities.readConfig;
+import com.utilities.reportToMail;
 
 
 
@@ -39,7 +40,7 @@ public class baseClass {
 	
 	
 	
-	readConfig readconfig = new readConfig();
+	static readConfig readconfig = new readConfig();
 	
 	//logindetails
 	public String baseURL=readconfig.getApplicationURL();
@@ -89,6 +90,13 @@ public class baseClass {
 	public String guestPassword = readconfig.getGuestPassword();
 	public String reEnterMail=readconfig.getReEnterMail();
 
+	
+	//excel file locations
+	
+	public String GiftCerificateCodeforGc = readconfig.GiftCerificateCodeforGc();
+	public String GiftCertificatesforPaypal = readconfig.GiftCertificatesforPaypal();
+	public static String Report = readconfig.Report();
+	public static String ReportScreenshot = readconfig.ReportScreenshot();
 	
 	public static WebDriver driver;
 	public static   Logger logger ;
