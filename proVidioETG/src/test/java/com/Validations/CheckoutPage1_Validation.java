@@ -25,7 +25,8 @@ import com.commonfunctionality.allAttributesinOneFile;
 import com.github.javafaker.Faker;
 import com.logout.tc__LogOut;
 import com.testcases.baseClass;
-import com.testcases.tc__createAccount;
+
+import OneTimeRun.tc__createAccount;
 
  
 
@@ -194,7 +195,7 @@ public class CheckoutPage1_Validation extends baseClass {
             logger.info("Clicked on checkout button");
          }
         tc__createAccount ca =new  tc__createAccount();
-        ca.createAccountFromCheckOut();
+      //  ca.createAccountFromCheckOut();
 
         Thread.sleep(2000);
         WebElement paginationOfGuestUser = driver.findElement(By.xpath("//span[contains(@class,'customer-labe')]"));

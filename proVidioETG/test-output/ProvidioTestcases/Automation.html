@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Automation</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>19/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 06 16:12:33 IST 2023</td>
+<td>Started on:</td><td>Wed Nov 08 09:15:36 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2471 seconds (2471964 ms)</td>
+<tr><td>Total time:</td><td>2550 seconds (2550828 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;giftvalue-update&quot; value=&quot;50&quot; id=&quot;div_giftcert_purchase_amount&quot;&gt;...&lt;/div&gt; is not clickable at point (1211, 308). Other element would receive the click: &lt;li class=&quot;dropdown-item dropdown level-2&quot; role=&quot;presentation&quot;&gt;...&lt;/li&gt;
-  (Session info: chrome=118.0.5993.118)
+<td title='com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@class,&apos;btn  btn-block &apos;)]&quot;}
+  (Session info: chrome=119.0.6045.106)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2750848e8d976d9c531e7b3571041596, clickElement {id=FFFBD6929F354C05B67A36CBDE27978A_element_3983}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63421/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2750848e8d976d9c531e7b3571041596)] -&gt; xpath: //div[@class=&apos;giftvalue-update&apos;]]
-Session ID: 2750848e8d976d9c531e7b3571041596
+Command: [9e123103a40f3f720f80816a2300732a, findElement {using=xpath, value=//a[contains(@class,&apos;btn  btn-block &apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e123103a40f3f720f80816a2300732a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -93,24 +93,27 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at com.PageObjects.GiftCertificate.clickOnGiftCard(GiftCertificate.java:105)
-	at com.utilities.giftCard.giftCards(giftCard.java:13)
-	at com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc.OnlyGiftCards(tc__OnlyGiftCards_Reg_InGc.java:25)
+	at com.PageObjects.miniCartPage.clickviewCartButton(miniCartPage.java:42)
+	at com.paymentProccess.MinicartViewCartProcess.checkoutprocess(MinicartViewCartProcess.java:114)
+	at com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC.OnlyGiftCards(tc__OnlyGiftCards_Reg_InGcAndCC.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2103761414", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2103761414'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;giftvalue-update&quot; value=&quot;50&quot; id=&quot;div_giftcert_purchase_amount&quot;&gt;...&lt;/div&gt; is not clickable at point (1211, 308). Other element would receive the click: &lt;li class=&quot;dropdown-item dropdown level-2&quot; role=&quot;presentation&quot;&gt;...&lt;/li&gt;
-  (Session info: chrome=118.0.5993.118)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace305310081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace305310081'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@class,&apos;btn  btn-block &apos;)]&quot;}
+  (Session info: chrome=119.0.6045.106)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2750848e8d976d9c531e7b3571041596, clickElement {id=FFFBD6929F354C05B67A36CBDE27978A_element_3983}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63421/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2750848e8d976d9c531e7b3571041596)] -&gt; xpath: //div[@class=&apos;giftvalue-update&apos;]]
-Session ID: 2750848e8d976d9c531e7b3571041596
+Command: [9e123103a40f3f720f80816a2300732a, findElement {using=xpath, value=//a[contains(@class,&apos;btn  btn-block &apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e123103a40f3f720f80816a2300732a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,16 +126,16 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at com.PageObjects.GiftCertificate.clickOnGiftCard(GiftCertificate.java:105)
-	at com.utilities.giftCard.giftCards(giftCard.java:13)
-	at com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc.OnlyGiftCards(tc__OnlyGiftCards_Reg_InGc.java:25)
+	at com.PageObjects.miniCartPage.clickviewCartButton(miniCartPage.java:42)
+	at com.paymentProccess.MinicartViewCartProcess.checkoutprocess(MinicartViewCartProcess.java:114)
+	at com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC.OnlyGiftCards(tc__OnlyGiftCards_Reg_InGcAndCC.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,19 +165,19 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>5</td>
-<td>com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc@18d003cd</td></tr>
+<td>13</td>
+<td>com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC@5ad1904f</td></tr>
 <tr>
-<td title='com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (951, 1096)
-  (Session info: chrome=118.0.5993.118)
+<td title='com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (480, -96)
+  (Session info: chrome=119.0.6045.106)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2750848e8d976d9c531e7b3571041596, clickElement {id=922CF46163DA544DD1ACEDFB32826062_element_1574}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63421/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2750848e8d976d9c531e7b3571041596)] -&gt; xpath: //a[contains(text(),&apos;Continue Shopping&apos;)]]
-Session ID: 2750848e8d976d9c531e7b3571041596
+Command: [9e123103a40f3f720f80816a2300732a, clickElement {id=3ADA682E6FB2ED793DCA6892F0660B67_element_6011}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9e123103a40f3f720f80816a2300732a)] -&gt; id: gift-promo]
+Session ID: 9e123103a40f3f720f80816a2300732a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -184,20 +187,19 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at com.Validations.Checkout_Validation.ordernumberandOrderdate(Checkout_Validation.java:206)
-	at com.paymentProccess.CreditCardPaymentProcess.paymentByCreditCard(CreditCardPaymentProcess.java:158)
-	at com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC.simpleProduct_Gc(tc__simpleProductAndGc_InCC.java:32)
+	at com.commonfunctionality.Gc__CC_Paypal.paymentProccessByGCandCC(Gc__CC_Paypal.java:29)
+	at com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal.OnlyGiftCards(tc__OnlyGiftCards_Reg_InGcAndPaypal.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1845381000", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1845381000'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (951, 1096)
-  (Session info: chrome=118.0.5993.118)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace906417251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace906417251'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (480, -96)
+  (Session info: chrome=119.0.6045.106)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2750848e8d976d9c531e7b3571041596, clickElement {id=922CF46163DA544DD1ACEDFB32826062_element_1574}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63421/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2750848e8d976d9c531e7b3571041596)] -&gt; xpath: //a[contains(text(),&apos;Continue Shopping&apos;)]]
-Session ID: 2750848e8d976d9c531e7b3571041596
+Command: [9e123103a40f3f720f80816a2300732a, clickElement {id=3ADA682E6FB2ED793DCA6892F0660B67_element_6011}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9e123103a40f3f720f80816a2300732a)] -&gt; id: gift-promo]
+Session ID: 9e123103a40f3f720f80816a2300732a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -212,9 +214,8 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at com.Validations.Checkout_Validation.ordernumberandOrderdate(Checkout_Validation.java:206)
-	at com.paymentProccess.CreditCardPaymentProcess.paymentByCreditCard(CreditCardPaymentProcess.java:158)
-	at com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC.simpleProduct_Gc(tc__simpleProductAndGc_InCC.java:32)
+	at com.commonfunctionality.Gc__CC_Paypal.paymentProccessByGCandCC(Gc__CC_Paypal.java:29)
+	at com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal.OnlyGiftCards(tc__OnlyGiftCards_Reg_InGcAndPaypal.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -244,8 +245,100 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>130</td>
-<td>com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC@3fa7df1</td></tr>
+<td>58</td>
+<td>com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal@22bdb1d0</td></tr>
+<tr>
+<td title='com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;q&apos;]&quot;}
+  (Session info: chrome=119.0.6045.106)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e123103a40f3f720f80816a2300732a, findElement {using=xpath, value=//input[@name=&apos;q&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e123103a40f3f720f80816a2300732a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at com.PageObjects.homePage.clickOnSearchBar(homePage.java:54)
+	at com.Scenarios.SearchingProduct.searchingProduct(SearchingProduct.java:20)
+	at com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc.bySearchingProduct(tc__BySearchingProduct_Reg_InGc.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1104655567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1104655567'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;q&apos;]&quot;}
+  (Session info: chrome=119.0.6045.106)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e123103a40f3f720f80816a2300732a, findElement {using=xpath, value=//input[@name=&apos;q&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e123103a40f3f720f80816a2300732a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at com.PageObjects.homePage.clickOnSearchBar(homePage.java:54)
+	at com.Scenarios.SearchingProduct.searchingProduct(SearchingProduct.java:20)
+	at com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc.bySearchingProduct(tc__BySearchingProduct_Reg_InGc.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc@18d003cd</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -256,105 +349,100 @@ Session ID: 2750848e8d976d9c531e7b3571041596
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.login.tc__Login.loginTest()'><b>loginTest</b><br>Test class: com.login.tc__Login</td>
+<td title='com.RegUserWith_Checkout_Paypal.tc__SimpleProductAndGc_InCheckout_Paypal_RegUser.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__SimpleProductAndGc_InCheckout_Paypal_RegUser</td>
 <td></td>
-<td>32</td>
-<td>com.login.tc__Login@642a16aa</td></tr>
+<td>156</td>
+<td>com.RegUserWith_Checkout_Paypal.tc__SimpleProductAndGc_InCheckout_Paypal_RegUser@65bb6275</td></tr>
 <tr>
-<td title='com.RegUserWith_GiftCard.tc__RandomProducts_GuestUser_Gc.paymentByGiftCardInGuestUser()'><b>paymentByGiftCardInGuestUser</b><br>Test class: com.RegUserWith_GiftCard.tc__RandomProducts_GuestUser_Gc</td>
+<td title='com.RegUserWith_GcAndPaypal.tc__simpleProductAndGc_InGcAndPaypal.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_GcAndPaypal.tc__simpleProductAndGc_InGcAndPaypal</td>
 <td></td>
-<td>121</td>
-<td>com.RegUserWith_GiftCard.tc__RandomProducts_GuestUser_Gc@3135bf25</td></tr>
+<td>158</td>
+<td>com.RegUserWith_GcAndPaypal.tc__simpleProductAndGc_InGcAndPaypal@79f90a3a</td></tr>
+<tr>
+<td title='com.RegUserWith_ViewCart_Paypal.tc__OnlyGiftCards_GuestUser_VC_Paypal.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_ViewCart_Paypal.tc__OnlyGiftCards_GuestUser_VC_Paypal</td>
+<td></td>
+<td>79</td>
+<td>com.RegUserWith_ViewCart_Paypal.tc__OnlyGiftCards_GuestUser_VC_Paypal@47c7a9e5</td></tr>
 <tr>
 <td title='com.RegUserWith_Checkout_Paypal.tc__BySearchingProduct_RegUser_InCheckoutPaypal.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__BySearchingProduct_RegUser_InCheckoutPaypal</td>
 <td></td>
-<td>92</td>
-<td>com.RegUserWith_Checkout_Paypal.tc__BySearchingProduct_RegUser_InCheckoutPaypal@22bdb1d0</td></tr>
+<td>113</td>
+<td>com.RegUserWith_Checkout_Paypal.tc__BySearchingProduct_RegUser_InCheckoutPaypal@67b355c8</td></tr>
 <tr>
 <td title='com.logout.tc__LogOut.Logout()'><b>Logout</b><br>Test class: com.logout.tc__LogOut</td>
 <td></td>
 <td>28</td>
-<td>com.logout.tc__LogOut@2d119405</td></tr>
-<tr>
-<td title='com.RegUserWith_ViewCart_Paypal.tc__BySearchingProduct_Reg_InVC_Paypal.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_ViewCart_Paypal.tc__BySearchingProduct_Reg_InVC_Paypal</td>
-<td></td>
-<td>61</td>
-<td>com.RegUserWith_ViewCart_Paypal.tc__BySearchingProduct_Reg_InVC_Paypal@47c7a9e5</td></tr>
-<tr>
-<td title='com.RegUserWith_ViewCart_Paypal.tc__OnlyGiftCards_GuestUser_VC_Paypal.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_ViewCart_Paypal.tc__OnlyGiftCards_GuestUser_VC_Paypal</td>
-<td></td>
-<td>61</td>
-<td>com.RegUserWith_ViewCart_Paypal.tc__OnlyGiftCards_GuestUser_VC_Paypal@7951c3a2</td></tr>
+<td>com.logout.tc__LogOut@4ed9f7b1</td></tr>
 <tr>
 <td title='com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc</td>
 <td></td>
-<td>229</td>
-<td>com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc@4dd90166</td></tr>
-<tr>
-<td title='com.RegUserWith_Checkout_Paypal.tc__SimpleProductAndGc_InCheckout_Paypal_RegUser.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__SimpleProductAndGc_InCheckout_Paypal_RegUser</td>
-<td></td>
-<td>189</td>
-<td>com.RegUserWith_Checkout_Paypal.tc__SimpleProductAndGc_InCheckout_Paypal_RegUser@5261ec9</td></tr>
-<tr>
-<td title='com.RegUserWith_CreditCard.tc__BySearchingProduct_RegUser_InCC.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_CreditCard.tc__BySearchingProduct_RegUser_InCC</td>
-<td></td>
-<td>91</td>
-<td>com.RegUserWith_CreditCard.tc__BySearchingProduct_RegUser_InCC@4337afd</td></tr>
-<tr>
-<td title='com.RegUserWith_ViewCart_Paypal.tc__simpleProductAndGc_Reg_InVC_Paypal.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_ViewCart_Paypal.tc__simpleProductAndGc_Reg_InVC_Paypal</td>
-<td></td>
-<td>102</td>
-<td>com.RegUserWith_ViewCart_Paypal.tc__simpleProductAndGc_Reg_InVC_Paypal@4ed9f7b1</td></tr>
-<tr>
-<td title='com.RegUserWith_GcAndPaypal.tc__RandomProductsGuestUser_InGcAndPaypal.simpleProduct()'><b>simpleProduct</b><br>Test class: com.RegUserWith_GcAndPaypal.tc__RandomProductsGuestUser_InGcAndPaypal</td>
-<td></td>
-<td>263</td>
-<td>com.RegUserWith_GcAndPaypal.tc__RandomProductsGuestUser_InGcAndPaypal@4116f66a</td></tr>
-<tr>
-<td title='com.RegUserWith_CreditCard.tc__OnlyGiftCards_RegUser_InCc.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_CreditCard.tc__OnlyGiftCards_RegUser_InCc</td>
-<td></td>
-<td>83</td>
-<td>com.RegUserWith_CreditCard.tc__OnlyGiftCards_RegUser_InCc@1d02af26</td></tr>
-<tr>
-<td title='com.RegUserWith_GiftCard.tc__SimpleProductAndGc_Reg_InGc.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_GiftCard.tc__SimpleProductAndGc_Reg_InGc</td>
-<td></td>
-<td>138</td>
-<td>com.RegUserWith_GiftCard.tc__SimpleProductAndGc_Reg_InGc@22ad1bae</td></tr>
-<tr>
-<td title='com.RegUserWith_Checkout_Paypal.tc__OnlyGiftCards_Checkout_Paypal_RegUser.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__OnlyGiftCards_Checkout_Paypal_RegUser</td>
-<td></td>
-<td>102</td>
-<td>com.RegUserWith_Checkout_Paypal.tc__OnlyGiftCards_Checkout_Paypal_RegUser@2ed71727</td></tr>
-<tr>
-<td title='com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC</td>
-<td></td>
-<td>83</td>
-<td>com.RegUserWith_GcAndCC.tc__OnlyGiftCards_Reg_InGcAndCC@52227eb2</td></tr>
-<tr>
-<td title='com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc</td>
-<td></td>
-<td>99</td>
-<td>com.RegUserWith_GiftCard.tc__BySearchingProduct_Reg_InGc@4ed5a1b0</td></tr>
-<tr>
-<td title='com.RegUserWith_GcAndPaypal.tc__simpleProductAndGc_InGcAndPaypal.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_GcAndPaypal.tc__simpleProductAndGc_InGcAndPaypal</td>
-<td></td>
-<td>145</td>
-<td>com.RegUserWith_GcAndPaypal.tc__simpleProductAndGc_InGcAndPaypal@f2a1813</td></tr>
-<tr>
-<td title='com.RegUserWith_Checkout_Paypal.tc__RandomProducts_CheckoutPaypal_RegUser.randomProducts()'><b>randomProducts</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__RandomProducts_CheckoutPaypal_RegUser</td>
-<td></td>
-<td>120</td>
-<td>com.RegUserWith_Checkout_Paypal.tc__RandomProducts_CheckoutPaypal_RegUser@72a2312e</td></tr>
-<tr>
-<td title='com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal</td>
-<td></td>
-<td>85</td>
-<td>com.RegUserWith_GcAndPaypal.tc__OnlyGiftCards_Reg_InGcAndPaypal@79f90a3a</td></tr>
+<td>201</td>
+<td>com.RegUserWith_GcAndCC.tc__BySearchingProduct_RegUser_InGcAndCc@52227eb2</td></tr>
 <tr>
 <td title='com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndGc_InRegUser.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndGc_InRegUser</td>
 <td></td>
-<td>125</td>
-<td>com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndGc_InRegUser@5ad1904f</td></tr>
+<td>167</td>
+<td>com.RegUserWith_GcAndCC.tc__simpleProductAndGc_InCCAndGc_InRegUser@a146b11</td></tr>
+<tr>
+<td title='com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC</td>
+<td></td>
+<td>144</td>
+<td>com.RegUserWith_CreditCard.tc__simpleProductAndGc_InCC@4dd90166</td></tr>
+<tr>
+<td title='com.RegUserWith_GcAndPaypal.tc__RandomProductsGuestUser_InGcAndPaypal.simpleProduct()'><b>simpleProduct</b><br>Test class: com.RegUserWith_GcAndPaypal.tc__RandomProductsGuestUser_InGcAndPaypal</td>
+<td></td>
+<td>185</td>
+<td>com.RegUserWith_GcAndPaypal.tc__RandomProductsGuestUser_InGcAndPaypal@f2a1813</td></tr>
+<tr>
+<td title='com.RegUserWith_CreditCard.tc__BySearchingProduct_RegUser_InCC.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_CreditCard.tc__BySearchingProduct_RegUser_InCC</td>
+<td></td>
+<td>112</td>
+<td>com.RegUserWith_CreditCard.tc__BySearchingProduct_RegUser_InCC@1d02af26</td></tr>
+<tr>
+<td title='com.RegUserWith_GiftCard.tc__SimpleProductAndGc_Reg_InGc.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_GiftCard.tc__SimpleProductAndGc_Reg_InGc</td>
+<td></td>
+<td>159</td>
+<td>com.RegUserWith_GiftCard.tc__SimpleProductAndGc_Reg_InGc@45900b64</td></tr>
+<tr>
+<td title='com.login.tc__Login.loginTest()'><b>loginTest</b><br>Test class: com.login.tc__Login</td>
+<td></td>
+<td>35</td>
+<td>com.login.tc__Login@642ee49c</td></tr>
+<tr>
+<td title='com.RegUserWith_Checkout_Paypal.tc__OnlyGiftCards_Checkout_Paypal_RegUser.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__OnlyGiftCards_Checkout_Paypal_RegUser</td>
+<td></td>
+<td>103</td>
+<td>com.RegUserWith_Checkout_Paypal.tc__OnlyGiftCards_Checkout_Paypal_RegUser@5261ec9</td></tr>
+<tr>
+<td title='com.RegUserWith_GiftCard.tc__RandomProducts_GuestUser_Gc.paymentByGiftCardInGuestUser()'><b>paymentByGiftCardInGuestUser</b><br>Test class: com.RegUserWith_GiftCard.tc__RandomProducts_GuestUser_Gc</td>
+<td></td>
+<td>160</td>
+<td>com.RegUserWith_GiftCard.tc__RandomProducts_GuestUser_Gc@59c04bee</td></tr>
+<tr>
+<td title='com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc</td>
+<td></td>
+<td>110</td>
+<td>com.RegUserWith_GiftCard.tc__OnlyGiftCards_Reg_InGc@4116f66a</td></tr>
+<tr>
+<td title='com.RegUserWith_ViewCart_Paypal.tc__BySearchingProduct_Reg_InVC_Paypal.bySearchingProduct()'><b>bySearchingProduct</b><br>Test class: com.RegUserWith_ViewCart_Paypal.tc__BySearchingProduct_Reg_InVC_Paypal</td>
+<td></td>
+<td>97</td>
+<td>com.RegUserWith_ViewCart_Paypal.tc__BySearchingProduct_Reg_InVC_Paypal@72a2312e</td></tr>
+<tr>
+<td title='com.RegUserWith_Checkout_Paypal.tc__RandomProducts_CheckoutPaypal_RegUser.randomProducts()'><b>randomProducts</b><br>Test class: com.RegUserWith_Checkout_Paypal.tc__RandomProducts_CheckoutPaypal_RegUser</td>
+<td></td>
+<td>143</td>
+<td>com.RegUserWith_Checkout_Paypal.tc__RandomProducts_CheckoutPaypal_RegUser@64da6cbd</td></tr>
+<tr>
+<td title='com.RegUserWith_CreditCard.tc__OnlyGiftCards_RegUser_InCc.OnlyGiftCards()'><b>OnlyGiftCards</b><br>Test class: com.RegUserWith_CreditCard.tc__OnlyGiftCards_RegUser_InCc</td>
+<td></td>
+<td>113</td>
+<td>com.RegUserWith_CreditCard.tc__OnlyGiftCards_RegUser_InCc@3fa7df1</td></tr>
+<tr>
+<td title='com.RegUserWith_ViewCart_Paypal.tc__simpleProductAndGc_Reg_InVC_Paypal.simpleProduct_Gc()'><b>simpleProduct_Gc</b><br>Test class: com.RegUserWith_ViewCart_Paypal.tc__simpleProductAndGc_Reg_InVC_Paypal</td>
+<td></td>
+<td>114</td>
+<td>com.RegUserWith_ViewCart_Paypal.tc__simpleProductAndGc_Reg_InVC_Paypal@7951c3a2</td></tr>
 </table><p>
 </body>
 </html>

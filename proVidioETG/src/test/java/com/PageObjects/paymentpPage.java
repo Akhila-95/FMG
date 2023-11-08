@@ -287,7 +287,8 @@ WebDriver lDriver;
             WebElement paypalCheckout=driver.findElement(By.xpath("//div[@class='js_braintree_paypal_billing_button']")); 
             if(paypalCheckout.isDisplayed()) {
             	//click on paypal checkout button 
-           	   js.executeScript("arguments[0].click();", paypalCheckout);    
+           	  // js.executeScript("arguments[0].click();", paypalCheckout); 
+            	Thread.sleep(1000);
             	paypalCheckout.click();
             	logger.info("A click to Enter into paypal");	
           //  }	                 
@@ -344,7 +345,7 @@ WebDriver lDriver;
         	 if(emailLogin1.isDisplayed()) {
 	        	 emailLogin1.clear();
 	        	 emailLogin1.sendKeys("rahulnaik@etisbew.com");
-	        	 emailLogin1.sendKeys("rahulnaik@etisbew.com");
+	        	
 	        	 test.info("Entered username");
         	 }
          }

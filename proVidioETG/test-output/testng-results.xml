@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T18:41:38 IST" name="Default suite" finished-at="2023-11-06T18:41:55 IST" duration-ms="16628">
+  <suite started-at="2023-11-08T17:14:35 IST" name="Default suite" finished-at="2023-11-08T17:14:58 IST" duration-ms="22526">
     <groups>
     </groups>
-    <test started-at="2023-11-06T18:41:38 IST" name="Default test" finished-at="2023-11-06T18:41:55 IST" duration-ms="16628">
-      <class name="com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal">
-        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal@630bf683]" started-at="2023-11-06T18:41:33 IST" name="setUpforReport" finished-at="2023-11-06T18:41:38 IST" duration-ms="5368" status="PASS">
+    <test started-at="2023-11-08T17:14:35 IST" name="Default test" finished-at="2023-11-08T17:14:58 IST" duration-ms="22526">
+      <class name="OneTimeRun.Filters">
+        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:OneTimeRun.Filters@630bf683]" started-at="2023-11-08T17:14:32 IST" name="setUpforReport" finished-at="2023-11-08T17:14:35 IST" duration-ms="3654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpforReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal@630bf683]" started-at="2023-11-06T18:41:38 IST" name="setUp" finished-at="2023-11-06T18:41:40 IST" duration-ms="2098" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:OneTimeRun.Filters@630bf683]" started-at="2023-11-08T17:14:35 IST" name="setUp" finished-at="2023-11-08T17:14:37 IST" duration-ms="2051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="HomePageBannerPLPInCheckoutPaypal()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal@630bf683]" started-at="2023-11-06T18:41:40 IST" name="HomePageBannerPLPInCheckoutPaypal" finished-at="2023-11-06T18:41:54 IST" duration-ms="14463" status="PASS">
+        <test-method signature="filters()[pri:0, instance:OneTimeRun.Filters@630bf683]" started-at="2023-11-08T17:14:37 IST" name="filters" finished-at="2023-11-08T17:14:58 IST" duration-ms="20410" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePageBannerPLPInCheckoutPaypal -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal@630bf683]" started-at="2023-11-06T18:41:54 IST" name="afterMethod" finished-at="2023-11-06T18:41:55 IST" duration-ms="14" status="PASS">
+        </test-method> <!-- filters -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OneTimeRun.Filters@630bf683]" started-at="2023-11-08T17:14:58 IST" name="afterMethod" finished-at="2023-11-08T17:14:58 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HomePageBannerPLPInCheckoutPaypal status=SUCCESS method=tc__HomePageBannerPLPInCheckoutPaypal.HomePageBannerPLPInCheckoutPaypal()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal@630bf683] output={null}]]]>
+                <![CDATA[[TestResult name=filters status=SUCCESS method=Filters.filters()[pri:0, instance:OneTimeRun.Filters@630bf683] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal@630bf683]" started-at="2023-11-06T18:41:55 IST" name="tearDown" finished-at="2023-11-06T18:42:04 IST" duration-ms="9649" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:OneTimeRun.Filters@630bf683]" started-at="2023-11-08T17:14:58 IST" name="tearDown" finished-at="2023-11-08T17:14:58 IST" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.GuestUserWith_Checkout_Paypal.tc__HomePageBannerPLPInCheckoutPaypal -->
+      </class> <!-- OneTimeRun.Filters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

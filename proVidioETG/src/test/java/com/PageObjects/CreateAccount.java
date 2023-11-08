@@ -7,6 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.github.javafaker.Faker;
+
 public class CreateAccount {
 
 	WebDriver lDriver;
@@ -19,13 +21,16 @@ public class CreateAccount {
 	//Creating account page xpaths, actionMethods and passing data to create a account
 	
 	//create account link
-	@FindBy(xpath = "//a[contains(text(),'Create Account')]")
+	@FindBy(xpath = "//a[contains(@class,'create-button')]")
 	WebElement createAcc;
 	//ActionMethod
     public void clickOnCreateAcc(WebDriver driver) throws InterruptedException {
-        Thread.sleep(2000);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click();", createAcc);
+    	
+    	    loginPage lp = new loginPage(driver);                  
+          	lp.hoverOnCreateloginAcc(driver);       
+	        Thread.sleep(2000);
+	        JavascriptExecutor js = (JavascriptExecutor) driver;
+	        js.executeScript("arguments[0].click();", createAcc);
     }
     //reg firstName
 	@FindBy(id = "registration-form-fname")
@@ -35,6 +40,7 @@ public class CreateAccount {
         firstNameInput.clear();
         firstNameInput.sendKeys(firstName);
     }
+    
     //req lastName
     @FindBy(id = "registration-form-lname")
 	 WebElement lastNameInput;
@@ -43,6 +49,7 @@ public class CreateAccount {
         lastNameInput.clear();
         lastNameInput.sendKeys(lastName);
     }
+    
 	//reg Phone number
 	@FindBy(id = "registration-form-phone")
 	 WebElement phoneInput;
@@ -51,6 +58,7 @@ public class CreateAccount {
         phoneInput.clear();
         phoneInput.sendKeys(phone);
     }
+    
 	//reg email
 	@FindBy(id = "registration-form-email")
 	 WebElement emailInput;
@@ -59,36 +67,34 @@ public class CreateAccount {
         emailInput.clear();
         emailInput.sendKeys(email);
     }
-	//reg conform mail
-	@FindBy(id = "registration-form-email-confirm")
-	 WebElement confirmEmailInput;
-	//ActonMethod
-    public void enterConfirmEmail(String confirmEmail) {
-        confirmEmailInput.clear();
-        confirmEmailInput.sendKeys(confirmEmail);
-    }
-	//password
-	@FindBy(id = "registration-form-password")
-	 WebElement passwordInput;
-    public void enterPassword(String passwordCreateAcc) {
-        passwordInput.clear();
-        passwordInput.sendKeys(passwordCreateAcc);
-    }
-	//confrom password
-	@FindBy(id = "registration-form-password-confirm")
-	 WebElement confirmPasswordInput;
-    public void enterConfirmPassword(String ConfirmPasswordCreateAcc) {
-        confirmPasswordInput.clear();
-        confirmPasswordInput.sendKeys(ConfirmPasswordCreateAcc);
-    }
+	
+    
+  //password
+  	@FindBy(id = "registration-form-password")
+	static
+  	 WebElement passwordInput;
+      public static void enterPassword(String passwordCreateAcc) {
+          passwordInput.clear();
+          passwordInput.sendKeys(passwordCreateAcc);
+      }
+  	//confrom password
+  	@FindBy(id = "registration-form-password-confirm")
+  	 WebElement confirmPasswordInput;
+      public void enterConfirmPassword(String ConfirmPasswordCreateAcc) {
+          confirmPasswordInput.clear();
+          confirmPasswordInput.sendKeys(ConfirmPasswordCreateAcc);
+      }
 	//create account button after entering the details
-	@FindBy(xpath = "//button[contains(text(), 'Create Account')]")
+	@FindBy(xpath = "//button[contains(text(), 'Create An Account')]")
 	 WebElement createAccountButton;
     public void clickCreateAccountButton(WebDriver driver) throws InterruptedException {
         Thread.sleep(2000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", createAccountButton);
         js.executeScript("arguments[0].click();", createAccountButton);
+        
+    
+        js.executeScript("window.scrollBy(0,-300)", "");
     }
 	
 }

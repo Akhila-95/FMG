@@ -36,7 +36,6 @@ public class tc__BySearchingProduct_GuestUser_InCC extends baseClass {
         //payment by credit card
 	     CreditCardPaymentProcess cc = new CreditCardPaymentProcess();
 	     cc.paymentByCreditCard();
-	     
-	   
+	        
     }
 }

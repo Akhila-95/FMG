@@ -103,7 +103,7 @@ public class baseClass {
 	protected static boolean isLoggedIn=false;
 	
 	private static ExtentReports report = new ExtentReports();
-    private ExtentSparkReporter reporter = new ExtentSparkReporter("C:\\Users\\user\\git\\etg_main_repooo\\proVidioETG\\Reports\\ProvidioTestReport.html");
+    private ExtentSparkReporter reporter = new ExtentSparkReporter("C:\\Users\\user\\git\\Fmg1\\proVidioETG\\Reports\\FMG_TestReport.html");
 	
 	//Reporting
 	//static ExtentReports report;
@@ -178,7 +178,7 @@ public class baseClass {
 	       if(result.getStatus() == ITestResult.FAILURE) {
 	    	   Thread.sleep(3000);
 	    	   homePage hp =new homePage(driver);
-               hp.clickOnLogo();
+            //   hp.clickOnLogo();
                logger.info("Test case failed and returned into homepage");
               
 	    }
@@ -193,21 +193,21 @@ public class baseClass {
 		   reporter.viewConfigurer().viewOrder().as(new ViewName[]{ViewName.DASHBOARD, ViewName.TEST}).apply();
 		   report.flush();
 		   
-
-		    driver.get("C:\\Users\\user\\git\\etg_main_repooo\\proVidioETG\\Reports\\ProvidioTestReport.html");
+/*
+		    driver.get("C:\\Users\\user\\git\\Fmg1\\proVidioETG\\Reports\\FMG_TestReport.html");
 			driver.manage().window().maximize();
 			Thread.sleep(5000);
 			// Take a screenshot of the entire browser window
 			File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 			// Define the destination path for the screenshot
-			String screenshotPath = "C:\\Users\\user\\git\\etg_main_repooo\\proVidioETG\\Reports\\ReportsScreenshot.png";
+			String screenshotPath = "C:\\Users\\user\\git\\Fmg1\\proVidioETG\\Reports\\FMG_ReportsScreenshot.png";
 			// Save the screenshot to the specified path
 			FileUtils.copyFile(screenshot, new File(screenshotPath));
 
 	       //driver.quit();
 	      //Report send to mail
-				reportToMail.Reporttomail();
+				reportToMail.Reporttomail();*/
 	    }
 	   
 	   //Invoking the web chrome driver
@@ -267,7 +267,7 @@ public class baseClass {
 			if (!isBrowserRunning()) {
 				
 				 String[] suiteFiles = {
-				            "C:\\Users\\user\\git\\compressedCode\\proVidioETG\\GuestUser.xml","C:\\Users\\user\\git\\compressedCode\\proVidioETG\\RegUser.xml"
+				            "C:\\Users\\user\\git\\Fmg1\\proVidioETG\\GuestUser.xml","C:\\Users\\user\\git\\Fmg1\\proVidioETG\\RegUser.xml"
 
 				            // Add more suite file paths if needed
 				        };

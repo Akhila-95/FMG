@@ -31,9 +31,9 @@ WebDriver lDriver;
     public void clickonReviewOrder(WebDriver driver) throws InterruptedException {	 
     	JavascriptExecutor js = (JavascriptExecutor) driver; 
     	((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", reviewOrderPage);
-    	js.executeScript("arguments[0].click();",reviewOrderPage);
+    	//js.executeScript("arguments[0].click();",reviewOrderPage);
     	Thread.sleep(2000);
-    	if((reviewOrderPage.isDisplayed() && reviewOrderPageList.size()>0 )) {
+    	if((reviewOrderPage.isDisplayed() && (driver.findElements(By.xpath("//button[contains(text(), 'Next: Review Order')]")).size()>0 ))) {
     		
     		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", reviewOrderPage);
     		
@@ -52,23 +52,15 @@ WebDriver lDriver;
 	
     public void clickonplaceorderwithJsExuter(WebDriver driver) throws InterruptedException {
     	Thread.sleep(3000);
-    	JavascriptExecutor js = (JavascriptExecutor) driver; 
-    	List<WebElement> creditcardscheck = driver.findElements(By.xpath("//a[@class ='nav-link creditcard-tab active']"));
-    	if(placetheorderList.size()>0) {
-	    	 Thread.sleep(2000);
-	    	 if(creditcardscheck.size()>0 ) {  
-	    			js.executeScript("window.scrollBy(0,100)", "");
-	    		 //placetheorderwithJsExuter.click();
-	    		 js.executeScript("arguments[0].click();", placetheorderwithJsExuter);
-	    		 test.info("Clicked on place order button");
-		    		Thread.sleep(4000);	    			    		
-	    	 }else if(!(creditcardscheck.size()>0)) {  
+    	JavascriptExecutor js = (JavascriptExecutor) driver;    
+    	if(placetheorderList.size()>0  && placetheorderwithJsExuter.isDisplayed()) {
+	    	 
 	    			js.executeScript("window.scrollBy(0,100)", "");
 	    			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", placetheorderwithJsExuter);
 		    		 js.executeScript("arguments[0].click();", placetheorderwithJsExuter);
 		    		 test.info("Clicked on place order button");
 		    		Thread.sleep(4000);	    			    		
-	    	 }
+	    	
 	    	 
     	}
     } 

@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
+import com.PageObjects.homePage;
 import com.PageObjects.miniCartPage;
 import com.testcases.baseClass;
 
@@ -202,9 +203,9 @@ public class Checkout_Validation extends baseClass {
 			        
 			        //clicks on continue shopping
 			       
-		             js.executeScript("window.scrollBy(0,200)", "");
-			         WebElement continueShoppingButton = driver.findElement(By.xpath("//a[contains(text(),'Continue Shopping')]"));
-			       	 continueShoppingButton.click();	       
+		              js.executeScript("window.scrollBy(0,-200)", "");
+		              homePage hp = new homePage(driver);
+		              hp.clickOnLogo();
 				 }
 	}
 }

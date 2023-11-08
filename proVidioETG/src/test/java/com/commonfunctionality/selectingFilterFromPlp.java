@@ -15,23 +15,26 @@ public class selectingFilterFromPlp extends baseClass{
 		test.info("Select filters form the product listing page");
 		productListingPage plp = new productListingPage(driver);
 		
-		    List<WebElement> enabledColorButtons =  driver.findElements(By.xpath("//li[@class='color-attribute ']//button"));
+		
+		 	List<WebElement> categoryFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Category')])[1]"));
+		 
+		    List<WebElement> subCategoryFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Sub-Category')]"));
 	        // Collect a list of size buttons
-	        List<WebElement> availableSizeButtons =  driver.findElements(By.xpath("//span[@class='size-btn']"));
+	       
 	        // Collect a list of price range buttons
-	        List<WebElement> availablePriceRangeButtons =  driver.findElements(By.xpath("//div[@id='refinement-price']//button"));
+	        List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Color')]"));
 	        // Collect a list of brand buttons
-	        List<WebElement> availableBrandButtons =  driver.findElements(By.xpath("//div[@id='refinement-brand']//button"));
+	        List<WebElement> shapeFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Shape')]"));
 	        // Collect a list of type buttons
-	        List<WebElement> availableTypeButtons =  driver.findElements(By.xpath("//div[@id='refinement-type']//button"));
+	        List<WebElement> baseMetalFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Base Metal')]"));
 	        // Collect a list of GPS type buttons
-	        List<WebElement> availableGPSTypeButtons =  driver.findElements(By.xpath("//div[@id='refinement-gps-type']//button"));
+	        List<WebElement> wireHardnessFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Wire Hardness')]"));
 	        // Collect a list of GPS feature buttons
-	        List<WebElement> availableGPSFeatureButtons =  driver.findElements(By.xpath("//div[@id='refinement-features']//button"));
+	        List<WebElement> gaugeFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Gauge')]"));
 	        // Collect a list of resolution buttons
-	        List<WebElement> availableResolutionButtons =  driver.findElements(By.xpath("//div[@id='refinement-resolution']//li/button"));
+	        List<WebElement> priceFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Price')])[1]"));
 	        // Collect a list of display size buttons
-	        List<WebElement> availableDisplaySizeButtons =  driver.findElements(By.xpath("//div[@id='refinement-resolution']//button"));
+	        List<WebElement> priceRangeFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Price Range')]"));
 	        // Collect a list of pixel resolution buttons
 	        List<WebElement> availablePixelResolutionButtons =  driver.findElements(By.xpath("//div[@id='refinement-pixels']//button"));
 	        // Collect a list of new arrival buttons
@@ -40,9 +43,10 @@ public class selectingFilterFromPlp extends baseClass{
 	        List<WebElement> availableTypeUseButtons =  driver.findElements(By.xpath("//div[@id='refinement-type-|-use']//button"));
 		
 		// color buttons
-		if (!enabledColorButtons.isEmpty()) {
+		if (!subCategoryFilter.isEmpty()) {
             //select the color
-			plp.selectColorFormAvaliableColors();
+			plp.selectCategoryFilter();
+			 List<WebElement> selectedFiltersBar =  driver.findElements(By.cssSelector("div.selected-filters-bar"));
 			test.pass("Succesfully selected the color form the prodcut listting page");
 			logger.info("Succesfully selected the color form the prodcut listting page");
 			Thread.sleep(3000);
@@ -50,10 +54,11 @@ public class selectingFilterFromPlp extends baseClass{
 		    logger.info("No enabled color buttons found.");
 		}
 
+		/*
 		// size buttons
-		if (!availableSizeButtons.isEmpty()) {
+		if (!categoryFilter.isEmpty()) {
 		    // select size
-			plp.selectSizeformAvaliableSize();
+			plp.selectSubCategoryFilter()  ;
 			test.pass("Succesfully selected the size form the prodcut listting page");
 			logger.info("Succesfully selected the size form the prodcut listting page");
 			Thread.sleep(3000);
@@ -62,16 +67,16 @@ public class selectingFilterFromPlp extends baseClass{
 		}
 
 		//  price range buttons
-		if (!availablePriceRangeButtons.isEmpty()) {
+		if (! colorFilter.isEmpty()) {
 		    // select price
-			plp.selectPriceformAvlaiablePriceRange();
+			plp.selectColorFilter();
 			test.pass("Succesfully selected the price form the prodcut listting page");
 			logger.info("Succesfully selected the price form the prodcut listting page");
 			Thread.sleep(3000);
 		} else {
 		    logger.info("No available price range buttons found.");
 		}
-
+		/*
 		//  brand buttons
 		if (!availableBrandButtons.isEmpty()) {
 		    // select brand
@@ -171,8 +176,8 @@ public class selectingFilterFromPlp extends baseClass{
 		} else {
 		    logger.info("No available type/use buttons found.");
 		}
-
-		
+*/
+	
 		//After selecting filters click on reset button
 
 		//plp.selecttheResetButton();

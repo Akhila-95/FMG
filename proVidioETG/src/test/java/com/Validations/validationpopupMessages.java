@@ -179,4 +179,60 @@ public class validationpopupMessages extends baseClass{
            logger.info(expectedAddToCart+ "Error not diaplayeds");
        }
    }
+   
+   public static void validatingFreeCatalog(WebDriver driver) {
+	   
+	   test.info("Validating the submition of free catalog");
+	   
+	    Wait<WebDriver> wait = waitForTheElement.createFluentWaitForm(driver);
+       // Wait for the success alert to be visible
+       WebElement catalog = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='email-signup-alert text-center alert-success']")));
+       // Get the text of the alert 																	
+       String actualCatalogSubmit = catalog.getText();
+       // Expected alert text
+       String expectedCatalogSubmit = "Thank you! Your form is submitted";
+     //  System.out.println(actualAddToCart);
+       if ( actualCatalogSubmit.equals(expectedCatalogSubmit)) {
+           // Success message is displayed
+       	   test.pass("Thank you! Your form is submitted");
+           logger.info("Thank you! Your form is submitted");
+           System.out.println("Successfully  Your form is submitted : " +  actualCatalogSubmit);
+           // Perform actions or assertions here for the success case
+       }else {
+           // Success message is not as expected
+       	   test.fail("Thank you! Your form is submitted");
+           logger.info("Thank you! Your form is submitted");
+           System.out.println("The form is not submitted because it should show: " + expectedCatalogSubmit + " but found: " +  actualCatalogSubmit);
+           // Perform actions or assertions here for the failure case
+        
+         }
+   }
+
+   public static void validatingSubscription(WebDriver driver) {
+	   
+	   test.info("Validating the submition of Subscription");
+	 
+	    Wait<WebDriver> wait = waitForTheElement.createFluentWaitForm(driver);
+	    // Wait for the success alert to be visible
+	    WebElement subscription = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='email-signup-alert text-center alert-success']")));
+	    // Get the text of the alert 																	
+	    String actualSubscription =  subscription .getText();
+	    // Expected alert text
+	    String expectedSubscription = "You have been successfully subscribed.";
+	    System.out.println(actualSubscription);
+	    if (actualSubscription.equals(expectedSubscription)) {
+	        // Success message is displayed
+	    	   test.pass("You have been successfully subscribed.");
+	        logger.info("You have been successfully subscribed.");
+	        System.out.println("Successfully  Your form is submitted : " + actualSubscription);
+	        // Perform actions or assertions here for the success case
+	    }else {
+	        // Success message is not as expected
+	    	   test.fail("You have been successfully not subscribed.");
+	           logger.info("You have been successfully not subscribed.");
+	           System.out.println("The form is not submitted because it should show: " + expectedSubscription + " but found: " + actualSubscription);
+	        // Perform actions or assertions here for the failure case
+	     
+	      }
+}
 }

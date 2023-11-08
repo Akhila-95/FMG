@@ -110,7 +110,7 @@ public class CheckOutProcessByPayPal extends baseClass{
 			    		test.info("Brain tree payment integration is activated");		    	
 				    		paymentpPage pp =new paymentpPage(driver);	   				    		
 				    		pp.braintreePaypal(driver);
-				    		js.executeScript("window.scrollBy(0,300)", "");
+				    		js.executeScript("window.scrollBy(0,500)", "");
 
 			    		if (driver.findElement(By.xpath("//button[contains(@class,'submit-payment')]")).isDisplayed()) {
 			    			

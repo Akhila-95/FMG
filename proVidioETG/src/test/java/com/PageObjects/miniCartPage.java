@@ -38,7 +38,7 @@ public class miniCartPage {
 
     // Method to click on the View Cart Button
     public void clickviewCartButton(WebDriver driver) throws InterruptedException { 
-    	Thread.sleep(2000);
+    	Thread.sleep(4000);
         viewCartButton.click();    
     }
 

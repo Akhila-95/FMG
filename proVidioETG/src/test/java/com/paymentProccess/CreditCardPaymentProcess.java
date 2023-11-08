@@ -123,7 +123,7 @@ public class CreditCardPaymentProcess extends baseClass{
 					allPaymentMethods payments = new allPaymentMethods();
 				    
 				    JavascriptExecutor js = (JavascriptExecutor) driver;	    		  
-		    		js.executeScript("window.scrollBy(0,700)", "");
+		    		js.executeScript("window.scrollBy(0,800)", "");
 				    
 				    // Determine the payment method and proceed accordingly
 				    if(brainTree.size()>0) {
@@ -156,12 +156,7 @@ public class CreditCardPaymentProcess extends baseClass{
 		    		
 		    	     // Order number and order date
 		    			 checkout.ordernumberandOrderdate();
-		    			 //Thread.sleep(5000);
-		    		}else if(driver.findElements(By.xpath("//p[contains(text(),'There was a problem processing your payment. Please verify your payment information and try again.')]")).size()>0) {
-		    			
-		    			test.info("Returned back to payment page , as the Expected behaviour in brain tree is, the order will be failed for 2000-2999.99 $ ,3000.00-3000.99 $ 5000.00 $ ");
-	
-		    	
+		    			 Thread.sleep(5000);
 		    		}
 				}
 		  }else {

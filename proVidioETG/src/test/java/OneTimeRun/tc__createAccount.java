@@ -1,15 +1,15 @@
-		package com.testcases;
-		
-		import org.openqa.selenium.By;
-		import org.openqa.selenium.JavascriptExecutor;
-		import org.openqa.selenium.WebElement;
-		import org.testng.annotations.Test;
+package OneTimeRun;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 import com.PageObjects.CreateAccount;
-import com.PageObjects.guestUserLoginPage;
 import com.PageObjects.loginPage;
 import com.github.javafaker.Faker;
 import com.launchingbrowser.launchBrowsering;
+import com.testcases.baseClass;
 		
 		public class tc__createAccount extends baseClass{
 			boolean openBrowserandClickSignInButtonset = false;
@@ -24,8 +24,10 @@ import com.launchingbrowser.launchBrowsering;
 					lb.chromeBrowser();
 					
 				    Thread.sleep(2000L);
-				    loginPage lp = new loginPage(driver);
-				   // lp.clickSign();
+				 // Create an instance of the "loginPage" class
+			        loginPage lp = new loginPage(driver);        
+			        
+			        lp.hoverOnCreateloginAcc(driver);
 				    logger.info("clicked on sign in");
 				    
 			        CreateAccount createAcc= new CreateAccount(driver);
@@ -36,55 +38,7 @@ import com.launchingbrowser.launchBrowsering;
 			}
 		
 			
-			@Test(priority = 1,dependsOnMethods = "openBrowserandClickSignInButton")
-			public void  validateEmailAndConfirmEmail() throws InterruptedException {
-				test.info("validating the Email And ConfirmEmail");
-			if( openBrowserandClickSignInButtonset) {
-				
-				
-				Thread.sleep(5000);
-		        CreateAccount createAcc= new CreateAccount(driver);
-		        	
-				createAcc.enterFirstName(faker.name().firstName());		
-				logger.info("Entered first Name");
-				
-				createAcc.enterLastName(faker.name().lastName());		
-				logger.info("Entered lastName");
-				
-				createAcc.enterPhone(phonenumber);		
-				logger.info("Entered phonenumber");
-				
-				createAcc.enterEmail("akhila@gmail.com");		
-				logger.info("Enter email");
-				
-				createAcc.enterConfirmEmail("akhila@gmail.comm");		
-				logger.info("Enter invalid confirmed email");
-				
-				createAcc.enterPassword(epnewPassword);		
-				logger.info("Entered password");
-						
-				createAcc.enterConfirmPassword(epnewPasswordConfirm);		
-				logger.info("Confirmed password");
-				
-				createAcc.clickCreateAccountButton(driver);		
-				logger.info("Clicked on create account");
-				Thread.sleep(5000);
-				
-				WebElement errorEmailElement = driver.findElement(By.xpath("//div[contains(text(),'Please enter the same value again.')]"));
-				boolean isDisplayedinvalidEmail = errorEmailElement.isDisplayed();
-				
-				if( isDisplayedinvalidEmail ) {		
-					test.pass("Test case passed and Error message is dispalyed as "+ errorEmailElement.getText());
-					logger.info("Error message is dispalyed");
-				}
-				else {
-					//Assert.fail("Error message is not dispalyed");
-					test.fail("Test case failed and Error message is not dispalyed as "+ errorEmailElement.getText() );
-					logger.info("Error message is not dispalyed");
-				}
-			}
 			
-		}
 		@Test(priority = 2,dependsOnMethods = "openBrowserandClickSignInButton")
 		public void passwordMismatch() throws InterruptedException {
 			test.info("Validating the passwprd mismatch error");
@@ -109,11 +63,9 @@ import com.launchingbrowser.launchBrowsering;
 				
 				createAcc.enterEmail("akhila@gmail.com");		
 				logger.info("Enter email");
+							
 				
-				createAcc.enterConfirmEmail("akhila@gmail.com");		
-				logger.info("Entered  confirmed email");
-				
-				createAcc.enterPassword("Akhila@07");		
+				CreateAccount.enterPassword("Akhila@07");		
 				logger.info("Entered password");
 						
 				createAcc.enterConfirmPassword("Akhila@077");		
@@ -123,7 +75,7 @@ import com.launchingbrowser.launchBrowsering;
 				logger.info("Clicked on create account");
 				Thread.sleep(5000);
 				
-				WebElement passwordErrorElement = driver.findElement(By.xpath("//div[contains(text(),'Does not match password')]"));
+				WebElement passwordErrorElement = driver.findElement(By.xpath("//div[contains(text(),'Passwords do not match')]"));
 				boolean isDisplayedErrorEmail = passwordErrorElement.isDisplayed();
 				if(isDisplayedErrorEmail) {
 					test.pass("Test case passed and Error message is dispalyed as  "+passwordErrorElement .getText());
@@ -157,12 +109,9 @@ import com.launchingbrowser.launchBrowsering;
 					logger.info("Entered phonenumber");
 					
 					createAcc.enterEmail("");		
-					logger.info("Enter email");
+					logger.info("Enter email");				
 					
-					createAcc.enterConfirmEmail("");		
-					logger.info("Enter invalid confirmed email");
-					
-					createAcc.enterPassword("");		
+					CreateAccount.enterPassword("");		
 					logger.info("Entered password");
 							
 					createAcc.enterConfirmPassword("");		
@@ -172,7 +121,7 @@ import com.launchingbrowser.launchBrowsering;
 					logger.info("Clicked on create account");
 					Thread.sleep(3000);
 					
-					WebElement errorForEmptyText= driver.findElement(By.xpath("(//div[contains(text(),'This field is required.')])[7]"));
+					WebElement errorForEmptyText= driver.findElement(By.xpath("//div[contains(text(),'This field is required.')]"));
 					boolean isDisplayedErrorForEmpty= errorForEmptyText.isDisplayed();
 					if(isDisplayedErrorForEmpty) {
 						test.pass(errorForEmptyText.getText() +" This Error is displaying if empty text is send " );
@@ -192,10 +141,7 @@ import com.launchingbrowser.launchBrowsering;
 							
 				Thread.sleep(5000);
 				CreateAccount createAcc= new CreateAccount(driver);
-		        
-		        JavascriptExecutor js = (JavascriptExecutor) driver;
-		        js.executeScript("window.scrollBy(0, -500);");
-		        
+		      
 
 				createAcc.enterFirstName(faker.name().firstName());		
 				logger.info("Entered first Name");
@@ -207,12 +153,9 @@ import com.launchingbrowser.launchBrowsering;
 				logger.info("Entered phonenumber");
 				
 				createAcc.enterEmail("akhil@gmail.com");		
-				logger.info("Enter email");
+				logger.info("Enter email");		
 				
-				createAcc.enterConfirmEmail("akhil@gmail.com");		
-				logger.info("Enter invalid confirmed email");
-				
-				createAcc.enterPassword("asddfdgd");		
+				CreateAccount.enterPassword("asddfdgd");		
 				logger.info("Entered password");
 						
 				createAcc.enterConfirmPassword("asddfgsd");		
@@ -256,15 +199,11 @@ import com.launchingbrowser.launchBrowsering;
 					
 					logger.info("Entered phonenumber");
 					
-					createAcc.enterEmail("akhil@gmail.com");
+					createAcc.enterEmail("akhila.m@etg.digital");
 					
 					logger.info("Enter email");
-					
-					createAcc.enterConfirmEmail("akhil@gmail.com");
-					
-					logger.info("confirmed email");
-					
-					createAcc.enterPassword("Akhireddy@07");
+												
+					CreateAccount.enterPassword("Akhireddy@07");
 					
 					logger.info("Entered password");
 							
@@ -289,60 +228,7 @@ import com.launchingbrowser.launchBrowsering;
 			}
 		}
 			
-			@Test(priority = 6,dependsOnMethods = "openBrowserandClickSignInButton")
-			public void validatingPhoneNumError() throws InterruptedException {
-			        test.info("Verifying Phone number error");
-			        
-				if( openBrowserandClickSignInButtonset){
-				
-					CreateAccount createAcc= new CreateAccount(driver);
-					logger.info("Creating account with valid credientials");
-										
-					createAcc.enterFirstName(faker.name().firstName());
-					
-					logger.info("Entered first Name");
-					
-					createAcc.enterLastName(faker.name().lastName());
-					
-					logger.info("Entered lastName");
-					
-					createAcc.enterPhone("124533");
-					
-					logger.info("Entered phonenumber");
-					
-					createAcc.enterEmail("akhil@gmail.com");
-					
-					logger.info("Enter email");
-					
-					createAcc.enterConfirmEmail("akhil@gmail.com");
-					
-					logger.info("confirmed email");
-					
-					createAcc.enterPassword("Akhireddy@07");
-					
-					logger.info("Entered password");
-							
-					createAcc.enterConfirmPassword("Akhireddy@07");
-					
-					logger.info("Confirmed password");
-					
-					createAcc.clickCreateAccountButton(driver);		
-					logger.info("Clicked on create account");
-					Thread.sleep(5000);
-			     
-					}
-	
-			WebElement phoneNumError= driver.findElement(By.xpath("//div[contains(text(),'Please enter a valid phone number')]"));
-			boolean isDisplayedphoneNumError= phoneNumError.isDisplayed();
-			if( isDisplayedphoneNumError) {
-				test.pass("Test case passed and Error message is displayed as" + phoneNumError.getText() );
-				logger.info("Test case passed");
-			}else {
-				test.pass("Test case failed and Error message is not  displayed as" + phoneNumError.getText() );
-				logger.info("Test case failed");
-			}
-		}
-			
+		
 			@Test(priority = 6,dependsOnMethods = "openBrowserandClickSignInButton")
 			public void ValidatingEmailformatError() throws InterruptedException {
 			        test.info("Verifying Email format  error");
@@ -360,19 +246,15 @@ import com.launchingbrowser.launchBrowsering;
 					
 					logger.info("Entered lastName");
 					
-					createAcc.enterPhone("124533");
+					createAcc.enterPhone("12453334343");
 					
 					logger.info("Entered phonenumber");
 					
 					createAcc.enterEmail("akhilgmail.com");
 					
 					logger.info("Enter email");
-					
-					createAcc.enterConfirmEmail("akhil@gmail.com");
-					
-					logger.info("confirmed email");
-					
-					createAcc.enterPassword("Akhireddy@07");
+															
+					CreateAccount.enterPassword("Akhireddy@07");
 					
 					logger.info("Entered password");
 							
@@ -386,7 +268,7 @@ import com.launchingbrowser.launchBrowsering;
 			     
 					}
 	
-			WebElement emailFormatError= driver.findElement(By.xpath("(//div[@id='form-email-error'])[2]"));
+			WebElement emailFormatError= driver.findElement(By.xpath("(//div[@id='form-email-error'])[1]"));
 			boolean isDisplayedemailFormatError= emailFormatError.isDisplayed();
 			if( isDisplayedemailFormatError) {
 				test.pass("Test case passed and Error message is displayed as" + emailFormatError.getText() );
@@ -396,37 +278,33 @@ import com.launchingbrowser.launchBrowsering;
 				logger.info("Test case failed");
 			}
 		}
-			/*
-			@Test(priority = 7,dependsOnMethods = "openBrowserandClickSignInButton")
-			public void createAccountWithValidCredientials() throws InterruptedException {
-			        test.info("Verifying  with valid data");
+			
+			@Test(priority = 6,dependsOnMethods = "openBrowserandClickSignInButton")
+			public void validatingPhoneNumError() throws InterruptedException {
+			        test.info("Verifying Phone number error");
 			        
 				if( openBrowserandClickSignInButtonset){
 				
 					CreateAccount createAcc= new CreateAccount(driver);
 					logger.info("Creating account with valid credientials");
 										
-					createAcc.enterFirstName(firstName);
+					createAcc.enterFirstName(faker.name().firstName());
 					
 					logger.info("Entered first Name");
 					
-					createAcc.enterLastName(lastName);
+					createAcc.enterLastName(faker.name().lastName());
 					
 					logger.info("Entered lastName");
 					
-					createAcc.enterPhone(phoneNumber);
+					createAcc.enterPhone("1245");
 					
 					logger.info("Entered phonenumber");
 					
-					createAcc.enterEmail("akhillla@gmail.com");
+					createAcc.enterEmail("akhil@gmail.com");
 					
-					logger.info("Enter email");
+					logger.info("Enter email");								
 					
-					createAcc.enterConfirmEmail("akhillla@gmail.com");
-					
-					logger.info("confirmed email");
-					
-					createAcc.enterPassword("Akhireddy@07");
+					CreateAccount.enterPassword("Akhireddy@07");
 					
 					logger.info("Entered password");
 							
@@ -436,11 +314,65 @@ import com.launchingbrowser.launchBrowsering;
 					
 					createAcc.clickCreateAccountButton(driver);		
 					logger.info("Clicked on create account");
+					Thread.sleep(5000);
+			     
+					}
+	
+			WebElement phoneNumError= driver.findElement(By.xpath("//div[@id='form-phone-error']"));
+			boolean isDisplayedphoneNumError= phoneNumError.isDisplayed();
+			if( isDisplayedphoneNumError) {
+				test.pass("Test case passed and Error message is displayed as" + phoneNumError.getText() );
+				logger.info("Test case passed");
+			}else {
+				test.pass("Test case failed and Error message is not  displayed as" + phoneNumError.getText() );
+				logger.info("Test case failed");
+			}
+		}
+			
+		
+			@Test(priority = 7,dependsOnMethods = "openBrowserandClickSignInButton")
+			public void createAccountWithValidCredientials() throws InterruptedException {
+			        test.info("Verifying  with valid data");
+			        
+				if( openBrowserandClickSignInButtonset){
+				
+					CreateAccount createAcc= new CreateAccount(driver);
+					logger.info("Creating account with valid credientials");
+										
+					createAcc.enterFirstName(faker.name().firstName());					
+					logger.info("Entered first Name");
+					
+					createAcc.enterLastName(faker.name().lastName());					
+					logger.info("Entered lastName");
+					
+					int minLength = 10;
+			        int maxLength = 25;
+			        int phoneNumberLength = faker.random().nextInt(minLength, maxLength + 1);
+			        String fakePhoneNumber = faker.number().digits(phoneNumberLength);
+					createAcc.enterPhone(fakePhoneNumber);					
+					logger.info("Entered phonenumber");
+					
+					
+					String firstName = faker.name().firstName();
+		            String email = firstName+ "@etg.digital"; // Change suffix as needed
+		            System.out.println("Email id is " + email);
+					createAcc.enterEmail(email);					
+					logger.info("Enter email");
+											      
+					
+					CreateAccount.enterPassword("Akhireddy@07");					
+					logger.info("Entered password");
+					
+					createAcc.enterConfirmPassword("Akhireddy@07");					
+					logger.info("Confirmed password");
+					
+					createAcc.clickCreateAccountButton(driver);		
+					logger.info("Clicked on create account");
 					Thread.sleep(10000);
 			     
 					}
 	
-				WebElement loginTitle = driver.findElement(By.xpath("//h1[@class='account-page-title']"));
+				WebElement loginTitle = driver.findElement(By.xpath("//h1[contains(text(),'Dashboard')]"));
 				String expectedTitle = "Dashboard";
 				String actualTitle = loginTitle.getText();
 
@@ -449,13 +381,25 @@ import com.launchingbrowser.launchBrowsering;
 		        	test.pass("Account created sucessfully");         
 		            logger.info("Account created sucessfully");
 		            isLoggedIn = true;
+		            
+		            //registered user name 
+		            WebElement userName = driver.findElement(By.className("registered-user-message"));
+		            test.info("Name of User name is " + userName.getText());
+		            logger.info("Name of User name is " + userName.getText());
+		           
+		            //registered email id 
+		            WebElement regMail = driver.findElement(By.xpath("(//dd)[2]"));
+		            test.info("Email is " + regMail.getText());
+		            logger.info("Email  is " + regMail.getText());
+		            
 		        } else {
 		        	test.fail("The page Title does not match expected " + expectedTitle + " but found " + actualTitle);
 		            logger.info("Click failed and account not created");
 		            
 		        }
-		}*/
-			
+		}
+		
+			/*
 			public void createAccountFromCheckOut() throws InterruptedException {
 				
 				
@@ -472,7 +416,7 @@ import com.launchingbrowser.launchBrowsering;
 				 validatingWithExistingAccount1();
 				 validatingPhoneNumError1();
 				 ValidatingEmailformatError1();
-				 createAccountWithValidCredientials();
+				 createAccountWithValidCredientialsCheckOut();
 			}
 			@Test
 			public void  validateEmailAndConfirmEmail1() throws InterruptedException {
@@ -493,11 +437,8 @@ import com.launchingbrowser.launchBrowsering;
 				
 				createAcc.enterEmail("akhila@gmail.com");		
 				logger.info("Enter email");
-				
-				createAcc.enterConfirmEmail("akhila@gmail.comm");		
-				logger.info("Enter invalid confirmed email");
-				
-				createAcc.enterPassword(epnewPassword);		
+			
+				CreateAccount.enterPassword(epnewPassword);		
 				logger.info("Entered password");
 						
 				createAcc.enterConfirmPassword(epnewPasswordConfirm);		
@@ -546,10 +487,8 @@ import com.launchingbrowser.launchBrowsering;
 				createAcc.enterEmail("akhila@gmail.com");		
 				logger.info("Enter email");
 				
-				createAcc.enterConfirmEmail("akhila@gmail.com");		
-				logger.info("Entered  confirmed email");
 				
-				createAcc.enterPassword("Akhila@07");		
+				CreateAccount.enterPassword("Akhila@07");		
 				logger.info("Entered password");
 						
 				createAcc.enterConfirmPassword("Akhila@077");		
@@ -593,12 +532,9 @@ import com.launchingbrowser.launchBrowsering;
 					logger.info("Entered phonenumber");
 					
 					createAcc.enterEmail("");		
-					logger.info("Enter email");
+					logger.info("Enter email");										
 					
-					createAcc.enterConfirmEmail("");		
-					logger.info("Enter invalid confirmed email");
-					
-					createAcc.enterPassword("");		
+					CreateAccount.enterPassword("");		
 					logger.info("Entered password");
 							
 					createAcc.enterConfirmPassword("");		
@@ -644,11 +580,8 @@ import com.launchingbrowser.launchBrowsering;
 				
 				createAcc.enterEmail("akhil@gmail.com");		
 				logger.info("Enter email");
-				
-				createAcc.enterConfirmEmail("akhil@gmail.com");		
-				logger.info("Enter invalid confirmed email");
-				
-				createAcc.enterPassword("asddfdgd");		
+										
+				CreateAccount.enterPassword("asddfdgd");		
 				logger.info("Entered password");
 						
 				createAcc.enterConfirmPassword("asddfgsd");		
@@ -693,13 +626,9 @@ import com.launchingbrowser.launchBrowsering;
 					
 					createAcc.enterEmail("akhil@gmail.com");
 					
-					logger.info("Enter email");
+					logger.info("Enter email");								
 					
-					createAcc.enterConfirmEmail("akhil@gmail.com");
-					
-					logger.info("confirmed email");
-					
-					createAcc.enterPassword("Akhireddy@07");
+					CreateAccount.enterPassword("Akhireddy@07");
 					
 					logger.info("Entered password");
 							
@@ -747,13 +676,9 @@ import com.launchingbrowser.launchBrowsering;
 					
 					createAcc.enterEmail("akhil@gmail.com");
 					
-					logger.info("Enter email");
+					logger.info("Enter email");									
 					
-					createAcc.enterConfirmEmail("akhil@gmail.com");
-					
-					logger.info("confirmed email");
-					
-					createAcc.enterPassword("Akhireddy@07");
+					CreateAccount.enterPassword("Akhireddy@07");
 					
 					logger.info("Entered password");
 							
@@ -805,11 +730,9 @@ import com.launchingbrowser.launchBrowsering;
 					
 					logger.info("Enter email");
 					
-					createAcc.enterConfirmEmail("akhil@gmail.com");
 					
-					logger.info("confirmed email");
 					
-					createAcc.enterPassword("Akhireddy@07");
+					CreateAccount.enterPassword("Akhireddy@07");
 					
 					logger.info("Entered password");
 							
@@ -835,7 +758,7 @@ import com.launchingbrowser.launchBrowsering;
 		}
 			
 			@Test
-			public void createAccountWithValidCredientials() throws InterruptedException {
+			public void createAccountWithValidCredientialsCheckOut() throws InterruptedException {
 			        test.info("Verifying  with valid data");
 			        
 				
@@ -861,13 +784,11 @@ import com.launchingbrowser.launchBrowsering;
 					
 					logger.info("Enter email");
 					
-					createAcc.enterConfirmEmail(fakeEmail);
-					
-					logger.info("confirmed email");
+				
 					String fakePassword = faker.internet().password();
 					
 				
-					createAcc.enterPassword("AkhilaReddy@97");
+					CreateAccount.enterPassword("AkhilaReddy@97");
 					
 					logger.info("Entered password");
 							
@@ -879,7 +800,7 @@ import com.launchingbrowser.launchBrowsering;
 					logger.info("Clicked on create account");
 					Thread.sleep(10000);
 
-			}
+			}*/
 		}
 
 

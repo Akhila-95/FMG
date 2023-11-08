@@ -50,7 +50,7 @@ public class guestUserLoginPage extends baseClass{
     	
              // Generate a unique email address with the suffix
     		// String firstName = faker.name().firstName();
-    		String firstName = "akhila.m";
+    		 String firstName = "akhila.m";
              String email = firstName+ "@etg.digital"; // Change suffix as needed
              System.out.println("Email id is " + email);
              test.info("Guest user email is " + email);

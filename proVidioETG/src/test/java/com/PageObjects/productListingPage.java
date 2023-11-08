@@ -121,73 +121,94 @@ WebDriver lDriver;
 	//display and hide features of filters
 	
 
-	//select a color randomly from avaliable colors
-	public void selectColorFormAvaliableColors() {
-		// Find all color buttons that are enabled
-        List<WebElement> enabledColorButtons = driver.findElements(By.xpath("//li[@class='color-attribute ']//button"));
-        // Count how many are enabled
-        int enabledColorCount = enabledColorButtons.size();
-        logger.info("Total enabled colors: " + enabledColorCount);
-        if (enabledColorCount > 0) {
-            // Generate a random index to select a color
-            Random random = new Random();
-            int randomIndex = random.nextInt(enabledColorCount);
-            // Click on a randomly selected color button
-            WebElement selectedColorButton = enabledColorButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedColorButton);
-            //selectedColorButton.click();
-            // You have now selected a random enabled color
-        } else {
-            logger.info("No enabled colors found.");
-        }
 
-	}
 	//select a random size form the page
-	public void selectSizeformAvaliableSize() throws InterruptedException {
-	// Find all size buttons
-    List<WebElement> sizeButtons = driver.findElements(By.xpath("//span[@class='size-btn']"));
-    // Count how many sizes are available
-    int sizeCount = sizeButtons.size();
-    logger.info("Total available sizes: " + sizeCount);
-    if (sizeCount > 0) {
-        // Generate a random index to select a size
-        Random random = new Random();
-        int randomIndex = random.nextInt(sizeCount);
-        // Click on the randomly selected size button
-        WebElement selectedSizeButton = sizeButtons.get(randomIndex);
-        Thread.sleep(2000);
-        JavascriptExecutor js = (JavascriptExecutor) driver; 
-        js.executeScript("arguments[0].click();", selectedSizeButton);
-        //selectedSizeButton.click();
-        // You have now selected a random size
-    } else {
-        logger.info("No available sizes found.");
-    }
+	public void selectCategoryFilter() throws InterruptedException {
+		
+		List<WebElement> categoryFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Category')])[1]"));
+		if(categoryFilter.size()>0) {
+			Thread.sleep(2000);
+			// Find all color buttons that are enabled
+	        WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-category')]"));
+	        // Count how many are enabled
+	        List<WebElement> refinementCategory =parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
+	        int refinementCategoryCount = refinementCategory.size();
+	        logger.info("Total enabled colors: " + refinementCategoryCount);
+	        if (refinementCategoryCount>0) {
+	            // Generate a random index to select a color
+	            Random random = new Random();
+	            int randomIndex = random.nextInt(refinementCategoryCount);
+	            // Click on a randomly selected color button
+	            WebElement selectedrefinementCategory = refinementCategory.get(randomIndex);
+	            JavascriptExecutor js = (JavascriptExecutor) driver;
+	         
+	            js.executeScript("arguments[0].click();", selectedrefinementCategory);
+	            System.out.println("selected filter "+selectedrefinementCategory.getText());
+	           
+	        } else {
+	            logger.info("No sub Category Filter found.");
+	        }
+		}
 
 	}
 	
-	//select a radom price range form the page
-	public void selectPriceformAvlaiablePriceRange() {
-		// Find all price range buttons
-        List<WebElement> priceRangeButtons = driver.findElements(By.xpath("//div[@id='refinement-price']//button"));
-        // Count how many price ranges are available
-        int priceRangeCount = priceRangeButtons.size();
-        logger.info("Total available price ranges: " + priceRangeCount);
-        if (priceRangeCount > 0) {
-            // Generate a random index to select a price range
-            Random random = new Random();
-            int randomIndex = random.nextInt(priceRangeCount);
-            // Click on the randomly selected price range button
-            WebElement selectedPriceRangeButton = priceRangeButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedPriceRangeButton);
-            //selectedPriceRangeButton.click();
-            // You have now selected a random price range
-        } else {
-            logger.info("No available price ranges found.");
-        }
+	//select a color randomly from avaliable colors
+	public void selectSubCategoryFilter() {
+		
+		List<WebElement> subCategoryFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Sub-Category')]"));
+		if(subCategoryFilter.size()>0) {
+			// Find all color buttons that are enabled
+	        WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-sub-category')]"));
+	        // Count how many are enabled
+	        List<WebElement> refinementCategory =parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
+	        
+	        WebElement filterName =parentRefinementCategory.findElement(By.xpath("//span[@class='refinement-value ']"));
+	        String getFilterName = filterName.getText();
+	        System.out.println("Selected filter is" +getFilterName);
+	        int refinementCategoryCount = refinementCategory.size();
+	        logger.info("Total enabled colors: " + refinementCategoryCount);
+	        if (refinementCategoryCount>0) {
+	            // Generate a random index to select a color
+	            Random random = new Random();
+	            int randomIndex = random.nextInt(refinementCategoryCount);
+	            // Click on a randomly selected color button
+	            WebElement selectedrefinementCategory = refinementCategory.get(randomIndex);
+	            JavascriptExecutor js = (JavascriptExecutor) driver; 
+	            js.executeScript("arguments[0].click();", selectedrefinementCategory);
+	            System.out.println("2md "+selectedrefinementCategory.getText());
+	            //selectedColorButton.click();
+	            // You have now selected a random enabled color
+	        } else {
+	            logger.info("No sub Category Filter found.");
+	        }
+		}
 
+	}
+	//select a radom price range form the page
+	public void selectColorFilter() throws InterruptedException {
+		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Color')]"));
+			if(colorFilter.size()>0) {
+				Thread.sleep(2000);
+				// Find all color buttons that are enabled
+		        WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-color')]"));
+		        // Count how many are enabled
+		        List<WebElement> refinementCategory =parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
+		        int refinementCategoryCount = refinementCategory.size();
+		        logger.info("Total enabled colors: " + refinementCategoryCount);
+		        if (refinementCategoryCount>0) {
+		            // Generate a random index to select a color
+		            Random random = new Random();
+		            int randomIndex = random.nextInt(refinementCategoryCount);
+		            // Click on a randomly selected color button
+		            WebElement selectedrefinementCategory = refinementCategory.get(randomIndex);
+		            JavascriptExecutor js = (JavascriptExecutor) driver; 
+		         
+		            js.executeScript("arguments[0].click();", selectedrefinementCategory);
+		           
+		        } else {
+		            logger.info("No sub Category Filter found.");
+		        }
+		}
 	}
 	
 	//select a random brand from the page
