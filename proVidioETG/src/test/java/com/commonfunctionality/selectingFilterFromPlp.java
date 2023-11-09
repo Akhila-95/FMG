@@ -2,6 +2,7 @@ package com.commonfunctionality;
 
 import java.util.List;
 
+import org.apache.commons.lang3.tuple.Pair;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -44,12 +45,35 @@ public class selectingFilterFromPlp extends baseClass{
 		
 		// color buttons
 		if (!subCategoryFilter.isEmpty()) {
-            //select the color
-			plp.selectCategoryFilter();
-			 List<WebElement> selectedFiltersBar =  driver.findElements(By.cssSelector("div.selected-filters-bar"));
-			test.pass("Succesfully selected the color form the prodcut listting page");
-			logger.info("Succesfully selected the color form the prodcut listting page");
+            
+			
+			
+			// getting the selected filter text an count from another class during the selection
+			productListingPage plpage =new productListingPage(driver);
+			Pair<String, String> result =  plpage.selectCategoryFilter(driver);
+			  String text = result.getLeft();
+			  String digits = result.getRight();
+			  
+			  System.out.println( text);
+			  System.out.println( digits);
+
+			
 			Thread.sleep(3000);
+			// text of selected product and count of it   
+			 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
+			 String selectedFilterText= selectedFiltersBar.getText();
+			 System.out.println("Selected filter in  " +selectedFilterText);
+			 
+			 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
+			 String count= countOfProductsSelected.getText();
+			 System.out.println("Count of prodcuts after selecting the filter " +count);
+			 
+			 if(text.equals(selectedFilterText)&& digits.equals(count)){
+			 
+				test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
+				logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
+
+			 }
 		} else {
 		    logger.info("No enabled color buttons found.");
 		}

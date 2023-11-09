@@ -14,7 +14,7 @@ public class Filters extends baseClass{
 	public void filters() throws InterruptedException {
 		
 		///launching the browser and passing the url into it
-	 	driver.get(baseURL);
+	 	 driver.get(baseURL);
 		 logger.info("Entered into url");
 		 logger.info("Placing the order as guest user");
 		 
@@ -25,7 +25,7 @@ public class Filters extends baseClass{
 	    	   yesButton.click();
 	    	   Thread.sleep(1000);
 	       }
-	       driver.get("https://sfccstage.firemountain.org/wire/wire-wrapping-wire/sterling-silver-wire/");
+	       driver.get("https://sfccstage.firemountain.org/jewelry-supplies/findings/clasps/lobster-claw-clasps/");
 	       
 	   
 	       selectingFilterFromPlp.selectingFilterisFormplp();

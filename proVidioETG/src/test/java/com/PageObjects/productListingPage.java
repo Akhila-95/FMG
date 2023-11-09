@@ -3,6 +3,7 @@ package com.PageObjects;
 import java.util.List;
 import java.util.Random;
 
+import org.apache.commons.lang3.tuple.Pair;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -122,35 +123,48 @@ WebDriver lDriver;
 	
 
 
-	//select a random size form the page
-	public void selectCategoryFilter() throws InterruptedException {
-		
-		List<WebElement> categoryFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Category')])[1]"));
-		if(categoryFilter.size()>0) {
-			Thread.sleep(2000);
-			// Find all color buttons that are enabled
-	        WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-category')]"));
-	        // Count how many are enabled
-	        List<WebElement> refinementCategory =parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
-	        int refinementCategoryCount = refinementCategory.size();
-	        logger.info("Total enabled colors: " + refinementCategoryCount);
-	        if (refinementCategoryCount>0) {
-	            // Generate a random index to select a color
-	            Random random = new Random();
-	            int randomIndex = random.nextInt(refinementCategoryCount);
-	            // Click on a randomly selected color button
-	            WebElement selectedrefinementCategory = refinementCategory.get(randomIndex);
-	            JavascriptExecutor js = (JavascriptExecutor) driver;
-	         
-	            js.executeScript("arguments[0].click();", selectedrefinementCategory);
-	            System.out.println("selected filter "+selectedrefinementCategory.getText());
-	           
-	        } else {
-	            logger.info("No sub Category Filter found.");
-	        }
-		}
-
-	}
+    public Pair<String, String> selectCategoryFilter(WebDriver driver) throws InterruptedException {
+        String text = null;
+        String digits = null;
+        
+        List<WebElement> categoryFilter = driver.findElements(By.xpath("(//h6[contains(text(),'Category')])[1]"));
+        if (categoryFilter.size() > 0) {
+            Thread.sleep(2000);
+            //element to select the filter
+            WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-category')]"));
+            List<WebElement> refinementCategory = parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
+            int refinementCategoryCount = refinementCategory.size();
+            System.out.println("Total enabled categories: " + refinementCategoryCount);
+            
+            if (refinementCategoryCount > 0) {
+            	//randomising the filter
+	                Random random = new Random();
+	                int randomIndex = random.nextInt(refinementCategoryCount);
+	                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+	                JavascriptExecutor js = (JavascriptExecutor) driver;
+                //click on selected filter
+	                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+               
+                //text of selected filter
+	               // Thread.sleep(1000);
+	                text = selectedRefinementCategory.getText();            
+	              //  logger.info("Selected category filter: " + text);        
+                
+                //text of digits in  selected filter
+	                digits = text.replaceAll("\\D+", "");
+	               // logger.info("The count of products during selection of filters: " + digits);
+	                
+	            //text extracted from the selected filter
+	             // Remove the digits from the text
+	                text = text.replaceAll("\\(\\d+\\)", "");
+	               // System.out.println("Selected category filter without digits: " + text);
+	               // System.out.println("Selected category filter name : " + text);
+            } else {
+                System.out.println("No sub Category Filter found.");
+            }
+        }
+        return Pair.of(text, digits);
+    }
 	
 	//select a color randomly from avaliable colors
 	public void selectSubCategoryFilter() {
