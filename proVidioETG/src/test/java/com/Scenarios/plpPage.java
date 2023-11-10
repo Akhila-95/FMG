@@ -1,6 +1,7 @@
 package com.Scenarios;
 
 import com.PageObjects.productListingPage;
+import com.commonfunctionality.SelectingFilterFromPlp;
 import com.testcases.baseClass;
 
 public class plpPage extends baseClass{
@@ -10,6 +11,8 @@ public class plpPage extends baseClass{
         
         // Initialize productListingPage to interact with product listing page
         productListingPage plp = new productListingPage(driver);
+        
+        SelectingFilterFromPlp.selectingTheFilters();
         //sort the filters
         plp.selecttheFilters(2, driver);
         Thread.sleep(5000);

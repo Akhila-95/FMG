@@ -193,7 +193,7 @@ public class baseClass {
 		   reporter.viewConfigurer().viewOrder().as(new ViewName[]{ViewName.DASHBOARD, ViewName.TEST}).apply();
 		   report.flush();
 		   
-/*
+
 		    driver.get("C:\\Users\\user\\git\\Fmg1\\proVidioETG\\Reports\\FMG_TestReport.html");
 			driver.manage().window().maximize();
 			Thread.sleep(5000);
@@ -207,7 +207,7 @@ public class baseClass {
 
 	       //driver.quit();
 	      //Report send to mail
-				reportToMail.Reporttomail();*/
+				//reportToMail.Reporttomail();
 	    }
 	   
 	   //Invoking the web chrome driver

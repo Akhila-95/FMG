@@ -12,7 +12,7 @@ import com.testcases.baseClass;
 
 public class tc__RandomProduct_GuestUser_InCc extends baseClass {
 
-    @Test(invocationCount = 1)
+    @Test(invocationCount = 5)
     public void guestlogin() throws InterruptedException {
     	
     	//launching the browser and passing the url into it
@@ -25,11 +25,11 @@ public class tc__RandomProduct_GuestUser_InCc extends baseClass {
         
     	
         //check out process
-	     MinicartViewCartProcess cp = new MinicartViewCartProcess();			     
-	     cp.checkoutprocess();
+	    // MinicartViewCartProcess cp = new MinicartViewCartProcess();			     
+	   //  cp.checkoutprocess();
 	     
 	     //Payment process		     
-	     CreditCardPaymentProcess cc = new CreditCardPaymentProcess();			     
-	     cc.paymentByCreditCard();
+	  //   CreditCardPaymentProcess cc = new CreditCardPaymentProcess();			     
+	 //    cc.paymentByCreditCard();
     }
 }

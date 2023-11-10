@@ -1,16 +1,20 @@
 package com.PageObjects;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.Validations.navigationProcessWithValidation;
 import com.Validations.validationpopupMessages;
@@ -99,7 +103,7 @@ WebDriver lDriver;
 				    if(herobannerRandNumber>0){
 				    	WebElement clickHeroBanner = driver.findElement(By.xpath("(//div[@class='hero-banner'])[" + herobannerRandNumber + "]"));
 				        //clickClp.click();
-				        JavascriptExecutor js = (JavascriptExecutor) driver;
+				     
 				        logger.info("coming here");
 				        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", clickHeroBanner);
 				        Thread.sleep(2000);
@@ -131,8 +135,8 @@ WebDriver lDriver;
         if (categoryFilter.size() > 0) {
             Thread.sleep(2000);
             //element to select the filter
-            WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-category')]"));
-            List<WebElement> refinementCategory = parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
+            List<WebElement> refinementCategory  = driver.findElements(By.xpath("//div[contains(@class,'refinement-category')]//span[@class='refinement-value ']"));
+         
             int refinementCategoryCount = refinementCategory.size();
             System.out.println("Total enabled categories: " + refinementCategoryCount);
             
@@ -145,290 +149,475 @@ WebDriver lDriver;
                 //click on selected filter
 	                js.executeScript("arguments[0].click();", selectedRefinementCategory);
                
-                //text of selected filter
-	               // Thread.sleep(1000);
-	                text = selectedRefinementCategory.getText();            
-	              //  logger.info("Selected category filter: " + text);        
+	                //text of selected filter
+	                //Thread.sleep(2000);
+	                try {
+	                    // Perform some action that triggers the StaleElementReferenceException
+	                	  text = selectedRefinementCategory.getText();  
+	                } catch (StaleElementReferenceException e) {
+	                	 Thread.sleep(1000);
+	                	 System.out.println("Element not found: " + e.getMessage());
+	                }
+	                          	                   
                 
                 //text of digits in  selected filter
 	                digits = text.replaceAll("\\D+", "");
-	               // logger.info("The count of products during selection of filters: " + digits);
+	             
 	                
-	            //text extracted from the selected filter
-	             // Remove the digits from the text
+	            //text extracted from the selected filter	             
 	                text = text.replaceAll("\\(\\d+\\)", "");
-	               // System.out.println("Selected category filter without digits: " + text);
-	               // System.out.println("Selected category filter name : " + text);
-            } else {
-                System.out.println("No sub Category Filter found.");
+	              
             }
         }
         return Pair.of(text, digits);
     }
 	
-	//select a color randomly from avaliable colors
-	public void selectSubCategoryFilter() {
+	//select a SubCategory  randomly from avaliable colors
+    public Pair<String, String> selectSubCategoryFilter(WebDriver driver) throws InterruptedException {
+    	   String text = null;
+           String digits = null;
 		
 		List<WebElement> subCategoryFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Sub-Category')]"));
 		if(subCategoryFilter.size()>0) {
+			
 			// Find all color buttons that are enabled
-	        WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-sub-category')]"));
+			List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-sub-category')]//span[@class='refinement-value ']"));
 	        // Count how many are enabled
-	        List<WebElement> refinementCategory =parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
-	        
-	        WebElement filterName =parentRefinementCategory.findElement(By.xpath("//span[@class='refinement-value ']"));
-	        String getFilterName = filterName.getText();
-	        System.out.println("Selected filter is" +getFilterName);
+	       
 	        int refinementCategoryCount = refinementCategory.size();
+	        
 	        logger.info("Total enabled colors: " + refinementCategoryCount);
-	        if (refinementCategoryCount>0) {
-	            // Generate a random index to select a color
-	            Random random = new Random();
-	            int randomIndex = random.nextInt(refinementCategoryCount);
-	            // Click on a randomly selected color button
-	            WebElement selectedrefinementCategory = refinementCategory.get(randomIndex);
-	            JavascriptExecutor js = (JavascriptExecutor) driver; 
-	            js.executeScript("arguments[0].click();", selectedrefinementCategory);
-	            System.out.println("2md "+selectedrefinementCategory.getText());
-	            //selectedColorButton.click();
-	            // You have now selected a random enabled color
-	        } else {
-	            logger.info("No sub Category Filter found.");
-	        }
-		}
+	        if (refinementCategoryCount > 0) {
+	        	
+            	//randomising the filter
+	                Random random = new Random();
+	                int randomIndex = random.nextInt(refinementCategoryCount);
+	                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+	                JavascriptExecutor js = (JavascriptExecutor) driver;
+	                
+                //click on selected filter
+	                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+               
+
+		              //text of selected filter
+		                Thread.sleep(2000);
+		                try {
+		                    // Perform some action that triggers the StaleElementReferenceException
+		                	  text = selectedRefinementCategory.getText();  
+		                } catch (StaleElementReferenceException e) {
+		                	 Thread.sleep(1000);
+		                	 System.out.println("Element not found: " + e.getMessage());
+		                }
+	                        
+       
+                
+                //text of digits in  selected filter
+	                digits = text.replaceAll("\\D+", "");
+	             
+	                
+	            //text extracted from the selected filter	            
+	                text = text.replaceAll("\\(\\d+\\)", "");
+	               
+            }
+        }
+        return Pair.of(text, digits);
 
 	}
-	//select a radom price range form the page
-	public void selectColorFilter() throws InterruptedException {
+	//select a color
+    public Pair<String, String>  selectColorFilter(WebDriver driver) throws InterruptedException {
+    	 String text = null;
+         String digits = null;
+         
 		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Color')]"));
 			if(colorFilter.size()>0) {
 				Thread.sleep(2000);
 				// Find all color buttons that are enabled
-		        WebElement parentRefinementCategory = driver.findElement(By.xpath("//div[contains(@class,'refinement-color')]"));
-		        // Count how many are enabled
-		        List<WebElement> refinementCategory =parentRefinementCategory.findElements(By.xpath("//span[@class='refinement-value ']"));
+				 List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-color')]//span[@class='refinement-value ']"));
+		     
 		        int refinementCategoryCount = refinementCategory.size();
 		        logger.info("Total enabled colors: " + refinementCategoryCount);
-		        if (refinementCategoryCount>0) {
-		            // Generate a random index to select a color
-		            Random random = new Random();
-		            int randomIndex = random.nextInt(refinementCategoryCount);
-		            // Click on a randomly selected color button
-		            WebElement selectedrefinementCategory = refinementCategory.get(randomIndex);
-		            JavascriptExecutor js = (JavascriptExecutor) driver; 
-		         
-		            js.executeScript("arguments[0].click();", selectedrefinementCategory);
-		           
-		        } else {
-		            logger.info("No sub Category Filter found.");
-		        }
-		}
-	}
-	
-	//select a random brand from the page
-	public void selectbrandfromAvaliableBrand() {
-		// Find all brand buttons
-        List<WebElement> brandButtons = driver.findElements(By.xpath("//div[@id='refinement-brand']//button"));
-        // Count how many brands are available
-        int brandCount = brandButtons.size();
-        logger.info("Total available brands: " + brandCount);
-        if (brandCount > 0) {
-            // Generate a random index to select a brand
-            Random random = new Random();
-            int randomIndex = random.nextInt(brandCount);
-            // Click on the randomly selected brand button
-            WebElement selectedBrandButton = brandButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedBrandButton);
-            //selectedBrandButton.click();
-            // You have now selected a random brand
-        } else {
-            logger.info("No available brands found.");
-        }
-	}
-	
-	//select a random  type formt the page
-	public void selectTypeformAvaliableType() {
-		// Find all type buttons
-        List<WebElement> typeButtons = driver.findElements(By.xpath("//div[@id='refinement-type']//button"));
-        // Count how many types are available
-        int typeCount = typeButtons.size();
-        logger.info("Total available types: " + typeCount);
-        if (typeCount > 0) {
-            // Generate a random index to select a type
-            Random random = new Random();
-            int randomIndex = random.nextInt(typeCount);
-            // Click on the randomly selected type button
-            WebElement selectedTypeButton = typeButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedTypeButton);
-           // selectedTypeButton.click();
-            // You have now selected a random type
-        } else {
-            logger.info("No available types found.");
-        }
-		
-	}
-	
-	//select a random  type formt the page
-	public void selectGpsTypeformAvaliableType() {
-		// Find all GPS type buttons
-        List<WebElement> gpsTypeButtons = driver.findElements(By.xpath("//div[@id='refinement-gps-type']//button"));
-        // Count how many GPS types are available
-        int gpsTypeCount = gpsTypeButtons.size();
-        logger.info("Total available GPS types: " + gpsTypeCount);
-        if (gpsTypeCount > 0) {
-            // Generate a random index to select a GPS type
-            Random random = new Random();
-            int randomIndex = random.nextInt(gpsTypeCount);
-            // Click on the randomly selected GPS type button
-            WebElement selectedGPSTypeButton = gpsTypeButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedGPSTypeButton);
-            //selectedGPSTypeButton.click();
-            // You have now selected a random GPS type
-        } else {
-            logger.info("No available GPS types found.");
-        }
-		
-	}
-	
-	//select a random features form the page
-	public void selectFeaturesformAvaliableFeatures() {
-		// Find all GPS feature buttons
-        List<WebElement> gpsFeatureButtons = driver.findElements(By.xpath("//div[@id='refinement-features']//button"));
-        // Count how many GPS features are available
-        int gpsFeatureCount = gpsFeatureButtons.size();
-        logger.info("Total available GPS features: " + gpsFeatureCount);
-        if (gpsFeatureCount > 0) {
-            // Generate a random index to select a GPS feature
-            Random random = new Random();
-            int randomIndex = random.nextInt(gpsFeatureCount);
-            // Click on the randomly selected GPS feature button
-            WebElement selectedGPSFeatureButton = gpsFeatureButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedGPSFeatureButton);
-            //selectedGPSFeatureButton.click();
-            // You have now selected a random GPS feature
-        } else {
-            logger.info("No available GPS features found.");
-        }
-	}
-	
-	//select a random resolution form the page
-	public void selectResolutionformAvaliableResolution() {
-		// Find all resolution buttons
-        List<WebElement> resolutionButtons = driver.findElements(By.xpath("//div[@id='refinement-resolution']//li/button"));
-        // Count how many resolutions are available
-        int resolutionCount = resolutionButtons.size();
-        logger.info("Total available resolutions: " + resolutionCount);
-        if (resolutionCount > 0) {
-            // Generate a random index to select a resolution
-            Random random = new Random();
-            int randomIndex = random.nextInt(resolutionCount);
-            // Click on the randomly selected resolution button
-            WebElement selectedResolutionButton = resolutionButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedResolutionButton);
-            //selectedResolutionButton.click();
-            // You have now selected a random resolution
-        } else {
-            logger.info("No available resolutions found.");
-        }
-	}
-	
-	//select a random display size from the page
-	public void selectDisplaySizeformAvaliableDisplaySizes() {
-		// Find all display size buttons
-        List<WebElement> displaySizeButtons = driver.findElements(By.xpath("//div[@id='refinement-resolution']//button"));
-        // Count how many display sizes are available
-        int displaySizeCount = displaySizeButtons.size();
-        logger.info("Total available display sizes: " + displaySizeCount);
-        if (displaySizeCount > 0) {
-            // Generate a random index to select a display size
-            Random random = new Random();
-            int randomIndex = random.nextInt(displaySizeCount);
-            // Click on the randomly selected display size button
-            WebElement selectedDisplaySizeButton = displaySizeButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedDisplaySizeButton);
-            //selectedDisplaySizeButton.click();
-            // You have now selected a random display size
-        } else {
-            logger.info("No available display sizes found.");
-        }
-		
-	}
-	
-	//select a random display size from the page
-	public void selectPixelsformAvaliablePixels() {
-		// Find all pixel resolution buttons
-        List<WebElement> pixelResolutionButtons = driver.findElements(By.xpath("//div[@id='refinement-pixels']//button"));
-        // Count how many pixel resolutions are available
-        int pixelResolutionCount = pixelResolutionButtons.size();
-        logger.info("Total available pixel resolutions: " + pixelResolutionCount);
-        if (pixelResolutionCount > 0) {
-            // Generate a random index to select a pixel resolution
-            Random random = new Random();
-            int randomIndex = random.nextInt(pixelResolutionCount);
-            // Click on the randomly selected pixel resolution button
-            WebElement selectedPixelResolutionButton = pixelResolutionButtons.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedPixelResolutionButton);
-           // selectedPixelResolutionButton.click();
-            // You have now selected a random pixel resolution
-        } else {
-            logger.info("No available pixel resolutions found.");
-        }
-		
-	}
-	
-	//select a random newArrival from the page
-	public void selectNewArrivalsformAvaliableNewArrivals() {
-		// Find all pixel newArrival buttons
-        List<WebElement> newArrival = driver.findElements(By.xpath("//div[@id='refinement-new-arrival']//button"));
-        // Count how many pixel resolutions are available
-        int newArrivalCount = newArrival.size();
-        logger.info("Total available pixel resolutions: " + newArrivalCount);
-        if (newArrivalCount > 0) {
-            // Generate a random index to select a newArrival
-            Random random = new Random();
-            int randomIndex = random.nextInt(newArrivalCount);
-            // Click on the randomly selected newArrival button
-            WebElement selectedPixelResolutionButton = newArrival.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedPixelResolutionButton);
-            //selectedPixelResolutionButton.click();
-            // You have now selected a random pixel resolution
-        } else {
-            logger.info("No available newArrival found.");
-        }
-		
-	}
-	
-	//select a random display size from the page
-	public void selectTypeUseformAvaliableTypeUse() {
-		// Find all pixel newArrival buttons
-        List<WebElement> newArrival = driver.findElements(By.xpath("//div[@id='refinement-type-|-use']//button"));
-        // Count how many pixel resolutions are available
-        int newArrivalCount = newArrival.size();
-        logger.info("Total available pixel resolutions: " + newArrivalCount);
-        if (newArrivalCount > 0) {
-            // Generate a random index to select a newArrival
-            Random random = new Random();
-            int randomIndex = random.nextInt(newArrivalCount);
-            // Click on the randomly selected newArrival button
-            WebElement selectedPixelResolutionButton = newArrival.get(randomIndex);
-            JavascriptExecutor js = (JavascriptExecutor) driver; 
-            js.executeScript("arguments[0].click();", selectedPixelResolutionButton);
-            //selectedPixelResolutionButton.click();
-            // You have now selected a random pixel resolution
-        } else {
-            logger.info("No available newArrival found.");
-        }
-	}
+		        if (refinementCategoryCount > 0) {
+		        	
+	            	//randomising the filter
+		                Random random = new Random();
+		                int randomIndex = random.nextInt(refinementCategoryCount);
+		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+		                JavascriptExecutor js = (JavascriptExecutor) driver;
+		                
+	                //click on selected filter
+		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+	               
 
+  		              //text of selected filter
+  		                Thread.sleep(2000);
+  		                try {
+  		                    // Perform some action that triggers the StaleElementReferenceException
+  		                	  text = selectedRefinementCategory.getText();  
+  		                } catch (StaleElementReferenceException e) {
+  		                	 Thread.sleep(1000);
+  		                	 System.out.println("Element not found: " + e.getMessage());
+  		                }
+	                
+	                //text of digits in  selected filter
+		                digits = text.replaceAll("\\D+", "");
+		             
+		                
+		            //text extracted from the selected filter	            
+		                text = text.replaceAll("\\(\\d+\\)", "");
+		               
+	            }
+	        }
+	        return Pair.of(text, digits);
+	}
+	
+  //select a color
+    public Pair<String, String>  selectshapeFilter(WebDriver driver) throws InterruptedException {
+    	 String text = null;
+         String digits = null;
+         
+		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Shape')]"));
+			if(colorFilter.size()>0) {
+				Thread.sleep(2000);
+				// Find all color buttons that are enabled
+				 List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-shape')]//span[@class='refinement-value ']"));
+		        // Count how many are enabled
+		     
+		        int refinementCategoryCount = refinementCategory.size();
+		        logger.info("Total enabled colors: " + refinementCategoryCount);
+		        if (refinementCategoryCount > 0) {
+		        	
+	            	//randomising the filter
+		                Random random = new Random();
+		                int randomIndex = random.nextInt(refinementCategoryCount);
+		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+		                JavascriptExecutor js = (JavascriptExecutor) driver;
+		                
+	                //click on selected filter
+		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+	               
 
+  		              //text of selected filter
+  		                Thread.sleep(2000);
+  		                try {
+  		                    // Perform some action that triggers the StaleElementReferenceException
+  		                	  text = selectedRefinementCategory.getText();  
+  		                } catch (StaleElementReferenceException e) {
+  		                	
+  		                	 System.out.println("Element not found: " + e.getMessage());
+  		                }
+		                       
+	       
+	                
+	                //text of digits in  selected filter
+		                digits = text.replaceAll("\\D+", "");
+		             
+		                
+		            //text extracted from the selected filter	            
+		                text = text.replaceAll("\\(\\d+\\)", "");
+		               
+	            }
+	        }
+	        return Pair.of(text, digits);
+	}
+	
+	
+    //select a color
+      public Pair<String, String>  selectbrandFilter(WebDriver driver) throws InterruptedException {
+      	 String text = null;
+           String digits = null;
+           
+  		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Brand')]"));
+  			if(colorFilter.size()>0) {
+  				Thread.sleep(2000);
+  				// Find all color buttons that are enabled
+  				 List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-brand')]//span[@class='refinement-value ']"));
+  		        // Count how many are enabled
+  		       
+  		        int refinementCategoryCount = refinementCategory.size();
+  		        logger.info("Total enabled colors: " + refinementCategoryCount);
+  		        if (refinementCategoryCount > 0) {
+  		        	
+  	            	//randomising the filter
+  		                Random random = new Random();
+  		                int randomIndex = random.nextInt(refinementCategoryCount);
+  		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+  		                JavascriptExecutor js = (JavascriptExecutor) driver;
+  		                
+  		           // Get the text of the selected element before clicking it
+  		              String selectedText = selectedRefinementCategory.getText();
+  		              System.out.println("the filter is " +selectedText);
+  	                //click on selected filter 
+  		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+  	               
+
+  		              //text of selected filter
+  		                Thread.sleep(2000);
+  		                try {
+  		                    // Perform some action that triggers the StaleElementReferenceException
+  		                	  text = selectedRefinementCategory.getText();  
+  		                } catch (StaleElementReferenceException e) {
+  		                	
+  		                	 System.out.println("Element not found: " + e.getMessage());
+  		                }     
+  	       
+  	                
+  	                //text of digits in  selected filter
+  		                digits = text.replaceAll("\\D+", "");
+  		             
+  		                
+  		            //text extracted from the selected filter	            
+  		                text = text.replaceAll("\\(\\d+\\)", "");
+  		               
+  	            }
+  	        }
+  	        return Pair.of(text, digits);
+  	}
+      
+  	
+      //select a color
+        public Pair<String, String>  selectbaseMetalFilter(WebDriver driver) throws InterruptedException {
+        	 String text = null;
+             String digits = null;
+             
+    		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Base Metal')]"));
+    			if(colorFilter.size()>0) {
+    				Thread.sleep(2000);
+    				// Find all color buttons that are enabled
+    				 List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-base-metal')]//span[@class='refinement-value ']"));
+    		        // Count how many are enabled
+    		      
+    		        int refinementCategoryCount = refinementCategory.size();
+    		        logger.info("Total enabled colors: " + refinementCategoryCount);
+    		        if (refinementCategoryCount > 0) {
+    		        	
+    	            	//randomising the filter
+    		                Random random = new Random();
+    		                int randomIndex = random.nextInt(refinementCategoryCount);
+    		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+    		                JavascriptExecutor js = (JavascriptExecutor) driver;
+    		                
+    	                //click on selected filter
+    		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+    	               
+
+      		              //text of selected filter
+      		                Thread.sleep(2000);
+      		                try {
+      		                    // Perform some action that triggers the StaleElementReferenceException
+      		                	  text = selectedRefinementCategory.getText();  
+      		                } catch (StaleElementReferenceException e) {
+      		                	
+      		                	 System.out.println("Element not found: " + e.getMessage());
+      		                }
+    		                            
+    	       
+    	                
+    	                //text of digits in  selected filter
+    		                digits = text.replaceAll("\\D+", "");
+    		             
+    		                
+    		            //text extracted from the selected filter	            
+    		                text = text.replaceAll("\\(\\d+\\)", "");
+    		               
+    	            }
+    	        }
+    	        return Pair.of(text, digits);
+    	}
+  	
+
+        //select a color
+          public Pair<String, String>  selectwireHardnessFilter(WebDriver driver) throws InterruptedException {
+          	  String text = null;
+               String digits = null;
+               
+      		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Wire Hardness')]"));
+      			if(colorFilter.size()>0) {
+      				Thread.sleep(2000);
+      				// Find all color buttons that are enabled
+      				List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-wire-hardness')]//span[@class='refinement-value ']"));
+      		        // Count how many are enabled
+      		      
+      		        int refinementCategoryCount = refinementCategory.size();
+      		        logger.info("Total enabled colors: " + refinementCategoryCount);
+      		        if (refinementCategoryCount > 0) {
+      		        	
+      	            	//randomising the filter
+      		                Random random = new Random();
+      		                int randomIndex = random.nextInt(refinementCategoryCount);
+      		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+      		                JavascriptExecutor js = (JavascriptExecutor) driver;
+      		                
+      	                //click on selected filter
+      		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+      	               
+      		            //text of selected filter
+      		                Thread.sleep(2000);
+      		                try {
+      		                    // Perform some action that triggers the StaleElementReferenceException
+      		                	  text = selectedRefinementCategory.getText();  
+      		                } catch (StaleElementReferenceException e) {
+      		                	
+      		                	 System.out.println("Element not found: " + e.getMessage());
+      		                }
+      		                           
+      	       
+      	                
+      	                //text of digits in  selected filter
+      		                digits = text.replaceAll("\\D+", "");
+      		             
+      		                
+      		            //text extracted from the selected filter	            
+      		                text = text.replaceAll("\\(\\d+\\)", "");
+      		               
+      	            }
+      	        }
+      	        return Pair.of(text, digits);
+      	}
+    	
+          //select a color
+          public Pair<String, String>  selectgaugeFilter(WebDriver driver) throws InterruptedException {
+          	   String text = null;
+               String digits = null;
+               
+      		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Gauge')]"));
+      			if(colorFilter.size()>0) {
+      				Thread.sleep(2000);
+      				// Find all color buttons that are enabled
+      				List<WebElement> refinementCategory  = driver.findElements(By.xpath("//div[contains(@class,'refinement-gauge')]//span[@class='refinement-value ']"));
+      		        // Count how many are enabled
+      		     
+      		        int refinementCategoryCount = refinementCategory.size();
+      		        logger.info("Total enabled colors: " + refinementCategoryCount);
+      		        if (refinementCategoryCount > 0) {
+      		        	
+      	            	//randomising the filter
+      		                Random random = new Random();
+      		                int randomIndex = random.nextInt(refinementCategoryCount);
+      		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+      		                JavascriptExecutor js = (JavascriptExecutor) driver;
+      		                
+      	                //click on selected filter
+      		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+      	               
+      		            //text of selected filter
+      		                Thread.sleep(2000);
+      		                try {
+      		                    // Perform some action that triggers the StaleElementReferenceException
+      		                	  text = selectedRefinementCategory.getText();  
+      		                } catch (StaleElementReferenceException e) {
+      		                	 
+      		                	 System.out.println("Element not found: " + e.getMessage());
+      		                }
+      		                  
+      	                
+      	                //text of digits in  selected filter
+      		                digits = text.replaceAll("\\D+", "");
+      		             
+      		                
+      		            //text extracted from the selected filter	            
+      		                text = text.replaceAll("\\(\\d+\\)", "");
+      		               
+      	            }
+      	        }
+      	        return Pair.of(text, digits);
+      	}
+          //select a color
+          public Pair<String, String>  selectpriceFilter(WebDriver driver) throws InterruptedException {
+          	   String text = null;
+               String digits = null;
+               
+      		  List<WebElement> colorFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Price')])[1]"));
+      			if(colorFilter.size()>0) {
+      				Thread.sleep(2000);
+      				// Find all color buttons that are enabled
+      			  List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-price')]//span[@class='refinement-value ']"));
+      		        // Count how many are enabled
+      		      
+      		        int refinementCategoryCount = refinementCategory.size();
+      		        logger.info("Total enabled colors: " + refinementCategoryCount);
+      		        if (refinementCategoryCount > 0) {
+      		        	
+      	            	//randomising the filter
+      		                Random random = new Random();
+      		                int randomIndex = random.nextInt(refinementCategoryCount);
+      		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+      		                JavascriptExecutor js = (JavascriptExecutor) driver;
+      		                
+      	                //click on selected filter
+      		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+      	               
+      		            //text of selected filter
+      		                Thread.sleep(2000);
+      		                try {
+      		                    // Perform some action that triggers the StaleElementReferenceException
+      		                	  text = selectedRefinementCategory.getText();  
+      		                } catch (StaleElementReferenceException e) {
+      		                	
+      		                	 System.out.println("Element not found: " + e.getMessage());
+      		                }
+      		                             
+      	       
+      	                
+      	                //text of digits in  selected filter
+      		                digits = text.replaceAll("\\D+", "");
+      		             
+      		                
+      		            //text extracted from the selected filter	            
+      		                text = text.replaceAll("\\(\\d+\\)", "");
+      		               
+      	            }
+      	        }
+      	        return Pair.of(text, digits);
+      	}
+          
+          //select a color
+          public Pair<String, String>  selectholesLoopsFilter(WebDriver driver) throws InterruptedException {
+          	   String text = null;
+               String digits = null;
+               
+      		  List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Number of Holes/Loops')]"));
+      			if(colorFilter.size()>0) {
+      				Thread.sleep(2000);
+      				// Find all color buttons that are enabled
+      				List<WebElement> refinementCategory = driver.findElements(By.xpath("//div[contains(@class,'refinement-number-of-holes/loops')]//span[@class='refinement-value ']"));
+      		        // Count how many are enabled
+      		        
+      		        int refinementCategoryCount = refinementCategory.size();
+      		        logger.info("Total enabled colors: " + refinementCategoryCount);
+      		        if (refinementCategoryCount > 0) {
+      		        	
+      	            	//randomising the filter
+      		                Random random = new Random();
+      		                int randomIndex = random.nextInt(refinementCategoryCount);
+      		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
+      		                JavascriptExecutor js = (JavascriptExecutor) driver;
+      		                
+      	                //click on selected filter
+      		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
+      	               
+      		            //text of selected filter
+      		                Thread.sleep(2000);
+      		                try {
+      		                    // Perform some action that triggers the StaleElementReferenceException
+      		                	  text = selectedRefinementCategory.getText();  
+      		                } catch (StaleElementReferenceException e) {
+      		                	 System.out.println("Element not found: " + e.getMessage());  
+      		                }     		                      
+      	       
+      	                
+      	                //text of digits in  selected filter
+      		                digits = text.replaceAll("\\D+", "");
+      		             
+      		                
+      		            //text extracted from the selected filter	            
+      		                text = text.replaceAll("\\(\\d+\\)", "");
+      		               
+      	            }
+      	        }
+      	        return Pair.of(text, digits);
+      	}
+
+          
 		//filters
 		@FindBy(xpath ="(//select[@name = 'sort-order'])[1]")
 		WebElement Filters;

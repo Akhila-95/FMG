@@ -21455,3 +21455,680 @@ rahulnaik@etisbew.com
 2023-11-09 12:39:36,429 - Providio -INFO - Placing the order as guest user
 2023-11-09 12:40:34,206 - Providio -INFO - Entered into url
 2023-11-09 12:40:34,210 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:33:11,750 - Providio -INFO - Entered into url
+2023-11-10 09:33:11,757 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:33:28,855 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 09:34:12,365 - Providio -INFO - Entered into url
+2023-11-10 09:34:12,388 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:35:44,044 - Providio -INFO - Entered into url
+2023-11-10 09:35:44,049 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:37:28,287 - Providio -INFO - Entered into url
+2023-11-10 09:37:28,293 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:37:41,037 - Providio -INFO - Succesfully selected the Paveand count of the selected products 14
+2023-11-10 09:55:28,779 - Providio -INFO - Entered into url
+2023-11-10 09:55:28,788 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:55:41,711 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 09:56:55,733 - Providio -INFO - Entered into url
+2023-11-10 09:56:55,737 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:57:07,932 - Providio -INFO - The selected filter is Gold Colored but displayed filter is  Gold Colored
+2023-11-10 09:57:07,995 - Providio -INFO - Total enabled colors: 26
+2023-11-10 09:57:12,310 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 09:58:58,749 - Providio -INFO - Entered into url
+2023-11-10 09:58:58,756 - Providio -INFO - Placing the order as guest user
+2023-11-10 09:59:10,244 - Providio -INFO - The selected filter is End Bar but displayed filter is  End Bar
+2023-11-10 09:59:10,303 - Providio -INFO - Total enabled colors: 18
+2023-11-10 09:59:14,591 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:01:57,377 - Providio -INFO - Entered into url
+2023-11-10 10:01:57,386 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:02:10,191 - Providio -INFO - The selected filter is Blacks but displayed filter is  Blacks
+2023-11-10 10:02:10,265 - Providio -INFO - Total enabled colors: 13
+2023-11-10 10:02:14,363 - Providio -INFO - The selected filter is Greys but displayed filter is  
+2023-11-10 10:02:16,411 - Providio -INFO - Total enabled colors: 13
+2023-11-10 10:02:20,768 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:08:04,725 - Providio -INFO - Entered into url
+2023-11-10 10:08:04,731 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:08:17,618 - Providio -INFO - Succesfully selected the Copperand count of the selected products 1
+2023-11-10 10:08:17,692 - Providio -INFO - Total enabled colors: 22
+2023-11-10 10:08:21,783 - Providio -INFO - The selected filter is but displayed filter is  
+2023-11-10 10:08:23,857 - Providio -INFO - Total enabled colors: 32
+2023-11-10 10:08:27,959 - Providio -INFO - The selected filter is but displayed filter is  
+2023-11-10 10:10:26,875 - Providio -INFO - Entered into url
+2023-11-10 10:10:26,883 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:10:43,733 - Providio -INFO - Succesfully selected the JBB Findingsand count of the selected products 1
+2023-11-10 10:10:43,807 - Providio -INFO - Total enabled colors: 12
+2023-11-10 10:10:48,334 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:14:15,150 - Providio -INFO - Entered into url
+2023-11-10 10:14:15,155 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:14:28,425 - Providio -INFO - Succesfully selected the Lobster Clawand count of the selected products 480
+2023-11-10 10:14:28,497 - Providio -INFO - Total enabled colors: 43
+2023-11-10 10:14:35,978 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:15:37,541 - Providio -INFO - Entered into url
+2023-11-10 10:15:37,548 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:15:51,102 - Providio -INFO - The selected filter is but displayed filter is  Imitation Rhodium Plated/Finished
+2023-11-10 10:15:51,162 - Providio -INFO - Total enabled colors: 22
+2023-11-10 10:15:57,190 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:18:32,766 - Providio -INFO - Entered into url
+2023-11-10 10:18:32,773 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:18:46,738 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:19:35,564 - Providio -INFO - Entered into url
+2023-11-10 10:19:35,568 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:19:52,021 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:20:42,397 - Providio -INFO - Entered into url
+2023-11-10 10:20:42,404 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:20:56,790 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:22:39,066 - Providio -INFO - Entered into url
+2023-11-10 10:22:39,070 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:22:52,837 - Providio -INFO - Succesfully selected the Brass Plated/Finishedand count of the selected products 25
+2023-11-10 10:22:52,903 - Providio -INFO - Total enabled colors: 23
+2023-11-10 10:22:58,397 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:24:32,539 - Providio -INFO - Entered into url
+2023-11-10 10:24:32,545 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:24:45,356 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:25:28,803 - Providio -INFO - Entered into url
+2023-11-10 10:25:28,808 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:25:42,612 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:26:25,353 - Providio -INFO - Entered into url
+2023-11-10 10:26:25,358 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:26:38,509 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:28:43,212 - Providio -INFO - Entered into url
+2023-11-10 10:28:43,217 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:28:56,316 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:29:37,142 - Providio -INFO - Entered into url
+2023-11-10 10:29:37,152 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:29:54,211 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:30:36,321 - Providio -INFO - Entered into url
+2023-11-10 10:30:36,326 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:30:48,879 - Providio -INFO - Succesfully selected the Terminatorsand count of the selected products 10
+2023-11-10 10:30:48,939 - Providio -INFO - Total enabled colors: 20
+2023-11-10 10:30:54,189 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 10:51:43,532 - Providio -INFO - Entered into url
+2023-11-10 10:51:43,540 - Providio -INFO - Placing the order as guest user
+2023-11-10 10:51:56,772 - Providio -INFO - Succesfully selected the Jewelry Essentialsand count of the selected products 1
+2023-11-10 10:51:56,837 - Providio -INFO - Total enabled colors: 12
+2023-11-10 10:52:02,095 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 11:57:22,205 - Providio -INFO - Entered into url
+2023-11-10 11:57:22,211 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:00:18,279 - Providio -INFO - Entered into url
+2023-11-10 12:00:18,284 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:02:07,761 - Providio -INFO - Entered into url
+2023-11-10 12:02:07,768 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:02:16,806 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:02:21,380 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:04:00,760 - Providio -INFO - Entered into url
+2023-11-10 12:04:00,764 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:04:09,633 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:04:15,769 - Providio -INFO - Succesfully selected the Base Metaland count of the selected products 340
+2023-11-10 12:05:58,522 - Providio -INFO - Entered into url
+2023-11-10 12:05:58,534 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:06:12,267 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:06:18,408 - Providio -INFO - The selected filter is but displayed filter is  Gunmetal
+2023-11-10 12:07:52,397 - Providio -INFO - Entered into url
+2023-11-10 12:07:52,547 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:11:43,074 - Providio -INFO - Entered into url
+2023-11-10 12:11:43,079 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:12:00,067 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:12:05,396 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:14:30,423 - Providio -INFO - Entered into url
+2023-11-10 12:14:30,428 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:14:38,625 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:14:44,741 - Providio -INFO - Succesfully selected the Gold-Filledand count of the selected products 17
+2023-11-10 12:15:14,629 - Providio -INFO - Entered into url
+2023-11-10 12:15:14,634 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:15:23,350 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:15:29,465 - Providio -INFO - The selected filter is but displayed filter is  Gunmetal
+2023-11-10 12:17:42,265 - Providio -INFO - Entered into url
+2023-11-10 12:17:42,275 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:17:50,051 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:17:55,630 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:19:00,144 - Providio -INFO - Entered into url
+2023-11-10 12:19:00,149 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:19:08,417 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:19:14,980 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:19:53,124 - Providio -INFO - Entered into url
+2023-11-10 12:19:53,128 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:20:02,232 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:20:09,545 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:24:21,763 - Providio -INFO - Entered into url
+2023-11-10 12:24:21,771 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:24:30,374 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:24:34,506 - Providio -INFO - Succesfully selected the Cubic Zirconiaand count of the selected products 6
+2023-11-10 12:25:08,268 - Providio -INFO - Entered into url
+2023-11-10 12:25:08,275 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:25:17,012 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:25:21,129 - Providio -INFO - Succesfully selected the Gold Coloredand count of the selected products 135
+2023-11-10 12:25:38,838 - Providio -INFO - Entered into url
+2023-11-10 12:25:38,848 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:25:54,377 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:25:58,479 - Providio -INFO - The selected filter is but displayed filter is  End Bar
+2023-11-10 12:26:26,245 - Providio -INFO - Entered into url
+2023-11-10 12:26:26,251 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:26:35,380 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:26:39,486 - Providio -INFO - Succesfully selected the Gold Coloredand count of the selected products 135
+2023-11-10 12:27:02,545 - Providio -INFO - Entered into url
+2023-11-10 12:27:02,550 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:27:10,982 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:27:15,118 - Providio -INFO - The selected filter is but displayed filter is  Sterling Silver
+2023-11-10 12:27:45,359 - Providio -INFO - Entered into url
+2023-11-10 12:27:45,381 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:27:58,957 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:28:03,057 - Providio -INFO - The selected filter is but displayed filter is  TierraCast
+2023-11-10 12:30:57,064 - Providio -INFO - Entered into url
+2023-11-10 12:30:57,068 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:31:06,265 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:31:10,378 - Providio -INFO - Succesfully selected the Hinged Clipand count of the selected products 2
+2023-11-10 12:31:47,331 - Providio -INFO - Entered into url
+2023-11-10 12:31:47,336 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:31:55,801 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:31:59,918 - Providio -INFO - The selected filter is 1-Strand but displayed filter is  1-Strand
+2023-11-10 12:33:57,684 - Providio -INFO - Entered into url
+2023-11-10 12:33:57,689 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:34:06,504 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:34:10,605 - Providio -INFO - Succesfully selected the Claspsand count of the selected products 480
+2023-11-10 12:34:34,836 - Providio -INFO - Entered into url
+2023-11-10 12:34:34,853 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:34:51,429 - Providio -INFO - Succesfully selected the Gunmetaland count of the selected products 31
+2023-11-10 12:35:11,038 - Providio -INFO - Entered into url
+2023-11-10 12:35:11,064 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:35:33,452 - Providio -INFO - Succesfully selected the Copperand count of the selected products 1
+2023-11-10 12:36:08,530 - Providio -INFO - Entered into url
+2023-11-10 12:36:08,533 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:36:21,523 - Providio -INFO - Entered into url
+2023-11-10 12:36:21,524 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:36:33,632 - Providio -INFO - Entered into url
+2023-11-10 12:36:33,632 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:36:46,225 - Providio -INFO - Entered into url
+2023-11-10 12:36:46,226 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:36:53,876 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:36:59,173 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:37:04,631 - Providio -INFO - Entered into url
+2023-11-10 12:37:04,632 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:37:11,903 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:37:17,126 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:37:22,460 - Providio -INFO - Entered into url
+2023-11-10 12:37:22,460 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:37:30,984 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:37:35,102 - Providio -INFO - Succesfully selected the Gold Coloredand count of the selected products 135
+2023-11-10 12:37:38,634 - Providio -INFO - Entered into url
+2023-11-10 12:37:38,635 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:37:45,654 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:37:51,756 - Providio -INFO - Succesfully selected the Copper Coloredand count of the selected products 27
+2023-11-10 12:38:02,344 - Providio -INFO - Entered into url
+2023-11-10 12:38:02,344 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:38:10,412 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:38:14,503 - Providio -INFO - Succesfully selected the Brassand count of the selected products 6
+2023-11-10 12:38:25,440 - Providio -INFO - Entered into url
+2023-11-10 12:38:25,441 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:38:39,035 - Providio -INFO - Succesfully selected the Stainless Steeland count of the selected products 54
+2023-11-10 12:38:48,307 - Providio -INFO - Entered into url
+2023-11-10 12:38:48,307 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:39:00,727 - Providio -INFO - Entered into url
+2023-11-10 12:39:00,727 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:39:12,086 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:39:16,214 - Providio -INFO - Succesfully selected the Precious Metaland count of the selected products 140
+2023-11-10 12:39:21,563 - Providio -INFO - Entered into url
+2023-11-10 12:39:21,563 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:39:28,888 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:39:32,972 - Providio -INFO - Succesfully selected the Copper Plated/Finishedand count of the selected products 27
+2023-11-10 12:39:37,383 - Providio -INFO - Entered into url
+2023-11-10 12:39:37,383 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:39:48,961 - Providio -INFO - Entered into url
+2023-11-10 12:39:48,961 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:40:00,009 - Providio -INFO - Entered into url
+2023-11-10 12:40:00,010 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:40:11,905 - Providio -INFO - Succesfully selected the Copper Plated/Finishedand count of the selected products 27
+2023-11-10 12:40:18,866 - Providio -INFO - Entered into url
+2023-11-10 12:40:18,866 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:40:31,391 - Providio -INFO - Succesfully selected the Base Metaland count of the selected products 340
+2023-11-10 12:40:36,602 - Providio -INFO - Entered into url
+2023-11-10 12:40:36,603 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:40:47,812 - Providio -INFO - Entered into url
+2023-11-10 12:40:47,813 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:40:57,061 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:41:01,195 - Providio -INFO - Succesfully selected the Brass Plated/Finishedand count of the selected products 25
+2023-11-10 12:41:06,434 - Providio -INFO - Entered into url
+2023-11-10 12:41:06,434 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:41:17,023 - Providio -INFO - Entered into url
+2023-11-10 12:41:17,024 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:41:24,646 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:41:30,928 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:41:36,829 - Providio -INFO - Entered into url
+2023-11-10 12:41:36,830 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:41:44,178 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:41:50,274 - Providio -INFO - The selected filter is 1-Strand but displayed filter is  1-Strand
+2023-11-10 12:41:55,605 - Providio -INFO - Entered into url
+2023-11-10 12:41:55,606 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:42:03,843 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:42:10,213 - Providio -INFO - Succesfully selected the Brass Plated/Finishedand count of the selected products 25
+2023-11-10 12:42:16,446 - Providio -INFO - Entered into url
+2023-11-10 12:42:16,446 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:42:37,833 - Providio -INFO - Entered into url
+2023-11-10 12:42:37,833 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:42:46,067 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:42:50,186 - Providio -INFO - Succesfully selected the Precious Metaland count of the selected products 140
+2023-11-10 12:53:21,489 - Providio -INFO - Entered into url
+2023-11-10 12:53:21,492 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:53:37,817 - Providio -INFO - Entered into url
+2023-11-10 12:53:37,818 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:53:51,514 - Providio -INFO - Entered into url
+2023-11-10 12:53:51,514 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:54:04,288 - Providio -INFO - Entered into url
+2023-11-10 12:54:04,289 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:54:11,249 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:54:16,568 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:54:26,502 - Providio -INFO - Entered into url
+2023-11-10 12:54:26,502 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:54:34,651 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:54:41,148 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:54:46,195 - Providio -INFO - Entered into url
+2023-11-10 12:54:46,195 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:54:52,738 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:54:58,882 - Providio -INFO - Succesfully selected the Greysand count of the selected products 31
+2023-11-10 12:55:07,399 - Providio -INFO - Entered into url
+2023-11-10 12:55:07,400 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:55:15,351 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:55:21,481 - Providio -INFO - Succesfully selected the Silver Plated/Finishedand count of the selected products 97
+2023-11-10 12:55:26,910 - Providio -INFO - Entered into url
+2023-11-10 12:55:26,910 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:55:36,796 - Providio -INFO - Entered into url
+2023-11-10 12:55:36,796 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:55:44,231 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:55:50,525 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:55:55,440 - Providio -INFO - Entered into url
+2023-11-10 12:55:55,441 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:56:02,173 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:56:08,431 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:56:14,291 - Providio -INFO - Entered into url
+2023-11-10 12:56:14,291 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:56:21,652 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:56:27,768 - Providio -INFO - Succesfully selected the Brass Plated/Finishedand count of the selected products 25
+2023-11-10 12:56:33,191 - Providio -INFO - Entered into url
+2023-11-10 12:56:33,192 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:56:40,666 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:56:44,770 - Providio -INFO - Succesfully selected the Terminatorsand count of the selected products 10
+2023-11-10 12:56:50,776 - Providio -INFO - Entered into url
+2023-11-10 12:56:50,777 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:57:01,973 - Providio -INFO - Entered into url
+2023-11-10 12:57:01,973 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:57:17,436 - Providio -INFO - Entered into url
+2023-11-10 12:57:17,437 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:57:25,105 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:57:31,382 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:57:38,960 - Providio -INFO - Entered into url
+2023-11-10 12:57:38,960 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:57:46,468 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:57:52,881 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:58:00,234 - Providio -INFO - Entered into url
+2023-11-10 12:58:00,235 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:58:07,652 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:58:13,927 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:58:27,875 - Providio -INFO - Entered into url
+2023-11-10 12:58:27,875 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:58:38,944 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:58:45,244 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:58:52,188 - Providio -INFO - Entered into url
+2023-11-10 12:58:52,189 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:59:00,715 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:59:05,976 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 12:59:14,306 - Providio -INFO - Entered into url
+2023-11-10 12:59:14,306 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:59:21,993 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:59:26,118 - Providio -INFO - Succesfully selected the Cubic Zirconiaand count of the selected products 6
+2023-11-10 12:59:32,094 - Providio -INFO - Entered into url
+2023-11-10 12:59:32,094 - Providio -INFO - Placing the order as guest user
+2023-11-10 12:59:39,378 - Providio -INFO - Total enabled colors: 44
+2023-11-10 12:59:45,488 - Providio -INFO - Succesfully selected the Claspsand count of the selected products 480
+2023-11-10 14:17:08,206 - Providio -INFO - Entered into url
+2023-11-10 14:17:08,223 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:17:24,925 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:17:31,293 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:17:37,159 - Providio -INFO - Entered into url
+2023-11-10 14:17:37,159 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:17:45,726 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:17:51,890 - Providio -INFO - Succesfully selected the Claspsand count of the selected products 480
+2023-11-10 14:18:02,268 - Providio -INFO - Entered into url
+2023-11-10 14:18:02,268 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:18:11,422 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:18:17,646 - Providio -INFO - Succesfully selected the Copper Coloredand count of the selected products 27
+2023-11-10 14:18:23,664 - Providio -INFO - Entered into url
+2023-11-10 14:18:23,664 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:18:43,991 - Providio -INFO - Succesfully selected the Metaland count of the selected products 477
+2023-11-10 14:18:58,447 - Providio -INFO - Entered into url
+2023-11-10 14:18:58,448 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:19:30,773 - Providio -INFO - Entered into url
+2023-11-10 14:19:30,774 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:19:48,464 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:19:54,600 - Providio -INFO - Succesfully selected the Claspsand count of the selected products 480
+2023-11-10 14:20:05,659 - Providio -INFO - Entered into url
+2023-11-10 14:20:05,660 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:20:25,881 - Providio -INFO - Entered into url
+2023-11-10 14:20:25,881 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:20:43,016 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:20:49,136 - Providio -INFO - Succesfully selected the Greysand count of the selected products 31
+2023-11-10 14:21:05,693 - Providio -INFO - Entered into url
+2023-11-10 14:21:05,693 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:21:27,983 - Providio -INFO - Succesfully selected the Blacksand count of the selected products 7
+2023-11-10 14:21:40,428 - Providio -INFO - Entered into url
+2023-11-10 14:21:40,429 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:21:57,128 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:22:03,244 - Providio -INFO - Succesfully selected the Silver Plated/Finishedand count of the selected products 97
+2023-11-10 14:22:18,519 - Providio -INFO - Entered into url
+2023-11-10 14:22:18,519 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:22:36,506 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:22:42,992 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:22:48,309 - Providio -INFO - Entered into url
+2023-11-10 14:22:48,309 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:22:56,532 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:23:02,815 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:23:09,509 - Providio -INFO - Entered into url
+2023-11-10 14:23:09,509 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:23:21,679 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:23:27,843 - Providio -INFO - Succesfully selected the Greysand count of the selected products 31
+2023-11-10 14:23:33,445 - Providio -INFO - Entered into url
+2023-11-10 14:23:33,446 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:23:42,016 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:23:48,324 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:23:55,091 - Providio -INFO - Entered into url
+2023-11-10 14:23:55,091 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:24:03,048 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:24:09,150 - Providio -INFO - Succesfully selected the Gold Plated/Finishedand count of the selected products 87
+2023-11-10 14:24:14,870 - Providio -INFO - Entered into url
+2023-11-10 14:24:14,870 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:24:44,003 - Providio -INFO - Entered into url
+2023-11-10 14:24:44,004 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:25:14,026 - Providio -INFO - Entered into url
+2023-11-10 14:25:14,027 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:25:45,603 - Providio -INFO - Entered into url
+2023-11-10 14:25:45,604 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:25:55,752 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:26:02,141 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:26:09,310 - Providio -INFO - Entered into url
+2023-11-10 14:26:09,310 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:26:55,025 - Providio -INFO - Total enabled colors: 44
+2023-11-10 14:27:01,147 - Providio -INFO - Succesfully selected the Lobster Clawand count of the selected products 480
+2023-11-10 14:38:07,620 - Providio -INFO - Entered into url
+2023-11-10 14:38:07,626 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:38:08,755 - Providio -INFO - Total menus count is 8
+2023-11-10 14:38:08,756 - Providio -INFO - Randomly selected menu number 8
+2023-11-10 14:38:08,756 - Providio -INFO - random genrate is 8
+2023-11-10 14:38:14,569 - Providio -INFO - 7
+2023-11-10 14:38:14,569 - Providio -INFO - 3
+2023-11-10 14:38:14,591 - Providio -INFO - coming here
+2023-11-10 14:38:24,278 - Providio -INFO - PLP page is already loaded
+2023-11-10 14:38:35,790 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:40:45,084 - Providio -INFO - Entered into url
+2023-11-10 14:40:45,090 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:40:46,245 - Providio -INFO - Total menus count is 8
+2023-11-10 14:40:46,246 - Providio -INFO - Randomly selected menu number 1
+2023-11-10 14:40:46,276 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-10 14:40:46,277 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-10 14:41:07,806 - Providio -INFO - 1
+2023-11-10 14:41:21,155 - Providio -INFO - 1
+2023-11-10 14:41:21,155 - Providio -INFO - PLP page is already loaded
+2023-11-10 14:41:24,713 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:46:53,021 - Providio -INFO - Entered into url
+2023-11-10 14:46:53,036 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:47:02,653 - Providio -INFO - Total enabled colors: 91
+2023-11-10 14:47:09,732 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 14:50:22,241 - Providio -INFO - Entered into url
+2023-11-10 14:50:22,278 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:51:01,238 - Providio -INFO - Total enabled colors: 91
+2023-11-10 14:51:07,562 - Providio -INFO - Succesfully selected the Yellowsand count of the selected products 27
+2023-11-10 14:51:24,276 - Providio -INFO - add to cart  button enabled
+2023-11-10 14:56:21,881 - Providio -INFO - Entered into url
+2023-11-10 14:56:21,886 - Providio -INFO - Placing the order as guest user
+2023-11-10 14:57:37,910 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:00:25,154 - Providio -INFO - Entered into url
+2023-11-10 15:00:25,158 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:00:35,771 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:00:42,185 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:01:16,650 - Providio -INFO - Entered into url
+2023-11-10 15:01:16,656 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:01:26,971 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:01:33,085 - Providio -INFO - Succesfully selected the Plantand count of the selected products 21
+2023-11-10 15:01:57,699 - Providio -INFO - The selected filter is 10mm but displayed filter is  10mm
+2023-11-10 15:02:10,856 - Providio -INFO - add to cart  button enabled
+2023-11-10 15:02:15,977 - Providio -INFO - The cart value is empty
+2023-11-10 15:04:34,685 - Providio -INFO - Entered into url
+2023-11-10 15:04:34,692 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:04:45,675 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:04:52,137 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:06:00,010 - Providio -INFO - Entered into url
+2023-11-10 15:06:00,016 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:07:21,698 - Providio -INFO - Entered into url
+2023-11-10 15:07:21,703 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:08:04,468 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:08:10,762 - Providio -INFO - Succesfully selected the Multi-Coloredand count of the selected products 20
+2023-11-10 15:08:38,434 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:08:49,640 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:10:18,526 - Providio -INFO - Entered into url
+2023-11-10 15:10:18,534 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:10:50,157 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:11:01,574 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:13:20,925 - Providio -INFO - Entered into url
+2023-11-10 15:13:20,931 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:13:59,235 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:14:59,328 - Providio -INFO - Entered into url
+2023-11-10 15:14:59,341 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:15:45,851 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:15:59,550 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:23:45,326 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:25:07,629 - Providio -INFO - Entered into url
+2023-11-10 15:25:07,645 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:25:25,302 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:25:31,668 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:32:34,541 - Providio -INFO - Entered into url
+2023-11-10 15:32:34,553 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:33:13,944 - Providio -INFO - Total enabled colors: 91
+2023-11-10 15:33:20,238 - Providio -INFO - Succesfully selected the Bluesand count of the selected products 24
+2023-11-10 15:35:52,731 - Providio -INFO - Entered into url
+2023-11-10 15:35:52,736 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:36:00,971 - Providio -INFO - Total enabled colors: 99
+2023-11-10 15:36:07,323 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:47:30,875 - Providio -INFO - Entered into url
+2023-11-10 15:47:30,886 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:47:41,467 - Providio -INFO - Total enabled colors: 16
+2023-11-10 15:47:47,615 - Providio -INFO - Succesfully selected the Mixed Colorsand count of the selected products 64
+2023-11-10 15:48:00,116 - Providio -INFO - Total enabled colors: 16
+2023-11-10 15:48:06,240 - Providio -INFO - Succesfully selected the Multi-Coloredand count of the selected products 25
+2023-11-10 15:48:12,351 - Providio -INFO - add to cart  button enabled
+2023-11-10 15:48:46,929 - Providio -INFO - 1
+2023-11-10 15:48:49,080 - Providio -INFO - true
+2023-11-10 15:48:49,080 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-10 15:48:49,081 - Providio -INFO - Guest checkout
+2023-11-10 15:48:49,244 - Providio -INFO - Guest mail again
+2023-11-10 15:48:49,309 - Providio -INFO - Guest continue as guest
+2023-11-10 15:48:54,490 - Providio -INFO - Entered fname
+2023-11-10 15:48:54,620 - Providio -INFO - Entered lname
+2023-11-10 15:48:59,975 - Providio -INFO - Entered phone number
+2023-11-10 15:49:43,592 - Providio -INFO - Entered into url
+2023-11-10 15:49:43,604 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:49:57,501 - Providio -INFO - Total enabled colors: 11
+2023-11-10 15:50:06,915 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 15:56:38,102 - Providio -INFO - Entered into url
+2023-11-10 15:56:38,120 - Providio -INFO - Placing the order as guest user
+2023-11-10 15:57:30,240 - Providio -INFO - Relauching the browsesr
+2023-11-10 15:57:41,804 - Providio -INFO - Entered into url
+2023-11-10 15:57:41,832 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:02:08,507 - Providio -INFO - Relauching the browsesr
+2023-11-10 16:02:20,461 - Providio -INFO - Entered into url
+2023-11-10 16:02:20,468 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:05:33,323 - Providio -INFO - Entered into url
+2023-11-10 16:05:33,354 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:07:48,977 - Providio -INFO - Relauching the browsesr
+2023-11-10 16:08:35,246 - Providio -INFO - Entered into url
+2023-11-10 16:08:35,253 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:11:03,310 - Providio -INFO - Entered into url
+2023-11-10 16:11:03,314 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:16:53,147 - Providio -INFO - Relauching the browsesr
+2023-11-10 16:18:02,032 - Providio -INFO - Entered into url
+2023-11-10 16:18:02,038 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:21:07,008 - Providio -INFO - Relauching the browsesr
+2023-11-10 16:21:15,712 - Providio -INFO - Entered into url
+2023-11-10 16:21:15,739 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:21:27,114 - Providio -INFO - Total enabled colors: 4
+2023-11-10 16:21:33,612 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:22:47,195 - Providio -INFO - Entered into url
+2023-11-10 16:22:47,203 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:22:59,242 - Providio -INFO - Total enabled colors: 16
+2023-11-10 16:23:06,204 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:23:39,038 - Providio -INFO - Entered into url
+2023-11-10 16:23:39,043 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:23:46,775 - Providio -INFO - Total enabled colors: 4
+2023-11-10 16:23:54,222 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:33:14,422 - Providio -INFO - Entered into url
+2023-11-10 16:33:14,432 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:33:26,574 - Providio -INFO - Total enabled colors: 0
+2023-11-10 16:33:34,065 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:36:37,799 - Providio -INFO - Entered into url
+2023-11-10 16:36:37,811 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:36:45,640 - Providio -INFO - Total enabled colors: 11
+2023-11-10 16:36:51,812 - Providio -INFO - Succesfully selected the Teardropand count of the selected products 56
+2023-11-10 16:37:00,237 - Providio -INFO - add to cart  button enabled
+2023-11-10 16:37:35,824 - Providio -INFO - 1
+2023-11-10 16:37:37,997 - Providio -INFO - true
+2023-11-10 16:37:37,997 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-10 16:37:37,999 - Providio -INFO - Guest checkout
+2023-11-10 16:37:38,137 - Providio -INFO - Guest mail again
+2023-11-10 16:37:38,208 - Providio -INFO - Guest continue as guest
+2023-11-10 16:37:43,594 - Providio -INFO - Entered fname
+2023-11-10 16:37:43,830 - Providio -INFO - Entered lname
+2023-11-10 16:37:49,282 - Providio -INFO - Entered phone number
+2023-11-10 16:37:49,863 - Providio -INFO - Entered into url
+2023-11-10 16:37:49,867 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:38:01,490 - Providio -INFO - Succesfully selected the Beadsand count of the selected products 785
+2023-11-10 16:38:09,210 - Providio -INFO - add to cart  button enabled
+2023-11-10 16:38:12,964 - Providio -INFO - Entered into url
+2023-11-10 16:38:12,964 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:38:24,814 - Providio -INFO - Succesfully selected the Earring Findingsand count of the selected products 1
+2023-11-10 16:38:30,851 - Providio -INFO - add to cart  button enabled
+2023-11-10 16:38:34,700 - Providio -INFO - Entered into url
+2023-11-10 16:38:34,700 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:38:40,866 - Providio -INFO - Total enabled colors: 16
+2023-11-10 16:38:47,251 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:38:49,451 - Providio -INFO - Entered into url
+2023-11-10 16:38:49,452 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:38:55,872 - Providio -INFO - Total enabled colors: 4
+2023-11-10 16:39:03,272 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:39:06,331 - Providio -INFO - Entered into url
+2023-11-10 16:39:06,331 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:39:13,761 - Providio -INFO - Total enabled colors: 0
+2023-11-10 16:39:21,014 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:39:23,361 - Providio -INFO - Entered into url
+2023-11-10 16:39:23,361 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:39:33,618 - Providio -INFO - Total enabled colors: 4
+2023-11-10 16:39:41,069 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:39:43,098 - Providio -INFO - Entered into url
+2023-11-10 16:39:43,098 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:39:49,300 - Providio -INFO - Total enabled colors: 11
+2023-11-10 16:39:55,690 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:39:58,018 - Providio -INFO - Entered into url
+2023-11-10 16:39:58,019 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:40:04,609 - Providio -INFO - Total enabled colors: 0
+2023-11-10 16:40:11,884 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 16:40:15,258 - Providio -INFO - Entered into url
+2023-11-10 16:40:15,259 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:40:25,656 - Providio -INFO - Succesfully selected the Cabochonsand count of the selected products 14
+2023-11-10 16:40:31,769 - Providio -INFO - add to cart  button enabled
+2023-11-10 16:40:35,677 - Providio -INFO - Entered into url
+2023-11-10 16:40:35,677 - Providio -INFO - Placing the order as guest user
+2023-11-10 16:40:42,929 - Providio -INFO - Total enabled colors: 16
+2023-11-10 16:40:49,089 - Providio -INFO - Succesfully selected the Greensand count of the selected products 97
+2023-11-10 16:40:55,569 - Providio -INFO - add to cart  button enabled
+2023-11-10 17:04:35,699 - Providio -INFO - Entered into url
+2023-11-10 17:04:35,710 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:05:01,954 - Providio -INFO - Total enabled colors: 4
+2023-11-10 17:08:06,741 - Providio -INFO - Entered into url
+2023-11-10 17:08:06,749 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:08:20,729 - Providio -INFO - Total enabled colors: 16
+2023-11-10 17:08:34,091 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 17:09:14,908 - Providio -INFO - Entered into url
+2023-11-10 17:09:14,912 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:09:26,504 - Providio -INFO - Succesfully selected the Earring Findingsand count of the selected products 1
+2023-11-10 17:09:32,710 - Providio -INFO - add to cart  button enabled
+2023-11-10 17:09:59,441 - Providio -INFO - Entered into url
+2023-11-10 17:09:59,447 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:10:06,808 - Providio -INFO - Total enabled colors: 11
+2023-11-10 17:10:12,144 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 17:16:50,226 - Providio -INFO - Entered into url
+2023-11-10 17:16:50,236 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:17:01,805 - Providio -INFO - Succesfully selected the Cabochonsand count of the selected products 14
+2023-11-10 17:17:07,942 - Providio -INFO - add to cart  button enabled
+2023-11-10 17:17:29,482 - Providio -INFO - Entered into url
+2023-11-10 17:17:29,508 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:17:43,878 - Providio -INFO - Succesfully selected the Cabochonsand count of the selected products 14
+2023-11-10 17:17:50,115 - Providio -INFO - add to cart  button enabled
+2023-11-10 17:18:59,275 - Providio -INFO - Entered into url
+2023-11-10 17:18:59,279 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:19:07,539 - Providio -INFO - Total enabled colors: 11
+2023-11-10 17:19:12,824 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 17:19:14,841 - Providio -INFO - Entered into url
+2023-11-10 17:19:14,841 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:19:22,782 - Providio -INFO - Total enabled colors: 11
+2023-11-10 17:19:28,131 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 17:19:30,064 - Providio -INFO - Entered into url
+2023-11-10 17:19:30,065 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:19:39,285 - Providio -INFO - Total enabled colors: 11
+2023-11-10 17:19:45,407 - Providio -INFO - Succesfully selected the Mixed Shapesand count of the selected products 39
+2023-11-10 17:19:51,743 - Providio -INFO - add to cart  button enabled
+2023-11-10 17:19:55,533 - Providio -INFO - Entered into url
+2023-11-10 17:19:55,534 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:20:03,942 - Providio -INFO - Total enabled colors: 16
+2023-11-10 17:20:10,249 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 17:20:12,307 - Providio -INFO - Entered into url
+2023-11-10 17:20:12,308 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:20:22,148 - Providio -INFO - Total enabled colors: 16
+2023-11-10 17:20:28,660 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 17:56:10,366 - Providio -INFO - Entered into url
+2023-11-10 17:56:10,372 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:57:26,359 - Providio -INFO - Relauching the browsesr
+2023-11-10 17:57:57,237 - Providio -INFO - Entered into url
+2023-11-10 17:57:57,244 - Providio -INFO - Placing the order as guest user
+2023-11-10 17:59:01,422 - Providio -INFO - Entered into url
+2023-11-10 17:59:01,428 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:00:11,191 - Providio -INFO - Relauching the browsesr
+2023-11-10 18:00:13,308 - Providio -INFO - Relauching the browsesr
+2023-11-10 18:00:35,432 - Providio -INFO - Entered into url
+2023-11-10 18:00:35,460 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:01:29,701 - Providio -INFO - Relauching the browsesr
+2023-11-10 18:02:11,368 - Providio -INFO - Entered into url
+2023-11-10 18:02:11,373 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:02:23,260 - Providio -INFO - Total enabled colors: 16
+2023-11-10 18:02:29,660 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 18:02:35,885 - Providio -INFO - Entered into url
+2023-11-10 18:02:35,885 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:02:51,334 - Providio -INFO - Succesfully selected the Beadsand count of the selected products 785
+2023-11-10 18:03:02,302 - Providio -INFO - add to cart  button enabled
+2023-11-10 18:03:13,158 - Providio -INFO - Entered into url
+2023-11-10 18:03:13,159 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:03:28,449 - Providio -INFO - Succesfully selected the Finished Jewelryand count of the selected products 23
+2023-11-10 18:03:37,595 - Providio -INFO - add to cart  button enabled
+2023-11-10 18:03:45,301 - Providio -INFO - Entered into url
+2023-11-10 18:03:45,301 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:03:56,258 - Providio -INFO - Total enabled colors: 11
+2023-11-10 18:04:01,592 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 18:04:05,963 - Providio -INFO - Entered into url
+2023-11-10 18:04:05,964 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:04:21,946 - Providio -INFO - Total enabled colors: 11
+2023-11-10 18:04:28,103 - Providio -INFO - The selected filter is but displayed filter is  Teardrop
+2023-11-10 18:04:38,944 - Providio -INFO - add to cart  button enabled
+2023-11-10 18:07:28,141 - Providio -INFO - Entered into url
+2023-11-10 18:07:28,148 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:07:40,872 - Providio -INFO - Total enabled colors: 4
+2023-11-10 18:07:46,313 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 18:07:50,461 - Providio -INFO - Entered into url
+2023-11-10 18:07:50,461 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:08:00,651 - Providio -INFO - Total enabled colors: 11
+2023-11-10 18:08:16,042 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 18:08:19,292 - Providio -INFO - Entered into url
+2023-11-10 18:08:19,292 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:08:26,084 - Providio -INFO - Total enabled colors: 16
+2023-11-10 18:08:32,203 - Providio -INFO - The selected filter is but displayed filter is  Purples / Lavenders
+2023-11-10 18:08:39,877 - Providio -INFO - add to cart  button enabled
+2023-11-10 18:08:44,402 - Providio -INFO - Entered into url
+2023-11-10 18:08:44,403 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:08:50,863 - Providio -INFO - Total enabled colors: 0
+2023-11-10 18:08:58,119 - Providio -INFO - Test case failed and returned into homepage
+2023-11-10 18:09:00,550 - Providio -INFO - Entered into url
+2023-11-10 18:09:00,550 - Providio -INFO - Placing the order as guest user
+2023-11-10 18:09:07,366 - Providio -INFO - Total enabled colors: 4
+2023-11-10 18:09:12,679 - Providio -INFO - Test case failed and returned into homepage

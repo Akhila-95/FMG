@@ -12,7 +12,10 @@ public class SelectionFromNavToPdp extends baseClass {
 	public static void selectingFromPdp() throws InterruptedException {
 	
 		//random menu selection
-		  MenuSelection.menues();
+		//  MenuSelection.menues();
+		driver.get("https://utsf.firemountain.org/beads/beads-by-type/pearls/cultured-freshwater-pearls/");
+		//filters 
+		  SelectingFilterFromPlp.selectingTheFilters();
 		  
 		// selecting random product from plp
 		  productListingPage.selectRandomProduct();
