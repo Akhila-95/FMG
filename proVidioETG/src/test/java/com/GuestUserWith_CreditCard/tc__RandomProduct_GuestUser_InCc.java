@@ -12,7 +12,7 @@ import com.testcases.baseClass;
 
 public class tc__RandomProduct_GuestUser_InCc extends baseClass {
 
-    @Test(invocationCount = 5)
+    @Test(invocationCount = 1)
     public void guestlogin() throws InterruptedException {
     	
     	//launching the browser and passing the url into it

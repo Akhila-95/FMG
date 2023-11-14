@@ -78,6 +78,7 @@ public class tc__Login extends baseClass {
             WebElement userName = driver.findElement(By.className("registered-user-message"));
             test.info("Name of User name is " + userName.getText());
             logger.info("Name of User name is " + userName.getText());
+            
            /* 
             //registered email id 
             WebElement regMail = driver.findElement(By.xpath("(//dd)[2]"));

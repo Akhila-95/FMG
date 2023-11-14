@@ -1,21 +1,18 @@
 package com.PageObjects;
 
-import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.w3c.dom.Text;
 
+import com.Scenarios.MenuSelection;
 import com.Validations.navigationProcessWithValidation;
 import com.Validations.validationpopupMessages;
 import com.testcases.baseClass;
@@ -113,26 +110,127 @@ WebDriver lDriver;
 			    }
 			}
 	
-	//qunatity
-	
-	 // Method to click on increasing quantity
-    public void clickInIncreaseQuantity() throws InterruptedException {
-    	//input[@name='quantity']
-    }
-	
-	//input[@name='quantity']
-	
-	//Filters
-	//display and hide features of filters
-	
+	//breadcrumbs
+			public static void ClickOnbreadCrumbs() throws InterruptedException {
+				//div[contains(@class,'category-overview')]
+				
+				  List<WebElement> categoryOverviewList  = driver.findElements(By.xpath("//div[contains(@class,'category-overview')]"));
+				  if(categoryOverviewList.size()>0) {
+					  test.info("Veriying the breadcrumbs navigation");
+					 // WebElement categoryOverview  = driver.findElement(By.xpath("//div[contains(@class,'category-overview')]"));
+					  List<WebElement> breadcrumbLinks  = driver.findElements(By.xpath("//div[contains(@class,'category-overview')]//li[contains(@class,'breadcrumb-item')]//a"));
+					  int breadcrumbLinksCount = breadcrumbLinks.size();
+					  System.out.println("Total breadcrumb links: " + breadcrumbLinksCount);
 
+				        if (breadcrumbLinksCount>0) {
+				        	
+				            // Randomly click on one of the anchor tags
+				            Random random = new Random();
+				            int randomIndex = random.nextInt(breadcrumbLinksCount);
+				            WebElement selectedBreadcrumbLink = breadcrumbLinks.get(randomIndex);
 
+				            Thread.sleep(3000);
+				            // Get the text of the randomly selected breadcrumb link
+				            String text = selectedBreadcrumbLink.getText();
+				            System.out.println("Selected breadcrumb link text: " + text);
+
+				            // Click on the selected breadcrumb link 
+				            Thread.sleep(1000);
+				            JavascriptExecutor js = (JavascriptExecutor) driver;
+				            js.executeScript("arguments[0].click();", selectedBreadcrumbLink);
+				           // selectedBreadcrumbLink.click();
+				            String home = "Home";
+				            
+				           List<WebElement>  plpPageName = driver.findElements(By.cssSelector("h1.category-name"));
+				            //validating the filter - if user clicks on home then it should  randomly select the menu
+				          if(text.equals(home)) {
+				        	  
+				        	  test.info("Randomly clicked on Home ,so randomizing the menus");
+				        	//random menu selection
+				    		  MenuSelection.menues();
+				          }else //if(plpPageName.size()>0) {
+				        	  if(driver.findElement(By.cssSelector("h1.category-name")).getText().equals(text));
+				        	  test.pass("Succesfully clicked on  " +text+ " and navigated to " +driver.findElement(By.cssSelector("h1.category-name")).getText() + " category");
+				        	  logger.info("Succesfully clicked on  " +text+ " and navigated to " + driver.findElement(By.cssSelector("h1.category-name")).getText()+ " category");
+				      //  }
+				            
+					      }else {
+					        	test.fail("Breadcrumbs are not navigated to clicked one");
+					        }
+				  }
+			}
+			
+			
+			
+			// nextpage link
+			public static void clickOnNextPage() throws InterruptedException {
+				 List<WebElement> nextPageLink  = driver.findElements(By.xpath("//a[contains(text(),'Next Page')]"));
+				 int nextPageCount=nextPageLink.size();
+				 test.info("Verifying the next page link");
+				  if (nextPageCount>0) {
+			        	
+					  
+					  WebElement  categoryName = driver.findElement(By.cssSelector("h1.category-name"));
+					  String categoryText = categoryName.getText();
+			            // Randomly click on one of the anchor tags
+			            Random random = new Random();
+			            int randomIndex = random.nextInt(nextPageCount);
+			            WebElement nextPage= nextPageLink.get(randomIndex);
+
+			            // Click on the selected breadcrumb link 
+			            Thread.sleep(1000);
+			            JavascriptExecutor js = (JavascriptExecutor) driver;
+			            js.executeScript("arguments[0].click();", nextPage);
+			            
+			            
+			            WebElement  newCategoryName = driver.findElement(By.cssSelector("h1.category-name"));
+						  String newCategoryText = newCategoryName.getText();
+			            if(categoryText.equals(newCategoryText)) {
+			            	test.pass("Succesfully clicked on next page i.e, shown " + categoryText+  " before clicking on next page and also showed " +newCategoryText);
+			            	logger.info("Succesfully clicked on next page i.e, shown " + categoryText+  " before clicking on next page and also showed " +newCategoryText);
+			            }else {
+			            	test.fail(" clicked failed on next page i.e, shown " + categoryText+  " before clicking on next page but showed " +newCategoryText);
+			            	logger.info(" clicked failed on next page i.e, shown " + categoryText+  " before clicking on next page but showed " +newCategoryText);
+			            }    
+				  }else {
+					  test.info("No next page button");
+				  }
+			}
+			
+			
+			public static void jumpToNextPage() throws InterruptedException {
+				 List<WebElement> jumpToPageList  = driver.findElements(By.id("page-number"));
+				 if(jumpToPageList.size()>0) {
+					 test.info("Verifying Jump to page");
+					 List<WebElement> jumpToPage  = driver.findElements(By.xpath("(//span[contains(@class,'count-bold')])[4]"));
+					 int jumpToPageCount =jumpToPage.size();
+					 Thread.sleep(1000);
+					 Random random = new Random();
+			         int randomIndex = random.nextInt(jumpToPageCount );
+			         WebElement nextPage=jumpToPageList.get(randomIndex);
+			         String pageValue = nextPage.getText();
+			         System.out.println(pageValue);
+					
+			         WebElement jumpToPageInput  = driver.findElement(By.id("page-number"));
+			         jumpToPageInput.sendKeys(pageValue);
+			         
+			         WebElement clickOnGo  = driver.findElement(By.xpath("(//button[contains(@class,'paginationButton')])[1]"));
+			         JavascriptExecutor js = (JavascriptExecutor) driver;
+			         js.executeScript("arguments[0].click();", clickOnGo);
+			         
+				 }else {
+					 test.info("No jump to page");
+				 }				
+			}
+			
+			//all filters
     public Pair<String, String> selectCategoryFilter(WebDriver driver) throws InterruptedException {
         String text = null;
         String digits = null;
         
         List<WebElement> categoryFilter = driver.findElements(By.xpath("(//h6[contains(text(),'Category')])[1]"));
         if (categoryFilter.size() > 0) {
+        	
             Thread.sleep(2000);
             //element to select the filter
             List<WebElement> refinementCategory  = driver.findElements(By.xpath("//div[contains(@class,'refinement-category')]//span[@class='refinement-value ']"));
@@ -146,26 +244,25 @@ WebDriver lDriver;
 	                int randomIndex = random.nextInt(refinementCategoryCount);
 	                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
 	                JavascriptExecutor js = (JavascriptExecutor) driver;
+	                
+	                Thread.sleep(2000);
+	              //text of filter 
+	                text = selectedRefinementCategory.getText();
+  		            System.out.println("the filter is " +text);
+	                
                 //click on selected filter
 	                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-               
-	                //text of selected filter
-	                //Thread.sleep(2000);
-	                try {
-	                    // Perform some action that triggers the StaleElementReferenceException
-	                	  text = selectedRefinementCategory.getText();  
-	                } catch (StaleElementReferenceException e) {
-	                	 Thread.sleep(1000);
-	                	 System.out.println("Element not found: " + e.getMessage());
-	                }
-	                          	                   
+              		            
                 
+	                Thread.sleep(2000);
                 //text of digits in  selected filter
 	                digits = text.replaceAll("\\D+", "");
+	           
 	             
 	                
 	            //text extracted from the selected filter	             
 	                text = text.replaceAll("\\(\\d+\\)", "");
+	         
 	              
             }
         }
@@ -195,22 +292,15 @@ WebDriver lDriver;
 	                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
 	                JavascriptExecutor js = (JavascriptExecutor) driver;
 	                
+	                Thread.sleep(2000);
+	              //text of filter 
+	                text = selectedRefinementCategory.getText();
+  		            System.out.println("the filter is " +text);
+  		            
                 //click on selected filter
 	                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-               
 
-		              //text of selected filter
-		                Thread.sleep(2000);
-		                try {
-		                    // Perform some action that triggers the StaleElementReferenceException
-		                	  text = selectedRefinementCategory.getText();  
-		                } catch (StaleElementReferenceException e) {
-		                	 Thread.sleep(1000);
-		                	 System.out.println("Element not found: " + e.getMessage());
-		                }
-	                        
-       
-                
+                  Thread.sleep(2000);
                 //text of digits in  selected filter
 	                digits = text.replaceAll("\\D+", "");
 	             
@@ -244,20 +334,15 @@ WebDriver lDriver;
 		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
 		                JavascriptExecutor js = (JavascriptExecutor) driver;
 		                
+		                Thread.sleep(2000);
+		              //text of filter 
+		                text = selectedRefinementCategory.getText();
+	  		            System.out.println("the filter is " +text); 
+		                
 	                //click on selected filter
 		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
 	               
-
-  		              //text of selected filter
-  		                Thread.sleep(2000);
-  		                try {
-  		                    // Perform some action that triggers the StaleElementReferenceException
-  		                	  text = selectedRefinementCategory.getText();  
-  		                } catch (StaleElementReferenceException e) {
-  		                	 Thread.sleep(1000);
-  		                	 System.out.println("Element not found: " + e.getMessage());
-  		                }
-	                
+		               Thread.sleep(2000);
 	                //text of digits in  selected filter
 		                digits = text.replaceAll("\\D+", "");
 		             
@@ -269,7 +354,8 @@ WebDriver lDriver;
 	        }
 	        return Pair.of(text, digits);
 	}
-	
+
+    
   //select a color
     public Pair<String, String>  selectshapeFilter(WebDriver driver) throws InterruptedException {
     	 String text = null;
@@ -291,30 +377,24 @@ WebDriver lDriver;
 		                int randomIndex = random.nextInt(refinementCategoryCount);
 		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
 		                JavascriptExecutor js = (JavascriptExecutor) driver;
+		               
+		                Thread.sleep(2000);
 		                
+		              //text of filter 
+		                text = selectedRefinementCategory.getText();
+	  		            System.out.println("the filter is " +text);
+	  		            
 	                //click on selected filter
 		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-	               
 
-  		              //text of selected filter
-  		                Thread.sleep(2000);
-  		                try {
-  		                    // Perform some action that triggers the StaleElementReferenceException
-  		                	  text = selectedRefinementCategory.getText();  
-  		                } catch (StaleElementReferenceException e) {
-  		                	
-  		                	 System.out.println("Element not found: " + e.getMessage());
-  		                }
-		                       
-	       
-	                
+  		           
+		                Thread.sleep(2000);
 	                //text of digits in  selected filter
 		                digits = text.replaceAll("\\D+", "");
 		             
 		                
 		            //text extracted from the selected filter	            
-		                text = text.replaceAll("\\(\\d+\\)", "");
-		               
+		                text = text.replaceAll("\\(\\d+\\)", "");		               
 	            }
 	        }
 	        return Pair.of(text, digits);
@@ -343,24 +423,15 @@ WebDriver lDriver;
   		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
   		                JavascriptExecutor js = (JavascriptExecutor) driver;
   		                
+  		              Thread.sleep(2000);
   		           // Get the text of the selected element before clicking it
-  		              String selectedText = selectedRefinementCategory.getText();
-  		              System.out.println("the filter is " +selectedText);
+  		               text = selectedRefinementCategory.getText();
+  		               System.out.println("the filter is " +text);
+  		               
   	                //click on selected filter 
   		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-  	               
-
-  		              //text of selected filter
-  		                Thread.sleep(2000);
-  		                try {
-  		                    // Perform some action that triggers the StaleElementReferenceException
-  		                	  text = selectedRefinementCategory.getText();  
-  		                } catch (StaleElementReferenceException e) {
-  		                	
-  		                	 System.out.println("Element not found: " + e.getMessage());
-  		                }     
-  	       
-  	                
+  
+  		            Thread.sleep(2000);
   	                //text of digits in  selected filter
   		                digits = text.replaceAll("\\D+", "");
   		             
@@ -395,23 +466,16 @@ WebDriver lDriver;
     		                int randomIndex = random.nextInt(refinementCategoryCount);
     		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
     		                JavascriptExecutor js = (JavascriptExecutor) driver;
-    		                
+    		              
+    		                //text of filter 
+    		                Thread.sleep(2000);
+    		                text = selectedRefinementCategory.getText();
+    	  		            System.out.println("the filter is " +text);
+    	  		            
     	                //click on selected filter
     		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-    	               
 
-      		              //text of selected filter
-      		                Thread.sleep(2000);
-      		                try {
-      		                    // Perform some action that triggers the StaleElementReferenceException
-      		                	  text = selectedRefinementCategory.getText();  
-      		                } catch (StaleElementReferenceException e) {
-      		                	
-      		                	 System.out.println("Element not found: " + e.getMessage());
-      		                }
-    		                            
-    	       
-    	                
+    		              Thread.sleep(2000);
     	                //text of digits in  selected filter
     		                digits = text.replaceAll("\\D+", "");
     		             
@@ -447,21 +511,16 @@ WebDriver lDriver;
       		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
       		                JavascriptExecutor js = (JavascriptExecutor) driver;
       		                
+      		              Thread.sleep(2000); 
+      		            //text of filter 
+    		                text = selectedRefinementCategory.getText();
+    	  		            System.out.println("the filter is " +text);
+    	  		            
+      		           
       	                //click on selected filter
       		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-      	               
-      		            //text of selected filter
-      		                Thread.sleep(2000);
-      		                try {
-      		                    // Perform some action that triggers the StaleElementReferenceException
-      		                	  text = selectedRefinementCategory.getText();  
-      		                } catch (StaleElementReferenceException e) {
-      		                	
-      		                	 System.out.println("Element not found: " + e.getMessage());
-      		                }
-      		                           
-      	       
-      	                
+     
+      		               Thread.sleep(2000);
       	                //text of digits in  selected filter
       		                digits = text.replaceAll("\\D+", "");
       		             
@@ -496,20 +555,15 @@ WebDriver lDriver;
       		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
       		                JavascriptExecutor js = (JavascriptExecutor) driver;
       		                
+      		              Thread.sleep(2000);
+      		            //text of filter 
+    		                text = selectedRefinementCategory.getText();
+    	  		            System.out.println("the filter is " +text);
+    	  		               		          
       	                //click on selected filter
       		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-      	               
-      		            //text of selected filter
+      	         
       		                Thread.sleep(2000);
-      		                try {
-      		                    // Perform some action that triggers the StaleElementReferenceException
-      		                	  text = selectedRefinementCategory.getText();  
-      		                } catch (StaleElementReferenceException e) {
-      		                	 
-      		                	 System.out.println("Element not found: " + e.getMessage());
-      		                }
-      		                  
-      	                
       	                //text of digits in  selected filter
       		                digits = text.replaceAll("\\D+", "");
       		             
@@ -543,21 +597,16 @@ WebDriver lDriver;
       		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
       		                JavascriptExecutor js = (JavascriptExecutor) driver;
       		                
+      		              Thread.sleep(4000);
+      		            //text of filter 
+    		                text = selectedRefinementCategory.getText();
+    	  		            System.out.println("the filter is " +text);
+    	  		            
+      		             
       	                //click on selected filter
       		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-      	               
-      		            //text of selected filter
+  
       		                Thread.sleep(2000);
-      		                try {
-      		                    // Perform some action that triggers the StaleElementReferenceException
-      		                	  text = selectedRefinementCategory.getText();  
-      		                } catch (StaleElementReferenceException e) {
-      		                	
-      		                	 System.out.println("Element not found: " + e.getMessage());
-      		                }
-      		                             
-      	       
-      	                
       	                //text of digits in  selected filter
       		                digits = text.replaceAll("\\D+", "");
       		             
@@ -592,19 +641,15 @@ WebDriver lDriver;
       		                WebElement selectedRefinementCategory = refinementCategory.get(randomIndex);
       		                JavascriptExecutor js = (JavascriptExecutor) driver;
       		                
+      		              Thread.sleep(2000);
+      		            //text of filter 
+    		                text = selectedRefinementCategory.getText();
+    	  		            System.out.println("the filter is " +text);	 		            
+      		         
       	                //click on selected filter
       		                js.executeScript("arguments[0].click();", selectedRefinementCategory);
-      	               
-      		            //text of selected filter
-      		                Thread.sleep(2000);
-      		                try {
-      		                    // Perform some action that triggers the StaleElementReferenceException
-      		                	  text = selectedRefinementCategory.getText();  
-      		                } catch (StaleElementReferenceException e) {
-      		                	 System.out.println("Element not found: " + e.getMessage());  
-      		                }     		                      
-      	       
-      	                
+
+      		           Thread.sleep(2000);
       	                //text of digits in  selected filter
       		                digits = text.replaceAll("\\D+", "");
       		             
@@ -657,7 +702,7 @@ WebDriver lDriver;
 		
 		//WishList
 		public void selecttheWishlist() throws InterruptedException{
-			for(int i =2;i<= 4;i++) {
+			for(int i =2;i<= 3;i++) {
 				WebElement wishlistPlp = driver.findElement(By.xpath("(//a[@title= 'Favorites'])["+i+"]"));
 				Thread.sleep(4000);
 				JavascriptExecutor executor = (JavascriptExecutor) driver;

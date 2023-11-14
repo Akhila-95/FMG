@@ -1,144 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-10T18:07:13 IST" name="Default suite" finished-at="2023-11-10T18:09:12 IST" duration-ms="119140">
+  <suite started-at="2023-11-14T18:27:01 IST" name="Default suite" finished-at="2023-11-14T18:28:19 IST" duration-ms="78268">
     <groups>
     </groups>
-    <test started-at="2023-11-10T18:07:13 IST" name="Default test" finished-at="2023-11-10T18:09:12 IST" duration-ms="119140">
+    <test started-at="2023-11-14T18:27:01 IST" name="Default test" finished-at="2023-11-14T18:28:19 IST" duration-ms="78268">
       <class name="com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc">
-        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:07:10 IST" name="setUpforReport" finished-at="2023-11-10T18:07:13 IST" duration-ms="2844" status="PASS">
+        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-14T18:26:58 IST" name="setUpforReport" finished-at="2023-11-14T18:27:01 IST" duration-ms="3464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpforReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:07:13 IST" name="setUp" finished-at="2023-11-10T18:07:15 IST" duration-ms="2076" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-14T18:27:01 IST" name="setUp" finished-at="2023-11-14T18:27:03 IST" duration-ms="2062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:07:15 IST" name="guestlogin" finished-at="2023-11-10T18:07:43 IST" duration-ms="27361" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "text" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "text" is null
-at com.PageObjects.productListingPage.selectbrandFilter(productListingPage.java:365)
-at com.commonfunctionality.SelectingFilterFromPlp.brandFilter(SelectingFilterFromPlp.java:217)
-at com.commonfunctionality.SelectingFilterFromPlp.allFilters(SelectingFilterFromPlp.java:73)
-at com.commonfunctionality.SelectingFilterFromPlp.selectingTheFilters(SelectingFilterFromPlp.java:57)
-at com.commonfunctionality.SelectionFromNavToPdp.selectingFromPdp(SelectionFromNavToPdp.java:18)
-at com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc.guestlogin(tc__RandomProduct_GuestUser_InCc.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-14T18:27:03 IST" name="guestlogin" finished-at="2023-11-14T18:28:19 IST" duration-ms="76153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guestlogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:07:43 IST" name="afterMethod" finished-at="2023-11-10T18:07:46 IST" duration-ms="3280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestlogin status=FAILURE method=tc__RandomProduct_GuestUser_InCc.guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:07:46 IST" name="guestlogin" finished-at="2023-11-10T18:08:02 IST" duration-ms="16451" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "text" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "text" is null
-at com.PageObjects.productListingPage.selectshapeFilter(productListingPage.java:312)
-at com.commonfunctionality.SelectingFilterFromPlp.shapeFilter(SelectingFilterFromPlp.java:181)
-at com.commonfunctionality.SelectingFilterFromPlp.allFilters(SelectingFilterFromPlp.java:88)
-at com.commonfunctionality.SelectingFilterFromPlp.selectingTheFilters(SelectingFilterFromPlp.java:57)
-at com.commonfunctionality.SelectingFilterFromPlp.holesLoopsFilter(SelectingFilterFromPlp.java:421)
-at com.commonfunctionality.SelectingFilterFromPlp.allFilters(SelectingFilterFromPlp.java:91)
-at com.commonfunctionality.SelectingFilterFromPlp.selectingTheFilters(SelectingFilterFromPlp.java:57)
-at com.commonfunctionality.SelectionFromNavToPdp.selectingFromPdp(SelectionFromNavToPdp.java:18)
-at com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc.guestlogin(tc__RandomProduct_GuestUser_InCc.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestlogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:08:02 IST" name="afterMethod" finished-at="2023-11-10T18:08:16 IST" duration-ms="13272" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestlogin status=FAILURE method=tc__RandomProduct_GuestUser_InCc.guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:08:16 IST" name="guestlogin" finished-at="2023-11-10T18:08:41 IST" duration-ms="25886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestlogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:08:41 IST" name="afterMethod" finished-at="2023-11-10T18:08:41 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-14T18:28:19 IST" name="afterMethod" finished-at="2023-11-14T18:28:19 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,154 +30,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:08:41 IST" name="guestlogin" finished-at="2023-11-10T18:08:54 IST" duration-ms="12963" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='filter-value-element'])[2]"}
-  (Session info: chrome=119.0.6045.123)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42f79f2cea71a52394033a5516857c6c, findElement {using=xpath, value=(//span[@class='filter-value-element'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60029/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 42f79f2cea71a52394033a5516857c6c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='filter-value-element'])[2]"}
-  (Session info: chrome=119.0.6045.123)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42f79f2cea71a52394033a5516857c6c, findElement {using=xpath, value=(//span[@class='filter-value-element'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60029/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 42f79f2cea71a52394033a5516857c6c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.commonfunctionality.SelectingFilterFromPlp.priceFilter(SelectingFilterFromPlp.java:367)
-at com.commonfunctionality.SelectingFilterFromPlp.allFilters(SelectingFilterFromPlp.java:82)
-at com.commonfunctionality.SelectingFilterFromPlp.selectingTheFilters(SelectingFilterFromPlp.java:57)
-at com.commonfunctionality.SelectionFromNavToPdp.selectingFromPdp(SelectionFromNavToPdp.java:18)
-at com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc.guestlogin(tc__RandomProduct_GuestUser_InCc.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestlogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:08:54 IST" name="afterMethod" finished-at="2023-11-10T18:08:58 IST" duration-ms="3217" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestlogin status=FAILURE method=tc__RandomProduct_GuestUser_InCc.guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:08:58 IST" name="guestlogin" finished-at="2023-11-10T18:09:09 IST" duration-ms="11301" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "text" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "text" is null
-at com.PageObjects.productListingPage.selectbrandFilter(productListingPage.java:365)
-at com.commonfunctionality.SelectingFilterFromPlp.brandFilter(SelectingFilterFromPlp.java:217)
-at com.commonfunctionality.SelectingFilterFromPlp.allFilters(SelectingFilterFromPlp.java:73)
-at com.commonfunctionality.SelectingFilterFromPlp.selectingTheFilters(SelectingFilterFromPlp.java:57)
-at com.commonfunctionality.SelectionFromNavToPdp.selectingFromPdp(SelectionFromNavToPdp.java:18)
-at com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc.guestlogin(tc__RandomProduct_GuestUser_InCc.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestlogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:09:09 IST" name="afterMethod" finished-at="2023-11-10T18:09:12 IST" duration-ms="3256" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestlogin status=FAILURE method=tc__RandomProduct_GuestUser_InCc.guestlogin()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-10T18:09:12 IST" name="tearDown" finished-at="2023-11-10T18:09:18 IST" duration-ms="6085" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc@630bf683]" started-at="2023-11-14T18:28:19 IST" name="tearDown" finished-at="2023-11-14T18:28:26 IST" duration-ms="6130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -6,6 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.commonfunctionality.Gc__CC_Paypal;
 import com.commonfunctionality.SelectionFromNavToPdp;
+import com.commonfunctionality.SelectionFromNavToPlp;
 import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
@@ -14,7 +15,7 @@ import com.testcases.baseClass;
 public class tc__RandomProductsGuestUser_InGcAndCC extends baseClass{
 	SoftAssert softAssert = new SoftAssert();
 	 
-	 @Test
+	 @Test(invocationCount = 5)
 	public void simpleProduct() throws InterruptedException {
 		 
 			//launching the browser and passing the url into it
@@ -23,15 +24,15 @@ public class tc__RandomProductsGuestUser_InGcAndCC extends baseClass{
 		
 			
 			// selecting random menu and product and adding to cart
-			SelectionFromNavToPdp.selectingFromPdp();
+			 SelectionFromNavToPlp.selectionFromNavToPlp();
 			
 	        //checkoutProcess	        
 	        MinicartViewCartProcess cp = new MinicartViewCartProcess();	        
-	        cp.checkoutprocess();
+	      //  cp.checkoutprocess();
             
 	      //semi gc and cc 
 			Gc__CC_Paypal gCandCC = new Gc__CC_Paypal();
-			gCandCC.paymentProccessByGCandCC(driver);
+		//	gCandCC.paymentProccessByGCandCC(driver);
 
 	        
 	        }

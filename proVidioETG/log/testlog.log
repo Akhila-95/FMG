@@ -22132,3 +22132,2703 @@ rahulnaik@etisbew.com
 2023-11-10 18:09:00,550 - Providio -INFO - Placing the order as guest user
 2023-11-10 18:09:07,366 - Providio -INFO - Total enabled colors: 4
 2023-11-10 18:09:12,679 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 14:55:06,209 - Providio -INFO - Entered into url
+2023-11-11 14:55:06,226 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:00:23,471 - Providio -INFO - Relauching the browsesr
+2023-11-11 15:00:34,454 - Providio -INFO - Entered into url
+2023-11-11 15:00:34,458 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:00:35,694 - Providio -INFO - Total menus count is 8
+2023-11-11 15:00:35,694 - Providio -INFO - Randomly selected menu number 1
+2023-11-11 15:00:35,717 - Providio -INFO - Total number of sub menus associated with the hovered menu 32
+2023-11-11 15:00:35,718 - Providio -INFO - Randomly selected sub menu number 18
+2023-11-11 15:00:54,308 - Providio -INFO - 5
+2023-11-11 15:01:06,310 - Providio -INFO - 1
+2023-11-11 15:01:06,310 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:02:21,737 - Providio -INFO - Entered into url
+2023-11-11 15:02:21,742 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:02:22,957 - Providio -INFO - Total menus count is 8
+2023-11-11 15:02:22,957 - Providio -INFO - Randomly selected menu number 1
+2023-11-11 15:02:22,982 - Providio -INFO - Total number of sub menus associated with the hovered menu 32
+2023-11-11 15:02:22,982 - Providio -INFO - Randomly selected sub menu number 18
+2023-11-11 15:02:41,389 - Providio -INFO - 8
+2023-11-11 15:02:53,768 - Providio -INFO - 1
+2023-11-11 15:02:53,769 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:07:47,693 - Providio -INFO - Relauching the browsesr
+2023-11-11 15:07:58,970 - Providio -INFO - Entered into url
+2023-11-11 15:07:58,973 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:08:00,159 - Providio -INFO - Total menus count is 8
+2023-11-11 15:08:00,160 - Providio -INFO - Randomly selected menu number 3
+2023-11-11 15:08:00,179 - Providio -INFO - Total number of sub menus associated with the hovered menu 10
+2023-11-11 15:08:00,179 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-11 15:08:17,633 - Providio -INFO - 3
+2023-11-11 15:08:27,024 - Providio -INFO - 1
+2023-11-11 15:08:27,025 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:09:04,573 - Providio -INFO - Relauching the browsesr
+2023-11-11 15:09:28,819 - Providio -INFO - Entered into url
+2023-11-11 15:09:28,823 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:09:30,018 - Providio -INFO - Total menus count is 8
+2023-11-11 15:09:30,019 - Providio -INFO - Randomly selected menu number 4
+2023-11-11 15:09:30,041 - Providio -INFO - Total number of sub menus associated with the hovered menu 28
+2023-11-11 15:09:30,042 - Providio -INFO - Randomly selected sub menu number 19
+2023-11-11 15:09:46,708 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:09:46,721 - Providio -INFO - 1
+2023-11-11 15:09:46,722 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:33:14,690 - Providio -INFO - Entered into url
+2023-11-11 15:33:14,699 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:33:15,943 - Providio -INFO - Total menus count is 8
+2023-11-11 15:33:15,943 - Providio -INFO - Randomly selected menu number 2
+2023-11-11 15:33:15,964 - Providio -INFO - Total number of sub menus associated with the hovered menu 35
+2023-11-11 15:33:15,964 - Providio -INFO - Randomly selected sub menu number 26
+2023-11-11 15:33:33,447 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:33:33,461 - Providio -INFO - 1
+2023-11-11 15:33:33,461 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:35:04,111 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 15:54:35,862 - Providio -INFO - Entered into url
+2023-11-11 15:54:35,868 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:54:37,079 - Providio -INFO - Total menus count is 8
+2023-11-11 15:54:37,080 - Providio -INFO - Randomly selected menu number 1
+2023-11-11 15:54:37,100 - Providio -INFO - Total number of sub menus associated with the hovered menu 32
+2023-11-11 15:54:37,100 - Providio -INFO - Randomly selected sub menu number 15
+2023-11-11 15:54:56,153 - Providio -INFO - 4
+2023-11-11 15:55:05,796 - Providio -INFO - 0
+2023-11-11 15:55:05,816 - Providio -INFO - Total menus count is 8
+2023-11-11 15:55:05,817 - Providio -INFO - Randomly selected menu number 6
+2023-11-11 15:55:05,838 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-11 15:55:05,839 - Providio -INFO - Randomly selected sub menu number 4
+2023-11-11 15:55:22,426 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:55:22,438 - Providio -INFO - 1
+2023-11-11 15:55:22,438 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:55:25,760 - Providio -INFO - Total enabled colors: 21
+2023-11-11 15:55:31,403 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 15:57:10,702 - Providio -INFO - Entered into url
+2023-11-11 15:57:10,706 - Providio -INFO - Placing the order as guest user
+2023-11-11 15:57:11,941 - Providio -INFO - Total menus count is 8
+2023-11-11 15:57:11,941 - Providio -INFO - Randomly selected menu number 3
+2023-11-11 15:57:11,960 - Providio -INFO - Total number of sub menus associated with the hovered menu 10
+2023-11-11 15:57:11,960 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-11 15:57:27,560 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:57:27,571 - Providio -INFO - 1
+2023-11-11 15:57:27,572 - Providio -INFO - PLP page is already loaded
+2023-11-11 15:57:30,917 - Providio -INFO - Total enabled colors: 2
+2023-11-11 15:57:38,239 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:15:52,046 - Providio -INFO - Entered into url
+2023-11-11 16:15:52,050 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:15:53,319 - Providio -INFO - Total menus count is 8
+2023-11-11 16:15:53,319 - Providio -INFO - Randomly selected menu number 5
+2023-11-11 16:15:53,339 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-11 16:15:53,339 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-11 16:16:10,938 - Providio -INFO - 2
+2023-11-11 16:16:20,513 - Providio -INFO - 1
+2023-11-11 16:16:20,513 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:16:23,810 - Providio -INFO - Total enabled colors: 0
+2023-11-11 16:16:31,156 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:23:13,289 - Providio -INFO - Entered into url
+2023-11-11 16:23:13,294 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:23:14,571 - Providio -INFO - Total menus count is 8
+2023-11-11 16:23:14,572 - Providio -INFO - Randomly selected menu number 6
+2023-11-11 16:23:14,592 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-11 16:23:14,592 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-11 16:23:30,768 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:23:30,780 - Providio -INFO - 1
+2023-11-11 16:23:30,781 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:23:34,159 - Providio -INFO - Total enabled colors: 18
+2023-11-11 16:23:41,334 - Providio -INFO - The selected filter is but displayed filter is  Pinks
+2023-11-11 16:23:50,140 - Providio -INFO - add to cart  button enabled
+2023-11-11 16:24:44,070 - Providio -INFO - Entered into url
+2023-11-11 16:24:44,075 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:24:45,263 - Providio -INFO - Total menus count is 8
+2023-11-11 16:24:45,264 - Providio -INFO - Randomly selected menu number 2
+2023-11-11 16:24:45,287 - Providio -INFO - Total number of sub menus associated with the hovered menu 35
+2023-11-11 16:24:45,287 - Providio -INFO - Randomly selected sub menu number 23
+2023-11-11 16:25:01,893 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:25:01,905 - Providio -INFO - 1
+2023-11-11 16:25:01,905 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:25:05,282 - Providio -INFO - Total enabled colors: 0
+2023-11-11 16:25:12,648 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:30:39,926 - Providio -INFO - Entered into url
+2023-11-11 16:30:39,929 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:30:41,143 - Providio -INFO - Total menus count is 8
+2023-11-11 16:30:41,143 - Providio -INFO - Randomly selected menu number 2
+2023-11-11 16:30:41,165 - Providio -INFO - Total number of sub menus associated with the hovered menu 35
+2023-11-11 16:30:41,165 - Providio -INFO - Randomly selected sub menu number 20
+2023-11-11 16:30:58,527 - Providio -INFO - 4
+2023-11-11 16:31:11,330 - Providio -INFO - 1
+2023-11-11 16:31:11,330 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:31:14,646 - Providio -INFO - Total enabled colors: 10
+2023-11-11 16:31:19,944 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:34:08,163 - Providio -INFO - Entered into url
+2023-11-11 16:34:08,169 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:34:09,427 - Providio -INFO - Total menus count is 8
+2023-11-11 16:34:09,427 - Providio -INFO - Randomly selected menu number 8
+2023-11-11 16:34:09,427 - Providio -INFO - random genrate is 8
+2023-11-11 16:34:13,463 - Providio -INFO - 6
+2023-11-11 16:34:16,541 - Providio -INFO - Total menus count is 8
+2023-11-11 16:34:16,542 - Providio -INFO - Randomly selected menu number 1
+2023-11-11 16:34:16,561 - Providio -INFO - Total number of sub menus associated with the hovered menu 32
+2023-11-11 16:34:16,562 - Providio -INFO - Randomly selected sub menu number 15
+2023-11-11 16:34:33,556 - Providio -INFO - 1
+2023-11-11 16:34:42,180 - Providio -INFO - 0
+2023-11-11 16:34:42,191 - Providio -INFO - Total menus count is 8
+2023-11-11 16:34:42,191 - Providio -INFO - Randomly selected menu number 6
+2023-11-11 16:34:42,208 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-11 16:34:42,208 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-11 16:34:59,989 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:35:00,002 - Providio -INFO - 1
+2023-11-11 16:35:00,003 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:35:00,016 - Providio -INFO - 1
+2023-11-11 16:35:00,016 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:35:10,710 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:36:18,440 - Providio -INFO - Entered into url
+2023-11-11 16:36:18,444 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:36:19,642 - Providio -INFO - Total menus count is 8
+2023-11-11 16:36:19,642 - Providio -INFO - Randomly selected menu number 1
+2023-11-11 16:36:19,663 - Providio -INFO - Total number of sub menus associated with the hovered menu 32
+2023-11-11 16:36:19,663 - Providio -INFO - Randomly selected sub menu number 13
+2023-11-11 16:36:39,064 - Providio -INFO - 5
+2023-11-11 16:36:47,580 - Providio -INFO - 1
+2023-11-11 16:36:47,581 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:36:50,834 - Providio -INFO - Total enabled colors: 0
+2023-11-11 16:37:04,025 - Providio -INFO - add to cart  button enabled
+2023-11-11 16:37:07,786 - Providio -INFO - Entered into url
+2023-11-11 16:37:07,786 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:37:07,911 - Providio -INFO - Total menus count is 8
+2023-11-11 16:37:07,911 - Providio -INFO - Randomly selected menu number 4
+2023-11-11 16:37:07,937 - Providio -INFO - Total number of sub menus associated with the hovered menu 28
+2023-11-11 16:37:07,939 - Providio -INFO - Randomly selected sub menu number 17
+2023-11-11 16:37:24,595 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:37:24,607 - Providio -INFO - 1
+2023-11-11 16:37:24,608 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:37:34,919 - Providio -INFO - Total enabled colors: 7
+2023-11-11 16:37:42,194 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:37:44,174 - Providio -INFO - Entered into url
+2023-11-11 16:37:44,175 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:37:44,255 - Providio -INFO - Total menus count is 8
+2023-11-11 16:37:44,256 - Providio -INFO - Randomly selected menu number 4
+2023-11-11 16:37:44,272 - Providio -INFO - Total number of sub menus associated with the hovered menu 28
+2023-11-11 16:37:44,272 - Providio -INFO - Randomly selected sub menu number 5
+2023-11-11 16:38:00,858 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:38:00,870 - Providio -INFO - 1
+2023-11-11 16:38:00,870 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:38:12,629 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:38:14,432 - Providio -INFO - Entered into url
+2023-11-11 16:38:14,432 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:38:14,516 - Providio -INFO - Total menus count is 8
+2023-11-11 16:38:14,516 - Providio -INFO - Randomly selected menu number 5
+2023-11-11 16:38:14,537 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-11 16:38:14,537 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-11 16:38:31,363 - Providio -INFO - 3
+2023-11-11 16:38:43,601 - Providio -INFO - 1
+2023-11-11 16:38:43,602 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:38:46,832 - Providio -INFO - Total enabled colors: 2
+2023-11-11 16:38:54,079 - Providio -INFO - Test case failed and returned into homepage
+2023-11-11 16:38:55,931 - Providio -INFO - Entered into url
+2023-11-11 16:38:55,931 - Providio -INFO - Placing the order as guest user
+2023-11-11 16:38:56,010 - Providio -INFO - Total menus count is 8
+2023-11-11 16:38:56,011 - Providio -INFO - Randomly selected menu number 4
+2023-11-11 16:38:56,027 - Providio -INFO - Total number of sub menus associated with the hovered menu 28
+2023-11-11 16:38:56,028 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-11 16:39:13,994 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:39:14,005 - Providio -INFO - 1
+2023-11-11 16:39:14,005 - Providio -INFO - PLP page is already loaded
+2023-11-11 16:39:33,988 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:01:22,431 - Providio -INFO - Entered into url
+2023-11-14 10:01:22,449 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:01:23,929 - Providio -INFO - Total menus count is 8
+2023-11-14 10:01:23,929 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:01:23,947 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:01:27,549 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:01:31,941 - Providio -INFO - Entered into url
+2023-11-14 10:01:31,942 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:01:32,053 - Providio -INFO - Total menus count is 8
+2023-11-14 10:01:32,059 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:01:32,085 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:01:35,550 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:01:37,804 - Providio -INFO - Entered into url
+2023-11-14 10:01:37,805 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:01:37,834 - Providio -INFO - Total menus count is 8
+2023-11-14 10:01:37,835 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:01:37,855 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:01:41,377 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:01:43,281 - Providio -INFO - Entered into url
+2023-11-14 10:01:43,281 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:01:43,316 - Providio -INFO - Total menus count is 8
+2023-11-14 10:01:43,316 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:01:43,328 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:01:46,787 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:01:48,366 - Providio -INFO - Entered into url
+2023-11-14 10:01:48,367 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:01:48,447 - Providio -INFO - Total menus count is 8
+2023-11-14 10:01:48,448 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:01:48,481 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:01:51,920 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:02:23,892 - Providio -INFO - Entered into url
+2023-11-14 10:02:23,896 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:02:25,065 - Providio -INFO - Total menus count is 8
+2023-11-14 10:02:25,065 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:02:25,085 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:02:28,603 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:04:50,123 - Providio -INFO - Entered into url
+2023-11-14 10:04:50,147 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:04:54,792 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:54,792 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:04:54,808 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:54,826 - Providio -INFO - 0
+2023-11-14 10:04:54,836 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:54,837 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:04:54,853 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:54,863 - Providio -INFO - 0
+2023-11-14 10:04:54,875 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:54,875 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:04:54,892 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:54,904 - Providio -INFO - 0
+2023-11-14 10:04:54,916 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:54,916 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:04:54,935 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:54,945 - Providio -INFO - 0
+2023-11-14 10:04:54,958 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:54,958 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:04:54,974 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:54,984 - Providio -INFO - 0
+2023-11-14 10:04:54,995 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:54,995 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:04:55,005 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,016 - Providio -INFO - 0
+2023-11-14 10:04:55,028 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,028 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:04:55,037 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,047 - Providio -INFO - 0
+2023-11-14 10:04:55,058 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,058 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:04:55,058 - Providio -INFO - random genrate is 7
+2023-11-14 10:04:55,069 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,069 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:04:55,079 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,090 - Providio -INFO - 0
+2023-11-14 10:04:55,101 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,102 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:04:55,111 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,122 - Providio -INFO - 0
+2023-11-14 10:04:55,133 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,133 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:04:55,133 - Providio -INFO - random genrate is 7
+2023-11-14 10:04:55,144 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,145 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:04:55,154 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,163 - Providio -INFO - 0
+2023-11-14 10:04:55,176 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,176 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:04:55,188 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,199 - Providio -INFO - 0
+2023-11-14 10:04:55,210 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,210 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:04:55,220 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,229 - Providio -INFO - 0
+2023-11-14 10:04:55,239 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,239 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:04:55,251 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,263 - Providio -INFO - 0
+2023-11-14 10:04:55,278 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,278 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:04:55,289 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,300 - Providio -INFO - 0
+2023-11-14 10:04:55,310 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,310 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:04:55,328 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,338 - Providio -INFO - 0
+2023-11-14 10:04:55,347 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,347 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:04:55,357 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,365 - Providio -INFO - 0
+2023-11-14 10:04:55,376 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,376 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:04:55,387 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,396 - Providio -INFO - 0
+2023-11-14 10:04:55,407 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,407 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:04:55,407 - Providio -INFO - random genrate is 7
+2023-11-14 10:04:55,416 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,416 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:04:55,425 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:04:55,435 - Providio -INFO - 0
+2023-11-14 10:04:55,445 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,445 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:04:55,445 - Providio -INFO - random genrate is 7
+2023-11-14 10:04:55,455 - Providio -INFO - Total menus count is 8
+2023-11-14 10:04:55,455 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:04:55,455 - Providio -INFO - random genrate is 8
+2023-11-14 10:04:59,614 - Providio -INFO - 6
+2023-11-14 10:05:02,693 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:02,694 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:02,702 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:02,712 - Providio -INFO - 0
+2023-11-14 10:05:02,722 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:02,722 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:02,732 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:02,740 - Providio -INFO - 0
+2023-11-14 10:05:02,756 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:02,757 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:02,757 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:02,779 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:02,780 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:05:02,809 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:02,818 - Providio -INFO - 0
+2023-11-14 10:05:02,828 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:02,828 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:02,828 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:02,837 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:02,838 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:02,838 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:06,751 - Providio -INFO - 6
+2023-11-14 10:05:09,806 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:09,806 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:05:09,816 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:09,826 - Providio -INFO - 0
+2023-11-14 10:05:09,836 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:09,837 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:09,837 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:09,847 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:09,847 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:09,856 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:09,867 - Providio -INFO - 0
+2023-11-14 10:05:09,878 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:09,878 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:09,878 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:16,831 - Providio -INFO - 6
+2023-11-14 10:05:19,919 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:19,920 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:19,928 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:19,938 - Providio -INFO - 0
+2023-11-14 10:05:19,946 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:19,946 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:05:19,956 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:19,965 - Providio -INFO - 0
+2023-11-14 10:05:19,975 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:19,975 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:19,975 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:24,241 - Providio -INFO - 6
+2023-11-14 10:05:27,325 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,326 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:05:27,342 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,354 - Providio -INFO - 0
+2023-11-14 10:05:27,365 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,366 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:27,375 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,385 - Providio -INFO - 0
+2023-11-14 10:05:27,394 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,394 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:27,404 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,411 - Providio -INFO - 0
+2023-11-14 10:05:27,421 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,422 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:27,431 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,439 - Providio -INFO - 0
+2023-11-14 10:05:27,448 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,449 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:27,458 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,467 - Providio -INFO - 0
+2023-11-14 10:05:27,476 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,477 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:05:27,487 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,497 - Providio -INFO - 0
+2023-11-14 10:05:27,507 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,508 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:27,517 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,526 - Providio -INFO - 0
+2023-11-14 10:05:27,536 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,536 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:27,545 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:27,553 - Providio -INFO - 0
+2023-11-14 10:05:27,563 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,564 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:27,564 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:27,575 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:27,576 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:27,576 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:31,080 - Providio -INFO - 6
+2023-11-14 10:05:34,159 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,159 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:34,173 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:34,185 - Providio -INFO - 0
+2023-11-14 10:05:34,198 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,198 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:34,207 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:34,217 - Providio -INFO - 0
+2023-11-14 10:05:34,226 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,227 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:34,236 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:34,245 - Providio -INFO - 0
+2023-11-14 10:05:34,255 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,255 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:34,264 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:34,272 - Providio -INFO - 0
+2023-11-14 10:05:34,281 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,281 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:05:34,290 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:34,300 - Providio -INFO - 0
+2023-11-14 10:05:34,311 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,311 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:34,321 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:34,330 - Providio -INFO - 0
+2023-11-14 10:05:34,339 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,339 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:34,340 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:34,348 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:34,349 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:34,349 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:38,258 - Providio -INFO - 6
+2023-11-14 10:05:41,334 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,334 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:41,345 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,354 - Providio -INFO - 0
+2023-11-14 10:05:41,364 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,365 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:05:41,376 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,385 - Providio -INFO - 0
+2023-11-14 10:05:41,395 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,395 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:05:41,403 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,427 - Providio -INFO - 0
+2023-11-14 10:05:41,438 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,439 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:41,449 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,460 - Providio -INFO - 0
+2023-11-14 10:05:41,470 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,470 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:05:41,482 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,493 - Providio -INFO - 0
+2023-11-14 10:05:41,504 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,504 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:41,505 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:41,516 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,516 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:41,524 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,532 - Providio -INFO - 0
+2023-11-14 10:05:41,542 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,542 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:41,542 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:41,552 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,553 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:41,563 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,571 - Providio -INFO - 0
+2023-11-14 10:05:41,580 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,580 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:41,581 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:41,590 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,590 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:05:41,598 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,608 - Providio -INFO - 0
+2023-11-14 10:05:41,618 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,618 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:41,618 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:41,628 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,628 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:41,638 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,645 - Providio -INFO - 0
+2023-11-14 10:05:41,655 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,655 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:41,663 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,672 - Providio -INFO - 0
+2023-11-14 10:05:41,681 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,682 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:41,682 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:41,691 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,691 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:41,691 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:41,699 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,699 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:41,708 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:41,716 - Providio -INFO - 0
+2023-11-14 10:05:41,726 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:41,727 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:41,727 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:45,488 - Providio -INFO - 6
+2023-11-14 10:05:48,560 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:48,560 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:48,560 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:48,576 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:48,576 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:48,594 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:48,608 - Providio -INFO - 0
+2023-11-14 10:05:48,622 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:48,622 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:48,622 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:48,633 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:48,634 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:05:48,643 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:48,652 - Providio -INFO - 0
+2023-11-14 10:05:48,662 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:48,662 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:48,662 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:52,402 - Providio -INFO - 6
+2023-11-14 10:05:55,472 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,472 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:05:55,488 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:55,504 - Providio -INFO - 0
+2023-11-14 10:05:55,514 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,514 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:55,523 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:55,531 - Providio -INFO - 0
+2023-11-14 10:05:55,541 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,541 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:05:55,551 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:55,560 - Providio -INFO - 0
+2023-11-14 10:05:55,570 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,571 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:05:55,581 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:55,591 - Providio -INFO - 0
+2023-11-14 10:05:55,602 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,602 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:05:55,613 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:55,622 - Providio -INFO - 0
+2023-11-14 10:05:55,632 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,632 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:05:55,644 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:05:55,655 - Providio -INFO - 0
+2023-11-14 10:05:55,664 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,664 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:55,664 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:55,675 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,676 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:05:55,676 - Providio -INFO - random genrate is 7
+2023-11-14 10:05:55,685 - Providio -INFO - Total menus count is 8
+2023-11-14 10:05:55,686 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:05:55,686 - Providio -INFO - random genrate is 8
+2023-11-14 10:05:59,967 - Providio -INFO - 6
+2023-11-14 10:06:03,036 - Providio -INFO - Total menus count is 8
+2023-11-14 10:06:03,037 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:06:03,037 - Providio -INFO - random genrate is 7
+2023-11-14 10:06:03,054 - Providio -INFO - Total menus count is 8
+2023-11-14 10:06:03,055 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:06:03,055 - Providio -INFO - random genrate is 8
+2023-11-14 10:06:06,798 - Providio -INFO - 6
+2023-11-14 10:06:09,897 - Providio -INFO - Total menus count is 8
+2023-11-14 10:06:09,897 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 10:06:09,975 - Providio -INFO - Relauching the browsesr
+2023-11-14 10:07:10,857 - Providio -INFO - Entered into url
+2023-11-14 10:07:10,886 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:07:12,522 - Providio -INFO - Total menus count is 8
+2023-11-14 10:07:12,522 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:07:12,546 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:07:16,097 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:08:05,511 - Providio -INFO - Entered into url
+2023-11-14 10:08:05,522 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:08:08,473 - Providio -INFO - Total menus count is 8
+2023-11-14 10:08:08,474 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 10:08:08,492 - Providio -INFO - Total number of sub menus associated with the hovered menu 0
+2023-11-14 10:08:12,327 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:31:15,037 - Providio -INFO - Entered into url
+2023-11-14 10:31:15,049 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:31:38,003 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:33:01,274 - Providio -INFO - Entered into url
+2023-11-14 10:33:01,293 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:33:04,555 - Providio -INFO - Total menus count is 8
+2023-11-14 10:33:04,556 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 10:33:04,577 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 10:33:04,577 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 10:33:22,672 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:33:22,684 - Providio -INFO - 1
+2023-11-14 10:33:22,685 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:33:25,989 - Providio -INFO - Total enabled colors: 5
+2023-11-14 10:33:32,364 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:39:33,396 - Providio -INFO - Entered into url
+2023-11-14 10:39:33,402 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:39:34,570 - Providio -INFO - Total menus count is 8
+2023-11-14 10:39:34,570 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:39:34,570 - Providio -INFO - random genrate is 8
+2023-11-14 10:39:39,181 - Providio -INFO - 6
+2023-11-14 10:39:42,257 - Providio -INFO - Total menus count is 8
+2023-11-14 10:39:42,257 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:39:42,275 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 10:39:42,275 - Providio -INFO - Randomly selected sub menu number 13
+2023-11-14 10:40:03,087 - Providio -INFO - 11
+2023-11-14 10:40:13,026 - Providio -INFO - 0
+2023-11-14 10:40:13,036 - Providio -INFO - Total menus count is 8
+2023-11-14 10:40:13,036 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:40:13,052 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 10:40:13,053 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 10:40:31,488 - Providio -INFO - 1
+2023-11-14 10:40:43,728 - Providio -INFO - 1
+2023-11-14 10:40:43,728 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:40:43,739 - Providio -INFO - 1
+2023-11-14 10:40:43,740 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:40:48,414 - Providio -INFO - Total enabled colors: 17
+2023-11-14 10:40:55,837 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:44:07,275 - Providio -INFO - Entered into url
+2023-11-14 10:44:07,287 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:44:09,172 - Providio -INFO - Total menus count is 8
+2023-11-14 10:44:09,173 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:44:09,190 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 10:44:09,190 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 10:44:26,524 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:44:26,540 - Providio -INFO - 1
+2023-11-14 10:44:26,541 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:44:30,620 - Providio -INFO - Total enabled colors: 2
+2023-11-14 10:44:39,542 - Providio -INFO - Entered into url
+2023-11-14 10:44:39,547 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:44:41,042 - Providio -INFO - The selected filter is Round but displayed filter is  Bicone
+2023-11-14 10:44:47,105 - Providio -INFO - Gift Certificate added to cart
+2023-11-14 10:44:48,509 - Providio -INFO - add to cart  button enabled
+2023-11-14 10:45:07,199 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 10:45:37,247 - Providio -INFO - Entered into url
+2023-11-14 10:45:37,255 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:45:41,277 - Providio -INFO - Total menus count is 8
+2023-11-14 10:45:41,277 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:45:41,278 - Providio -INFO - random genrate is 8
+2023-11-14 10:45:45,710 - Providio -INFO - 6
+2023-11-14 10:45:48,781 - Providio -INFO - Total menus count is 8
+2023-11-14 10:45:48,781 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:45:48,797 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 10:45:48,798 - Providio -INFO - Randomly selected sub menu number 30
+2023-11-14 10:46:08,848 - Providio -INFO - 10
+2023-11-14 10:46:18,439 - Providio -INFO - 0
+2023-11-14 10:46:18,452 - Providio -INFO - Total menus count is 8
+2023-11-14 10:46:18,452 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 10:46:18,484 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 10:46:18,484 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 10:46:35,875 - Providio -INFO - 1
+2023-11-14 10:46:46,050 - Providio -INFO - 1
+2023-11-14 10:46:46,051 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:46:46,063 - Providio -INFO - 1
+2023-11-14 10:46:46,063 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:46:49,346 - Providio -INFO - Total enabled colors: 13
+2023-11-14 10:46:58,546 - Providio -INFO - The selected filter is Chips And Nuggets but displayed filter is  Hearts
+2023-11-14 10:47:05,486 - Providio -INFO - add to cart  button enabled
+2023-11-14 10:48:07,903 - Providio -INFO - Entered into url
+2023-11-14 10:48:07,918 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:48:11,078 - Providio -INFO - Total menus count is 8
+2023-11-14 10:48:11,078 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 10:48:11,079 - Providio -INFO - random genrate is 7
+2023-11-14 10:48:11,107 - Providio -INFO - Total menus count is 8
+2023-11-14 10:48:11,107 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 10:48:11,126 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 10:48:11,126 - Providio -INFO - Randomly selected sub menu number 31
+2023-11-14 10:48:28,478 - Providio -INFO - 9
+2023-11-14 10:48:40,099 - Providio -INFO - 1
+2023-11-14 10:48:40,099 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:48:51,589 - Providio -INFO - The selected filter is Bails but displayed filter is  Beads
+2023-11-14 10:48:58,252 - Providio -INFO - add to cart  button enabled
+2023-11-14 10:53:42,749 - Providio -INFO - Entered into url
+2023-11-14 10:53:42,755 - Providio -INFO - Placing the order as guest user
+2023-11-14 10:53:44,028 - Providio -INFO - Total menus count is 8
+2023-11-14 10:53:44,029 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 10:53:44,029 - Providio -INFO - random genrate is 8
+2023-11-14 10:53:48,343 - Providio -INFO - 6
+2023-11-14 10:53:51,432 - Providio -INFO - Total menus count is 8
+2023-11-14 10:53:51,432 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 10:53:51,453 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 10:53:51,453 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 10:54:08,513 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:54:08,526 - Providio -INFO - 1
+2023-11-14 10:54:08,526 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:54:08,538 - Providio -INFO - 1
+2023-11-14 10:54:08,538 - Providio -INFO - PLP page is already loaded
+2023-11-14 10:54:26,164 - Providio -INFO - Total enabled colors: 16
+2023-11-14 10:55:04,610 - Providio -INFO - The selected filter is Beiges / Creams but displayed filter is  Browns / Tans
+2023-11-14 11:01:25,683 - Providio -INFO - Entered into url
+2023-11-14 11:01:25,686 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:02:18,191 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:05:35,742 - Providio -INFO - Entered into url
+2023-11-14 11:05:35,746 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:06:54,307 - Providio -INFO - Entered into url
+2023-11-14 11:06:54,310 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:07:24,908 - Providio -INFO - Total enabled colors: 6
+2023-11-14 11:07:41,040 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:11:05,113 - Providio -INFO - Entered into url
+2023-11-14 11:11:05,124 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:11:15,673 - Providio -INFO - Total enabled colors: 2
+2023-11-14 11:11:27,090 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:12:05,433 - Providio -INFO - Entered into url
+2023-11-14 11:12:05,438 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:12:28,493 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:15:11,696 - Providio -INFO - Entered into url
+2023-11-14 11:15:11,701 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:15:23,198 - Providio -INFO - Total enabled colors: 0
+2023-11-14 11:15:30,631 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:16:42,274 - Providio -INFO - Entered into url
+2023-11-14 11:16:42,278 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:17:15,609 - Providio -INFO - Total enabled colors: 0
+2023-11-14 11:17:48,603 - Providio -INFO - Entered into url
+2023-11-14 11:17:48,610 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:18:24,747 - Providio -INFO - Total enabled colors: 2
+2023-11-14 11:18:47,151 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:19:39,116 - Providio -INFO - Entered into url
+2023-11-14 11:19:39,121 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:19:40,269 - Providio -INFO - Total menus count is 8
+2023-11-14 11:19:40,269 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 11:19:40,290 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 11:19:40,291 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 11:20:01,184 - Providio -INFO - 14
+2023-11-14 11:20:14,583 - Providio -INFO - 1
+2023-11-14 11:20:14,584 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:20:20,271 - Providio -INFO - Total enabled colors: 2
+2023-11-14 11:20:27,710 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:21:29,416 - Providio -INFO - Entered into url
+2023-11-14 11:21:29,420 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:21:30,601 - Providio -INFO - Total menus count is 8
+2023-11-14 11:21:30,601 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 11:21:30,625 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 11:21:30,625 - Providio -INFO - Randomly selected sub menu number 23
+2023-11-14 11:21:51,614 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:21:51,628 - Providio -INFO - 1
+2023-11-14 11:21:51,628 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:22:06,433 - Providio -INFO - Total enabled colors: 7
+2023-11-14 11:22:19,949 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:24:20,107 - Providio -INFO - Entered into url
+2023-11-14 11:24:20,123 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:24:21,292 - Providio -INFO - Total menus count is 8
+2023-11-14 11:24:21,292 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 11:24:21,311 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 11:24:21,311 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 11:24:41,224 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:24:41,236 - Providio -INFO - 1
+2023-11-14 11:24:41,236 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:24:46,060 - Providio -INFO - Total enabled colors: 0
+2023-11-14 11:24:59,767 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:27:45,449 - Providio -INFO - Entered into url
+2023-11-14 11:27:45,465 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:27:46,641 - Providio -INFO - Total menus count is 8
+2023-11-14 11:27:46,641 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 11:27:46,661 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 11:27:46,661 - Providio -INFO - Randomly selected sub menu number 31
+2023-11-14 11:28:05,199 - Providio -INFO - 7
+2023-11-14 11:28:16,491 - Providio -INFO - 1
+2023-11-14 11:28:16,492 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:28:27,224 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:32:21,253 - Providio -INFO - Entered into url
+2023-11-14 11:32:21,260 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:32:22,476 - Providio -INFO - Total menus count is 8
+2023-11-14 11:32:22,477 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 11:32:22,497 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 11:32:22,498 - Providio -INFO - Randomly selected sub menu number 28
+2023-11-14 11:32:41,556 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:32:41,589 - Providio -INFO - 1
+2023-11-14 11:32:41,589 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:32:57,423 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:34:28,038 - Providio -INFO - Entered into url
+2023-11-14 11:34:28,044 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:34:29,241 - Providio -INFO - Total menus count is 8
+2023-11-14 11:34:29,242 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 11:34:29,243 - Providio -INFO - random genrate is 8
+2023-11-14 11:34:40,059 - Providio -INFO - 6
+2023-11-14 11:34:43,162 - Providio -INFO - Total menus count is 8
+2023-11-14 11:34:43,162 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 11:34:43,162 - Providio -INFO - random genrate is 8
+2023-11-14 11:34:48,942 - Providio -INFO - 6
+2023-11-14 11:34:52,006 - Providio -INFO - Total menus count is 8
+2023-11-14 11:34:52,006 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 11:34:52,023 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 11:34:52,023 - Providio -INFO - Randomly selected sub menu number 12
+2023-11-14 11:35:15,788 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:35:15,801 - Providio -INFO - 1
+2023-11-14 11:35:15,803 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:35:15,815 - Providio -INFO - 1
+2023-11-14 11:35:15,816 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:35:15,828 - Providio -INFO - 1
+2023-11-14 11:35:15,829 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:35:20,267 - Providio -INFO - Total enabled colors: 4
+2023-11-14 11:35:26,580 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 11:39:40,227 - Providio -INFO - Entered into url
+2023-11-14 11:39:40,232 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:39:41,424 - Providio -INFO - Total menus count is 8
+2023-11-14 11:39:41,425 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 11:39:41,442 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 11:39:41,442 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 11:40:00,568 - Providio -INFO - 1
+2023-11-14 11:40:15,172 - Providio -INFO - 1
+2023-11-14 11:40:15,172 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:40:19,662 - Providio -INFO - Total enabled colors: 0
+2023-11-14 11:40:35,220 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:41:06,718 - Providio -INFO - Entered into url
+2023-11-14 11:41:06,727 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:41:07,951 - Providio -INFO - Total menus count is 8
+2023-11-14 11:41:07,951 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 11:41:07,952 - Providio -INFO - random genrate is 8
+2023-11-14 11:41:13,285 - Providio -INFO - 6
+2023-11-14 11:41:16,378 - Providio -INFO - Total menus count is 8
+2023-11-14 11:41:16,379 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 11:41:16,394 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 11:41:16,394 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 11:41:34,619 - Providio -INFO - 4
+2023-11-14 11:41:44,761 - Providio -INFO - 1
+2023-11-14 11:41:44,761 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:41:44,771 - Providio -INFO - 1
+2023-11-14 11:41:44,772 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:42:00,640 - Providio -INFO - Succesfully selected the Earring Findingsand count of the selected products 2
+2023-11-14 11:42:08,170 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:42:36,657 - Providio -INFO - Entered into url
+2023-11-14 11:42:36,665 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:42:37,822 - Providio -INFO - Total menus count is 8
+2023-11-14 11:42:37,823 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 11:42:37,844 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 11:42:37,845 - Providio -INFO - Randomly selected sub menu number 20
+2023-11-14 11:42:57,106 - Providio -INFO - 2
+2023-11-14 11:43:12,477 - Providio -INFO - 1
+2023-11-14 11:43:12,477 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:43:16,007 - Providio -INFO - Total enabled colors: 11
+2023-11-14 11:43:22,772 - Providio -INFO - Succesfully selected the Swarovskiand count of the selected products 703
+2023-11-14 11:43:29,552 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:43:35,152 - Providio -INFO - Entered into url
+2023-11-14 11:43:35,152 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:43:35,213 - Providio -INFO - Total menus count is 8
+2023-11-14 11:43:35,213 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 11:43:35,234 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 11:43:35,234 - Providio -INFO - Randomly selected sub menu number 13
+2023-11-14 11:43:53,416 - Providio -INFO - 7
+2023-11-14 11:44:06,732 - Providio -INFO - 1
+2023-11-14 11:44:06,732 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:44:10,160 - Providio -INFO - Total enabled colors: 3
+2023-11-14 11:44:14,301 - Providio -INFO - Succesfully selected the Copper Coloredand count of the selected products 2
+2023-11-14 11:44:20,624 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:44:26,705 - Providio -INFO - Entered into url
+2023-11-14 11:44:26,706 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:44:26,743 - Providio -INFO - Total menus count is 8
+2023-11-14 11:44:26,743 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 11:44:26,760 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 11:44:26,760 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-14 11:44:48,528 - Providio -INFO - 2
+2023-11-14 11:45:01,660 - Providio -INFO - 1
+2023-11-14 11:45:01,661 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:45:14,289 - Providio -INFO - Succesfully selected the Bailsand count of the selected products 40
+2023-11-14 11:45:21,796 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:45:30,900 - Providio -INFO - Entered into url
+2023-11-14 11:45:30,900 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:45:31,027 - Providio -INFO - Total menus count is 8
+2023-11-14 11:45:31,028 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 11:45:31,045 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 11:45:31,045 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 11:45:48,798 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:45:48,811 - Providio -INFO - 1
+2023-11-14 11:45:48,811 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:46:02,562 - Providio -INFO - Succesfully selected the Stringing Materialand count of the selected products 24
+2023-11-14 11:46:09,922 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:46:19,566 - Providio -INFO - Entered into url
+2023-11-14 11:46:19,566 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:46:19,675 - Providio -INFO - Total menus count is 8
+2023-11-14 11:46:19,675 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 11:46:19,694 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 11:46:19,695 - Providio -INFO - Randomly selected sub menu number 11
+2023-11-14 11:46:36,438 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:46:36,449 - Providio -INFO - 1
+2023-11-14 11:46:36,449 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:46:41,093 - Providio -INFO - Total enabled colors: 0
+2023-11-14 11:46:56,436 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:47:01,743 - Providio -INFO - Entered into url
+2023-11-14 11:47:01,744 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:47:01,785 - Providio -INFO - Total menus count is 8
+2023-11-14 11:47:01,786 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 11:47:01,810 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 11:47:01,811 - Providio -INFO - Randomly selected sub menu number 32
+2023-11-14 11:47:23,719 - Providio -INFO - 2
+2023-11-14 11:47:33,340 - Providio -INFO - 1
+2023-11-14 11:47:33,340 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:47:36,577 - Providio -INFO - Total enabled colors: 1
+2023-11-14 11:47:40,712 - Providio -INFO - Succesfully selected the Clearand count of the selected products 2
+2023-11-14 11:47:53,247 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:47:58,967 - Providio -INFO - Entered into url
+2023-11-14 11:47:58,967 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:47:58,996 - Providio -INFO - Total menus count is 8
+2023-11-14 11:47:58,996 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 11:47:59,013 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 11:47:59,013 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 11:48:21,715 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:48:21,726 - Providio -INFO - 1
+2023-11-14 11:48:21,727 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:48:25,084 - Providio -INFO - Total enabled colors: 11
+2023-11-14 11:48:33,244 - Providio -INFO - The selected filter is 1x1 but displayed filter is  1x1
+2023-11-14 11:48:43,642 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:48:56,006 - Providio -INFO - Entered into url
+2023-11-14 11:48:56,006 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:48:56,043 - Providio -INFO - Total menus count is 8
+2023-11-14 11:48:56,043 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 11:48:56,044 - Providio -INFO - random genrate is 7
+2023-11-14 11:48:56,053 - Providio -INFO - Total menus count is 8
+2023-11-14 11:48:56,054 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 11:48:56,068 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 11:48:56,069 - Providio -INFO - Randomly selected sub menu number 18
+2023-11-14 11:49:21,861 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:49:21,872 - Providio -INFO - 1
+2023-11-14 11:49:21,872 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:49:26,546 - Providio -INFO - Total enabled colors: 21
+2023-11-14 11:49:32,714 - Providio -INFO - Succesfully selected the Diamondand count of the selected products 10
+2023-11-14 11:49:47,898 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:49:59,824 - Providio -INFO - Entered into url
+2023-11-14 11:49:59,825 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:49:59,858 - Providio -INFO - Total menus count is 8
+2023-11-14 11:49:59,858 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 11:49:59,876 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 11:49:59,877 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 11:50:26,637 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:50:26,652 - Providio -INFO - 1
+2023-11-14 11:50:26,652 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:50:30,230 - Providio -INFO - Total enabled colors: 3
+2023-11-14 11:50:36,360 - Providio -INFO - Succesfully selected the Chips And Nuggetsand count of the selected products 27
+2023-11-14 11:50:48,240 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:50:54,231 - Providio -INFO - Entered into url
+2023-11-14 11:50:54,231 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:50:54,284 - Providio -INFO - Total menus count is 8
+2023-11-14 11:50:54,284 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 11:50:54,285 - Providio -INFO - random genrate is 8
+2023-11-14 11:51:05,471 - Providio -INFO - 6
+2023-11-14 11:51:08,526 - Providio -INFO - Total menus count is 8
+2023-11-14 11:51:08,526 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 11:51:08,713 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 11:51:08,713 - Providio -INFO - Randomly selected sub menu number 35
+2023-11-14 11:51:41,036 - Providio -INFO - 2
+2023-11-14 11:51:47,209 - Providio -INFO - 0
+2023-11-14 11:51:47,222 - Providio -INFO - Total menus count is 8
+2023-11-14 11:51:47,222 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 11:51:47,239 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 11:51:47,239 - Providio -INFO - Randomly selected sub menu number 4
+2023-11-14 11:52:12,954 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:52:12,964 - Providio -INFO - 1
+2023-11-14 11:52:12,964 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:52:12,975 - Providio -INFO - 1
+2023-11-14 11:52:12,975 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:52:16,216 - Providio -INFO - Total enabled colors: 5
+2023-11-14 11:52:22,368 - Providio -INFO - Succesfully selected the Half Round Wireand count of the selected products 14
+2023-11-14 11:52:31,359 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:54:17,270 - Providio -INFO - Entered into url
+2023-11-14 11:54:17,276 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:54:18,515 - Providio -INFO - Total menus count is 8
+2023-11-14 11:54:18,515 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 11:54:18,540 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 11:54:18,540 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 11:54:37,037 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:54:37,052 - Providio -INFO - 1
+2023-11-14 11:54:37,052 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:54:48,526 - Providio -INFO - Succesfully selected the Beadsand count of the selected products 12
+2023-11-14 11:54:57,566 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:55:03,397 - Providio -INFO - Entered into url
+2023-11-14 11:55:03,397 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:55:03,430 - Providio -INFO - Total menus count is 8
+2023-11-14 11:55:03,430 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 11:55:03,446 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 11:55:03,447 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 11:55:26,381 - Providio -INFO - 3
+2023-11-14 11:55:37,224 - Providio -INFO - 1
+2023-11-14 11:55:37,224 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:55:49,219 - Providio -INFO - Succesfully selected the Chainand count of the selected products 24
+2023-11-14 11:55:56,874 - Providio -INFO - Total menus count is 8
+2023-11-14 11:55:56,876 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 11:55:56,892 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 11:55:56,892 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-14 11:56:24,643 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:56:24,662 - Providio -INFO - 1
+2023-11-14 11:56:24,663 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:56:37,367 - Providio -INFO - The selected filter is Finished Jewelry but displayed filter is  Finished Jewelry
+2023-11-14 11:56:46,048 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:56:58,462 - Providio -INFO - Entered into url
+2023-11-14 11:56:58,462 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:56:58,502 - Providio -INFO - Total menus count is 8
+2023-11-14 11:56:58,503 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 11:56:58,521 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 11:56:58,522 - Providio -INFO - Randomly selected sub menu number 5
+2023-11-14 11:57:21,169 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:57:21,180 - Providio -INFO - 1
+2023-11-14 11:57:21,180 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:57:25,722 - Providio -INFO - Total enabled colors: 1
+2023-11-14 11:57:33,863 - Providio -INFO - Succesfully selected the Base Metaland count of the selected products 53
+2023-11-14 11:57:42,477 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:57:54,397 - Providio -INFO - Entered into url
+2023-11-14 11:57:54,398 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:57:54,432 - Providio -INFO - Total menus count is 8
+2023-11-14 11:57:54,432 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 11:57:54,432 - Providio -INFO - random genrate is 8
+2023-11-14 11:58:00,327 - Providio -INFO - 6
+2023-11-14 11:58:03,383 - Providio -INFO - Total menus count is 8
+2023-11-14 11:58:03,383 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 11:58:03,398 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 11:58:03,398 - Providio -INFO - Randomly selected sub menu number 11
+2023-11-14 11:58:26,741 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:58:26,754 - Providio -INFO - 1
+2023-11-14 11:58:26,754 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:58:26,765 - Providio -INFO - 1
+2023-11-14 11:58:26,765 - Providio -INFO - PLP page is already loaded
+2023-11-14 11:58:30,038 - Providio -INFO - Total enabled colors: 2
+2023-11-14 11:58:36,179 - Providio -INFO - Succesfully selected the Everyday Jewelryand count of the selected products 27
+2023-11-14 11:58:49,766 - Providio -INFO - add to cart  button enabled
+2023-11-14 11:58:58,157 - Providio -INFO - Entered into url
+2023-11-14 11:58:58,157 - Providio -INFO - Placing the order as guest user
+2023-11-14 11:58:58,185 - Providio -INFO - Total menus count is 8
+2023-11-14 11:58:58,185 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 11:58:58,204 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 11:58:58,204 - Providio -INFO - Randomly selected sub menu number 34
+2023-11-14 11:59:26,057 - Providio -INFO - 3
+2023-11-14 11:59:34,747 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:04:26,385 - Providio -INFO - Entered into url
+2023-11-14 12:04:26,390 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:04:27,534 - Providio -INFO - Total menus count is 8
+2023-11-14 12:04:27,535 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 12:04:27,556 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 12:04:27,557 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:04:46,772 - Providio -INFO - 2
+2023-11-14 12:04:57,894 - Providio -INFO - 1
+2023-11-14 12:04:57,894 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:05:02,462 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:05:06,584 - Providio -INFO - Succesfully selected the Greensand count of the selected products 7
+2023-11-14 12:05:15,061 - Providio -INFO - Total menus count is 8
+2023-11-14 12:05:15,061 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:05:15,079 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:05:15,080 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 12:05:32,285 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:05:32,296 - Providio -INFO - 1
+2023-11-14 12:05:32,297 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:05:36,787 - Providio -INFO - Total enabled colors: 2
+2023-11-14 12:05:42,924 - Providio -INFO - Succesfully selected the Just For Funand count of the selected products 33
+2023-11-14 12:05:51,462 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:05:58,599 - Providio -INFO - Entered into url
+2023-11-14 12:05:58,599 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:05:58,641 - Providio -INFO - Total menus count is 8
+2023-11-14 12:05:58,642 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 12:05:58,667 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 12:05:58,668 - Providio -INFO - Randomly selected sub menu number 12
+2023-11-14 12:06:18,379 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:06:18,392 - Providio -INFO - 1
+2023-11-14 12:06:18,393 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:06:23,011 - Providio -INFO - Total enabled colors: 0
+2023-11-14 12:06:35,093 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:06:40,889 - Providio -INFO - Entered into url
+2023-11-14 12:06:40,890 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:06:40,937 - Providio -INFO - Total menus count is 8
+2023-11-14 12:06:40,937 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:06:40,964 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:06:40,965 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 12:06:58,542 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:06:58,554 - Providio -INFO - 1
+2023-11-14 12:06:58,554 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:07:01,889 - Providio -INFO - Total enabled colors: 13
+2023-11-14 12:07:08,010 - Providio -INFO - The selected filter is but displayed filter is  Round
+2023-11-14 12:07:16,265 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:07:24,663 - Providio -INFO - Entered into url
+2023-11-14 12:07:24,663 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:07:24,709 - Providio -INFO - Total menus count is 8
+2023-11-14 12:07:24,709 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:07:24,725 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:07:24,725 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:07:49,337 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:07:49,348 - Providio -INFO - 1
+2023-11-14 12:07:49,348 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:07:52,786 - Providio -INFO - Total enabled colors: 0
+2023-11-14 12:08:05,400 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:08:13,358 - Providio -INFO - Entered into url
+2023-11-14 12:08:13,358 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:08:13,655 - Providio -INFO - Total menus count is 8
+2023-11-14 12:08:13,656 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 12:08:13,672 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 12:08:13,672 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:08:38,152 - Providio -INFO - 4
+2023-11-14 12:08:45,761 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:11:02,978 - Providio -INFO - Entered into url
+2023-11-14 12:11:02,985 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:11:04,215 - Providio -INFO - Total menus count is 8
+2023-11-14 12:11:04,215 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 12:11:04,216 - Providio -INFO - random genrate is 8
+2023-11-14 12:11:08,868 - Providio -INFO - 6
+2023-11-14 12:11:11,932 - Providio -INFO - Total menus count is 8
+2023-11-14 12:11:11,932 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:11:11,952 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:11:11,952 - Providio -INFO - Randomly selected sub menu number 29
+2023-11-14 12:11:31,049 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:11:31,063 - Providio -INFO - 1
+2023-11-14 12:11:31,064 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:11:31,078 - Providio -INFO - 1
+2023-11-14 12:11:31,078 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:11:34,445 - Providio -INFO - Total enabled colors: 13
+2023-11-14 12:11:38,629 - Providio -INFO - Succesfully selected the Browns / Tansand count of the selected products 65
+2023-11-14 12:11:48,512 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:11:53,655 - Providio -INFO - Entered into url
+2023-11-14 12:11:53,656 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:11:53,785 - Providio -INFO - Total menus count is 8
+2023-11-14 12:11:53,785 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 12:11:53,804 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 12:11:53,805 - Providio -INFO - Randomly selected sub menu number 22
+2023-11-14 12:12:11,487 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:12:11,499 - Providio -INFO - 1
+2023-11-14 12:12:11,499 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:12:22,903 - Providio -INFO - Succesfully selected the Jewelry Presentation And Packagingand count of the selected products 143
+2023-11-14 12:12:31,960 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:12:38,144 - Providio -INFO - Entered into url
+2023-11-14 12:12:38,145 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:12:38,189 - Providio -INFO - Total menus count is 8
+2023-11-14 12:12:38,189 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 12:12:38,205 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 12:12:38,206 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-14 12:12:56,511 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:12:56,532 - Providio -INFO - 1
+2023-11-14 12:12:56,532 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:13:01,019 - Providio -INFO - Total enabled colors: 0
+2023-11-14 12:13:11,318 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:13:16,998 - Providio -INFO - Entered into url
+2023-11-14 12:13:16,999 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:13:17,035 - Providio -INFO - Total menus count is 8
+2023-11-14 12:13:17,035 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:13:17,059 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:13:17,060 - Providio -INFO - Randomly selected sub menu number 29
+2023-11-14 12:13:34,871 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:13:34,883 - Providio -INFO - 1
+2023-11-14 12:13:34,883 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:13:39,650 - Providio -INFO - Total enabled colors: 13
+2023-11-14 12:13:43,757 - Providio -INFO - Succesfully selected the Whitesand count of the selected products 67
+2023-11-14 12:13:51,579 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:13:57,240 - Providio -INFO - Entered into url
+2023-11-14 12:13:57,240 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:13:57,281 - Providio -INFO - Total menus count is 8
+2023-11-14 12:13:57,282 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:13:57,300 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:13:57,300 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-14 12:14:14,569 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:14:14,581 - Providio -INFO - 1
+2023-11-14 12:14:14,581 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:14:17,841 - Providio -INFO - Total enabled colors: 45
+2023-11-14 12:14:23,985 - Providio -INFO - The selected filter is but displayed filter is  Pear
+2023-11-14 12:14:31,750 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:21:12,127 - Providio -INFO - Entered into url
+2023-11-14 12:21:12,137 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:21:13,321 - Providio -INFO - Total menus count is 8
+2023-11-14 12:21:13,322 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 12:21:13,340 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 12:21:13,340 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:21:30,898 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:21:30,910 - Providio -INFO - 1
+2023-11-14 12:21:30,911 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:21:34,223 - Providio -INFO - Total enabled colors: 3
+2023-11-14 12:21:38,390 - Providio -INFO - Succesfully selected the Half Hardand count of the selected products 42
+2023-11-14 12:21:47,875 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:21:53,967 - Providio -INFO - Entered into url
+2023-11-14 12:21:53,967 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:21:54,002 - Providio -INFO - Total menus count is 8
+2023-11-14 12:21:54,002 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 12:21:54,025 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 12:21:54,026 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:22:11,389 - Providio -INFO - 4
+2023-11-14 12:22:19,460 - Providio -INFO - 1
+2023-11-14 12:22:19,461 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:22:22,660 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:22:26,770 - Providio -INFO - Succesfully selected the Gold Coloredand count of the selected products 2
+2023-11-14 12:22:32,187 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:22:37,410 - Providio -INFO - Entered into url
+2023-11-14 12:22:37,410 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:22:37,454 - Providio -INFO - Total menus count is 8
+2023-11-14 12:22:37,455 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:22:37,492 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:22:37,493 - Providio -INFO - Randomly selected sub menu number 14
+2023-11-14 12:22:59,004 - Providio -INFO - 20
+2023-11-14 12:23:08,443 - Providio -INFO - 0
+2023-11-14 12:23:08,455 - Providio -INFO - Total menus count is 8
+2023-11-14 12:23:08,455 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:23:08,473 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:23:08,473 - Providio -INFO - Randomly selected sub menu number 38
+2023-11-14 12:23:22,287 - Providio -INFO - Entered into url
+2023-11-14 12:23:22,292 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:23:25,634 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:23:25,652 - Providio -INFO - 1
+2023-11-14 12:23:25,653 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:23:28,967 - Providio -INFO - Total enabled colors: 3
+2023-11-14 12:23:31,963 - Providio -INFO - Total enabled colors: 2
+2023-11-14 12:23:33,300 - Providio -INFO - Succesfully selected the Gold Coloredand count of the selected products 112
+2023-11-14 12:23:36,088 - Providio -INFO - The selected filter is Blue Moon Beads but displayed filter is  
+2023-11-14 12:23:38,582 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:23:41,290 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:23:42,430 - Providio -INFO - Entered into url
+2023-11-14 12:23:42,430 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:23:42,547 - Providio -INFO - Total menus count is 8
+2023-11-14 12:23:42,547 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 12:23:42,567 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 12:23:42,567 - Providio -INFO - Randomly selected sub menu number 32
+2023-11-14 12:23:58,890 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:23:58,901 - Providio -INFO - 1
+2023-11-14 12:23:58,901 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:24:02,158 - Providio -INFO - Total enabled colors: 14
+2023-11-14 12:24:06,265 - Providio -INFO - Succesfully selected the Bluw Moon Jewelryand count of the selected products 5
+2023-11-14 12:24:13,527 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:24:16,645 - Providio -INFO - 1
+2023-11-14 12:24:17,905 - Providio -INFO - Entered into url
+2023-11-14 12:24:17,905 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:24:17,946 - Providio -INFO - Total menus count is 8
+2023-11-14 12:24:17,947 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 12:24:17,963 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 12:24:17,963 - Providio -INFO - Randomly selected sub menu number 15
+2023-11-14 12:24:18,800 - Providio -INFO - true
+2023-11-14 12:24:18,800 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-14 12:24:18,801 - Providio -INFO - Guest checkout
+2023-11-14 12:24:19,009 - Providio -INFO - Guest mail again
+2023-11-14 12:24:19,070 - Providio -INFO - Guest continue as guest
+2023-11-14 12:24:24,271 - Providio -INFO - Entered fname
+2023-11-14 12:24:24,402 - Providio -INFO - Entered lname
+2023-11-14 12:24:29,716 - Providio -INFO - Entered phone number
+2023-11-14 12:24:35,300 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:24:35,312 - Providio -INFO - 1
+2023-11-14 12:24:35,312 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:24:44,008 - Providio -INFO - Succesfully selected the Jewelry Displaysand count of the selected products 71
+2023-11-14 12:24:49,652 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:26:08,651 - Providio -INFO - Entered into url
+2023-11-14 12:26:08,657 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:27:30,632 - Providio -INFO - Entered into url
+2023-11-14 12:27:30,645 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:27:31,835 - Providio -INFO - Total menus count is 8
+2023-11-14 12:27:31,836 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 12:27:31,858 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 12:27:31,859 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 12:27:48,601 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:27:48,612 - Providio -INFO - 1
+2023-11-14 12:27:48,613 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:29:08,044 - Providio -INFO - Entered into url
+2023-11-14 12:29:08,050 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:29:09,330 - Providio -INFO - Total menus count is 8
+2023-11-14 12:29:09,330 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:29:09,358 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:29:09,359 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 12:29:28,583 - Providio -INFO - 1
+2023-11-14 12:29:40,655 - Providio -INFO - 1
+2023-11-14 12:29:40,656 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:30:16,700 - Providio -INFO - Total enabled colors: 20
+2023-11-14 12:30:23,687 - Providio -INFO - The selected filter is 11 but displayed filter is  11
+2023-11-14 12:30:34,180 - Providio -INFO - add to cart  button enabled
+2023-11-14 12:37:06,171 - Providio -INFO - Entered into url
+2023-11-14 12:37:06,177 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:37:07,398 - Providio -INFO - Total menus count is 8
+2023-11-14 12:37:07,399 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 12:37:07,419 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 12:37:07,420 - Providio -INFO - Randomly selected sub menu number 4
+2023-11-14 12:37:25,526 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:37:25,539 - Providio -INFO - 1
+2023-11-14 12:37:25,539 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:37:29,010 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:37:32,134 - Providio -INFO - Succesfully selected the Base Metaland count of the selected products 477
+2023-11-14 12:37:35,369 - Providio -INFO - Total enabled colors: 0
+2023-11-14 12:37:42,897 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:37:46,273 - Providio -INFO - Entered into url
+2023-11-14 12:37:46,274 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:37:46,423 - Providio -INFO - Total menus count is 8
+2023-11-14 12:37:46,425 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 12:37:46,426 - Providio -INFO - random genrate is 7
+2023-11-14 12:37:46,439 - Providio -INFO - Total menus count is 8
+2023-11-14 12:37:46,439 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 12:37:46,439 - Providio -INFO - random genrate is 7
+2023-11-14 12:37:46,450 - Providio -INFO - Total menus count is 8
+2023-11-14 12:37:46,450 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 12:37:46,462 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 12:37:46,463 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 12:38:02,511 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:38:02,523 - Providio -INFO - 1
+2023-11-14 12:38:02,523 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:38:06,023 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:38:08,467 - Providio -INFO - Entered into url
+2023-11-14 12:38:08,467 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:38:08,513 - Providio -INFO - Total menus count is 8
+2023-11-14 12:38:08,513 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:38:08,535 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:38:08,535 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-14 12:38:13,618 - Providio -INFO - Relauching the browsesr
+2023-11-14 12:38:41,222 - Providio -INFO - Entered into url
+2023-11-14 12:38:41,227 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:38:42,395 - Providio -INFO - Total menus count is 8
+2023-11-14 12:38:42,396 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 12:38:42,396 - Providio -INFO - random genrate is 7
+2023-11-14 12:38:42,406 - Providio -INFO - Total menus count is 8
+2023-11-14 12:38:42,406 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:38:42,426 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:38:42,426 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 12:38:58,906 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:38:58,920 - Providio -INFO - 1
+2023-11-14 12:38:58,921 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:39:02,199 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:39:06,325 - Providio -INFO - Succesfully selected the Create Complimentsand count of the selected products 1078
+2023-11-14 12:39:13,708 - Providio -INFO - The selected filter is Apparel And Accessory Findings but displayed filter is  
+2023-11-14 12:39:34,550 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 12:39:34,551 - Providio -INFO - Randomly selected Add to Cart button index: 11
+2023-11-14 12:39:36,757 - Providio -INFO - Product is added to cart
+2023-11-14 12:39:38,391 - Providio -INFO - Entered into url
+2023-11-14 12:39:38,391 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:39:38,731 - Providio -INFO - Total menus count is 8
+2023-11-14 12:39:38,732 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:39:38,777 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:39:38,777 - Providio -INFO - Randomly selected sub menu number 15
+2023-11-14 12:40:03,359 - Providio -INFO - 19
+2023-11-14 12:40:19,199 - Providio -INFO - 1
+2023-11-14 12:40:19,199 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:40:26,590 - Providio -INFO - Succesfully selected the Embellishmentsand count of the selected products 407
+2023-11-14 12:40:29,846 - Providio -INFO - Total enabled colors: 5
+2023-11-14 12:40:33,986 - Providio -INFO - The selected filter is Crystal Passions but displayed filter is  
+2023-11-14 12:40:54,679 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 12:40:54,679 - Providio -INFO - Randomly selected Add to Cart button index: 8
+2023-11-14 12:40:56,816 - Providio -INFO - Product is added to cart
+2023-11-14 12:40:59,412 - Providio -INFO - Entered into url
+2023-11-14 12:40:59,413 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:40:59,731 - Providio -INFO - Total menus count is 8
+2023-11-14 12:40:59,732 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:40:59,767 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:40:59,767 - Providio -INFO - Randomly selected sub menu number 15
+2023-11-14 12:41:21,943 - Providio -INFO - 4
+2023-11-14 12:41:30,616 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:41:32,538 - Providio -INFO - Entered into url
+2023-11-14 12:41:32,539 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:41:32,580 - Providio -INFO - Total menus count is 8
+2023-11-14 12:41:32,580 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 12:41:32,598 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 12:41:32,599 - Providio -INFO - Randomly selected sub menu number 19
+2023-11-14 12:41:51,238 - Providio -INFO - 2
+2023-11-14 12:42:04,078 - Providio -INFO - 1
+2023-11-14 12:42:04,079 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:42:11,502 - Providio -INFO - Succesfully selected the Seed Beadsand count of the selected products 263
+2023-11-14 12:42:14,863 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:42:18,946 - Providio -INFO - The selected filter is Preciosa but displayed filter is  
+2023-11-14 12:42:39,753 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 12:42:39,754 - Providio -INFO - Randomly selected Add to Cart button index: 1
+2023-11-14 12:42:41,889 - Providio -INFO - Product is added to cart
+2023-11-14 12:42:44,262 - Providio -INFO - Entered into url
+2023-11-14 12:42:44,263 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:42:44,306 - Providio -INFO - Total menus count is 8
+2023-11-14 12:42:44,307 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 12:42:44,332 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 12:42:44,333 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 12:43:00,565 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:43:00,582 - Providio -INFO - 1
+2023-11-14 12:43:00,582 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:43:03,827 - Providio -INFO - Total enabled colors: 16
+2023-11-14 12:43:07,923 - Providio -INFO - The selected filter is but displayed filter is  Reds
+2023-11-14 12:43:12,234 - Providio -INFO - Total enabled colors: 4
+2023-11-14 12:43:16,332 - Providio -INFO - The selected filter is Heart but displayed filter is  
+2023-11-14 12:43:27,645 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:45:15,201 - Providio -INFO - Entered into url
+2023-11-14 12:45:15,207 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:45:19,132 - Providio -INFO - Total menus count is 8
+2023-11-14 12:45:19,133 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 12:45:19,134 - Providio -INFO - random genrate is 8
+2023-11-14 12:45:23,184 - Providio -INFO - 6
+2023-11-14 12:45:26,300 - Providio -INFO - Total menus count is 8
+2023-11-14 12:45:26,301 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 12:45:26,302 - Providio -INFO - random genrate is 7
+2023-11-14 12:45:26,330 - Providio -INFO - Total menus count is 8
+2023-11-14 12:45:26,331 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 12:45:26,358 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 12:45:26,360 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 12:45:43,144 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:45:43,156 - Providio -INFO - 1
+2023-11-14 12:45:43,156 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:45:43,168 - Providio -INFO - 1
+2023-11-14 12:45:43,169 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:45:46,454 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:45:50,619 - Providio -INFO - Succesfully selected the Beadalonand count of the selected products 31
+2023-11-14 12:45:53,903 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:45:56,983 - Providio -INFO - The selected filter is Base Metal but displayed filter is  
+2023-11-14 12:46:17,825 - Providio -INFO - Total add to cart buttons: 28
+2023-11-14 12:46:17,826 - Providio -INFO - Randomly selected Add to Cart button index: 18
+2023-11-14 12:46:19,968 - Providio -INFO - Product is added to cart
+2023-11-14 12:46:23,175 - Providio -INFO - Entered into url
+2023-11-14 12:46:23,177 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:46:23,223 - Providio -INFO - Total menus count is 8
+2023-11-14 12:46:23,224 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 12:46:23,240 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 12:46:23,241 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:46:40,420 - Providio -INFO - 3
+2023-11-14 12:46:50,618 - Providio -INFO - 1
+2023-11-14 12:46:50,618 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:46:57,920 - Providio -INFO - Succesfully selected the Chainand count of the selected products 24
+2023-11-14 12:47:03,492 - Providio -INFO - Total enabled colors: 0
+2023-11-14 12:47:10,776 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:47:13,175 - Providio -INFO - Entered into url
+2023-11-14 12:47:13,178 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:47:13,214 - Providio -INFO - Total menus count is 8
+2023-11-14 12:47:13,214 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:47:13,240 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:47:13,240 - Providio -INFO - Randomly selected sub menu number 35
+2023-11-14 12:47:29,832 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:47:29,843 - Providio -INFO - 1
+2023-11-14 12:47:29,843 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:47:33,022 - Providio -INFO - Total enabled colors: 7
+2023-11-14 12:47:37,117 - Providio -INFO - The selected filter is but displayed filter is  Slumpys
+2023-11-14 12:47:47,772 - Providio -INFO - The selected filter is Pliers but displayed filter is  
+2023-11-14 12:48:08,184 - Providio -INFO - Total add to cart buttons: 11
+2023-11-14 12:48:08,184 - Providio -INFO - Randomly selected Add to Cart button index: 1
+2023-11-14 12:48:10,318 - Providio -INFO - Product is added to cart
+2023-11-14 12:48:13,258 - Providio -INFO - Entered into url
+2023-11-14 12:48:13,259 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:48:13,296 - Providio -INFO - Total menus count is 8
+2023-11-14 12:48:13,296 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 12:48:13,310 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 12:48:13,310 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:48:32,262 - Providio -INFO - 2
+2023-11-14 12:48:41,960 - Providio -INFO - 1
+2023-11-14 12:48:41,960 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:48:45,188 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:48:49,302 - Providio -INFO - Succesfully selected the Rondelleand count of the selected products 7
+2023-11-14 12:48:53,685 - Providio -INFO - Total enabled colors: 2
+2023-11-14 12:48:57,758 - Providio -INFO - The selected filter is Crystal Passions but displayed filter is  
+2023-11-14 12:49:18,199 - Providio -INFO - Total add to cart buttons: 5
+2023-11-14 12:49:18,200 - Providio -INFO - Randomly selected Add to Cart button index: 2
+2023-11-14 12:49:53,394 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:49:57,109 - Providio -INFO - Entered into url
+2023-11-14 12:49:57,111 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:49:57,181 - Providio -INFO - Total menus count is 8
+2023-11-14 12:49:57,181 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:49:57,195 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:49:57,196 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 12:50:14,321 - Providio -INFO - 8
+2023-11-14 12:50:25,381 - Providio -INFO - 1
+2023-11-14 12:50:25,381 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:50:35,056 - Providio -INFO - Succesfully selected the Earring Findingsand count of the selected products 444
+2023-11-14 12:50:45,508 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 12:55:38,117 - Providio -INFO - Entered into url
+2023-11-14 12:55:38,124 - Providio -INFO - Placing the order as guest user
+2023-11-14 12:55:39,286 - Providio -INFO - Total menus count is 8
+2023-11-14 12:55:39,286 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 12:55:39,286 - Providio -INFO - random genrate is 8
+2023-11-14 12:55:43,165 - Providio -INFO - 6
+2023-11-14 12:55:46,263 - Providio -INFO - Total menus count is 8
+2023-11-14 12:55:46,264 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 12:55:46,286 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 12:55:46,287 - Providio -INFO - Randomly selected sub menu number 12
+2023-11-14 12:56:06,111 - Providio -INFO - 13
+2023-11-14 12:56:15,782 - Providio -INFO - 1
+2023-11-14 12:56:15,782 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:56:15,794 - Providio -INFO - 1
+2023-11-14 12:56:15,794 - Providio -INFO - PLP page is already loaded
+2023-11-14 12:56:19,267 - Providio -INFO - Total enabled colors: 1
+2023-11-14 12:56:25,381 - Providio -INFO - The selected filter is Greys but displayed filter is  
+2023-11-14 12:56:29,751 - Providio -INFO - Total enabled colors: 0
+2023-11-14 12:56:37,048 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:03:34,957 - Providio -INFO - Entered into url
+2023-11-14 13:03:34,962 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:03:36,164 - Providio -INFO - Total menus count is 8
+2023-11-14 13:03:36,165 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 13:03:36,184 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 13:03:36,184 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 13:03:51,669 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:03:51,681 - Providio -INFO - 1
+2023-11-14 13:03:51,681 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:03:56,215 - Providio -INFO - Total enabled colors: 18
+2023-11-14 13:04:04,340 - Providio -INFO - The selected filter is but displayed filter is  Multi-Colored
+2023-11-14 13:04:08,760 - Providio -INFO - Total enabled colors: 17
+2023-11-14 13:04:16,863 - Providio -INFO - The selected filter is Blues but displayed filter is  
+2023-11-14 13:04:37,501 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 13:04:37,502 - Providio -INFO - Randomly selected Add to Cart button index: 2
+2023-11-14 13:04:39,981 - Providio -INFO - Product is added to cart
+2023-11-14 13:04:41,919 - Providio -INFO - Entered into url
+2023-11-14 13:04:41,919 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:04:41,966 - Providio -INFO - Total menus count is 8
+2023-11-14 13:04:41,966 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 13:04:41,966 - Providio -INFO - random genrate is 8
+2023-11-14 13:04:45,584 - Providio -INFO - 6
+2023-11-14 13:04:48,652 - Providio -INFO - Total menus count is 8
+2023-11-14 13:04:48,653 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 13:04:48,672 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 13:04:48,673 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 13:05:04,215 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:05:04,227 - Providio -INFO - 1
+2023-11-14 13:05:04,227 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:05:04,238 - Providio -INFO - 1
+2023-11-14 13:05:04,238 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:05:07,465 - Providio -INFO - Total enabled colors: 18
+2023-11-14 13:05:15,582 - Providio -INFO - The selected filter is but displayed filter is  Silver Colored
+2023-11-14 13:05:18,790 - Providio -INFO - Total enabled colors: 17
+2023-11-14 13:05:26,883 - Providio -INFO - The selected filter is but displayed filter is  
+2023-11-14 13:05:47,514 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 13:05:47,514 - Providio -INFO - Randomly selected Add to Cart button index: 2
+2023-11-14 13:05:49,627 - Providio -INFO - Product is added to cart
+2023-11-14 13:05:53,568 - Providio -INFO - Entered into url
+2023-11-14 13:05:53,568 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:05:53,599 - Providio -INFO - Total menus count is 8
+2023-11-14 13:05:53,600 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 13:05:53,617 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 13:05:53,617 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 13:06:10,796 - Providio -INFO - 3
+2023-11-14 13:06:20,214 - Providio -INFO - 1
+2023-11-14 13:06:20,214 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:06:23,404 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:06:31,743 - Providio -INFO - Total enabled colors: 2
+2023-11-14 13:06:39,863 - Providio -INFO - Succesfully selected the Gold Coloredand count of the selected products 12
+2023-11-14 13:07:00,378 - Providio -INFO - Total add to cart buttons: 5
+2023-11-14 13:07:00,378 - Providio -INFO - Randomly selected Add to Cart button index: 3
+2023-11-14 13:07:35,319 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:07:37,685 - Providio -INFO - Entered into url
+2023-11-14 13:07:37,686 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:07:37,735 - Providio -INFO - Total menus count is 8
+2023-11-14 13:07:37,736 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 13:07:37,753 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 13:07:37,753 - Providio -INFO - Randomly selected sub menu number 4
+2023-11-14 13:07:54,125 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:07:54,134 - Providio -INFO - 1
+2023-11-14 13:07:54,134 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:07:59,600 - Providio -INFO - Total enabled colors: 1
+2023-11-14 13:08:06,706 - Providio -INFO - Succesfully selected the Base Metaland count of the selected products 477
+2023-11-14 13:08:09,876 - Providio -INFO - Total enabled colors: 11
+2023-11-14 13:08:17,968 - Providio -INFO - The selected filter is 24 but displayed filter is  
+2023-11-14 13:08:38,604 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 13:08:38,605 - Providio -INFO - Randomly selected Add to Cart button index: 7
+2023-11-14 13:08:40,725 - Providio -INFO - Product is added to cart
+2023-11-14 13:08:42,804 - Providio -INFO - Entered into url
+2023-11-14 13:08:42,804 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:08:42,847 - Providio -INFO - Total menus count is 8
+2023-11-14 13:08:42,847 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 13:08:42,847 - Providio -INFO - random genrate is 7
+2023-11-14 13:08:42,855 - Providio -INFO - Total menus count is 8
+2023-11-14 13:08:42,856 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 13:08:42,872 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 13:08:42,873 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-14 13:08:58,278 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:08:58,288 - Providio -INFO - 1
+2023-11-14 13:08:58,288 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:09:01,548 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:09:08,742 - Providio -INFO - Total enabled colors: 3
+2023-11-14 13:09:16,858 - Providio -INFO - Succesfully selected the Dead Softand count of the selected products 22
+2023-11-14 13:09:37,422 - Providio -INFO - Total add to cart buttons: 25
+2023-11-14 13:09:37,423 - Providio -INFO - Randomly selected Add to Cart button index: 10
+2023-11-14 13:10:12,321 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:10:15,358 - Providio -INFO - Entered into url
+2023-11-14 13:10:15,359 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:10:15,396 - Providio -INFO - Total menus count is 8
+2023-11-14 13:10:15,396 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 13:10:15,414 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 13:10:15,415 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 13:10:30,955 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:10:30,965 - Providio -INFO - 1
+2023-11-14 13:10:30,965 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:10:36,460 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:10:43,798 - Providio -INFO - Total enabled colors: 14
+2023-11-14 13:10:51,911 - Providio -INFO - Succesfully selected the Blue Moon Beadsand count of the selected products 18
+2023-11-14 13:11:12,486 - Providio -INFO - Total add to cart buttons: 22
+2023-11-14 13:11:12,486 - Providio -INFO - Randomly selected Add to Cart button index: 4
+2023-11-14 13:11:14,611 - Providio -INFO - Product is added to cart
+2023-11-14 13:11:16,653 - Providio -INFO - Entered into url
+2023-11-14 13:11:16,654 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:11:16,687 - Providio -INFO - Total menus count is 8
+2023-11-14 13:11:16,687 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 13:11:16,711 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 13:11:16,711 - Providio -INFO - Randomly selected sub menu number 22
+2023-11-14 13:11:33,550 - Providio -INFO - 3
+2023-11-14 13:11:43,452 - Providio -INFO - 1
+2023-11-14 13:11:43,452 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:11:46,632 - Providio -INFO - Total enabled colors: 1
+2023-11-14 13:11:54,766 - Providio -INFO - Succesfully selected the Accu-Flexand count of the selected products 11
+2023-11-14 13:11:58,143 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:12:05,491 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:12:07,531 - Providio -INFO - Entered into url
+2023-11-14 13:12:07,532 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:12:07,567 - Providio -INFO - Total menus count is 8
+2023-11-14 13:12:07,568 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 13:12:07,584 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 13:12:07,584 - Providio -INFO - Randomly selected sub menu number 36
+2023-11-14 13:12:23,309 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:12:23,319 - Providio -INFO - 1
+2023-11-14 13:12:23,320 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:12:26,499 - Providio -INFO - Total enabled colors: 11
+2023-11-14 13:12:34,596 - Providio -INFO - Succesfully selected the Half Round Wireand count of the selected products 21
+2023-11-14 13:12:38,912 - Providio -INFO - Total enabled colors: 10
+2023-11-14 13:12:47,037 - Providio -INFO - The selected filter is Round Wire but displayed filter is  
+2023-11-14 13:13:07,658 - Providio -INFO - Total add to cart buttons: 27
+2023-11-14 13:13:07,658 - Providio -INFO - Randomly selected Add to Cart button index: 3
+2023-11-14 13:13:09,798 - Providio -INFO - Product is added to cart
+2023-11-14 13:13:12,088 - Providio -INFO - Entered into url
+2023-11-14 13:13:12,089 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:13:12,139 - Providio -INFO - Total menus count is 8
+2023-11-14 13:13:12,139 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 13:13:12,159 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 13:13:12,159 - Providio -INFO - Randomly selected sub menu number 20
+2023-11-14 13:13:28,775 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:13:28,786 - Providio -INFO - 1
+2023-11-14 13:13:28,786 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:13:32,010 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:13:41,552 - Providio -INFO - Total enabled colors: 2
+2023-11-14 13:13:49,667 - Providio -INFO - Succesfully selected the Blue Moon Beadsand count of the selected products 1
+2023-11-14 13:14:00,940 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:14:03,301 - Providio -INFO - Entered into url
+2023-11-14 13:14:03,301 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:14:03,333 - Providio -INFO - Total menus count is 8
+2023-11-14 13:14:03,333 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 13:14:03,333 - Providio -INFO - random genrate is 8
+2023-11-14 13:14:07,841 - Providio -INFO - 6
+2023-11-14 13:14:10,880 - Providio -INFO - Total menus count is 8
+2023-11-14 13:14:10,880 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 13:14:10,896 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 13:14:10,896 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 13:14:26,266 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:14:26,275 - Providio -INFO - 1
+2023-11-14 13:14:26,275 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:14:26,285 - Providio -INFO - 1
+2023-11-14 13:14:26,285 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:14:29,472 - Providio -INFO - Total enabled colors: 1
+2023-11-14 13:14:37,568 - Providio -INFO - Succesfully selected the Beadalonand count of the selected products 31
+2023-11-14 13:14:40,796 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:14:48,082 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:14:50,757 - Providio -INFO - Entered into url
+2023-11-14 13:14:50,757 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:14:50,873 - Providio -INFO - Total menus count is 8
+2023-11-14 13:14:50,873 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 13:14:50,890 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 13:14:50,891 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 13:15:07,619 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:15:07,629 - Providio -INFO - 1
+2023-11-14 13:15:07,629 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:15:18,910 - Providio -INFO - Succesfully selected the Giftsand count of the selected products 322
+2023-11-14 13:15:30,263 - Providio -INFO - The selected filter is Pendants, Drops And Focals but displayed filter is  
+2023-11-14 13:15:50,858 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 13:15:50,859 - Providio -INFO - Randomly selected Add to Cart button index: 27
+2023-11-14 13:16:27,728 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:16:33,706 - Providio -INFO - Entered into url
+2023-11-14 13:16:33,706 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:16:33,738 - Providio -INFO - Total menus count is 8
+2023-11-14 13:16:33,739 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 13:16:33,739 - Providio -INFO - random genrate is 7
+2023-11-14 13:16:33,751 - Providio -INFO - Total menus count is 8
+2023-11-14 13:16:33,751 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 13:16:33,771 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 13:16:33,771 - Providio -INFO - Randomly selected sub menu number 29
+2023-11-14 13:16:54,281 - Providio -INFO - 3
+2023-11-14 13:17:07,744 - Providio -INFO - 1
+2023-11-14 13:17:07,744 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:17:10,970 - Providio -INFO - Total enabled colors: 1
+2023-11-14 13:17:19,085 - Providio -INFO - Succesfully selected the Rectangle / Brickand count of the selected products 2
+2023-11-14 13:17:22,215 - Providio -INFO - Total enabled colors: 1
+2023-11-14 13:17:30,318 - Providio -INFO - The selected filter is Silver Colored but displayed filter is  
+2023-11-14 13:17:45,769 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:17:52,853 - Providio -INFO - Entered into url
+2023-11-14 13:17:52,853 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:17:52,882 - Providio -INFO - Total menus count is 8
+2023-11-14 13:17:52,882 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 13:17:52,898 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 13:17:52,898 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 13:18:13,422 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:18:13,432 - Providio -INFO - 1
+2023-11-14 13:18:13,432 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:18:27,021 - Providio -INFO - Succesfully selected the Finished Jewelryand count of the selected products 87
+2023-11-14 13:18:30,196 - Providio -INFO - Total enabled colors: 2
+2023-11-14 13:18:38,289 - Providio -INFO - The selected filter is Everyday Jewelry but displayed filter is  
+2023-11-14 13:18:58,870 - Providio -INFO - Total add to cart buttons: 29
+2023-11-14 13:18:58,870 - Providio -INFO - Randomly selected Add to Cart button index: 9
+2023-11-14 13:19:00,977 - Providio -INFO - Product is added to cart
+2023-11-14 13:19:05,872 - Providio -INFO - Entered into url
+2023-11-14 13:19:05,873 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:19:05,906 - Providio -INFO - Total menus count is 8
+2023-11-14 13:19:05,907 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 13:19:05,929 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 13:19:05,929 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 13:19:25,635 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:19:25,646 - Providio -INFO - 1
+2023-11-14 13:19:25,646 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:19:37,064 - Providio -INFO - Succesfully selected the Toolsand count of the selected products 8
+2023-11-14 13:19:40,361 - Providio -INFO - Total enabled colors: 2
+2023-11-14 13:19:48,452 - Providio -INFO - The selected filter is Fusework but displayed filter is  
+2023-11-14 13:19:59,752 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:20:04,110 - Providio -INFO - Entered into url
+2023-11-14 13:20:04,111 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:20:04,151 - Providio -INFO - Total menus count is 8
+2023-11-14 13:20:04,151 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 13:20:04,168 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 13:20:04,168 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 13:20:21,521 - Providio -INFO - 1
+2023-11-14 13:20:32,256 - Providio -INFO - 1
+2023-11-14 13:20:32,256 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:20:35,467 - Providio -INFO - Total enabled colors: 17
+2023-11-14 13:20:43,582 - Providio -INFO - The selected filter is but displayed filter is  Purples / Lavenders
+2023-11-14 13:20:46,753 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:20:53,998 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:20:56,257 - Providio -INFO - Entered into url
+2023-11-14 13:20:56,257 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:20:56,392 - Providio -INFO - Total menus count is 8
+2023-11-14 13:20:56,393 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 13:20:56,393 - Providio -INFO - random genrate is 8
+2023-11-14 13:21:00,363 - Providio -INFO - 6
+2023-11-14 13:21:03,415 - Providio -INFO - Total menus count is 8
+2023-11-14 13:21:03,415 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 13:21:03,415 - Providio -INFO - random genrate is 8
+2023-11-14 13:21:07,036 - Providio -INFO - 6
+2023-11-14 13:21:10,074 - Providio -INFO - Total menus count is 8
+2023-11-14 13:21:10,075 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 13:21:10,088 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 13:21:10,088 - Providio -INFO - Randomly selected sub menu number 14
+2023-11-14 13:21:29,387 - Providio -INFO - 7
+2023-11-14 13:21:37,918 - Providio -INFO - 0
+2023-11-14 13:21:37,927 - Providio -INFO - Total menus count is 8
+2023-11-14 13:21:37,927 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 13:21:37,927 - Providio -INFO - random genrate is 7
+2023-11-14 13:21:37,937 - Providio -INFO - Total menus count is 8
+2023-11-14 13:21:37,938 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 13:21:37,952 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 13:21:37,952 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 13:21:54,983 - Providio -INFO - 4
+2023-11-14 13:22:04,184 - Providio -INFO - 1
+2023-11-14 13:22:04,184 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:22:04,192 - Providio -INFO - 1
+2023-11-14 13:22:04,192 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:22:04,202 - Providio -INFO - 1
+2023-11-14 13:22:04,202 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:22:15,463 - Providio -INFO - Succesfully selected the Earring Findingsand count of the selected products 2
+2023-11-14 13:22:23,189 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:22:30,419 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:22:33,753 - Providio -INFO - Entered into url
+2023-11-14 13:22:33,754 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:22:33,821 - Providio -INFO - Total menus count is 8
+2023-11-14 13:22:33,822 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 13:22:33,840 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 13:22:33,840 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-14 13:22:51,261 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:22:51,271 - Providio -INFO - 1
+2023-11-14 13:22:51,271 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:22:55,589 - Providio -INFO - Total enabled colors: 45
+2023-11-14 13:23:03,685 - Providio -INFO - The selected filter is but displayed filter is  Chips And Nuggets
+2023-11-14 13:23:07,062 - Providio -INFO - Total enabled colors: 1
+2023-11-14 13:23:15,168 - Providio -INFO - The selected filter is Everyday Jewelry but displayed filter is  
+2023-11-14 13:23:26,465 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:23:28,530 - Providio -INFO - Entered into url
+2023-11-14 13:23:28,530 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:23:28,563 - Providio -INFO - Total menus count is 8
+2023-11-14 13:23:28,563 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 13:23:28,576 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 13:23:28,576 - Providio -INFO - Randomly selected sub menu number 29
+2023-11-14 13:23:45,849 - Providio -INFO - 3
+2023-11-14 13:23:56,431 - Providio -INFO - 1
+2023-11-14 13:23:56,431 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:23:59,609 - Providio -INFO - Total enabled colors: 2
+2023-11-14 13:24:07,702 - Providio -INFO - Succesfully selected the Silver Coloredand count of the selected products 12
+2023-11-14 13:24:18,940 - Providio -INFO - The selected filter is Chain but displayed filter is  
+2023-11-14 13:24:39,422 - Providio -INFO - Total add to cart buttons: 5
+2023-11-14 13:24:39,422 - Providio -INFO - Randomly selected Add to Cart button index: 4
+2023-11-14 13:25:14,180 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:25:19,660 - Providio -INFO - Entered into url
+2023-11-14 13:25:19,661 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:25:19,688 - Providio -INFO - Total menus count is 8
+2023-11-14 13:25:19,689 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 13:25:19,703 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 13:25:19,704 - Providio -INFO - Randomly selected sub menu number 28
+2023-11-14 13:25:39,653 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:25:39,664 - Providio -INFO - 1
+2023-11-14 13:25:39,664 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:25:45,177 - Providio -INFO - Total enabled colors: 4
+2023-11-14 13:25:53,291 - Providio -INFO - Succesfully selected the Multi-Coloredand count of the selected products 1
+2023-11-14 13:25:57,692 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:26:04,935 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 13:26:11,307 - Providio -INFO - Entered into url
+2023-11-14 13:26:11,307 - Providio -INFO - Placing the order as guest user
+2023-11-14 13:26:11,334 - Providio -INFO - Total menus count is 8
+2023-11-14 13:26:11,335 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 13:26:11,353 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 13:26:11,353 - Providio -INFO - Randomly selected sub menu number 35
+2023-11-14 13:26:46,416 - Providio -INFO - 2
+2023-11-14 13:27:03,052 - Providio -INFO - 1
+2023-11-14 13:27:03,052 - Providio -INFO - PLP page is already loaded
+2023-11-14 13:27:06,258 - Providio -INFO - Total enabled colors: 0
+2023-11-14 13:27:13,439 - Providio -INFO - Total enabled colors: 11
+2023-11-14 13:27:21,561 - Providio -INFO - The selected filter is but displayed filter is  Reds
+2023-11-14 13:27:40,993 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:24:24,793 - Providio -INFO - Entered into url
+2023-11-14 14:24:24,804 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:24:26,145 - Providio -INFO - Total menus count is 8
+2023-11-14 14:24:26,145 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 14:24:26,177 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 14:24:26,178 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 14:24:42,247 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:24:42,260 - Providio -INFO - 1
+2023-11-14 14:24:42,260 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:24:55,167 - Providio -INFO - Succesfully selected the Stringing Materialand count of the selected products 52
+2023-11-14 14:25:06,988 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:25:09,984 - Providio -INFO - Entered into url
+2023-11-14 14:25:09,985 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:25:10,093 - Providio -INFO - Total menus count is 8
+2023-11-14 14:25:10,093 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 14:25:10,093 - Providio -INFO - random genrate is 7
+2023-11-14 14:25:10,112 - Providio -INFO - Total menus count is 8
+2023-11-14 14:25:10,113 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 14:25:10,133 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 14:25:10,133 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 14:25:27,651 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:25:27,662 - Providio -INFO - 1
+2023-11-14 14:25:27,662 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:25:30,989 - Providio -INFO - Total enabled colors: 13
+2023-11-14 14:25:39,091 - Providio -INFO - Succesfully selected the Redsand count of the selected products 1
+2023-11-14 14:25:42,342 - Providio -INFO - Total enabled colors: 12
+2023-11-14 14:25:50,451 - Providio -INFO - The selected filter is Beiges / Creams but displayed filter is  
+2023-11-14 14:26:06,075 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:26:08,568 - Providio -INFO - Entered into url
+2023-11-14 14:26:08,568 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:26:08,637 - Providio -INFO - Total menus count is 8
+2023-11-14 14:26:08,638 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 14:26:08,654 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 14:26:08,654 - Providio -INFO - Randomly selected sub menu number 4
+2023-11-14 14:26:32,580 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:26:32,592 - Providio -INFO - 1
+2023-11-14 14:26:32,593 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:26:35,945 - Providio -INFO - Total enabled colors: 18
+2023-11-14 14:26:44,062 - Providio -INFO - The selected filter is but displayed filter is  Copper Colored
+2023-11-14 14:26:48,726 - Providio -INFO - Total enabled colors: 2
+2023-11-14 14:26:56,829 - Providio -INFO - The selected filter is Round but displayed filter is  
+2023-11-14 14:27:08,231 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:27:56,088 - Providio -INFO - Entered into url
+2023-11-14 14:27:56,102 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:27:59,772 - Providio -INFO - Total menus count is 8
+2023-11-14 14:27:59,772 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:27:59,772 - Providio -INFO - random genrate is 8
+2023-11-14 14:28:03,576 - Providio -INFO - 6
+2023-11-14 14:28:06,691 - Providio -INFO - Total menus count is 8
+2023-11-14 14:28:06,692 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 14:28:06,893 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 14:28:06,893 - Providio -INFO - Randomly selected sub menu number 5
+2023-11-14 14:28:23,493 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:28:23,505 - Providio -INFO - 1
+2023-11-14 14:28:23,505 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:28:23,517 - Providio -INFO - 1
+2023-11-14 14:28:23,517 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:28:27,930 - Providio -INFO - Total enabled colors: 18
+2023-11-14 14:28:36,051 - Providio -INFO - Succesfully selected the Blacksand count of the selected products 13
+2023-11-14 14:28:39,360 - Providio -INFO - Total enabled colors: 0
+2023-11-14 14:28:46,699 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:31:07,623 - Providio -INFO - Entered into url
+2023-11-14 14:31:07,631 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:31:13,018 - Providio -INFO - Total menus count is 8
+2023-11-14 14:31:13,019 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 14:31:13,038 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 14:31:13,038 - Providio -INFO - Randomly selected sub menu number 21
+2023-11-14 14:31:32,467 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:31:32,479 - Providio -INFO - 1
+2023-11-14 14:31:32,479 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:31:38,919 - Providio -INFO - Relauching the browsesr
+2023-11-14 14:32:07,514 - Providio -INFO - Entered into url
+2023-11-14 14:32:07,537 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:32:08,709 - Providio -INFO - Total menus count is 8
+2023-11-14 14:32:08,710 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:32:08,710 - Providio -INFO - random genrate is 8
+2023-11-14 14:32:12,433 - Providio -INFO - 6
+2023-11-14 14:32:15,641 - Providio -INFO - Total menus count is 8
+2023-11-14 14:32:15,642 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:32:15,642 - Providio -INFO - random genrate is 8
+2023-11-14 14:32:19,666 - Providio -INFO - 6
+2023-11-14 14:32:22,717 - Providio -INFO - Total menus count is 8
+2023-11-14 14:32:22,717 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:32:22,717 - Providio -INFO - random genrate is 8
+2023-11-14 14:32:26,682 - Providio -INFO - 6
+2023-11-14 14:32:29,731 - Providio -INFO - Total menus count is 8
+2023-11-14 14:32:29,731 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 14:32:29,749 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 14:32:29,749 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 14:32:52,296 - Providio -INFO - 2
+2023-11-14 14:33:01,806 - Providio -INFO - 1
+2023-11-14 14:33:01,807 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:33:01,819 - Providio -INFO - 1
+2023-11-14 14:33:01,819 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:33:01,830 - Providio -INFO - 1
+2023-11-14 14:33:01,830 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:33:01,842 - Providio -INFO - 1
+2023-11-14 14:33:01,842 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:33:20,122 - Providio -INFO - Total enabled colors: 1
+2023-11-14 14:33:35,862 - Providio -INFO - Succesfully selected the Greensand count of the selected products 7
+2023-11-14 14:35:00,887 - Providio -INFO - Entered into url
+2023-11-14 14:35:00,901 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:35:04,573 - Providio -INFO - Total menus count is 8
+2023-11-14 14:35:04,574 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 14:35:04,595 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 14:35:04,596 - Providio -INFO - Randomly selected sub menu number 9
+2023-11-14 14:35:20,511 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:35:20,523 - Providio -INFO - 1
+2023-11-14 14:35:20,523 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:35:25,072 - Providio -INFO - Total enabled colors: 3
+2023-11-14 14:35:33,218 - Providio -INFO - Succesfully selected the Dioneand count of the selected products 2
+2023-11-14 14:35:48,740 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:37:36,259 - Providio -INFO - Entered into url
+2023-11-14 14:37:36,278 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:37:39,681 - Providio -INFO - Total menus count is 8
+2023-11-14 14:37:39,682 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 14:37:39,710 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 14:37:39,711 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 14:37:57,080 - Providio -INFO - 2
+2023-11-14 14:38:06,042 - Providio -INFO - 1
+2023-11-14 14:38:06,043 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:38:09,331 - Providio -INFO - Total enabled colors: 0
+2023-11-14 14:38:29,778 - Providio -INFO - Total add to cart buttons: 5
+2023-11-14 14:38:29,778 - Providio -INFO - Randomly selected Add to Cart button index: 3
+2023-11-14 14:39:07,402 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:40:09,926 - Providio -INFO - Entered into url
+2023-11-14 14:40:09,929 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:40:20,230 - Providio -INFO - Relauching the browsesr
+2023-11-14 14:40:53,192 - Providio -INFO - Entered into url
+2023-11-14 14:40:53,204 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:40:54,362 - Providio -INFO - Total menus count is 8
+2023-11-14 14:40:54,362 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 14:40:54,380 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 14:40:54,381 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 14:41:11,138 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:41:11,151 - Providio -INFO - 1
+2023-11-14 14:41:11,151 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:46:43,956 - Providio -INFO - Entered into url
+2023-11-14 14:46:43,976 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:46:47,426 - Providio -INFO - Total menus count is 8
+2023-11-14 14:46:47,426 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:46:47,427 - Providio -INFO - random genrate is 8
+2023-11-14 14:46:50,986 - Providio -INFO - 6
+2023-11-14 14:46:54,062 - Providio -INFO - Total menus count is 8
+2023-11-14 14:46:54,062 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 14:46:54,082 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 14:46:54,082 - Providio -INFO - Randomly selected sub menu number 24
+2023-11-14 14:47:10,340 - Providio -INFO - Total menus count is 0
+2023-11-14 14:47:13,565 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:47:39,042 - Providio -INFO - Entered into url
+2023-11-14 14:47:39,046 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:47:40,302 - Providio -INFO - Total menus count is 8
+2023-11-14 14:47:40,302 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 14:47:40,325 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 14:47:40,325 - Providio -INFO - Randomly selected sub menu number 18
+2023-11-14 14:47:56,801 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:47:56,813 - Providio -INFO - 1
+2023-11-14 14:47:56,813 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:48:23,166 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:50:22,685 - Providio -INFO - Entered into url
+2023-11-14 14:50:22,705 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:50:26,509 - Providio -INFO - Total menus count is 8
+2023-11-14 14:50:26,509 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 14:50:26,528 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 14:50:26,529 - Providio -INFO - Randomly selected sub menu number 14
+2023-11-14 14:50:42,765 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:50:42,777 - Providio -INFO - 1
+2023-11-14 14:50:42,777 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:51:16,423 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:52:29,311 - Providio -INFO - Entered into url
+2023-11-14 14:52:29,315 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:52:30,921 - Providio -INFO - Total menus count is 8
+2023-11-14 14:52:30,921 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 14:52:30,921 - Providio -INFO - random genrate is 7
+2023-11-14 14:52:30,940 - Providio -INFO - Total menus count is 8
+2023-11-14 14:52:30,941 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:52:30,942 - Providio -INFO - random genrate is 8
+2023-11-14 14:52:36,808 - Providio -INFO - 6
+2023-11-14 14:52:39,883 - Providio -INFO - Total menus count is 8
+2023-11-14 14:52:39,883 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 14:52:39,901 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 14:52:39,902 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 14:53:00,591 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:53:00,604 - Providio -INFO - 1
+2023-11-14 14:53:00,610 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:53:00,625 - Providio -INFO - 1
+2023-11-14 14:53:00,625 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:53:27,441 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 14:55:14,004 - Providio -INFO - Entered into url
+2023-11-14 14:55:14,008 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:55:15,209 - Providio -INFO - Total menus count is 8
+2023-11-14 14:55:15,209 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 14:55:15,231 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 14:55:15,232 - Providio -INFO - Randomly selected sub menu number 12
+2023-11-14 14:55:31,590 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:55:31,601 - Providio -INFO - 1
+2023-11-14 14:55:31,602 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:55:34,949 - Providio -INFO - Total enabled colors: 4
+2023-11-14 14:55:43,091 - Providio -INFO - Succesfully selected the Elvee Rosenbergand count of the selected products 9
+2023-11-14 14:55:51,632 - Providio -INFO - add to cart  button enabled
+2023-11-14 14:55:55,325 - Providio -INFO - Entered into url
+2023-11-14 14:55:55,326 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:55:55,442 - Providio -INFO - Total menus count is 8
+2023-11-14 14:55:55,443 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 14:55:55,523 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 14:55:55,523 - Providio -INFO - Randomly selected sub menu number 5
+2023-11-14 14:56:10,796 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:56:10,807 - Providio -INFO - 1
+2023-11-14 14:56:10,808 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:56:22,537 - Providio -INFO - Succesfully selected the Finished Jewelryand count of the selected products 692
+2023-11-14 14:56:28,912 - Providio -INFO - add to cart  button enabled
+2023-11-14 14:56:33,650 - Providio -INFO - Entered into url
+2023-11-14 14:56:33,651 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:56:33,760 - Providio -INFO - Total menus count is 8
+2023-11-14 14:56:33,760 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 14:56:33,760 - Providio -INFO - random genrate is 7
+2023-11-14 14:56:33,772 - Providio -INFO - Total menus count is 8
+2023-11-14 14:56:33,772 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 14:56:33,788 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 14:56:33,788 - Providio -INFO - Randomly selected sub menu number 4
+2023-11-14 14:56:49,707 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:56:49,718 - Providio -INFO - 1
+2023-11-14 14:56:49,719 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:56:52,983 - Providio -INFO - Total enabled colors: 0
+2023-11-14 14:57:03,009 - Providio -INFO - add to cart  button enabled
+2023-11-14 14:57:06,700 - Providio -INFO - Entered into url
+2023-11-14 14:57:06,701 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:57:06,818 - Providio -INFO - Total menus count is 8
+2023-11-14 14:57:06,819 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 14:57:06,820 - Providio -INFO - random genrate is 8
+2023-11-14 14:57:10,037 - Providio -INFO - 6
+2023-11-14 14:57:13,086 - Providio -INFO - Total menus count is 8
+2023-11-14 14:57:13,086 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 14:57:13,103 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 14:57:13,104 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 14:57:28,257 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:57:28,268 - Providio -INFO - 1
+2023-11-14 14:57:28,268 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:57:28,279 - Providio -INFO - 1
+2023-11-14 14:57:28,279 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:57:31,504 - Providio -INFO - Total enabled colors: 3
+2023-11-14 14:57:39,621 - Providio -INFO - Succesfully selected the Dead Softand count of the selected products 50
+2023-11-14 14:57:46,219 - Providio -INFO - add to cart  button enabled
+2023-11-14 14:57:50,636 - Providio -INFO - Entered into url
+2023-11-14 14:57:50,637 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:57:50,682 - Providio -INFO - Total menus count is 8
+2023-11-14 14:57:50,682 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 14:57:50,700 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 14:57:50,701 - Providio -INFO - Randomly selected sub menu number 26
+2023-11-14 14:58:09,570 - Providio -INFO - Total menus count is 8
+2023-11-14 14:58:09,571 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 14:58:09,589 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 14:58:09,590 - Providio -INFO - Randomly selected sub menu number 41
+2023-11-14 14:58:25,803 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:58:25,814 - Providio -INFO - 1
+2023-11-14 14:58:25,814 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:58:25,825 - Providio -INFO - 1
+2023-11-14 14:58:25,826 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:58:29,045 - Providio -INFO - Total enabled colors: 1
+2023-11-14 14:58:36,167 - Providio -INFO - Succesfully selected the Base Metaland count of the selected products 103
+2023-11-14 14:58:42,789 - Providio -INFO - add to cart  button enabled
+2023-11-14 14:58:46,552 - Providio -INFO - Entered into url
+2023-11-14 14:58:46,552 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:58:46,606 - Providio -INFO - Total menus count is 8
+2023-11-14 14:58:46,607 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 14:58:46,623 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 14:58:46,624 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 14:59:03,272 - Providio -INFO - 3
+2023-11-14 14:59:13,619 - Providio -INFO - 1
+2023-11-14 14:59:13,620 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:59:26,147 - Providio -INFO - Succesfully selected the Chainand count of the selected products 24
+2023-11-14 14:59:31,870 - Providio -INFO - add to cart  button enabled
+2023-11-14 14:59:35,558 - Providio -INFO - Entered into url
+2023-11-14 14:59:35,558 - Providio -INFO - Placing the order as guest user
+2023-11-14 14:59:35,663 - Providio -INFO - Total menus count is 8
+2023-11-14 14:59:35,663 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 14:59:35,688 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 14:59:35,688 - Providio -INFO - Randomly selected sub menu number 32
+2023-11-14 14:59:51,263 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:59:51,275 - Providio -INFO - 1
+2023-11-14 14:59:51,275 - Providio -INFO - PLP page is already loaded
+2023-11-14 14:59:54,611 - Providio -INFO - Total enabled colors: 0
+2023-11-14 15:00:05,211 - Providio -INFO - add to cart  button enabled
+2023-11-14 15:00:08,918 - Providio -INFO - Entered into url
+2023-11-14 15:00:08,919 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:00:08,999 - Providio -INFO - Total menus count is 8
+2023-11-14 15:00:09,001 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 15:00:09,023 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 15:00:09,024 - Providio -INFO - Randomly selected sub menu number 20
+2023-11-14 15:00:25,341 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:00:25,352 - Providio -INFO - 1
+2023-11-14 15:00:25,352 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:00:36,743 - Providio -INFO - Succesfully selected the Jewelry Presentation And Packagingand count of the selected products 206
+2023-11-14 15:00:43,772 - Providio -INFO - add to cart  button enabled
+2023-11-14 15:00:47,733 - Providio -INFO - Entered into url
+2023-11-14 15:00:47,733 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:00:47,823 - Providio -INFO - Total menus count is 8
+2023-11-14 15:00:47,823 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 15:00:47,838 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 15:00:47,838 - Providio -INFO - Randomly selected sub menu number 31
+2023-11-14 15:01:03,451 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:01:03,462 - Providio -INFO - 1
+2023-11-14 15:01:03,462 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:01:06,681 - Providio -INFO - Total enabled colors: 2
+2023-11-14 15:01:14,778 - Providio -INFO - Succesfully selected the Biconeand count of the selected products 1
+2023-11-14 15:01:20,230 - Providio -INFO - add to cart  button enabled
+2023-11-14 15:01:23,986 - Providio -INFO - Entered into url
+2023-11-14 15:01:23,986 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:01:24,054 - Providio -INFO - Total menus count is 8
+2023-11-14 15:01:24,055 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 15:01:24,055 - Providio -INFO - random genrate is 7
+2023-11-14 15:01:24,072 - Providio -INFO - Total menus count is 8
+2023-11-14 15:01:24,072 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 15:01:24,072 - Providio -INFO - random genrate is 8
+2023-11-14 15:01:27,879 - Providio -INFO - 6
+2023-11-14 15:01:30,928 - Providio -INFO - Total menus count is 8
+2023-11-14 15:01:30,928 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 15:01:30,946 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 15:01:30,946 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 15:01:45,869 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:01:45,880 - Providio -INFO - 1
+2023-11-14 15:01:45,880 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:01:45,891 - Providio -INFO - 1
+2023-11-14 15:01:45,891 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:01:58,317 - Providio -INFO - Succesfully selected the Stringing Materialand count of the selected products 71
+2023-11-14 15:02:04,586 - Providio -INFO - add to cart  button enabled
+2023-11-14 15:05:59,060 - Providio -INFO - Entered into url
+2023-11-14 15:05:59,065 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:06:00,226 - Providio -INFO - Total menus count is 8
+2023-11-14 15:06:00,226 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 15:06:00,248 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 15:06:00,248 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 15:06:18,954 - Providio -INFO - 4
+2023-11-14 15:06:27,347 - Providio -INFO - 1
+2023-11-14 15:06:27,348 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:06:31,684 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 15:06:33,884 - Providio -INFO - Entered into url
+2023-11-14 15:06:33,886 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:06:33,924 - Providio -INFO - Total menus count is 8
+2023-11-14 15:06:33,924 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 15:06:33,942 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 15:06:33,943 - Providio -INFO - Randomly selected sub menu number 14
+2023-11-14 15:06:51,031 - Providio -INFO - 6
+2023-11-14 15:07:02,915 - Providio -INFO - 1
+2023-11-14 15:07:02,916 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:07:08,860 - Providio -INFO - Succesfully clicked on  Celestial Crystal®and navigated to Celestial Crystal®
+2023-11-14 15:07:15,345 - Providio -INFO - add to cart  button enabled
+2023-11-14 15:07:19,737 - Providio -INFO - Entered into url
+2023-11-14 15:07:19,738 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:07:19,915 - Providio -INFO - Total menus count is 8
+2023-11-14 15:07:19,916 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 15:07:19,934 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 15:07:19,934 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 15:07:36,807 - Providio -INFO - 3
+2023-11-14 15:07:46,340 - Providio -INFO - 1
+2023-11-14 15:07:46,340 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:07:54,973 - Providio -INFO - Succesfully clicked on  Newand navigated to New
+2023-11-14 15:08:01,093 - Providio -INFO - Relauching the browsesr
+2023-11-14 15:08:13,389 - Providio -INFO - Entered into url
+2023-11-14 15:08:13,393 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:08:14,562 - Providio -INFO - Total menus count is 8
+2023-11-14 15:08:14,562 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 15:08:14,581 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 15:08:14,582 - Providio -INFO - Randomly selected sub menu number 11
+2023-11-14 15:08:31,462 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:08:31,473 - Providio -INFO - 1
+2023-11-14 15:08:31,474 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:08:35,898 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 15:09:49,388 - Providio -INFO - Entered into url
+2023-11-14 15:09:49,392 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:09:50,643 - Providio -INFO - Total menus count is 8
+2023-11-14 15:09:50,644 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 15:09:50,661 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 15:09:50,662 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-14 15:10:07,950 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:10:07,965 - Providio -INFO - 1
+2023-11-14 15:10:07,965 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:10:14,085 - Providio -INFO - Total menus count is 8
+2023-11-14 15:10:14,086 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 15:10:14,112 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 15:10:14,112 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 15:10:31,148 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:10:31,160 - Providio -INFO - 1
+2023-11-14 15:10:31,160 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:10:31,212 - Providio -INFO - Succesfully clicked on  Homeand navigated to Hammers
+2023-11-14 15:10:37,882 - Providio -INFO - Total menus count is 8
+2023-11-14 15:10:37,882 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 15:10:37,895 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 15:10:37,896 - Providio -INFO - Randomly selected sub menu number 15
+2023-11-14 15:10:54,793 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:10:54,805 - Providio -INFO - 1
+2023-11-14 15:10:54,805 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:11:00,264 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 15:12:09,125 - Providio -INFO - Entered into url
+2023-11-14 15:12:09,129 - Providio -INFO - Placing the order as guest user
+2023-11-14 15:12:10,325 - Providio -INFO - Total menus count is 8
+2023-11-14 15:12:10,326 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 15:12:10,347 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 15:12:10,347 - Providio -INFO - Randomly selected sub menu number 34
+2023-11-14 15:12:27,761 - Providio -INFO - 4
+2023-11-14 15:12:39,786 - Providio -INFO - 1
+2023-11-14 15:12:39,786 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:12:49,899 - Providio -INFO - Succesfully clicked on  Findingsand navigated to Findings
+2023-11-14 15:12:56,874 - Providio -INFO - Total menus count is 8
+2023-11-14 15:12:56,874 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 15:12:56,875 - Providio -INFO - random genrate is 7
+2023-11-14 15:12:56,885 - Providio -INFO - Total menus count is 8
+2023-11-14 15:12:56,886 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 15:12:56,899 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 15:12:56,900 - Providio -INFO - Randomly selected sub menu number 12
+2023-11-14 15:13:13,386 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:13:13,396 - Providio -INFO - 1
+2023-11-14 15:13:13,396 - Providio -INFO - PLP page is already loaded
+2023-11-14 15:13:21,075 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 16:05:10,166 - Providio -INFO - Entered into url
+2023-11-14 16:05:10,172 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:05:11,578 - Providio -INFO - Total menus count is 8
+2023-11-14 16:05:11,579 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:05:11,597 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:05:11,597 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:05:29,136 - Providio -INFO - 1
+2023-11-14 16:05:40,627 - Providio -INFO - 1
+2023-11-14 16:05:40,628 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:05:57,945 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:06:31,108 - Providio -INFO - Entered into url
+2023-11-14 16:06:31,112 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:06:32,464 - Providio -INFO - Total menus count is 8
+2023-11-14 16:06:32,464 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:06:32,465 - Providio -INFO - random genrate is 7
+2023-11-14 16:06:32,478 - Providio -INFO - Total menus count is 8
+2023-11-14 16:06:32,479 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 16:06:32,499 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 16:06:32,499 - Providio -INFO - Randomly selected sub menu number 13
+2023-11-14 16:06:55,525 - Providio -INFO - 3
+2023-11-14 16:07:09,841 - Providio -INFO - 1
+2023-11-14 16:07:09,841 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:07:28,550 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:08:21,274 - Providio -INFO - Entered into url
+2023-11-14 16:08:21,280 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:08:22,743 - Providio -INFO - Total menus count is 8
+2023-11-14 16:08:22,744 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 16:08:22,762 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 16:08:22,763 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 16:08:43,180 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:08:43,193 - Providio -INFO - 1
+2023-11-14 16:08:43,193 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:10:36,374 - Providio -INFO - Entered into url
+2023-11-14 16:10:36,380 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:10:37,529 - Providio -INFO - Total menus count is 8
+2023-11-14 16:10:37,530 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 16:10:37,548 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 16:10:37,548 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-14 16:10:55,243 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:10:55,256 - Providio -INFO - 1
+2023-11-14 16:10:55,256 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:12:40,030 - Providio -INFO - Entered into url
+2023-11-14 16:12:40,033 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:12:41,234 - Providio -INFO - Total menus count is 8
+2023-11-14 16:12:41,236 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 16:12:41,258 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 16:12:41,258 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 16:12:58,398 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:12:58,410 - Providio -INFO - 1
+2023-11-14 16:12:58,411 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:13:34,369 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:17:21,040 - Providio -INFO - Entered into url
+2023-11-14 16:17:21,043 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:17:22,184 - Providio -INFO - Total menus count is 8
+2023-11-14 16:17:22,185 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 16:17:22,206 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 16:17:22,206 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 16:17:39,870 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:17:39,882 - Providio -INFO - 1
+2023-11-14 16:17:39,882 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:17:57,699 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:18:59,131 - Providio -INFO - Entered into url
+2023-11-14 16:18:59,136 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:19:00,303 - Providio -INFO - Total menus count is 8
+2023-11-14 16:19:00,303 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 16:19:00,328 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 16:19:00,329 - Providio -INFO - Randomly selected sub menu number 40
+2023-11-14 16:19:16,937 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:19:16,951 - Providio -INFO - 1
+2023-11-14 16:19:16,951 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:20:36,836 - Providio -INFO - Entered into url
+2023-11-14 16:20:36,841 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:20:37,985 - Providio -INFO - Total menus count is 8
+2023-11-14 16:20:37,987 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:20:38,012 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:20:38,012 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:20:56,398 - Providio -INFO - 1
+2023-11-14 16:21:06,893 - Providio -INFO - 1
+2023-11-14 16:21:06,894 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:21:22,448 - Providio -INFO - Total menus count is 8
+2023-11-14 16:21:22,453 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:21:22,458 - Providio -INFO - random genrate is 7
+2023-11-14 16:21:22,536 - Providio -INFO - Total menus count is 8
+2023-11-14 16:21:22,542 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:21:22,600 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:21:22,606 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:21:39,803 - Providio -INFO - 4
+2023-11-14 16:21:48,220 - Providio -INFO - 1
+2023-11-14 16:21:48,222 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:21:49,705 - Providio -INFO - Succesfully clicked on  Homeand navigated to Gold-Filled Stud-Style Hoops
+2023-11-14 16:22:03,214 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:23:29,761 - Providio -INFO - Entered into url
+2023-11-14 16:23:29,764 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:23:30,947 - Providio -INFO - Total menus count is 8
+2023-11-14 16:23:30,948 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 16:23:30,968 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 16:23:30,969 - Providio -INFO - Randomly selected sub menu number 32
+2023-11-14 16:23:49,514 - Providio -INFO - 1
+2023-11-14 16:24:00,243 - Providio -INFO - 1
+2023-11-14 16:24:00,244 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:24:07,648 - Providio -INFO - Total menus count is 8
+2023-11-14 16:24:07,648 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:24:07,672 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:24:07,673 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:24:24,828 - Providio -INFO - 2
+2023-11-14 16:24:34,350 - Providio -INFO - 1
+2023-11-14 16:24:34,350 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:24:34,403 - Providio -INFO - Succesfully clicked on  Home and navigated to Crystal Passions Fern Green Margaritas category
+2023-11-14 16:24:37,319 - Providio -INFO - Relauching the browsesr
+2023-11-14 16:24:54,491 - Providio -INFO - Entered into url
+2023-11-14 16:24:54,500 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:24:56,896 - Providio -INFO - Total menus count is 8
+2023-11-14 16:24:56,897 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 16:24:56,935 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 16:24:56,935 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:25:14,460 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:25:14,472 - Providio -INFO - 1
+2023-11-14 16:25:14,472 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:25:22,466 - Providio -INFO - Succesfully clicked on  Jewelry and Gifts and navigated to Jewelry and Gifts category
+2023-11-14 16:25:29,618 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:25:34,146 - Providio -INFO - Entered into url
+2023-11-14 16:25:34,146 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:25:35,369 - Providio -INFO - Total menus count is 8
+2023-11-14 16:25:35,369 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:25:35,370 - Providio -INFO - random genrate is 7
+2023-11-14 16:25:35,514 - Providio -INFO - Total menus count is 8
+2023-11-14 16:25:35,514 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 16:25:35,616 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 16:25:35,616 - Providio -INFO - Randomly selected sub menu number 31
+2023-11-14 16:25:50,987 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:25:50,997 - Providio -INFO - 1
+2023-11-14 16:25:50,998 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:25:57,184 - Providio -INFO - Total menus count is 8
+2023-11-14 16:25:57,185 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 16:25:57,203 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 16:25:57,203 - Providio -INFO - Randomly selected sub menu number 30
+2023-11-14 16:26:15,587 - Providio -INFO - 8
+2023-11-14 16:26:24,332 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 16:26:27,501 - Providio -INFO - Entered into url
+2023-11-14 16:26:27,502 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:26:27,538 - Providio -INFO - Total menus count is 8
+2023-11-14 16:26:27,538 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 16:26:27,554 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 16:26:27,555 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 16:26:44,277 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:26:44,289 - Providio -INFO - 1
+2023-11-14 16:26:44,289 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:26:51,986 - Providio -INFO - Succesfully clicked on  Jewelry and Gifts and navigated to Jewelry and Gifts category
+2023-11-14 16:26:58,995 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:27:03,721 - Providio -INFO - Entered into url
+2023-11-14 16:27:03,721 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:27:03,816 - Providio -INFO - Total menus count is 8
+2023-11-14 16:27:03,816 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:27:03,831 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:27:03,831 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:27:25,901 - Providio -INFO - 1
+2023-11-14 16:27:34,967 - Providio -INFO - 1
+2023-11-14 16:27:34,967 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:27:46,640 - Providio -INFO - Succesfully clicked on  New Products and navigated to New Products category
+2023-11-14 16:27:53,476 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:27:57,790 - Providio -INFO - Entered into url
+2023-11-14 16:27:57,790 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:27:57,822 - Providio -INFO - Total menus count is 8
+2023-11-14 16:27:57,822 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:27:57,833 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:27:57,834 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:28:20,013 - Providio -INFO - 4
+2023-11-14 16:28:27,596 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 16:38:38,860 - Providio -INFO - Entered into url
+2023-11-14 16:38:38,864 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:38:40,077 - Providio -INFO - Total menus count is 8
+2023-11-14 16:38:40,077 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 16:38:40,077 - Providio -INFO - random genrate is 8
+2023-11-14 16:38:44,072 - Providio -INFO - 6
+2023-11-14 16:38:47,145 - Providio -INFO - Total menus count is 8
+2023-11-14 16:38:47,145 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:38:47,146 - Providio -INFO - random genrate is 7
+2023-11-14 16:38:47,156 - Providio -INFO - Total menus count is 8
+2023-11-14 16:38:47,156 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 16:38:47,174 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 16:38:47,174 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 16:39:04,692 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:39:04,704 - Providio -INFO - 1
+2023-11-14 16:39:04,704 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:39:04,718 - Providio -INFO - 1
+2023-11-14 16:39:04,718 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:49:30,497 - Providio -INFO - Entered into url
+2023-11-14 16:49:30,501 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:49:31,659 - Providio -INFO - Total menus count is 8
+2023-11-14 16:49:31,660 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:49:31,660 - Providio -INFO - random genrate is 7
+2023-11-14 16:49:31,670 - Providio -INFO - Total menus count is 8
+2023-11-14 16:49:31,670 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 16:49:31,671 - Providio -INFO - random genrate is 8
+2023-11-14 16:49:35,429 - Providio -INFO - 6
+2023-11-14 16:49:38,656 - Providio -INFO - Total menus count is 8
+2023-11-14 16:49:38,656 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:49:38,657 - Providio -INFO - random genrate is 7
+2023-11-14 16:49:38,670 - Providio -INFO - Total menus count is 8
+2023-11-14 16:49:38,670 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 16:49:38,704 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 16:49:38,705 - Providio -INFO - Randomly selected sub menu number 14
+2023-11-14 16:50:02,354 - Providio -INFO - 2
+2023-11-14 16:50:10,971 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 16:50:12,864 - Providio -INFO - Entered into url
+2023-11-14 16:50:12,864 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:50:12,896 - Providio -INFO - Total menus count is 8
+2023-11-14 16:50:12,896 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 16:50:12,920 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 16:50:12,920 - Providio -INFO - Randomly selected sub menu number 7
+2023-11-14 16:50:29,796 - Providio -INFO - 4
+2023-11-14 16:50:38,370 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 16:50:39,362 - Providio -INFO - Entered into url
+2023-11-14 16:50:39,363 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:50:39,431 - Providio -INFO - Relauching the browsesr
+2023-11-14 16:51:06,246 - Providio -INFO - Entered into url
+2023-11-14 16:51:06,250 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:51:07,388 - Providio -INFO - Total menus count is 8
+2023-11-14 16:51:07,388 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 16:51:07,388 - Providio -INFO - random genrate is 8
+2023-11-14 16:51:10,834 - Providio -INFO - 6
+2023-11-14 16:51:13,898 - Providio -INFO - Total menus count is 8
+2023-11-14 16:51:13,899 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 16:51:13,914 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 16:51:13,914 - Providio -INFO - Randomly selected sub menu number 11
+2023-11-14 16:51:31,301 - Providio -INFO - 12
+2023-11-14 16:51:43,429 - Providio -INFO - 1
+2023-11-14 16:51:43,429 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:51:43,442 - Providio -INFO - 1
+2023-11-14 16:51:43,442 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:51:45,524 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:51:49,386 - Providio -INFO - Entered into url
+2023-11-14 16:51:49,387 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:51:49,494 - Providio -INFO - Total menus count is 8
+2023-11-14 16:51:49,494 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 16:51:49,514 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 16:51:49,515 - Providio -INFO - Randomly selected sub menu number 27
+2023-11-14 16:52:08,514 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:52:08,526 - Providio -INFO - 1
+2023-11-14 16:52:08,526 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:52:10,582 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:52:14,398 - Providio -INFO - Entered into url
+2023-11-14 16:52:14,398 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:52:14,440 - Providio -INFO - Total menus count is 8
+2023-11-14 16:52:14,443 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 16:52:14,444 - Providio -INFO - random genrate is 8
+2023-11-14 16:52:18,267 - Providio -INFO - 6
+2023-11-14 16:52:21,315 - Providio -INFO - Total menus count is 8
+2023-11-14 16:52:21,316 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:52:21,316 - Providio -INFO - random genrate is 7
+2023-11-14 16:52:21,326 - Providio -INFO - Total menus count is 8
+2023-11-14 16:52:21,326 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 16:52:21,326 - Providio -INFO - random genrate is 7
+2023-11-14 16:52:21,335 - Providio -INFO - Total menus count is 8
+2023-11-14 16:52:21,336 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 16:52:21,350 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 16:52:21,351 - Providio -INFO - Randomly selected sub menu number 25
+2023-11-14 16:52:38,963 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:52:38,974 - Providio -INFO - 1
+2023-11-14 16:52:38,975 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:52:38,986 - Providio -INFO - 1
+2023-11-14 16:52:38,987 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:52:50,872 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:52:54,712 - Providio -INFO - Entered into url
+2023-11-14 16:52:54,712 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:52:54,800 - Providio -INFO - Total menus count is 8
+2023-11-14 16:52:54,800 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 16:52:54,820 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 16:52:54,820 - Providio -INFO - Randomly selected sub menu number 29
+2023-11-14 16:53:11,382 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:53:11,393 - Providio -INFO - 1
+2023-11-14 16:53:11,393 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:53:23,278 - Providio -INFO - add to cart  button enabled
+2023-11-14 16:53:27,291 - Providio -INFO - Entered into url
+2023-11-14 16:53:27,291 - Providio -INFO - Placing the order as guest user
+2023-11-14 16:53:27,326 - Providio -INFO - Total menus count is 8
+2023-11-14 16:53:27,326 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 16:53:27,346 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 16:53:27,347 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 16:53:44,466 - Providio -INFO - 1
+2023-11-14 16:53:54,444 - Providio -INFO - 1
+2023-11-14 16:53:54,444 - Providio -INFO - PLP page is already loaded
+2023-11-14 16:54:07,753 - Providio -INFO - add to cart  button enabled
+2023-11-14 17:22:13,404 - Providio -INFO - Entered into url
+2023-11-14 17:22:13,422 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:22:17,254 - Providio -INFO - Total menus count is 8
+2023-11-14 17:22:17,254 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 17:22:17,271 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 17:22:17,272 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 17:22:34,841 - Providio -INFO - 4
+2023-11-14 17:22:42,973 - Providio -INFO - 1
+2023-11-14 17:22:42,974 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:24:03,262 - Providio -INFO - Entered into url
+2023-11-14 17:24:03,281 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:24:08,165 - Providio -INFO - Total menus count is 8
+2023-11-14 17:24:08,166 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 17:24:08,189 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 17:24:08,189 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 17:24:25,470 - Providio -INFO - 3
+2023-11-14 17:24:36,427 - Providio -INFO - 1
+2023-11-14 17:24:36,427 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:24:46,267 - Providio -INFO - add to cart  button enabled
+2023-11-14 17:25:02,205 - Providio -INFO - Entered into url
+2023-11-14 17:25:02,212 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:25:02,373 - Providio -INFO - Total menus count is 8
+2023-11-14 17:25:02,380 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 17:25:02,386 - Providio -INFO - random genrate is 8
+2023-11-14 17:25:07,428 - Providio -INFO - 6
+2023-11-14 17:25:10,545 - Providio -INFO - Total menus count is 8
+2023-11-14 17:25:10,546 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 17:25:10,576 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 17:25:10,577 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 17:26:15,166 - Providio -INFO - Entered into url
+2023-11-14 17:26:15,171 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:26:16,347 - Providio -INFO - Total menus count is 8
+2023-11-14 17:26:16,347 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 17:26:16,347 - Providio -INFO - random genrate is 7
+2023-11-14 17:26:16,357 - Providio -INFO - Total menus count is 8
+2023-11-14 17:26:16,358 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 17:26:16,383 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 17:26:16,383 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 17:26:32,660 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:26:32,672 - Providio -INFO - 1
+2023-11-14 17:26:32,673 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:27:00,444 - Providio -INFO - Succesfully clicked on next page i.e, shown BohoSTAR Bracelets before clicking on next page and also showed BohoSTAR Bracelets
+2023-11-14 17:27:05,091 - Providio -INFO - add to cart  button enabled
+2023-11-14 17:51:50,013 - Providio -INFO - Entered into url
+2023-11-14 17:51:50,022 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:51:54,150 - Providio -INFO - Total menus count is 8
+2023-11-14 17:51:54,151 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 17:51:54,169 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 17:51:54,169 - Providio -INFO - Randomly selected sub menu number 14
+2023-11-14 17:52:15,579 - Providio -INFO - 17
+2023-11-14 17:52:25,357 - Providio -INFO - 0
+2023-11-14 17:52:25,388 - Providio -INFO - Total menus count is 8
+2023-11-14 17:52:25,388 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 17:52:25,389 - Providio -INFO - random genrate is 8
+2023-11-14 17:52:30,520 - Providio -INFO - 6
+2023-11-14 17:52:33,580 - Providio -INFO - Total menus count is 8
+2023-11-14 17:52:33,580 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 17:52:33,580 - Providio -INFO - random genrate is 8
+2023-11-14 17:52:37,777 - Providio -INFO - 6
+2023-11-14 17:52:40,843 - Providio -INFO - Total menus count is 8
+2023-11-14 17:52:40,843 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 17:52:40,871 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 17:52:40,871 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-14 17:53:03,646 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:53:03,672 - Providio -INFO - 1
+2023-11-14 17:53:03,672 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:53:03,694 - Providio -INFO - 1
+2023-11-14 17:53:03,694 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:53:03,706 - Providio -INFO - 1
+2023-11-14 17:53:03,707 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:53:25,282 - Providio -INFO - Succesfully clicked on next page i.e, shown Memory Wire before clicking on next page and also showed Memory Wire
+2023-11-14 17:54:30,099 - Providio -INFO - Entered into url
+2023-11-14 17:54:30,125 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:54:34,218 - Providio -INFO - Total menus count is 8
+2023-11-14 17:54:34,218 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 17:54:34,247 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 17:54:34,247 - Providio -INFO - Randomly selected sub menu number 29
+2023-11-14 17:54:53,527 - Providio -INFO - 3
+2023-11-14 17:55:03,924 - Providio -INFO - 1
+2023-11-14 17:55:03,925 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:55:27,824 - Providio -INFO - Entered into url
+2023-11-14 17:55:27,832 - Providio -INFO - Placing the order as guest user
+2023-11-14 17:55:31,234 - Providio -INFO - Total menus count is 8
+2023-11-14 17:55:31,235 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 17:55:31,255 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 17:55:31,256 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-14 17:55:47,683 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:55:47,696 - Providio -INFO - 1
+2023-11-14 17:55:47,696 - Providio -INFO - PLP page is already loaded
+2023-11-14 17:56:29,007 - Providio -INFO - Succesfully clicked on next page i.e, shown Tigertail before clicking on next page and also showed Tigertail
+2023-11-14 18:00:24,117 - Providio -INFO - Entered into url
+2023-11-14 18:00:24,122 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:00:25,305 - Providio -INFO - Total menus count is 8
+2023-11-14 18:00:25,305 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 18:00:25,324 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 18:00:25,325 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 18:00:42,967 - Providio -INFO - 3
+2023-11-14 18:00:54,647 - Providio -INFO - 1
+2023-11-14 18:00:54,647 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:01:48,991 - Providio -INFO - Entered into url
+2023-11-14 18:01:48,997 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:01:50,176 - Providio -INFO - Total menus count is 8
+2023-11-14 18:01:50,176 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 18:01:50,197 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 18:01:50,197 - Providio -INFO - Randomly selected sub menu number 33
+2023-11-14 18:02:08,047 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:02:08,060 - Providio -INFO - 1
+2023-11-14 18:02:08,060 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:02:20,916 - Providio -INFO - Succesfully clicked on next page i.e, shown Pendants before clicking on next page and also showed Pendants
+2023-11-14 18:02:42,152 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 18:04:19,383 - Providio -INFO - Entered into url
+2023-11-14 18:04:19,392 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:04:20,585 - Providio -INFO - Total menus count is 8
+2023-11-14 18:04:20,585 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 18:04:20,586 - Providio -INFO - random genrate is 8
+2023-11-14 18:04:24,319 - Providio -INFO - 6
+2023-11-14 18:04:27,382 - Providio -INFO - Total menus count is 8
+2023-11-14 18:04:27,382 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 18:04:27,398 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 18:04:27,399 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 18:04:45,338 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:04:45,351 - Providio -INFO - 1
+2023-11-14 18:04:45,351 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:04:45,363 - Providio -INFO - 1
+2023-11-14 18:04:45,364 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:05:02,657 - Providio -INFO - Succesfully clicked on next page i.e, shown Necklaces before clicking on next page and also showed Necklaces
+2023-11-14 18:05:25,002 - Providio -INFO - add to cart  button enabled
+2023-11-14 18:06:39,741 - Providio -INFO - Entered into url
+2023-11-14 18:06:39,750 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:06:44,551 - Providio -INFO - Total menus count is 8
+2023-11-14 18:06:44,551 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 18:06:44,575 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 18:06:44,575 - Providio -INFO - Randomly selected sub menu number 17
+2023-11-14 18:07:03,609 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:07:03,622 - Providio -INFO - 1
+2023-11-14 18:07:03,623 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:07:33,302 - Providio -INFO - Entered into url
+2023-11-14 18:07:33,322 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:07:36,915 - Providio -INFO - Total menus count is 8
+2023-11-14 18:07:36,915 - Providio -INFO - Randomly selected menu number 6
+2023-11-14 18:07:36,932 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-14 18:07:36,933 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 18:07:53,616 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:07:53,626 - Providio -INFO - 1
+2023-11-14 18:07:53,627 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:08:14,417 - Providio -INFO - Succesfully clicked on next page i.e, shown Impact Bracelets before clicking on next page and also showed Impact Bracelets
+2023-11-14 18:08:34,225 - Providio -INFO - add to cart  button enabled
+2023-11-14 18:09:40,256 - Providio -INFO - Entered into url
+2023-11-14 18:09:40,261 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:09:41,541 - Providio -INFO - Total menus count is 8
+2023-11-14 18:09:41,541 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 18:09:41,560 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 18:09:41,560 - Providio -INFO - Randomly selected sub menu number 2
+2023-11-14 18:09:57,731 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:09:57,743 - Providio -INFO - 1
+2023-11-14 18:09:57,744 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:10:26,400 - Providio -INFO - Succesfully clicked on next page i.e, shown Sterling Silver-Filled Wire before clicking on next page and also showed Sterling Silver-Filled Wire
+2023-11-14 18:10:47,699 - Providio -INFO - Total menus count is 8
+2023-11-14 18:10:47,706 - Providio -INFO - Randomly selected menu number 1
+2023-11-14 18:10:47,887 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-14 18:10:47,893 - Providio -INFO - Randomly selected sub menu number 8
+2023-11-14 18:11:07,456 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 18:19:43,458 - Providio -INFO - Entered into url
+2023-11-14 18:19:43,464 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:19:44,652 - Providio -INFO - Total menus count is 8
+2023-11-14 18:19:44,652 - Providio -INFO - Randomly selected menu number 4
+2023-11-14 18:19:44,670 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-14 18:19:44,671 - Providio -INFO - Randomly selected sub menu number 25
+2023-11-14 18:20:01,583 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:20:01,595 - Providio -INFO - 1
+2023-11-14 18:20:01,595 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:20:15,465 - Providio -INFO - add to cart  button enabled
+2023-11-14 18:21:43,732 - Providio -INFO - Entered into url
+2023-11-14 18:21:43,754 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:21:48,620 - Providio -INFO - Total menus count is 8
+2023-11-14 18:21:48,621 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 18:21:48,642 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 18:21:48,643 - Providio -INFO - Randomly selected sub menu number 12
+2023-11-14 18:22:07,802 - Providio -INFO - 12
+2023-11-14 18:22:19,403 - Providio -INFO - 1
+2023-11-14 18:22:20,122 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:22:24,794 - Providio -INFO - Total enabled colors: 0
+2023-11-14 18:22:32,144 - Providio -INFO - Test case failed and returned into homepage
+2023-11-14 18:23:39,666 - Providio -INFO - Entered into url
+2023-11-14 18:23:39,671 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:23:40,833 - Providio -INFO - Total menus count is 8
+2023-11-14 18:23:40,833 - Providio -INFO - Randomly selected menu number 7
+2023-11-14 18:23:40,833 - Providio -INFO - random genrate is 7
+2023-11-14 18:23:40,843 - Providio -INFO - Total menus count is 8
+2023-11-14 18:23:40,843 - Providio -INFO - Randomly selected menu number 5
+2023-11-14 18:23:40,861 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-14 18:23:40,862 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 18:23:57,883 - Providio -INFO - 3
+2023-11-14 18:24:07,343 - Providio -INFO - 1
+2023-11-14 18:24:07,344 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:24:13,123 - Providio -INFO - add to cart  button enabled
+2023-11-14 18:25:29,154 - Providio -INFO - Entered into url
+2023-11-14 18:25:29,158 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:25:30,347 - Providio -INFO - Total menus count is 8
+2023-11-14 18:25:30,347 - Providio -INFO - Randomly selected menu number 3
+2023-11-14 18:25:30,365 - Providio -INFO - Total number of sub menus associated with the hovered menu 12
+2023-11-14 18:25:30,365 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-14 18:25:46,145 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:25:46,157 - Providio -INFO - 1
+2023-11-14 18:25:46,157 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:25:55,965 - Providio -INFO - Succesfully clicked on  Wire-Wrapping Wire and navigated to Wire-Wrapping Wire category
+2023-11-14 18:26:03,927 - Providio -INFO - add to cart  button enabled
+2023-11-14 18:27:06,197 - Providio -INFO - Entered into url
+2023-11-14 18:27:06,221 - Providio -INFO - Placing the order as guest user
+2023-11-14 18:27:11,774 - Providio -INFO - Total menus count is 8
+2023-11-14 18:27:11,774 - Providio -INFO - Randomly selected menu number 8
+2023-11-14 18:27:11,775 - Providio -INFO - random genrate is 8
+2023-11-14 18:27:15,375 - Providio -INFO - 6
+2023-11-14 18:27:18,487 - Providio -INFO - Total menus count is 8
+2023-11-14 18:27:18,488 - Providio -INFO - Randomly selected menu number 2
+2023-11-14 18:27:18,515 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-14 18:27:18,515 - Providio -INFO - Randomly selected sub menu number 3
+2023-11-14 18:27:36,170 - Providio -INFO - 1
+2023-11-14 18:27:49,072 - Providio -INFO - 1
+2023-11-14 18:27:49,072 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:27:49,084 - Providio -INFO - 1
+2023-11-14 18:27:49,084 - Providio -INFO - PLP page is already loaded
+2023-11-14 18:28:10,105 - Providio -INFO - Succesfully clicked on  Jewelry Supplies and navigated to Jewelry Supplies category
+2023-11-14 18:28:17,834 - Providio -INFO - add to cart  button enabled
