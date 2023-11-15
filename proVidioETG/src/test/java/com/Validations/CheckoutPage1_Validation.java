@@ -79,8 +79,8 @@ public class CheckoutPage1_Validation extends baseClass {
          logger.info("Entered into menu");
 
          //plp page    
-         productListingPage plp = new productListingPage(driver);
-         plp.selectProductRandom(driver);
+     
+         productListingPage.selectRandomProduct();
          logger.info("Entered into plp page");
 
  

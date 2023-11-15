@@ -36,7 +36,7 @@ public class preValidationCheck extends baseClass{
 			hm.footer(driver);
 		}
 	}
-	
+	/*
 	public static void prevalidationPLP() throws InterruptedException {
 		productListingPage plp = new productListingPage(driver);
 		//Name
@@ -49,7 +49,7 @@ public class preValidationCheck extends baseClass{
 		plp.Products(driver);
 
 	}
-	
+	*/
 	public static void preValidationPDP() {
 		productDescriptionPage pdp = new productDescriptionPage(driver);
 		

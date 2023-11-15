@@ -12,10 +12,12 @@ public class plpPage extends baseClass{
         // Initialize productListingPage to interact with product listing page
         productListingPage plp = new productListingPage(driver);
         
+        //selecting the filters
         SelectingFilterFromPlp.selectingTheFilters();
-        //sort the filters
-        plp.selecttheFilters(2, driver);
-        Thread.sleep(5000);
+        
+        //sort the filters     
+    	plp.selectTheSortBy(driver);
+      
         //product add to the favorates
         plp.selecttheWishlist();
         

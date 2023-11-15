@@ -25,8 +25,8 @@ public class tc__RandomProduct_GuestUser_InCc extends baseClass {
         
     	
         //check out process
-	    // MinicartViewCartProcess cp = new MinicartViewCartProcess();			     
-	   //  cp.checkoutprocess();
+	     MinicartViewCartProcess cp = new MinicartViewCartProcess();			     
+	     cp.checkoutprocess();
 	     
 	     //Payment process		     
 	  //   CreditCardPaymentProcess cc = new CreditCardPaymentProcess();			     

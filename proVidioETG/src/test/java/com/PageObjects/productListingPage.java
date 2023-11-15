@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.w3c.dom.Text;
 
 import com.Scenarios.MenuSelection;
@@ -203,21 +204,39 @@ WebDriver lDriver;
 				 if(jumpToPageList.size()>0) {
 					 test.info("Verifying Jump to page");
 					 List<WebElement> jumpToPage  = driver.findElements(By.xpath("(//span[contains(@class,'count-bold')])[4]"));
-					 int jumpToPageCount =jumpToPage.size();
-					 Thread.sleep(1000);
-					 Random random = new Random();
-			         int randomIndex = random.nextInt(jumpToPageCount );
-			         WebElement nextPage=jumpToPageList.get(randomIndex);
-			         String pageValue = nextPage.getText();
-			         System.out.println(pageValue);
-					
-			         WebElement jumpToPageInput  = driver.findElement(By.id("page-number"));
-			         jumpToPageInput.sendKeys(pageValue);
-			         
-			         WebElement clickOnGo  = driver.findElement(By.xpath("(//button[contains(@class,'paginationButton')])[1]"));
-			         JavascriptExecutor js = (JavascriptExecutor) driver;
-			         js.executeScript("arguments[0].click();", clickOnGo);
-			         
+					 int jumpToPageCount = jumpToPage.size();
+					   
+				     if(jumpToPageCount > 0) {
+					    	 WebElement jumpToPageTotalPage = driver.findElement(By.xpath("(//span[contains(@class,'count-bold')])[4]"));
+					    	 String text = jumpToPageTotalPage.getText();
+					    	 System.out.println("Total number of pages in PLP " + text);
+	
+					    	 int randomIndex = new Random().nextInt(Integer.parseInt(text));
+					    	 String randomPageNum = String.valueOf(randomIndex);
+	
+					    	 System.out.println(" Random page number is "+randomPageNum);
+	
+					    	 WebElement jumpToPageInput = driver.findElement(By.id("page-number"));
+					    	 jumpToPageInput.clear();
+					    	 jumpToPageInput.sendKeys(randomPageNum);
+					         
+					         WebElement clickOnGo  = driver.findElement(By.xpath("(//button[contains(@class,'paginationButton')])[1]"));
+					         JavascriptExecutor js = (JavascriptExecutor) driver;
+					         js.executeScript("arguments[0].click();", clickOnGo);
+					         
+					         // validating the page
+					         WebElement pageNumberSelected = driver.findElement(By.xpath("(//span[contains(@class,'count-bold')])[1]"));
+					         String selectedPageNumText= pageNumberSelected.getText();
+ 
+					         
+					         if(randomPageNum.equals(selectedPageNumText)) {
+					        	 test.info("Succesfullly Navigated to a random page i.e., random page number is " +randomPageNum +" naviagtion of the page number is  " + selectedPageNumText );
+					        	 logger.info("Succesfullly Navigated to a random page i.e., random page number is " +randomPageNum +" naviagtion of the page number is  " + selectedPageNumText );
+					         }else {
+					        	 test.info("Page is not Navigated to a random page i.e., random page number is " +randomPageNum +" naviagtion of the page number is  " + selectedPageNumText );
+					        	 logger.info("Page is not Navigated to a random page i.e., random page number is " +randomPageNum +" naviagtion of the page number is  " + selectedPageNumText );
+					         }
+				     }
 				 }else {
 					 test.info("No jump to page");
 				 }				
@@ -665,40 +684,67 @@ WebDriver lDriver;
           
 		//filters
 		@FindBy(xpath ="(//select[@name = 'sort-order'])[1]")
-		WebElement Filters;
-		public void selecttheFilters(int i, WebDriver driver) throws InterruptedException{		
+		 WebElement Filters;
+		public void selectTheSortBy(WebDriver driver) throws InterruptedException{		
 			
-			// Get all the available options within the dropdown
-			List<WebElement> options = Filters.findElements(By.tagName("option"));
+			test.info("Selecting the filter by sort by");
+			// Assume 'Filters' is the WebElement representing your dropdown
+	        WebElement filtersDropdown = driver.findElement(By.xpath("(//select[@name = 'sort-order'])[1]"));
 
-			// Get the total number of options
-			int numberOfOptions = options.size();
+	        // Create a Select object
+	        Select select = new Select(filtersDropdown);
 
-			// Generate a random index within the range of available options
-			Random random = new Random();
-			int randomIndex = random.nextInt(numberOfOptions);
+	        // Get all the options from the dropdown
+	        java.util.List<WebElement> options = select.getOptions();
 
-			// Select the random option by its index
-			options.get(randomIndex).click();
-			
-//			Select countrySelect = new Select(Filters);
-//	        countrySelect.selectByIndex(i);
-//	        Thread.sleep(1000);
-//	        JavascriptExecutor js = (JavascriptExecutor) driver; 
-//			js.executeScript("arguments[0].click();", Filters);
-	        
-			//Filters.click();
-	    	Thread.sleep(3000);
+	        // Get the total number of options
+	        int numberOfOptions = options.size();
+
+	        // Generate a random index within the range of available options
+	        java.util.Random random = new java.util.Random();
+	        int randomIndex = random.nextInt(numberOfOptions);
+
+	        // Select the random option by its index
+	        select.selectByIndex(randomIndex);
+	        Thread.sleep(3000);
+
 		}
 		
 	
 		//FilterResetButton
 		@FindBy(xpath ="//button[@class = 'reset btn p-0']")
-		WebElement ResetButton;
+		WebElement resetButtonList;
 		public void selecttheResetButton() throws InterruptedException{
-			ResetButton.click();
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();",resetButtonList);
+			//resetButtonList.click();
 	    	Thread.sleep(3000);
 		}
+		
+		// grid view 
+		@FindBy(xpath="//div[contains(@class,'list-grid-view')]//div[contains(@class,'view')]")
+		WebElement gridView;
+		
+		public void selectTheGridView() {
+			// Locate the parent element containing the view options
+	        WebElement viewContainer = driver.findElement(By.className("list-grid-view"));
+
+	        // Get all the view options
+	        List<WebElement> viewOptions = viewContainer.findElements(By.xpath(".//*[contains(@class,'accessibility-element')]"));
+
+	        // Get the total number of view options
+	        int numberOfOptions = viewOptions.size();
+
+	        // Generate a random index within the range of available options
+	        Random random = new Random();
+	        int randomIndex = random.nextInt(numberOfOptions);
+
+	        // Click the randomly selected view option
+	        JavascriptExecutor executor = (JavascriptExecutor) driver;
+	        executor.executeScript("arguments[0].click();", viewOptions.get(randomIndex));
+		}
+		
+		
 		
 		//WishList
 		public void selecttheWishlist() throws InterruptedException{
@@ -738,125 +784,6 @@ WebDriver lDriver;
 	        }
 	        
 		}
-		
 
-		//select a random product
-		public void selectProductRandom(WebDriver driver) throws InterruptedException {
-		    // Create a Random object to generate random numbers
-		    Random random1 = new Random();
-		    
-		    // Find all the product elements on the current page
-		    List<WebElement> products1 = driver.findElements(By.xpath("//a[@class ='tile-img-contain']"));
-		    
-		    // Get the total count of products found on the page
-		    int totalProductcount1 = products1.size();
-		    
-		    // Check if there are any products found on the page
-		    if (totalProductcount1 > 0) {
-		        // Generate a random number within the range of the total product count
-		        int randomSelectProduct = random1.nextInt(totalProductcount1) + 1;
-
-		        // Find the randomly selected product element based on the generated random number
-		        WebElement randomSelectProductFromPLP = driver.findElement(By.xpath("(//a[@class ='tile-img-contain'])[" + randomSelectProduct + "]"));
-		        
-		        // Use JavaScript Executor to click on the randomly selected product element
-		        JavascriptExecutor js = (JavascriptExecutor)driver;
-		        js.executeScript("arguments[0].click();", randomSelectProductFromPLP);
-		    }
-		    
-		    // Pause the execution for 2 seconds (simulating a wait for the page to load)
-		    Thread.sleep(2000);
-		    
-		    // Check if there's an element indicating that the PDP (Product Detail Page) is loading
-		    List<WebElement> validatingPdpIsLoading = driver.findElements(By.xpath("//a[contains(@class, 'continue-shopping')]"));
-		    
-		    // Log the count of elements found for validation
-		    logger.info(validatingPdpIsLoading.size());
-		    
-		    // Check if the PDP validation element is found
-		    if (validatingPdpIsLoading.size() > 0) {
-		        logger.info("PDP is not validating");
-		        
-		        // Find and click the "Continue Shopping" button
-		        WebElement continueShoppingBtn = driver.findElement(By.xpath("//a[contains(@class, 'continue-shopping')]"));
-		        continueShoppingBtn.click();
-		        
-		        // Pause the execution for 3 seconds (simulating some wait time)
-		        Thread.sleep(3000);
-  
-		        // Call the selectRandomMenu method from the navigationPage object to select a random menu item
-		        navigationProcessWithValidation  navPage =new navigationProcessWithValidation (driver);
-		    	 navPage.selectRandomMenu(driver);
-		        
-		        // Create a new Random object
-		        Random random = new Random();
-		        
-		        // Find all the product elements on the current page (after navigating)
-		        List<WebElement> products = driver.findElements(By.xpath("//a[@class ='tile-img-contain']"));
-		        
-		        // Get the total count of products found on the page
-		        int totalProductcount = products.size();
-		        
-		        // Check if there are any products found on the page
-		        if (totalProductcount > 0) {
-		            // Generate a random number within the range of the total product count
-		            int randomSelectProduct = random.nextInt(totalProductcount) + 1;
-
-		            // Find the randomly selected product element based on the generated random number
-		            WebElement randomSelectProductFromPLP = driver.findElement(By.xpath("(//a[@class ='tile-img-contain'])[" + randomSelectProduct + "]"));
-		            
-		            // Use JavaScript Executor to click on the randomly selected product element
-		            JavascriptExecutor js = (JavascriptExecutor)driver;
-		            js.executeScript("arguments[0].click();", randomSelectProductFromPLP);
-		        }
-		    }
-		}
-
-		//validations 
-		//Name
-		 public  void name(WebDriver driver) throws InterruptedException {
-			 WebElement Name = driver.findElement(By.xpath("//h1[contains(@class, 'page-title')]"));
-			    if (Name.isEnabled()) {
-			    	logger.info("catagory name is displayed on the page");
-			    } else {
-			    	logger.info("catagory name is not displayed on the page");
-			    }
-			    Thread.sleep(2000);
-		 }
-		 
-		 //BreadCramps
-		 public  void BreadCramps(WebDriver driver) throws InterruptedException {
-			 WebElement breadCramps = driver.findElement(By.xpath("//ol[@class='breadcrumb mb-0']"));
-			    if (breadCramps.isEnabled()) {
-			    	logger.info("BreadCramps are displayed on the page");
-			    } else {
-			    	logger.info("BreadCramps are not displayed on the page");
-			    }
-			    Thread.sleep(2000);
-		 }
-		 
-		 //Filters
-		 public  void Filters(WebDriver driver) throws InterruptedException {
-			 WebElement filters = driver.findElement(By.xpath("//span[@class='hide-title']"));
-			    if (filters.isEnabled()) {
-			    	logger.info("Filters are displayed on the page");
-			    } else {
-			    	logger.info("Filters are not displayed on the page");
-			    }
-			    Thread.sleep(2000);
-		 }
-		 
-		 //products
-			public void Products(WebDriver driver) throws InterruptedException {
-				List<WebElement> products = driver.findElements(By.xpath("//a[@class='nav-link dropdown-toggle text-uppercase font-weight-bold level-1']"));
-			    int count = products.size();
-			    if(count>0) {
-			    	 logger.info("products are displayed on the page");
-			    } else {
-			    	logger.info("products are not displayed on the page");
-			    }
-			    Thread.sleep(2000);
-			}
-
-				
+			
 }

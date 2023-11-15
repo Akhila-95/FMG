@@ -41,6 +41,15 @@ public class SelectingFilterFromPlp extends baseClass{
     
     
     public static void selectingTheFilters() throws InterruptedException {
+    	
+    	//reseting if any filter is applied before
+    	List<WebElement> resetList = driver.findElements(By.xpath("//button[@class = 'reset btn p-0']"));
+    	if(resetList.size()>0) {
+    		productListingPage plp = new productListingPage(driver);
+    		plp.selecttheResetButton();
+   		
+    	}
+    	
         test.info("Selecting filters from Plp");
         List<WebElement> moreList = driver.findElements(By.xpath("//div[contains(text(),'More...')]"));
         if (moreList.size() > 0) {

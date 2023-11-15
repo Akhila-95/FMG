@@ -43,8 +43,8 @@ public class CLPpage extends baseClass{
 			        JavascriptExecutor js = (JavascriptExecutor) driver;
 			        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", clickClp);
 			        Thread.sleep(2000);
-			        //js.executeScript("arguments[0].click();", clickClp);
-			      clickClp.click();
+			        js.executeScript("arguments[0].click();", clickClp);
+			     //clickClp.click();
 			      Thread.sleep(2000);
 //		           WebElement pageTitle = driver.findElement(By.xpath("//h1[contains(@class, 'category-name')]"));
 //                   String pageTitleText = pageTitle.getText();

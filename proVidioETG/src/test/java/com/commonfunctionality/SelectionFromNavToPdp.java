@@ -12,18 +12,20 @@ public class SelectionFromNavToPdp extends baseClass {
 	public static void selectingFromPdp() throws InterruptedException {
 	
 		//random menu selection
-		  MenuSelection.menues();
-		//driver.get("https://utsf.firemountain.org/jewelry/jewelry-and-gifts/gifts/?prefn1=color&prefv1=Browns%20%2F%20Tans");
+		// MenuSelection.menues();
+		driver.get("https://utsf.firemountain.org/1241wr/1241WR.html");
 		
 		  //random attribute selection from plp
-		  RandomAttributesSelectionInPlpPage.allAttibutes();
+		//  RandomAttributesSelectionInPlpPage.allAttributes();
 		  
 		// selecting random product from plp
-		  productListingPage.selectRandomProduct();
+		 // productListingPage.selectRandomProduct();
 		  
 		//adding produuct to cart
 		  allAttributesinOneFile.selectTheAttributesInPdp(driver);
 		  
+		  driver.get("https://utsf.firemountain.org/1999wr/1999WR.html");
+		  allAttributesinOneFile.selectTheAttributesInPdp(driver);
 		  
 	}
 }

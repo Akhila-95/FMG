@@ -34,9 +34,8 @@ public void commonScript() throws InterruptedException {
 			 logger.info("Entered into menu");
 		
 			//plp page	
-			productListingPage plp = new productListingPage(driver);
-			plp.selectProductRandom(driver);
-			logger.info("Entered into plp page");
+			  productListingPage.selectRandomProduct();
+			  logger.info("Entered into plp page");
 	
 			 List<WebElement> pdpPage = driver.findElements(By.xpath("//button[contains(@class,'add-to-cart btn btn-primary')]"));
 			 if( pdpPage.size()>0) {

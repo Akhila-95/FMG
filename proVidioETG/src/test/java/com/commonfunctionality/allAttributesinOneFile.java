@@ -54,6 +54,7 @@ public class allAttributesinOneFile extends baseClass{
      	    	System.out.println("Product is out of stock so searching for new product");	    	
     	 	
      	    	//navigating to random menu adding into navigating to plp r pdp page
+     	    // selecting random product from plp
      	    	SelectionFromNavToPdp.selectingFromPdp();
      }	    
 	     

@@ -3,15 +3,16 @@ package com.commonfunctionality;
 import java.util.Random;
 
 import com.PageObjects.productListingPage;
+import com.testcases.baseClass;
 
-public class RandomAttributesSelectionInPlpPage {
+public class RandomAttributesSelectionInPlpPage extends baseClass {
 
-	  public static void allAttibutes()throws InterruptedException {
+	  public static void allAttributes()throws InterruptedException {
 		  Random random = new Random();
 		  int randomNumber = random.nextInt(4) + 1;
-
-	    	
-	        switch (randomNumber) {
+			productListingPage plp = new productListingPage(driver);
+	    	test.info("Verifying the filters");
+	        switch (6) {
 	            case 1:
 	             //next page link
 	      		     productListingPage.clickOnNextPage();
@@ -30,6 +31,16 @@ public class RandomAttributesSelectionInPlpPage {
 	       		     SelectingFilterFromPlp.selectingTheFilters();			
 	                 break;	        
 	             
+	            case 5:
+	 	            //filters 
+	            
+	            	plp.selectTheSortBy(driver);			
+	 	                 break;	
+	            case 6:
+	 	            //filters 
+	            	
+	            	plp.selectTheGridView();			
+	 	                 break;	
 	             default:
 	                 System.out.println("Invalid random number.");
 	         }
