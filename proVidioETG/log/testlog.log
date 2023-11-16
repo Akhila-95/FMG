@@ -25875,3 +25875,1780 @@ rahulnaik@etisbew.com
 2023-11-15 19:30:41,357 - Providio -INFO - Total price of all prodcuts in cart 25.44
 2023-11-15 19:30:46,457 - Providio -INFO - Entered shipping address
 2023-11-15 19:30:49,792 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 08:57:13,489 - Providio -INFO - Entered into url
+2023-11-16 08:57:13,509 - Providio -INFO - Placing the order as guest user
+2023-11-16 08:57:23,763 - Providio -INFO - add to cart  button enabled
+2023-11-16 08:57:29,879 - Providio -INFO - add to cart  button enabled
+2023-11-16 08:57:49,177 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 08:57:49,570 - Providio -INFO - Entered shipping address
+2023-11-16 08:57:52,876 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 09:00:45,223 - Providio -INFO - Entered into url
+2023-11-16 09:00:45,233 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:00:52,122 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:00:58,470 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:01:19,376 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 09:01:21,487 - Providio -INFO - Entered shipping address
+2023-11-16 09:01:24,779 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 09:02:50,552 - Providio -INFO - Entered into url
+2023-11-16 09:02:50,557 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:02:59,278 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:03:12,365 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:03:32,785 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 09:03:34,978 - Providio -INFO - Entered shipping address
+2023-11-16 09:03:38,294 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 09:05:41,833 - Providio -INFO - Entered into url
+2023-11-16 09:05:41,846 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:05:50,102 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:05:56,404 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:06:16,369 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 09:06:18,448 - Providio -INFO - Entered shipping address
+2023-11-16 09:06:21,743 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 09:08:21,454 - Providio -INFO - Entered into url
+2023-11-16 09:08:21,460 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:08:27,074 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:08:33,475 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:09:06,985 - Providio -INFO - Total price of all prodcuts in cart 96.99
+2023-11-16 09:09:56,948 - Providio -INFO - Entered shipping address
+2023-11-16 09:10:00,285 - Providio -INFO - Pre total price tax 131.64
+2023-11-16 09:11:09,615 - Providio -INFO - Entered into url
+2023-11-16 09:11:09,623 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:11:19,020 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:11:26,501 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:11:47,092 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 09:11:53,038 - Providio -INFO - Entered shipping address
+2023-11-16 09:11:53,095 - Providio -INFO - Pre total price tax 60.090004
+2023-11-16 09:12:08,380 - Providio -INFO - 1
+2023-11-16 09:12:10,513 - Providio -INFO - true
+2023-11-16 09:12:10,514 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 09:12:10,515 - Providio -INFO - Guest checkout
+2023-11-16 09:12:10,678 - Providio -INFO - Guest mail again
+2023-11-16 09:12:10,770 - Providio -INFO - Guest continue as guest
+2023-11-16 09:12:15,993 - Providio -INFO - Entered fname
+2023-11-16 09:12:16,133 - Providio -INFO - Entered lname
+2023-11-16 09:12:24,547 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 09:12:54,628 - Providio -INFO - Entered into url
+2023-11-16 09:12:54,647 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:13:00,052 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:13:06,900 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:13:25,884 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 09:13:32,144 - Providio -INFO - Entered shipping address
+2023-11-16 09:13:32,175 - Providio -INFO - Pre total price tax 60.090004
+2023-11-16 09:13:40,468 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 09:17:07,770 - Providio -INFO - Entered into url
+2023-11-16 09:17:07,776 - Providio -INFO - Placing the order as guest user
+2023-11-16 09:17:14,115 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:17:21,872 - Providio -INFO - add to cart  button enabled
+2023-11-16 09:17:50,073 - Providio -INFO - Total price of all prodcuts in cart 96.99
+2023-11-16 09:17:56,229 - Providio -INFO - Entered shipping address
+2023-11-16 09:17:56,304 - Providio -INFO - Pre total price tax 131.64
+2023-11-16 09:18:04,809 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 10:37:06,637 - Providio -INFO - Entered into url
+2023-11-16 10:37:06,642 - Providio -INFO - Placing the order as guest user
+2023-11-16 10:37:14,211 - Providio -INFO - add to cart  button enabled
+2023-11-16 10:37:21,990 - Providio -INFO - add to cart  button enabled
+2023-11-16 10:37:41,563 - Providio -INFO - Total price of all prodcuts in cart 25.44
+2023-11-16 10:37:47,371 - Providio -INFO - Entered shipping address
+2023-11-16 10:37:47,403 - Providio -INFO - Pre total price tax 60.090004
+2023-11-16 10:38:01,074 - Providio -INFO - 1
+2023-11-16 10:38:03,228 - Providio -INFO - true
+2023-11-16 10:38:03,229 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 10:38:03,230 - Providio -INFO - Guest checkout
+2023-11-16 10:38:03,390 - Providio -INFO - Guest mail again
+2023-11-16 10:38:03,459 - Providio -INFO - Guest continue as guest
+2023-11-16 10:38:08,663 - Providio -INFO - Entered fname
+2023-11-16 10:38:08,793 - Providio -INFO - Entered lname
+2023-11-16 10:38:14,078 - Providio -INFO - Entered phone number
+2023-11-16 10:45:50,815 - Providio -INFO - Entered into url
+2023-11-16 10:45:50,827 - Providio -INFO - Placing the order as guest user
+2023-11-16 10:45:56,136 - Providio -INFO - add to cart  button enabled
+2023-11-16 10:46:03,736 - Providio -INFO - add to cart  button enabled
+2023-11-16 10:46:23,701 - Providio -INFO - Total price of all prodcuts in cart 96.99
+2023-11-16 10:46:26,979 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 10:47:36,227 - Providio -INFO - Entered into url
+2023-11-16 10:47:36,240 - Providio -INFO - Placing the order as guest user
+2023-11-16 10:47:43,632 - Providio -INFO - add to cart  button enabled
+2023-11-16 10:47:51,148 - Providio -INFO - add to cart  button enabled
+2023-11-16 10:48:16,787 - Providio -INFO - Total price of all prodcuts in cart 96.99
+2023-11-16 10:48:23,831 - Providio -INFO - Entered shipping address
+2023-11-16 10:48:23,877 - Providio -INFO - Pre total price tax 131.64
+2023-11-16 10:48:38,157 - Providio -INFO - 1
+2023-11-16 10:48:40,311 - Providio -INFO - true
+2023-11-16 10:48:40,312 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 10:48:40,313 - Providio -INFO - Guest checkout
+2023-11-16 10:48:40,474 - Providio -INFO - Guest mail again
+2023-11-16 10:48:40,541 - Providio -INFO - Guest continue as guest
+2023-11-16 10:48:45,773 - Providio -INFO - Entered fname
+2023-11-16 10:48:45,896 - Providio -INFO - Entered lname
+2023-11-16 10:48:51,205 - Providio -INFO - Entered phone number
+2023-11-16 10:49:06,384 - Providio -INFO - Payment Method
+2023-11-16 10:49:06,385 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 10:49:07,657 - Providio -INFO - entered card name
+2023-11-16 10:49:07,840 - Providio -INFO - entered card number
+2023-11-16 10:49:07,953 - Providio -INFO - entered cvv
+2023-11-16 10:49:08,071 - Providio -INFO - entered exp
+2023-11-16 11:06:56,603 - Providio -INFO - Entered into url
+2023-11-16 11:06:56,608 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:07:03,794 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:07:11,365 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:07:31,108 - Providio -INFO - Product input quantity97
+2023-11-16 11:07:36,322 - Providio -INFO - 97
+2023-11-16 11:07:36,323 - Providio -INFO - 97
+2023-11-16 11:07:36,507 - Providio -INFO - Total price of all prodcuts in cart 8239.71
+2023-11-16 11:07:42,992 - Providio -INFO - Entered shipping address
+2023-11-16 11:07:43,081 - Providio -INFO - Pre total price tax 8274.36
+2023-11-16 11:08:00,477 - Providio -INFO - 1
+2023-11-16 11:08:02,678 - Providio -INFO - true
+2023-11-16 11:08:02,679 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:08:02,680 - Providio -INFO - Guest checkout
+2023-11-16 11:08:02,886 - Providio -INFO - Guest mail again
+2023-11-16 11:08:03,013 - Providio -INFO - Guest continue as guest
+2023-11-16 11:08:08,278 - Providio -INFO - Entered fname
+2023-11-16 11:08:08,454 - Providio -INFO - Entered lname
+2023-11-16 11:08:14,099 - Providio -INFO - Entered phone number
+2023-11-16 11:08:29,484 - Providio -INFO - Payment Method
+2023-11-16 11:08:29,485 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 11:08:31,006 - Providio -INFO - entered card name
+2023-11-16 11:08:31,219 - Providio -INFO - entered card number
+2023-11-16 11:08:31,420 - Providio -INFO - entered cvv
+2023-11-16 11:08:31,607 - Providio -INFO - entered exp
+2023-11-16 11:15:03,790 - Providio -INFO - Entered into url
+2023-11-16 11:15:03,796 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:15:11,380 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:15:18,770 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:15:40,433 - Providio -INFO - Product input quantity20
+2023-11-16 11:15:45,730 - Providio -INFO - 20
+2023-11-16 11:15:45,731 - Providio -INFO - 20
+2023-11-16 11:15:49,050 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 11:17:00,606 - Providio -INFO - Entered into url
+2023-11-16 11:17:00,610 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:17:13,493 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:17:21,704 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:17:43,223 - Providio -INFO - Product input quantity 134
+2023-11-16 11:17:48,826 - Providio -INFO - Total price of all prodcuts in cart 1715.6
+2023-11-16 11:17:55,581 - Providio -INFO - Entered shipping address
+2023-11-16 11:17:55,654 - Providio -INFO - Pre total price tax 1240.71
+2023-11-16 11:18:11,724 - Providio -INFO - 1
+2023-11-16 11:18:13,855 - Providio -INFO - true
+2023-11-16 11:18:13,856 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:18:13,857 - Providio -INFO - Guest checkout
+2023-11-16 11:18:13,959 - Providio -INFO - Guest mail again
+2023-11-16 11:18:14,034 - Providio -INFO - Guest continue as guest
+2023-11-16 11:18:19,240 - Providio -INFO - Entered fname
+2023-11-16 11:18:19,364 - Providio -INFO - Entered lname
+2023-11-16 11:18:27,958 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 11:19:24,441 - Providio -INFO - Entered into url
+2023-11-16 11:19:24,447 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:19:32,138 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:19:40,032 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:20:01,959 - Providio -INFO - Product input quantity 84
+2023-11-16 11:20:07,513 - Providio -INFO - Total price of all prodcuts in cart 1035.55
+2023-11-16 11:20:14,299 - Providio -INFO - Entered shipping address
+2023-11-16 11:20:14,368 - Providio -INFO - Pre total price tax 859.18005
+2023-11-16 11:20:29,850 - Providio -INFO - 1
+2023-11-16 11:20:31,989 - Providio -INFO - true
+2023-11-16 11:20:31,990 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:20:31,991 - Providio -INFO - Guest checkout
+2023-11-16 11:20:32,130 - Providio -INFO - Guest mail again
+2023-11-16 11:20:32,204 - Providio -INFO - Guest continue as guest
+2023-11-16 11:20:37,430 - Providio -INFO - Entered fname
+2023-11-16 11:20:37,559 - Providio -INFO - Entered lname
+2023-11-16 11:20:42,898 - Providio -INFO - Entered phone number
+2023-11-16 11:20:58,114 - Providio -INFO - Payment Method
+2023-11-16 11:20:58,115 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 11:20:59,363 - Providio -INFO - entered card name
+2023-11-16 11:20:59,552 - Providio -INFO - entered card number
+2023-11-16 11:20:59,710 - Providio -INFO - entered cvv
+2023-11-16 11:20:59,822 - Providio -INFO - entered exp
+2023-11-16 11:27:50,649 - Providio -INFO - Entered into url
+2023-11-16 11:27:50,654 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:27:59,046 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:28:07,130 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:28:26,389 - Providio -INFO - Product input quantity 30
+2023-11-16 11:28:31,796 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 11:28:31,838 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:28:31,867 - Providio -INFO - Extended value is 12.17
+2023-11-16 11:28:31,889 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 11:28:31,920 - Providio -INFO - The quantity  is 30.0
+2023-11-16 11:28:31,948 - Providio -INFO - Extended value is 13.27
+2023-11-16 11:28:31,949 - Providio -INFO - Total price of all prodcuts in cart 377.27002
+2023-11-16 11:28:37,957 - Providio -INFO - Entered shipping address
+2023-11-16 11:28:38,016 - Providio -INFO - Pre total price tax 370.18002
+2023-11-16 11:28:53,498 - Providio -INFO - 1
+2023-11-16 11:28:55,647 - Providio -INFO - true
+2023-11-16 11:28:55,649 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:28:55,650 - Providio -INFO - Guest checkout
+2023-11-16 11:28:55,761 - Providio -INFO - Guest mail again
+2023-11-16 11:28:55,843 - Providio -INFO - Guest continue as guest
+2023-11-16 11:29:01,031 - Providio -INFO - Entered fname
+2023-11-16 11:29:01,162 - Providio -INFO - Entered lname
+2023-11-16 11:29:06,480 - Providio -INFO - Entered phone number
+2023-11-16 11:29:21,690 - Providio -INFO - Payment Method
+2023-11-16 11:29:21,691 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 11:29:23,030 - Providio -INFO - entered card name
+2023-11-16 11:29:23,210 - Providio -INFO - entered card number
+2023-11-16 11:29:23,314 - Providio -INFO - entered cvv
+2023-11-16 11:29:23,444 - Providio -INFO - entered exp
+2023-11-16 11:31:17,972 - Providio -INFO - Entered into url
+2023-11-16 11:31:17,976 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:31:23,480 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:31:30,341 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:31:49,581 - Providio -INFO - Product input quantity 2
+2023-11-16 11:31:54,976 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 11:31:55,011 - Providio -INFO - The quantity  is 2.0
+2023-11-16 11:31:55,041 - Providio -INFO - Extended value is 12.17
+2023-11-16 11:31:55,076 - Providio -INFO - The unit price of each prodcut is 84.82
+2023-11-16 11:31:55,111 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:31:55,139 - Providio -INFO - Extended value is 84.82
+2023-11-16 11:31:55,140 - Providio -INFO - Total price of all prodcuts in cart 109.16
+2023-11-16 11:32:01,291 - Providio -INFO - Entered shipping address
+2023-11-16 11:32:01,345 - Providio -INFO - Pre total price tax 143.81
+2023-11-16 11:32:15,524 - Providio -INFO - 1
+2023-11-16 11:32:17,659 - Providio -INFO - true
+2023-11-16 11:32:17,660 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:32:17,662 - Providio -INFO - Guest checkout
+2023-11-16 11:32:17,771 - Providio -INFO - Guest mail again
+2023-11-16 11:32:17,842 - Providio -INFO - Guest continue as guest
+2023-11-16 11:32:23,027 - Providio -INFO - Entered fname
+2023-11-16 11:32:23,156 - Providio -INFO - Entered lname
+2023-11-16 11:32:28,469 - Providio -INFO - Entered phone number
+2023-11-16 11:32:43,675 - Providio -INFO - Payment Method
+2023-11-16 11:32:43,676 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 11:32:44,952 - Providio -INFO - entered card name
+2023-11-16 11:32:45,158 - Providio -INFO - entered card number
+2023-11-16 11:32:45,281 - Providio -INFO - entered cvv
+2023-11-16 11:32:45,406 - Providio -INFO - entered exp
+2023-11-16 11:35:57,532 - Providio -INFO - Entered into url
+2023-11-16 11:35:57,538 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:36:03,464 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:36:10,383 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:36:30,146 - Providio -INFO - Product input quantity 126
+2023-11-16 11:36:35,515 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 11:36:35,557 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:36:35,586 - Providio -INFO - Extended value is 12.17
+2023-11-16 11:36:35,615 - Providio -INFO - The unit price of each prodcut is 84.82
+2023-11-16 11:36:35,643 - Providio -INFO - The quantity  is 126.0
+2023-11-16 11:36:35,672 - Providio -INFO - Extended value is 84.82
+2023-11-16 11:36:35,672 - Providio -INFO - Total price of all prodcuts in cart 10699.49
+2023-11-16 11:36:42,447 - Providio -INFO - Entered shipping address
+2023-11-16 11:36:42,483 - Providio -INFO - Assortable price is 71.16
+2023-11-16 11:36:42,514 - Providio -INFO - Estimated Pre total price tax 10662.98
+2023-11-16 11:36:56,382 - Providio -INFO - 1
+2023-11-16 11:36:58,507 - Providio -INFO - true
+2023-11-16 11:36:58,507 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:36:58,509 - Providio -INFO - Guest checkout
+2023-11-16 11:36:58,724 - Providio -INFO - Guest mail again
+2023-11-16 11:36:58,783 - Providio -INFO - Guest continue as guest
+2023-11-16 11:37:03,962 - Providio -INFO - Entered fname
+2023-11-16 11:37:04,091 - Providio -INFO - Entered lname
+2023-11-16 11:37:09,380 - Providio -INFO - Entered phone number
+2023-11-16 11:37:24,633 - Providio -INFO - Payment Method
+2023-11-16 11:37:24,634 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 11:37:25,889 - Providio -INFO - entered card name
+2023-11-16 11:37:26,055 - Providio -INFO - entered card number
+2023-11-16 11:37:26,164 - Providio -INFO - entered cvv
+2023-11-16 11:37:26,277 - Providio -INFO - entered exp
+2023-11-16 11:42:31,370 - Providio -INFO - Entered into url
+2023-11-16 11:42:31,375 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:42:40,867 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:42:55,392 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:43:35,195 - Providio -INFO - Product input quantity 33
+2023-11-16 11:44:00,814 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 11:44:05,358 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:44:14,302 - Providio -INFO - Extended value is 10.93
+2023-11-16 11:44:18,248 - Providio -INFO - The unit price of each prodcut is 81.14
+2023-11-16 11:44:21,856 - Providio -INFO - The quantity  is 19.0
+2023-11-16 11:44:25,997 - Providio -INFO - Extended value is 1541.66
+2023-11-16 11:44:26,006 - Providio -INFO - Total price of all prodcuts in cart 1552.5901
+2023-11-16 11:45:14,132 - Providio -INFO - Entered shipping address
+2023-11-16 11:45:14,233 - Providio -INFO - Assortable price is 71.16
+2023-11-16 11:45:16,682 - Providio -INFO - Estimated Pre total price tax 1516.0801
+2023-11-16 11:47:01,185 - Providio -INFO - Entered into url
+2023-11-16 11:47:01,209 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:47:11,406 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:47:17,759 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:47:37,835 - Providio -INFO - Product input quantity 130
+2023-11-16 11:47:43,207 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 11:47:43,252 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:47:43,282 - Providio -INFO - Extended value is 12.17
+2023-11-16 11:47:43,311 - Providio -INFO - The unit price of each prodcut is 13.27
+2023-11-16 11:47:43,341 - Providio -INFO - The quantity  is 130.0
+2023-11-16 11:47:43,370 - Providio -INFO - Extended value is 13.27
+2023-11-16 11:47:43,370 - Providio -INFO - Total price of all prodcuts in cart 1737.2701
+2023-11-16 11:47:49,451 - Providio -INFO - Entered shipping address
+2023-11-16 11:47:49,502 - Providio -INFO - Assortable price is 530.22
+2023-11-16 11:47:49,533 - Providio -INFO - Estimated Pre total price tax 1771.9202
+2023-11-16 11:48:14,500 - Providio -INFO - 0
+2023-11-16 11:48:17,780 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 11:49:12,454 - Providio -INFO - Entered into url
+2023-11-16 11:49:12,458 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:49:18,718 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:49:25,124 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:49:44,290 - Providio -INFO - Product input quantity 9
+2023-11-16 11:49:52,738 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 11:49:52,768 - Providio -INFO - The quantity  is 9.0
+2023-11-16 11:49:52,796 - Providio -INFO - Extended value is 109.53
+2023-11-16 11:49:52,823 - Providio -INFO - The unit price of each prodcut is 84.82
+2023-11-16 11:49:52,855 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:49:52,882 - Providio -INFO - Extended value is 84.82
+2023-11-16 11:49:52,883 - Providio -INFO - Total price of all prodcuts in cart 194.35
+2023-11-16 11:49:58,707 - Providio -INFO - Entered shipping address
+2023-11-16 11:49:58,742 - Providio -INFO - Assortable price is 0.0
+2023-11-16 11:49:58,770 - Providio -INFO - Estimated Pre total price tax 229.0
+2023-11-16 11:50:13,650 - Providio -INFO - 1
+2023-11-16 11:50:15,772 - Providio -INFO - true
+2023-11-16 11:50:15,773 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:50:15,774 - Providio -INFO - Guest checkout
+2023-11-16 11:50:15,910 - Providio -INFO - Guest mail again
+2023-11-16 11:50:15,995 - Providio -INFO - Guest continue as guest
+2023-11-16 11:50:21,194 - Providio -INFO - Entered fname
+2023-11-16 11:50:21,312 - Providio -INFO - Entered lname
+2023-11-16 11:50:26,660 - Providio -INFO - Entered phone number
+2023-11-16 11:50:41,936 - Providio -INFO - Payment Method
+2023-11-16 11:50:41,937 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 11:50:44,229 - Providio -INFO - entered card name
+2023-11-16 11:50:44,449 - Providio -INFO - entered card number
+2023-11-16 11:50:44,641 - Providio -INFO - entered cvv
+2023-11-16 11:50:44,770 - Providio -INFO - entered exp
+2023-11-16 11:58:27,624 - Providio -INFO - Entered into url
+2023-11-16 11:58:27,628 - Providio -INFO - Placing the order as guest user
+2023-11-16 11:58:32,892 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:58:42,339 - Providio -INFO - add to cart  button enabled
+2023-11-16 11:59:01,815 - Providio -INFO - Product input quantity 18
+2023-11-16 11:59:10,217 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 11:59:10,258 - Providio -INFO - The quantity  is 1.0
+2023-11-16 11:59:10,285 - Providio -INFO - Extended value is 10.93
+2023-11-16 11:59:10,313 - Providio -INFO - The unit price of each prodcut is 11.92
+2023-11-16 11:59:10,338 - Providio -INFO - The quantity  is 18.0
+2023-11-16 11:59:10,367 - Providio -INFO - Extended value is 214.56
+2023-11-16 11:59:10,367 - Providio -INFO - Total price of all prodcuts in cart 225.48999
+2023-11-16 11:59:16,832 - Providio -INFO - Entered shipping address
+2023-11-16 11:59:16,861 - Providio -INFO - Assortable price is 25.54
+2023-11-16 11:59:16,888 - Providio -INFO - Estimated and expected Pre total price tax 260.13998
+2023-11-16 11:59:16,916 - Providio -INFO - Actual pre total-price is 260.14
+2023-11-16 11:59:16,917 - Providio -INFO - The caluated pre-total tax is 260.13998is not equal to 260.14
+2023-11-16 11:59:32,074 - Providio -INFO - 1
+2023-11-16 11:59:34,197 - Providio -INFO - true
+2023-11-16 11:59:34,197 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 11:59:34,201 - Providio -INFO - Guest checkout
+2023-11-16 11:59:34,351 - Providio -INFO - Guest mail again
+2023-11-16 11:59:34,423 - Providio -INFO - Guest continue as guest
+2023-11-16 11:59:39,653 - Providio -INFO - Entered fname
+2023-11-16 11:59:39,794 - Providio -INFO - Entered lname
+2023-11-16 11:59:45,204 - Providio -INFO - Entered phone number
+2023-11-16 12:00:00,464 - Providio -INFO - Payment Method
+2023-11-16 12:00:00,464 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 12:00:01,837 - Providio -INFO - entered card name
+2023-11-16 12:00:01,995 - Providio -INFO - entered card number
+2023-11-16 12:00:02,122 - Providio -INFO - entered cvv
+2023-11-16 12:00:02,256 - Providio -INFO - entered exp
+2023-11-16 12:02:32,977 - Providio -INFO - Entered into url
+2023-11-16 12:02:32,984 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:02:38,551 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:02:45,554 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:03:03,761 - Providio -INFO - Product input quantity 53
+2023-11-16 12:03:12,172 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 12:03:12,206 - Providio -INFO - The quantity  is 53.0
+2023-11-16 12:03:12,236 - Providio -INFO - Extended value is 513.57
+2023-11-16 12:03:12,262 - Providio -INFO - The unit price of each prodcut is 10.57
+2023-11-16 12:03:12,298 - Providio -INFO - The quantity  is 1.0
+2023-11-16 12:03:12,326 - Providio -INFO - Extended value is 10.57
+2023-11-16 12:03:12,327 - Providio -INFO - Total price of all prodcuts in cart 524.14
+2023-11-16 12:03:18,987 - Providio -INFO - Entered shipping address
+2023-11-16 12:03:19,035 - Providio -INFO - Assortable price is 134.14
+2023-11-16 12:03:19,061 - Providio -INFO - Estimated and expected Pre total price tax 558.79004
+2023-11-16 12:03:19,088 - Providio -INFO - Actual pre total-price is 558.79
+2023-11-16 12:03:19,090 - Providio -INFO - The caluated pre-total tax is 558.79004is not equal to 558.79
+2023-11-16 12:03:34,318 - Providio -INFO - 1
+2023-11-16 12:03:36,489 - Providio -INFO - true
+2023-11-16 12:03:36,490 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 12:03:36,491 - Providio -INFO - Guest checkout
+2023-11-16 12:03:36,625 - Providio -INFO - Guest mail again
+2023-11-16 12:03:36,694 - Providio -INFO - Guest continue as guest
+2023-11-16 12:03:41,910 - Providio -INFO - Entered fname
+2023-11-16 12:03:42,023 - Providio -INFO - Entered lname
+2023-11-16 12:03:47,357 - Providio -INFO - Entered phone number
+2023-11-16 12:04:02,622 - Providio -INFO - Payment Method
+2023-11-16 12:04:02,623 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 12:04:03,913 - Providio -INFO - entered card name
+2023-11-16 12:04:04,057 - Providio -INFO - entered card number
+2023-11-16 12:04:04,182 - Providio -INFO - entered cvv
+2023-11-16 12:04:04,282 - Providio -INFO - entered exp
+2023-11-16 12:04:14,961 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 12:05:57,064 - Providio -INFO - Entered into url
+2023-11-16 12:05:57,075 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:06:09,293 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:06:17,711 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:06:37,270 - Providio -INFO - Product input quantity 34
+2023-11-16 12:06:45,766 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 12:06:45,798 - Providio -INFO - The quantity  is 34.0
+2023-11-16 12:06:45,832 - Providio -INFO - Extended value is 371.62
+2023-11-16 12:06:45,865 - Providio -INFO - The unit price of each prodcut is 11.92
+2023-11-16 12:06:46,006 - Providio -INFO - The quantity  is 1.0
+2023-11-16 12:06:46,040 - Providio -INFO - Extended value is 11.92
+2023-11-16 12:06:46,040 - Providio -INFO - Total price of all prodcuts in cart 383.54
+2023-11-16 12:06:52,935 - Providio -INFO - Entered shipping address
+2023-11-16 12:06:52,964 - Providio -INFO - Assortable price is 43.51
+2023-11-16 12:06:52,993 - Providio -INFO - Estimated and expected Pre total price tax 418.19
+2023-11-16 12:06:53,022 - Providio -INFO - Actual pre total-price is 418.19
+2023-11-16 12:06:53,024 - Providio -INFO - The caluated pre-total tax is 418.19is equal to 418.19
+2023-11-16 12:07:07,724 - Providio -INFO - 1
+2023-11-16 12:07:09,853 - Providio -INFO - true
+2023-11-16 12:07:09,854 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 12:07:09,855 - Providio -INFO - Guest checkout
+2023-11-16 12:07:09,959 - Providio -INFO - Guest mail again
+2023-11-16 12:07:10,029 - Providio -INFO - Guest continue as guest
+2023-11-16 12:07:15,214 - Providio -INFO - Entered fname
+2023-11-16 12:07:15,352 - Providio -INFO - Entered lname
+2023-11-16 12:07:20,654 - Providio -INFO - Entered phone number
+2023-11-16 12:07:35,864 - Providio -INFO - Payment Method
+2023-11-16 12:07:35,865 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 12:07:37,147 - Providio -INFO - entered card name
+2023-11-16 12:07:37,328 - Providio -INFO - entered card number
+2023-11-16 12:07:37,450 - Providio -INFO - entered cvv
+2023-11-16 12:07:37,555 - Providio -INFO - entered exp
+2023-11-16 12:12:14,801 - Providio -INFO - Entered into url
+2023-11-16 12:12:14,805 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:12:20,315 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:12:26,835 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:12:45,970 - Providio -INFO - Product input quantity 110
+2023-11-16 12:12:54,444 - Providio -INFO - The unit price of each prodcut is 8.45
+2023-11-16 12:12:54,483 - Providio -INFO - The quantity  is 110.0
+2023-11-16 12:12:54,514 - Providio -INFO - Extended value is 929.5
+2023-11-16 12:12:54,543 - Providio -INFO - The unit price of each prodcut is 73.76
+2023-11-16 12:12:54,582 - Providio -INFO - The quantity  is 1.0
+2023-11-16 12:12:54,613 - Providio -INFO - Extended value is 73.76
+2023-11-16 12:12:54,614 - Providio -INFO - Total price of all prodcuts in cart 1003.26
+2023-11-16 12:12:59,998 - Providio -INFO - Entered shipping address
+2023-11-16 12:13:00,039 - Providio -INFO - Assortable price is 420.26
+2023-11-16 12:13:00,068 - Providio -INFO - Estimated and expected Pre total price tax 1037.91
+2023-11-16 12:13:00,095 - Providio -INFO - Actual pre total-price is 1037.91
+2023-11-16 12:13:00,097 - Providio -INFO - The caluated pre-total tax is 1037.91 is equal to 1037.91
+2023-11-16 12:13:13,727 - Providio -INFO - 1
+2023-11-16 12:13:15,874 - Providio -INFO - true
+2023-11-16 12:13:15,876 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 12:13:15,877 - Providio -INFO - Guest checkout
+2023-11-16 12:13:16,012 - Providio -INFO - Guest mail again
+2023-11-16 12:13:16,079 - Providio -INFO - Guest continue as guest
+2023-11-16 12:13:21,280 - Providio -INFO - Entered fname
+2023-11-16 12:13:21,400 - Providio -INFO - Entered lname
+2023-11-16 12:13:27,035 - Providio -INFO - Entered phone number
+2023-11-16 12:13:42,268 - Providio -INFO - Payment Method
+2023-11-16 12:13:42,268 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 12:13:43,645 - Providio -INFO - entered card name
+2023-11-16 12:13:43,777 - Providio -INFO - entered card number
+2023-11-16 12:13:43,906 - Providio -INFO - entered cvv
+2023-11-16 12:13:44,044 - Providio -INFO - entered exp
+2023-11-16 12:13:55,122 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 12:29:16,478 - Providio -INFO - Entered into url
+2023-11-16 12:29:16,489 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:29:25,658 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:29:35,256 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:29:56,130 - Providio -INFO - Product input quantity 107
+2023-11-16 12:30:04,535 - Providio -INFO - The unit price of each prodcut is 8.45
+2023-11-16 12:30:04,568 - Providio -INFO - The quantity  is 107.0
+2023-11-16 12:30:04,597 - Providio -INFO - Extended value is 904.15
+2023-11-16 12:30:04,625 - Providio -INFO - The unit price of each prodcut is 9.22
+2023-11-16 12:30:04,657 - Providio -INFO - The quantity  is 1.0
+2023-11-16 12:30:04,685 - Providio -INFO - Extended value is 9.22
+2023-11-16 12:30:04,685 - Providio -INFO - Total price of all prodcuts in cart 913.36993
+2023-11-16 12:30:10,329 - Providio -INFO - Entered shipping address
+2023-11-16 12:30:10,356 - Providio -INFO - Assortable price is 402.09
+2023-11-16 12:30:10,382 - Providio -INFO - Estimated and expected Pre total price tax 948.01996
+2023-11-16 12:30:10,409 - Providio -INFO - Actual pre total-price is 948.02
+2023-11-16 12:30:10,410 - Providio -INFO - The caluated pre-total tax is 948.01996 is not equal to 948.02
+2023-11-16 12:30:27,210 - Providio -INFO - 1
+2023-11-16 12:30:29,386 - Providio -INFO - true
+2023-11-16 12:30:29,386 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 12:30:29,387 - Providio -INFO - Guest checkout
+2023-11-16 12:30:29,533 - Providio -INFO - Guest mail again
+2023-11-16 12:30:29,611 - Providio -INFO - Guest continue as guest
+2023-11-16 12:30:34,804 - Providio -INFO - Entered fname
+2023-11-16 12:30:34,936 - Providio -INFO - Entered lname
+2023-11-16 12:30:40,251 - Providio -INFO - Entered phone number
+2023-11-16 12:30:54,708 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 12:37:04,746 - Providio -INFO - Entered into url
+2023-11-16 12:37:04,759 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:37:13,974 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:37:24,195 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:37:42,957 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 12:38:01,961 - Providio -INFO - Entered into url
+2023-11-16 12:38:01,969 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:38:14,787 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:38:26,229 - Providio -INFO - add to cart  button enabled
+2023-11-16 12:38:49,973 - Providio -INFO - Product input quantity 11
+2023-11-16 12:38:58,442 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 12:38:58,487 - Providio -INFO - The quantity  is 1.0
+2023-11-16 12:38:58,540 - Providio -INFO - Extended value is 12.17
+2023-11-16 12:38:58,570 - Providio -INFO - The unit price of each prodcut is 13.27
+2023-11-16 12:38:58,592 - Providio -INFO - The quantity  is 11.0
+2023-11-16 12:38:58,619 - Providio -INFO - Extended value is 145.97
+2023-11-16 12:38:58,619 - Providio -INFO - Total price of all prodcuts in cart 158.14
+2023-11-16 12:39:04,722 - Providio -INFO - Entered shipping address
+2023-11-16 12:39:04,770 - Providio -INFO - Assortable price is 0.0
+2023-11-16 12:39:04,806 - Providio -INFO - Estimated and expected Pre total price tax 0.0
+2023-11-16 12:39:04,838 - Providio -INFO - Actual pre total-price is 192.79
+2023-11-16 12:39:04,840 - Providio -INFO - The caluated pre-total tax is 0.0 is not equal to 192.79
+2023-11-16 12:39:20,857 - Providio -INFO - 1
+2023-11-16 12:39:23,033 - Providio -INFO - true
+2023-11-16 12:39:23,034 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 12:39:23,036 - Providio -INFO - Guest checkout
+2023-11-16 12:39:23,157 - Providio -INFO - Guest mail again
+2023-11-16 12:39:23,232 - Providio -INFO - Guest continue as guest
+2023-11-16 12:39:28,456 - Providio -INFO - Entered fname
+2023-11-16 12:39:28,591 - Providio -INFO - Entered lname
+2023-11-16 12:39:33,965 - Providio -INFO - Entered phone number
+2023-11-16 12:39:52,322 - Providio -INFO - Payment Method
+2023-11-16 12:39:52,323 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 12:39:53,647 - Providio -INFO - entered card name
+2023-11-16 12:39:53,775 - Providio -INFO - entered card number
+2023-11-16 12:39:53,881 - Providio -INFO - entered cvv
+2023-11-16 12:39:53,979 - Providio -INFO - entered exp
+2023-11-16 12:40:04,655 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 12:42:46,338 - Providio -INFO - Entered into url
+2023-11-16 12:42:46,348 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:44:34,569 - Providio -INFO - Relauching the browsesr
+2023-11-16 12:44:51,148 - Providio -INFO - Entered into url
+2023-11-16 12:44:51,153 - Providio -INFO - Placing the order as guest user
+2023-11-16 12:45:51,985 - Providio -INFO - Entered into url
+2023-11-16 12:45:51,989 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:24:47,009 - Providio -INFO - Entered into url
+2023-11-16 14:24:47,015 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:24:54,077 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:25:12,686 - Providio -INFO - Product input quantity 70
+2023-11-16 14:25:21,128 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 14:25:21,164 - Providio -INFO - The quantity  is 70.0
+2023-11-16 14:25:21,192 - Providio -INFO - Extended value is 678.3
+2023-11-16 14:25:21,192 - Providio -INFO - Total price of all prodcuts in cart 678.3
+2023-11-16 14:25:26,868 - Providio -INFO - Entered shipping address
+2023-11-16 14:25:26,911 - Providio -INFO - Assortable price is 173.6
+2023-11-16 14:25:26,936 - Providio -INFO - Estimated and expected Pre total price tax 712.95
+2023-11-16 14:25:26,964 - Providio -INFO - Actual pre total-price is 712.95
+2023-11-16 14:25:26,964 - Providio -INFO - The caluated pre-total tax is 712.95 is equal to 712.95
+2023-11-16 14:25:40,728 - Providio -INFO - 1
+2023-11-16 14:25:42,878 - Providio -INFO - true
+2023-11-16 14:25:42,879 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:25:42,881 - Providio -INFO - Guest checkout
+2023-11-16 14:25:43,007 - Providio -INFO - Guest mail again
+2023-11-16 14:25:43,069 - Providio -INFO - Guest continue as guest
+2023-11-16 14:25:48,264 - Providio -INFO - Entered fname
+2023-11-16 14:25:48,396 - Providio -INFO - Entered lname
+2023-11-16 14:25:57,107 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 14:26:41,467 - Providio -INFO - Entered into url
+2023-11-16 14:26:41,479 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:26:47,992 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:26:56,059 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:27:15,675 - Providio -INFO - Product input quantity 52
+2023-11-16 14:27:24,097 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 14:27:24,137 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:27:24,166 - Providio -INFO - Extended value is 10.93
+2023-11-16 14:27:24,194 - Providio -INFO - The unit price of each prodcut is 81.14
+2023-11-16 14:27:24,220 - Providio -INFO - The quantity  is 19.0
+2023-11-16 14:27:24,247 - Providio -INFO - Extended value is 1541.66
+2023-11-16 14:27:24,248 - Providio -INFO - Total price of all prodcuts in cart 1552.5901
+2023-11-16 14:27:30,450 - Providio -INFO - Entered shipping address
+2023-11-16 14:27:30,482 - Providio -INFO - Assortable price is 71.16
+2023-11-16 14:27:30,509 - Providio -INFO - Estimated and expected Pre total price tax 1587.2401
+2023-11-16 14:27:30,537 - Providio -INFO - Actual pre total-price is 1587.24
+2023-11-16 14:27:30,538 - Providio -INFO - The caluated pre-total tax is 1587.25 is not equal to 1587.24
+2023-11-16 14:27:45,236 - Providio -INFO - 1
+2023-11-16 14:27:47,395 - Providio -INFO - true
+2023-11-16 14:27:47,396 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:27:47,397 - Providio -INFO - Guest checkout
+2023-11-16 14:27:47,517 - Providio -INFO - Guest mail again
+2023-11-16 14:27:47,582 - Providio -INFO - Guest continue as guest
+2023-11-16 14:27:52,733 - Providio -INFO - Entered fname
+2023-11-16 14:27:52,855 - Providio -INFO - Entered lname
+2023-11-16 14:27:58,217 - Providio -INFO - Entered phone number
+2023-11-16 14:28:16,524 - Providio -INFO - Payment Method
+2023-11-16 14:28:16,525 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 14:28:17,811 - Providio -INFO - entered card name
+2023-11-16 14:28:18,016 - Providio -INFO - entered card number
+2023-11-16 14:28:18,145 - Providio -INFO - entered cvv
+2023-11-16 14:28:18,261 - Providio -INFO - entered exp
+2023-11-16 14:29:25,450 - Providio -INFO - Entered into url
+2023-11-16 14:29:25,465 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:29:33,947 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:29:40,718 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:30:08,504 - Providio -INFO - Product input quantity 109
+2023-11-16 14:30:22,290 - Providio -INFO - The unit price of each prodcut is 8.45
+2023-11-16 14:30:26,570 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:30:30,837 - Providio -INFO - Extended value is 8.45
+2023-11-16 14:30:33,734 - Providio -INFO - The unit price of each prodcut is 9.22
+2023-11-16 14:30:35,964 - Providio -INFO - The quantity  is 109.0
+2023-11-16 14:30:40,344 - Providio -INFO - Extended value is 1004.98
+2023-11-16 14:30:40,351 - Providio -INFO - Total price of all prodcuts in cart 1013.43005
+2023-11-16 14:31:25,556 - Providio -INFO - Entered shipping address
+2023-11-16 14:31:25,659 - Providio -INFO - Assortable price is 445.17
+2023-11-16 14:31:31,682 - Providio -INFO - Estimated and expected Pre total price tax 1048.0801
+2023-11-16 14:31:31,785 - Providio -INFO - Actual pre total-price is 1048.08
+2023-11-16 14:31:31,834 - Providio -INFO - The caluated pre-total tax is 1048.09 is not equal to 1048.08
+2023-11-16 14:32:16,387 - Providio -INFO - 1
+2023-11-16 14:32:18,675 - Providio -INFO - true
+2023-11-16 14:32:18,677 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:32:18,691 - Providio -INFO - Guest checkout
+2023-11-16 14:32:18,833 - Providio -INFO - Guest mail again
+2023-11-16 14:32:18,917 - Providio -INFO - Guest continue as guest
+2023-11-16 14:32:24,200 - Providio -INFO - Entered fname
+2023-11-16 14:32:24,359 - Providio -INFO - Entered lname
+2023-11-16 14:32:29,708 - Providio -INFO - Entered phone number
+2023-11-16 14:35:30,970 - Providio -INFO - Entered into url
+2023-11-16 14:35:30,995 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:35:41,284 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:35:47,803 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:36:17,602 - Providio -INFO - Product input quantity 73
+2023-11-16 14:36:42,916 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 14:36:44,055 - Providio -INFO - The quantity  is 73.0
+2023-11-16 14:36:44,156 - Providio -INFO - Extended value is 707.37
+2023-11-16 14:36:44,257 - Providio -INFO - The unit price of each prodcut is 77.45
+2023-11-16 14:36:45,337 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:36:45,434 - Providio -INFO - Extended value is 77.45
+2023-11-16 14:36:45,440 - Providio -INFO - Total price of all prodcuts in cart 784.82
+2023-11-16 14:37:24,963 - Providio -INFO - Entered shipping address
+2023-11-16 14:37:25,003 - Providio -INFO - Assortable price is 188.41
+2023-11-16 14:37:25,040 - Providio -INFO - Estimated and expected Pre total price tax 819.47003
+2023-11-16 14:37:25,078 - Providio -INFO - Actual pre total-price is 819.47
+2023-11-16 14:37:25,085 - Providio -INFO - The caluated pre-total tax is 819.47 is equal to 819.47
+2023-11-16 14:37:40,600 - Providio -INFO - 1
+2023-11-16 14:37:42,899 - Providio -INFO - true
+2023-11-16 14:37:42,900 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:37:42,915 - Providio -INFO - Guest checkout
+2023-11-16 14:37:43,091 - Providio -INFO - Guest mail again
+2023-11-16 14:37:43,176 - Providio -INFO - Guest continue as guest
+2023-11-16 14:37:48,458 - Providio -INFO - Entered fname
+2023-11-16 14:37:48,635 - Providio -INFO - Entered lname
+2023-11-16 14:37:54,007 - Providio -INFO - Entered phone number
+2023-11-16 14:39:39,882 - Providio -INFO - Entered into url
+2023-11-16 14:39:39,887 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:39:45,701 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:39:52,231 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:40:16,257 - Providio -INFO - Product input quantity 7
+2023-11-16 14:40:24,731 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 14:40:24,771 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:40:24,801 - Providio -INFO - Extended value is 12.17
+2023-11-16 14:40:24,829 - Providio -INFO - The unit price of each prodcut is 13.27
+2023-11-16 14:40:24,859 - Providio -INFO - The quantity  is 7.0
+2023-11-16 14:40:24,888 - Providio -INFO - Extended value is 92.89
+2023-11-16 14:40:24,888 - Providio -INFO - Total price of all prodcuts in cart 105.06
+2023-11-16 14:40:30,866 - Providio -INFO - Entered shipping address
+2023-11-16 14:40:30,895 - Providio -INFO - Assortable price is 0.0
+2023-11-16 14:40:30,923 - Providio -INFO - Estimated and expected Pre total price tax 139.70999
+2023-11-16 14:40:30,954 - Providio -INFO - Actual pre total-price is 139.71
+2023-11-16 14:40:30,955 - Providio -INFO - The caluated pre-total tax is 139.71 is equal to 139.71
+2023-11-16 14:40:45,125 - Providio -INFO - 1
+2023-11-16 14:40:47,259 - Providio -INFO - true
+2023-11-16 14:40:47,260 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:40:47,261 - Providio -INFO - Guest checkout
+2023-11-16 14:40:47,405 - Providio -INFO - Guest mail again
+2023-11-16 14:40:47,485 - Providio -INFO - Guest continue as guest
+2023-11-16 14:40:52,705 - Providio -INFO - Entered fname
+2023-11-16 14:40:52,825 - Providio -INFO - Entered lname
+2023-11-16 14:40:58,150 - Providio -INFO - Entered phone number
+2023-11-16 14:43:45,800 - Providio -INFO - Entered into url
+2023-11-16 14:43:45,807 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:43:53,888 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:44:01,358 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:44:25,766 - Providio -INFO - Product input quantity 56
+2023-11-16 14:44:34,188 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 14:44:34,225 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:44:34,260 - Providio -INFO - Extended value is 10.93
+2023-11-16 14:44:34,288 - Providio -INFO - The unit price of each prodcut is 81.14
+2023-11-16 14:44:34,316 - Providio -INFO - The quantity  is 19.0
+2023-11-16 14:44:34,348 - Providio -INFO - Extended value is 1541.66
+2023-11-16 14:44:34,349 - Providio -INFO - Total price of all prodcuts in cart 1552.5901
+2023-11-16 14:44:39,788 - Providio -INFO - Entered shipping address
+2023-11-16 14:44:39,816 - Providio -INFO - Assortable price is 71.16
+2023-11-16 14:44:39,842 - Providio -INFO - Estimated and expected Pre total price tax 1587.2401
+2023-11-16 14:44:39,868 - Providio -INFO - Actual pre total-price is 1587.24
+2023-11-16 14:44:39,871 - Providio -INFO - The caluated pre-total tax is 1587.25 is not equal to 1587.24
+2023-11-16 14:44:54,464 - Providio -INFO - 1
+2023-11-16 14:44:56,587 - Providio -INFO - true
+2023-11-16 14:44:56,587 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:44:56,588 - Providio -INFO - Guest checkout
+2023-11-16 14:44:56,701 - Providio -INFO - Guest mail again
+2023-11-16 14:44:56,774 - Providio -INFO - Guest continue as guest
+2023-11-16 14:45:02,004 - Providio -INFO - Entered fname
+2023-11-16 14:45:02,137 - Providio -INFO - Entered lname
+2023-11-16 14:45:07,459 - Providio -INFO - Entered phone number
+2023-11-16 14:45:25,760 - Providio -INFO - Payment Method
+2023-11-16 14:45:25,761 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 14:45:27,001 - Providio -INFO - entered card name
+2023-11-16 14:45:27,167 - Providio -INFO - entered card number
+2023-11-16 14:45:27,299 - Providio -INFO - entered cvv
+2023-11-16 14:45:27,410 - Providio -INFO - entered exp
+2023-11-16 14:45:56,658 - Providio -INFO - Entered into url
+2023-11-16 14:45:56,662 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:46:01,967 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:46:08,836 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:46:27,247 - Providio -INFO - Product input quantity 58
+2023-11-16 14:46:35,659 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 14:46:35,696 - Providio -INFO - The quantity  is 58.0
+2023-11-16 14:46:35,726 - Providio -INFO - Extended value is 562.02
+2023-11-16 14:46:35,758 - Providio -INFO - The unit price of each prodcut is 77.45
+2023-11-16 14:46:35,797 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:46:35,826 - Providio -INFO - Extended value is 77.45
+2023-11-16 14:46:35,827 - Providio -INFO - Total price of all prodcuts in cart 639.47
+2023-11-16 14:46:42,803 - Providio -INFO - Entered shipping address
+2023-11-16 14:46:42,849 - Providio -INFO - Assortable price is 151.21
+2023-11-16 14:46:42,878 - Providio -INFO - Estimated and expected Pre total price tax 674.12
+2023-11-16 14:46:42,909 - Providio -INFO - Actual pre total-price is 674.12
+2023-11-16 14:46:42,910 - Providio -INFO - The caluated pre-total tax is 674.12 is equal to 674.12
+2023-11-16 14:46:57,651 - Providio -INFO - 1
+2023-11-16 14:46:59,786 - Providio -INFO - true
+2023-11-16 14:46:59,787 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:46:59,788 - Providio -INFO - Guest checkout
+2023-11-16 14:46:59,918 - Providio -INFO - Guest mail again
+2023-11-16 14:46:59,979 - Providio -INFO - Guest continue as guest
+2023-11-16 14:47:05,192 - Providio -INFO - Entered fname
+2023-11-16 14:47:05,355 - Providio -INFO - Entered lname
+2023-11-16 14:47:10,680 - Providio -INFO - Entered phone number
+2023-11-16 14:49:07,348 - Providio -INFO - Entered into url
+2023-11-16 14:49:07,352 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:49:12,583 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:49:19,034 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:49:38,167 - Providio -INFO - Product input quantity 47
+2023-11-16 14:49:46,541 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 14:49:46,578 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:49:46,606 - Providio -INFO - Extended value is 10.93
+2023-11-16 14:49:46,633 - Providio -INFO - The unit price of each prodcut is 81.14
+2023-11-16 14:49:46,660 - Providio -INFO - The quantity  is 19.0
+2023-11-16 14:49:46,686 - Providio -INFO - Extended value is 1541.66
+2023-11-16 14:49:46,687 - Providio -INFO - Total price of all prodcuts in cart 1552.5901
+2023-11-16 14:49:52,013 - Providio -INFO - Entered shipping address
+2023-11-16 14:49:52,041 - Providio -INFO - Assortable price is 71.16
+2023-11-16 14:49:52,084 - Providio -INFO - Estimated and expected Pre total price tax 1587.2401
+2023-11-16 14:49:52,112 - Providio -INFO - Actual pre total-price is 1587.24
+2023-11-16 14:49:52,113 - Providio -INFO - The caluated pre-total tax is 1587.25 is not equal to 1587.24
+2023-11-16 14:50:06,428 - Providio -INFO - 1
+2023-11-16 14:50:08,561 - Providio -INFO - true
+2023-11-16 14:50:08,562 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:50:08,563 - Providio -INFO - Guest checkout
+2023-11-16 14:50:08,685 - Providio -INFO - Guest mail again
+2023-11-16 14:50:08,761 - Providio -INFO - Guest continue as guest
+2023-11-16 14:50:13,969 - Providio -INFO - Entered fname
+2023-11-16 14:50:14,116 - Providio -INFO - Entered lname
+2023-11-16 14:50:19,449 - Providio -INFO - Entered phone number
+2023-11-16 14:51:30,875 - Providio -INFO - Entered into url
+2023-11-16 14:51:30,883 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:51:36,361 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:51:42,819 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:52:07,238 - Providio -INFO - Product input quantity 105
+2023-11-16 14:52:15,673 - Providio -INFO - The unit price of each prodcut is 8.45
+2023-11-16 14:52:15,718 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:52:15,757 - Providio -INFO - Extended value is 8.45
+2023-11-16 14:52:15,802 - Providio -INFO - The unit price of each prodcut is 9.22
+2023-11-16 14:52:15,831 - Providio -INFO - The quantity  is 105.0
+2023-11-16 14:52:15,863 - Providio -INFO - Extended value is 968.1
+2023-11-16 14:52:15,864 - Providio -INFO - Total price of all prodcuts in cart 976.55005
+2023-11-16 14:52:22,780 - Providio -INFO - Entered shipping address
+2023-11-16 14:52:22,814 - Providio -INFO - Assortable price is 428.97
+2023-11-16 14:52:22,844 - Providio -INFO - Estimated and expected Pre total price tax 1011.2001
+2023-11-16 14:52:22,873 - Providio -INFO - Actual pre total-price is 1011.2
+2023-11-16 14:52:22,874 - Providio -INFO - The caluated pre-total tax is 1011.21 is not equal to 1011.2
+2023-11-16 14:52:36,691 - Providio -INFO - 1
+2023-11-16 14:52:38,849 - Providio -INFO - true
+2023-11-16 14:52:38,850 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:52:38,851 - Providio -INFO - Guest checkout
+2023-11-16 14:52:38,985 - Providio -INFO - Guest mail again
+2023-11-16 14:52:39,071 - Providio -INFO - Guest continue as guest
+2023-11-16 14:52:44,286 - Providio -INFO - Entered fname
+2023-11-16 14:52:44,406 - Providio -INFO - Entered lname
+2023-11-16 14:52:53,178 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 14:53:17,089 - Providio -INFO - Entered into url
+2023-11-16 14:53:17,099 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:53:22,205 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:53:28,987 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:53:48,050 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 14:54:25,755 - Providio -INFO - Entered into url
+2023-11-16 14:54:25,759 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:54:30,893 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:54:37,045 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:54:58,761 - Providio -INFO - Product input quantity 113
+2023-11-16 14:55:07,306 - Providio -INFO - The unit price of each prodcut is 8.45
+2023-11-16 14:55:07,340 - Providio -INFO - The quantity  is 113.0
+2023-11-16 14:55:07,369 - Providio -INFO - Extended value is 954.85
+2023-11-16 14:55:07,398 - Providio -INFO - The unit price of each prodcut is 9.22
+2023-11-16 14:55:07,432 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:55:07,461 - Providio -INFO - Extended value is 9.22
+2023-11-16 14:55:07,461 - Providio -INFO - Total price of all prodcuts in cart 964.06995
+2023-11-16 14:55:13,072 - Providio -INFO - Entered shipping address
+2023-11-16 14:55:13,179 - Providio -INFO - Assortable price is 424.41
+2023-11-16 14:55:13,274 - Providio -INFO - Estimated and expected Pre total price tax 998.72
+2023-11-16 14:55:13,409 - Providio -INFO - Actual pre total-price is 998.72
+2023-11-16 14:55:13,411 - Providio -INFO - The caluated pre-total tax is 998.72 is equal to 998.72
+2023-11-16 14:55:27,132 - Providio -INFO - 1
+2023-11-16 14:55:29,314 - Providio -INFO - true
+2023-11-16 14:55:29,315 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:55:29,316 - Providio -INFO - Guest checkout
+2023-11-16 14:55:29,476 - Providio -INFO - Guest mail again
+2023-11-16 14:55:29,548 - Providio -INFO - Guest continue as guest
+2023-11-16 14:55:34,789 - Providio -INFO - Entered fname
+2023-11-16 14:55:34,900 - Providio -INFO - Entered lname
+2023-11-16 14:55:40,260 - Providio -INFO - Entered phone number
+2023-11-16 14:56:21,999 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 14:57:52,117 - Providio -INFO - Entered into url
+2023-11-16 14:57:52,124 - Providio -INFO - Placing the order as guest user
+2023-11-16 14:57:58,383 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:58:04,725 - Providio -INFO - add to cart  button enabled
+2023-11-16 14:58:24,707 - Providio -INFO - Product input quantity 54
+2023-11-16 14:58:33,294 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 14:58:33,332 - Providio -INFO - The quantity  is 1.0
+2023-11-16 14:58:33,359 - Providio -INFO - Extended value is 9.69
+2023-11-16 14:58:33,385 - Providio -INFO - The unit price of each prodcut is 10.57
+2023-11-16 14:58:33,412 - Providio -INFO - The quantity  is 54.0
+2023-11-16 14:58:33,439 - Providio -INFO - Extended value is 570.78
+2023-11-16 14:58:33,440 - Providio -INFO - Total price of all prodcuts in cart 580.47
+2023-11-16 14:58:39,362 - Providio -INFO - Entered shipping address
+2023-11-16 14:58:39,390 - Providio -INFO - Assortable price is 148.28
+2023-11-16 14:58:39,416 - Providio -INFO - Estimated and expected Pre total price tax 615.12
+2023-11-16 14:58:39,444 - Providio -INFO - Actual pre total-price is 615.12
+2023-11-16 14:58:39,445 - Providio -INFO - The caluated pre-total tax is 615.12 is equal to 615.12
+2023-11-16 14:58:53,781 - Providio -INFO - 1
+2023-11-16 14:58:55,906 - Providio -INFO - true
+2023-11-16 14:58:55,907 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 14:58:55,908 - Providio -INFO - Guest checkout
+2023-11-16 14:58:56,036 - Providio -INFO - Guest mail again
+2023-11-16 14:58:56,125 - Providio -INFO - Guest continue as guest
+2023-11-16 14:59:01,343 - Providio -INFO - Entered fname
+2023-11-16 14:59:01,469 - Providio -INFO - Entered lname
+2023-11-16 14:59:06,847 - Providio -INFO - Entered phone number
+2023-11-16 14:59:21,234 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:01:06,041 - Providio -INFO - Entered into url
+2023-11-16 15:01:06,061 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:01:17,276 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:01:25,053 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:01:45,724 - Providio -INFO - Product input quantity 86
+2023-11-16 15:01:54,144 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 15:01:54,175 - Providio -INFO - The quantity  is 86.0
+2023-11-16 15:01:54,205 - Providio -INFO - Extended value is 833.34
+2023-11-16 15:01:54,231 - Providio -INFO - The unit price of each prodcut is 10.57
+2023-11-16 15:01:54,262 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:01:54,291 - Providio -INFO - Extended value is 10.57
+2023-11-16 15:01:54,292 - Providio -INFO - Total price of all prodcuts in cart 843.91
+2023-11-16 15:01:59,719 - Providio -INFO - Entered shipping address
+2023-11-16 15:01:59,752 - Providio -INFO - Assortable price is 215.98
+2023-11-16 15:01:59,777 - Providio -INFO - Estimated and expected Pre total price tax 878.56
+2023-11-16 15:01:59,806 - Providio -INFO - Actual pre total-price is 878.56
+2023-11-16 15:01:59,807 - Providio -INFO - The caluated pre-total tax is 878.56 is equal to 878.56
+2023-11-16 15:02:14,376 - Providio -INFO - 1
+2023-11-16 15:02:16,527 - Providio -INFO - true
+2023-11-16 15:02:16,528 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:02:16,529 - Providio -INFO - Guest checkout
+2023-11-16 15:02:16,672 - Providio -INFO - Guest mail again
+2023-11-16 15:02:16,746 - Providio -INFO - Guest continue as guest
+2023-11-16 15:02:21,940 - Providio -INFO - Entered fname
+2023-11-16 15:02:22,084 - Providio -INFO - Entered lname
+2023-11-16 15:02:27,416 - Providio -INFO - Entered phone number
+2023-11-16 15:02:41,867 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:12:39,949 - Providio -INFO - Entered into url
+2023-11-16 15:12:39,962 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:12:47,451 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:12:53,653 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:13:13,503 - Providio -INFO - Product input quantity 7
+2023-11-16 15:13:21,931 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 15:13:21,973 - Providio -INFO - The quantity  is 7.0
+2023-11-16 15:13:22,002 - Providio -INFO - Extended value is 85.19
+2023-11-16 15:13:22,028 - Providio -INFO - The unit price of each prodcut is 13.27
+2023-11-16 15:13:22,062 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:13:22,091 - Providio -INFO - Extended value is 13.27
+2023-11-16 15:13:22,091 - Providio -INFO - Total price of all prodcuts in cart 98.46001
+2023-11-16 15:13:28,711 - Providio -INFO - Entered shipping address
+2023-11-16 15:13:28,738 - Providio -INFO - Assortable price is 0.0
+2023-11-16 15:13:28,764 - Providio -INFO - Estimated and expected Pre total price tax 133.11002
+2023-11-16 15:13:28,791 - Providio -INFO - Actual pre total-price is 133.11
+2023-11-16 15:13:28,792 - Providio -INFO - The caluated pre-total tax is 133.12 is not equal to 133.11
+2023-11-16 15:13:45,362 - Providio -INFO - 1
+2023-11-16 15:13:47,493 - Providio -INFO - true
+2023-11-16 15:13:47,493 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:13:47,494 - Providio -INFO - Guest checkout
+2023-11-16 15:13:47,619 - Providio -INFO - Guest mail again
+2023-11-16 15:13:47,700 - Providio -INFO - Guest continue as guest
+2023-11-16 15:13:52,923 - Providio -INFO - Entered fname
+2023-11-16 15:13:53,078 - Providio -INFO - Entered lname
+2023-11-16 15:13:58,464 - Providio -INFO - Entered phone number
+2023-11-16 15:14:12,630 - Providio -INFO - Selected shipping method is $61.19
+Shipping Method:
+FedEx Priority Overnight (2 business days)
+2023-11-16 15:14:17,830 - Providio -INFO - Payment Method
+2023-11-16 15:14:17,831 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 15:14:19,095 - Providio -INFO - entered card name
+2023-11-16 15:14:19,246 - Providio -INFO - entered card number
+2023-11-16 15:14:19,385 - Providio -INFO - entered cvv
+2023-11-16 15:14:19,494 - Providio -INFO - entered exp
+2023-11-16 15:15:10,310 - Providio -INFO - Entered into url
+2023-11-16 15:15:10,320 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:15:17,235 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:15:27,327 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:16:04,602 - Providio -INFO - Entered into url
+2023-11-16 15:16:04,624 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:16:12,276 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:16:19,455 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:16:39,127 - Providio -INFO - Product input quantity 76
+2023-11-16 15:16:47,532 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 15:16:47,567 - Providio -INFO - The quantity  is 76.0
+2023-11-16 15:16:47,597 - Providio -INFO - Extended value is 736.44
+2023-11-16 15:16:47,624 - Providio -INFO - The unit price of each prodcut is 10.57
+2023-11-16 15:16:47,662 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:16:47,691 - Providio -INFO - Extended value is 10.57
+2023-11-16 15:16:47,694 - Providio -INFO - Total price of all prodcuts in cart 747.00995
+2023-11-16 15:16:54,685 - Providio -INFO - Entered shipping address
+2023-11-16 15:16:54,720 - Providio -INFO - Assortable price is 191.18
+2023-11-16 15:16:54,757 - Providio -INFO - Estimated and expected Pre total price tax 781.66
+2023-11-16 15:16:54,792 - Providio -INFO - Actual pre total-price is 781.66
+2023-11-16 15:16:54,794 - Providio -INFO - The caluated pre-total tax is 781.66 is equal to 781.66
+2023-11-16 15:17:09,391 - Providio -INFO - 1
+2023-11-16 15:17:11,541 - Providio -INFO - true
+2023-11-16 15:17:11,541 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:17:11,543 - Providio -INFO - Guest checkout
+2023-11-16 15:17:11,675 - Providio -INFO - Guest mail again
+2023-11-16 15:17:11,761 - Providio -INFO - Guest continue as guest
+2023-11-16 15:17:16,936 - Providio -INFO - Entered fname
+2023-11-16 15:17:17,050 - Providio -INFO - Entered lname
+2023-11-16 15:17:22,882 - Providio -INFO - Entered phone number
+2023-11-16 15:17:38,373 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:18:59,703 - Providio -INFO - Entered into url
+2023-11-16 15:18:59,720 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:19:06,348 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:19:12,629 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:19:31,666 - Providio -INFO - Product input quantity 124
+2023-11-16 15:19:40,043 - Providio -INFO - The unit price of each prodcut is 8.45
+2023-11-16 15:19:40,075 - Providio -INFO - The quantity  is 124.0
+2023-11-16 15:19:40,105 - Providio -INFO - Extended value is 1047.8
+2023-11-16 15:19:40,132 - Providio -INFO - The unit price of each prodcut is 9.22
+2023-11-16 15:19:40,166 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:19:40,201 - Providio -INFO - Extended value is 9.22
+2023-11-16 15:19:40,201 - Providio -INFO - Total price of all prodcuts in cart 1057.0199
+2023-11-16 15:19:46,843 - Providio -INFO - Entered shipping address
+2023-11-16 15:19:46,900 - Providio -INFO - Assortable price is 465.33
+2023-11-16 15:19:46,926 - Providio -INFO - Estimated and expected Pre total price tax 1091.6699
+2023-11-16 15:19:46,952 - Providio -INFO - Actual pre total-price is 1091.67
+2023-11-16 15:19:46,954 - Providio -INFO - The caluated pre-total tax is 1091.67 is equal to 1091.67
+2023-11-16 15:20:00,846 - Providio -INFO - 1
+2023-11-16 15:20:03,042 - Providio -INFO - true
+2023-11-16 15:20:03,043 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:20:03,045 - Providio -INFO - Guest checkout
+2023-11-16 15:20:03,190 - Providio -INFO - Guest mail again
+2023-11-16 15:20:03,260 - Providio -INFO - Guest continue as guest
+2023-11-16 15:20:08,447 - Providio -INFO - Entered fname
+2023-11-16 15:20:08,596 - Providio -INFO - Entered lname
+2023-11-16 15:20:13,963 - Providio -INFO - Entered phone number
+2023-11-16 15:20:31,393 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:21:34,189 - Providio -INFO - Entered into url
+2023-11-16 15:21:34,193 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:21:40,435 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:21:46,886 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:22:06,082 - Providio -INFO - Product input quantity 73
+2023-11-16 15:22:14,489 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 15:22:14,522 - Providio -INFO - The quantity  is 73.0
+2023-11-16 15:22:14,550 - Providio -INFO - Extended value is 707.37
+2023-11-16 15:22:14,576 - Providio -INFO - The unit price of each prodcut is 10.57
+2023-11-16 15:22:14,607 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:22:14,632 - Providio -INFO - Extended value is 10.57
+2023-11-16 15:22:14,632 - Providio -INFO - Total price of all prodcuts in cart 717.94
+2023-11-16 15:22:21,008 - Providio -INFO - Entered shipping address
+2023-11-16 15:22:21,064 - Providio -INFO - Assortable price is 183.74
+2023-11-16 15:22:21,096 - Providio -INFO - Estimated and expected Pre total price tax 752.59
+2023-11-16 15:22:21,126 - Providio -INFO - Actual pre total-price is 752.59
+2023-11-16 15:22:21,127 - Providio -INFO - The caluated pre-total tax is 752.59 is equal to 752.59
+2023-11-16 15:22:33,993 - Providio -INFO - 1
+2023-11-16 15:22:36,116 - Providio -INFO - true
+2023-11-16 15:22:36,117 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:22:36,118 - Providio -INFO - Guest checkout
+2023-11-16 15:22:36,249 - Providio -INFO - Guest mail again
+2023-11-16 15:22:36,320 - Providio -INFO - Guest continue as guest
+2023-11-16 15:22:41,507 - Providio -INFO - Entered fname
+2023-11-16 15:22:41,646 - Providio -INFO - Entered lname
+2023-11-16 15:22:47,002 - Providio -INFO - Entered phone number
+2023-11-16 15:23:03,197 - Providio -INFO - Selected shipping method is $14.51
+Shipping Method:
+FedEx Ground (1 - 7 business days)
+2023-11-16 15:23:08,375 - Providio -INFO - Payment Method
+2023-11-16 15:23:08,376 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 15:23:09,669 - Providio -INFO - entered card name
+2023-11-16 15:23:09,879 - Providio -INFO - entered card number
+2023-11-16 15:23:10,001 - Providio -INFO - entered cvv
+2023-11-16 15:23:10,144 - Providio -INFO - entered exp
+2023-11-16 15:23:51,228 - Providio -INFO - Entered into url
+2023-11-16 15:23:51,235 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:23:59,310 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:24:07,876 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:24:24,889 - Providio -INFO - Entered into url
+2023-11-16 15:24:24,900 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:24:31,562 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:24:40,468 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:24:57,161 - Providio -INFO - Entered into url
+2023-11-16 15:24:57,167 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:25:02,283 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:25:08,457 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:25:27,614 - Providio -INFO - Product input quantity 87
+2023-11-16 15:25:36,002 - Providio -INFO - The unit price of each prodcut is 9.69
+2023-11-16 15:25:36,040 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:25:36,069 - Providio -INFO - Extended value is 9.69
+2023-11-16 15:25:36,098 - Providio -INFO - The unit price of each prodcut is 10.57
+2023-11-16 15:25:36,123 - Providio -INFO - The quantity  is 87.0
+2023-11-16 15:25:36,156 - Providio -INFO - Extended value is 919.59
+2023-11-16 15:25:36,156 - Providio -INFO - Total price of all prodcuts in cart 929.27997
+2023-11-16 15:25:42,929 - Providio -INFO - Entered shipping address
+2023-11-16 15:25:42,995 - Providio -INFO - Assortable price is 237.38
+2023-11-16 15:25:43,025 - Providio -INFO - Estimated and expected Pre total price tax 963.93
+2023-11-16 15:25:43,051 - Providio -INFO - Actual pre total-price is 963.93
+2023-11-16 15:25:43,052 - Providio -INFO - The caluated pre-total tax is 963.93 is equal to 963.93
+2023-11-16 15:25:56,769 - Providio -INFO - 1
+2023-11-16 15:25:58,899 - Providio -INFO - true
+2023-11-16 15:25:58,900 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:25:58,901 - Providio -INFO - Guest checkout
+2023-11-16 15:25:59,040 - Providio -INFO - Guest mail again
+2023-11-16 15:25:59,129 - Providio -INFO - Guest continue as guest
+2023-11-16 15:26:04,330 - Providio -INFO - Entered fname
+2023-11-16 15:26:04,456 - Providio -INFO - Entered lname
+2023-11-16 15:26:09,762 - Providio -INFO - Entered phone number
+2023-11-16 15:26:27,434 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:27:24,761 - Providio -INFO - Entered into url
+2023-11-16 15:27:24,773 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:27:31,695 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:27:38,145 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:28:03,840 - Providio -INFO - Product input quantity 15
+2023-11-16 15:28:12,275 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 15:28:12,309 - Providio -INFO - The quantity  is 15.0
+2023-11-16 15:28:12,342 - Providio -INFO - Extended value is 163.95
+2023-11-16 15:28:12,372 - Providio -INFO - The unit price of each prodcut is 11.92
+2023-11-16 15:28:12,410 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:28:12,438 - Providio -INFO - Extended value is 11.92
+2023-11-16 15:28:12,439 - Providio -INFO - Total price of all prodcuts in cart 175.87001
+2023-11-16 15:28:19,642 - Providio -INFO - Entered shipping address
+2023-11-16 15:28:19,675 - Providio -INFO - Assortable price is 19.95
+2023-11-16 15:28:19,701 - Providio -INFO - Estimated and expected Pre total price tax 210.52002
+2023-11-16 15:28:19,730 - Providio -INFO - Actual pre total-price is 210.52
+2023-11-16 15:28:19,731 - Providio -INFO - The caluated pre-total tax is 210.53 is not equal to 210.52
+2023-11-16 15:28:33,191 - Providio -INFO - 1
+2023-11-16 15:28:35,435 - Providio -INFO - true
+2023-11-16 15:28:35,435 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:28:35,437 - Providio -INFO - Guest checkout
+2023-11-16 15:28:35,659 - Providio -INFO - Guest mail again
+2023-11-16 15:28:35,724 - Providio -INFO - Guest continue as guest
+2023-11-16 15:28:40,895 - Providio -INFO - Entered fname
+2023-11-16 15:28:41,008 - Providio -INFO - Entered lname
+2023-11-16 15:28:46,392 - Providio -INFO - Entered phone number
+2023-11-16 15:29:03,843 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:30:07,404 - Providio -INFO - Entered into url
+2023-11-16 15:30:07,415 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:30:12,661 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:30:18,943 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:30:24,740 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:30:57,439 - Providio -INFO - Entered into url
+2023-11-16 15:30:57,443 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:31:02,769 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:31:09,085 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:31:28,092 - Providio -INFO - Product input quantity 7
+2023-11-16 15:31:36,670 - Providio -INFO - The unit price of each prodcut is 12.17
+2023-11-16 15:31:36,707 - Providio -INFO - The quantity  is 7.0
+2023-11-16 15:31:36,736 - Providio -INFO - Extended value is 85.19
+2023-11-16 15:31:36,764 - Providio -INFO - The unit price of each prodcut is 13.27
+2023-11-16 15:31:36,803 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:31:36,862 - Providio -INFO - Extended value is 13.27
+2023-11-16 15:31:36,863 - Providio -INFO - Total price of all prodcuts in cart 98.46001
+2023-11-16 15:31:43,828 - Providio -INFO - Entered shipping address
+2023-11-16 15:31:43,891 - Providio -INFO - Assortable price is 0.0
+2023-11-16 15:31:43,923 - Providio -INFO - Estimated and expected Pre total price tax 133.11002
+2023-11-16 15:31:43,959 - Providio -INFO - Actual pre total-price is 133.11
+2023-11-16 15:31:43,960 - Providio -INFO - The caluated pre-total tax is 133.12 is not equal to 133.11
+2023-11-16 15:31:59,382 - Providio -INFO - 1
+2023-11-16 15:32:01,562 - Providio -INFO - true
+2023-11-16 15:32:01,562 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:32:01,564 - Providio -INFO - Guest checkout
+2023-11-16 15:32:01,730 - Providio -INFO - Guest mail again
+2023-11-16 15:32:01,811 - Providio -INFO - Guest continue as guest
+2023-11-16 15:32:07,031 - Providio -INFO - Entered fname
+2023-11-16 15:32:07,164 - Providio -INFO - Entered lname
+2023-11-16 15:32:12,524 - Providio -INFO - Entered phone number
+2023-11-16 15:32:30,370 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:33:22,817 - Providio -INFO - Entered into url
+2023-11-16 15:33:22,822 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:33:28,280 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:33:34,622 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:33:53,831 - Providio -INFO - Product input quantity 15
+2023-11-16 15:34:02,233 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 15:34:02,276 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:34:02,312 - Providio -INFO - Extended value is 10.93
+2023-11-16 15:34:02,342 - Providio -INFO - The unit price of each prodcut is 11.92
+2023-11-16 15:34:02,371 - Providio -INFO - The quantity  is 15.0
+2023-11-16 15:34:02,401 - Providio -INFO - Extended value is 178.8
+2023-11-16 15:34:02,402 - Providio -INFO - Total price of all prodcuts in cart 189.73001
+2023-11-16 15:34:08,091 - Providio -INFO - Entered shipping address
+2023-11-16 15:34:08,123 - Providio -INFO - Assortable price is 21.49
+2023-11-16 15:34:08,149 - Providio -INFO - Estimated and expected Pre total price tax 224.38
+2023-11-16 15:34:08,181 - Providio -INFO - Actual pre total-price is 224.38
+2023-11-16 15:34:08,182 - Providio -INFO - The caluated pre-total tax is 224.38 is equal to 224.38
+2023-11-16 15:34:22,130 - Providio -INFO - 1
+2023-11-16 15:34:24,281 - Providio -INFO - true
+2023-11-16 15:34:24,282 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:34:24,283 - Providio -INFO - Guest checkout
+2023-11-16 15:34:24,447 - Providio -INFO - Guest mail again
+2023-11-16 15:34:24,527 - Providio -INFO - Guest continue as guest
+2023-11-16 15:34:29,775 - Providio -INFO - Entered fname
+2023-11-16 15:34:30,136 - Providio -INFO - Entered lname
+2023-11-16 15:34:38,896 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 15:37:47,298 - Providio -INFO - Entered into url
+2023-11-16 15:37:47,310 - Providio -INFO - Placing the order as guest user
+2023-11-16 15:37:54,447 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:38:04,489 - Providio -INFO - add to cart  button enabled
+2023-11-16 15:38:06,594 - Providio -INFO - Product input quantity 94
+2023-11-16 15:38:11,850 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 15:38:31,536 - Providio -INFO - Product input quantity 36
+2023-11-16 15:38:39,891 - Providio -INFO - The unit price of each prodcut is 10.93
+2023-11-16 15:38:39,923 - Providio -INFO - The quantity  is 36.0
+2023-11-16 15:38:39,951 - Providio -INFO - Extended value is 393.48
+2023-11-16 15:38:39,978 - Providio -INFO - The unit price of each prodcut is 11.92
+2023-11-16 15:38:40,009 - Providio -INFO - The quantity  is 1.0
+2023-11-16 15:38:40,037 - Providio -INFO - Extended value is 11.92
+2023-11-16 15:38:40,037 - Providio -INFO - Total price of all prodcuts in cart 405.40002
+2023-11-16 15:38:46,417 - Providio -INFO - Entered shipping address
+2023-11-16 15:38:46,445 - Providio -INFO - Assortable price is 45.99
+2023-11-16 15:38:46,472 - Providio -INFO - Estimated and expected Pre total price tax 440.05002
+2023-11-16 15:38:46,499 - Providio -INFO - Actual pre total-price is 440.05
+2023-11-16 15:38:46,500 - Providio -INFO - The caluated pre-total tax is 440.05 is equal to 440.05
+2023-11-16 15:39:00,828 - Providio -INFO - 1
+2023-11-16 15:39:02,985 - Providio -INFO - true
+2023-11-16 15:39:02,985 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 15:39:02,988 - Providio -INFO - Guest checkout
+2023-11-16 15:39:03,100 - Providio -INFO - Guest mail again
+2023-11-16 15:39:03,176 - Providio -INFO - Guest continue as guest
+2023-11-16 15:39:08,380 - Providio -INFO - Entered fname
+2023-11-16 15:39:08,501 - Providio -INFO - Entered lname
+2023-11-16 15:39:13,855 - Providio -INFO - Entered phone number
+2023-11-16 15:39:29,985 - Providio -INFO - Selected shipping method is $32.68
+Shipping Method:
+FedEx 2 Day Air (3 business days)
+2023-11-16 15:39:35,181 - Providio -INFO - Payment Method
+2023-11-16 15:39:35,182 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 15:39:36,462 - Providio -INFO - entered card name
+2023-11-16 15:39:36,652 - Providio -INFO - entered card number
+2023-11-16 15:39:36,778 - Providio -INFO - entered cvv
+2023-11-16 15:39:36,885 - Providio -INFO - entered exp
+2023-11-16 16:23:51,138 - Providio -INFO - Entered into url
+2023-11-16 16:23:51,143 - Providio -INFO - Placing the order as guest user
+2023-11-16 16:23:55,908 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 16:25:49,541 - Providio -INFO - Entered into url
+2023-11-16 16:25:49,553 - Providio -INFO - Placing the order as guest user
+2023-11-16 16:25:51,578 - Providio -INFO - Total menus count is 8
+2023-11-16 16:25:51,579 - Providio -INFO - Randomly selected menu number 6
+2023-11-16 16:25:51,597 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-16 16:25:51,598 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-16 16:26:08,791 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:26:08,804 - Providio -INFO - 1
+2023-11-16 16:26:08,804 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:26:15,099 - Providio -INFO - Total menus count is 8
+2023-11-16 16:26:15,099 - Providio -INFO - Randomly selected menu number 2
+2023-11-16 16:26:15,118 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-16 16:26:15,119 - Providio -INFO - Randomly selected sub menu number 23
+2023-11-16 16:26:31,614 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:26:31,626 - Providio -INFO - 1
+2023-11-16 16:26:31,626 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:26:31,671 - Providio -INFO - Succesfully clicked on  Home and navigated to Beadalon® category
+2023-11-16 16:26:31,727 - Providio -INFO - Total filters count is 9
+2023-11-16 16:26:31,728 - Providio -INFO - Randomly selected filters number 2
+2023-11-16 16:26:31,765 - Providio -INFO - Sub-Category
+2023-11-16 16:26:31,789 - Providio -INFO - Total filters countofeachFilterbtns is 1
+2023-11-16 16:26:31,790 - Providio -INFO - Randomly selected subfilter number 1
+2023-11-16 16:26:31,824 - Providio -INFO - Original Text: Beading Wire (24)
+2023-11-16 16:26:31,824 - Providio -INFO - Extracted Content: 24
+2023-11-16 16:26:31,825 - Providio -INFO - Text without Parentheses: Beading Wire 
+2023-11-16 16:26:35,918 - Providio -INFO - Beading Wire
+2023-11-16 16:26:35,949 - Providio -INFO - 24
+2023-11-16 16:26:35,950 - Providio -INFO - Sub-Category Selected The Filter 24 And The Loaded Products are 24
+2023-11-16 16:26:47,753 - Providio -INFO - Total add to cart buttons: 29
+2023-11-16 16:26:47,753 - Providio -INFO - Randomly selected Add to Cart button index: 1
+2023-11-16 16:27:26,139 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 16:28:45,485 - Providio -INFO - Entered into url
+2023-11-16 16:28:45,492 - Providio -INFO - Placing the order as guest user
+2023-11-16 16:28:48,629 - Providio -INFO - Total menus count is 8
+2023-11-16 16:28:48,630 - Providio -INFO - Randomly selected menu number 5
+2023-11-16 16:28:48,660 - Providio -INFO - Total number of sub menus associated with the hovered menu 1
+2023-11-16 16:28:48,663 - Providio -INFO - Randomly selected sub menu number 1
+2023-11-16 16:29:05,818 - Providio -INFO - 2
+2023-11-16 16:29:11,973 - Providio -INFO - 0
+2023-11-16 16:29:11,984 - Providio -INFO - Total menus count is 8
+2023-11-16 16:29:11,984 - Providio -INFO - Randomly selected menu number 2
+2023-11-16 16:29:12,003 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-16 16:29:12,004 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-16 16:29:20,445 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 16:32:51,464 - Providio -INFO - Entered into url
+2023-11-16 16:32:51,479 - Providio -INFO - Placing the order as guest user
+2023-11-16 16:32:54,856 - Providio -INFO - Total menus count is 8
+2023-11-16 16:32:54,857 - Providio -INFO - Randomly selected menu number 7
+2023-11-16 16:32:54,857 - Providio -INFO - random genrate is 7
+2023-11-16 16:32:54,870 - Providio -INFO - Total menus count is 8
+2023-11-16 16:32:54,871 - Providio -INFO - Randomly selected menu number 2
+2023-11-16 16:32:54,895 - Providio -INFO - Total number of sub menus associated with the hovered menu 43
+2023-11-16 16:32:54,896 - Providio -INFO - Randomly selected sub menu number 21
+2023-11-16 16:33:12,941 - Providio -INFO - 2
+2023-11-16 16:33:19,063 - Providio -INFO - 0
+2023-11-16 16:33:19,074 - Providio -INFO - Total menus count is 8
+2023-11-16 16:33:19,075 - Providio -INFO - Randomly selected menu number 7
+2023-11-16 16:33:19,075 - Providio -INFO - random genrate is 7
+2023-11-16 16:33:19,085 - Providio -INFO - Total menus count is 8
+2023-11-16 16:33:19,085 - Providio -INFO - Randomly selected menu number 1
+2023-11-16 16:33:19,105 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-16 16:33:19,105 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-16 16:33:27,523 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 16:35:17,933 - Providio -INFO - Entered into url
+2023-11-16 16:35:17,945 - Providio -INFO - Placing the order as guest user
+2023-11-16 16:35:20,848 - Providio -INFO - Total menus count is 8
+2023-11-16 16:35:20,848 - Providio -INFO - Randomly selected menu number 4
+2023-11-16 16:35:20,912 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-16 16:35:20,912 - Providio -INFO - Randomly selected sub menu number 6
+2023-11-16 16:35:39,753 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:35:39,768 - Providio -INFO - 1
+2023-11-16 16:35:39,769 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:35:49,707 - Providio -INFO - Succesfully clicked on  Tools by Type and navigated to Tools by Type category
+2023-11-16 16:35:56,980 - Providio -INFO - Succesfully clicked on next page i.e, shown Tools by Type before clicking on next page and also showed Tools by Type
+2023-11-16 16:36:04,378 - Providio -INFO - Succesfullly Navigated to a random page i.e., random page number is 22 naviagtion of the page number is  22
+2023-11-16 16:36:04,403 - Providio -INFO - Total filters count is 7
+2023-11-16 16:36:04,403 - Providio -INFO - Randomly selected filters number 3
+2023-11-16 16:36:04,450 - Providio -INFO - Material
+2023-11-16 16:36:04,556 - Providio -INFO - Total filters countofeachFilterbtns is 13
+2023-11-16 16:36:04,559 - Providio -INFO - Randomly selected subfilter number 3
+2023-11-16 16:36:04,615 - Providio -INFO - Original Text: Agate (1)
+2023-11-16 16:36:04,616 - Providio -INFO - Extracted Content: 1
+2023-11-16 16:36:04,616 - Providio -INFO - Text without Parentheses: Agate 
+2023-11-16 16:36:08,730 - Providio -INFO - Agate
+2023-11-16 16:36:08,757 - Providio -INFO - 1
+2023-11-16 16:36:08,757 - Providio -INFO - Material Selected The Filter 1 And The Loaded Products are 1
+2023-11-16 16:36:20,588 - Providio -INFO - Total add to cart buttons: 15
+2023-11-16 16:36:20,588 - Providio -INFO - Randomly selected Add to Cart button index: 12
+2023-11-16 16:37:01,415 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 16:49:54,248 - Providio -INFO - Entered into url
+2023-11-16 16:49:55,078 - Providio -INFO - Placing the order as guest user
+2023-11-16 16:49:59,268 - Providio -INFO - Total menus count is 8
+2023-11-16 16:49:59,268 - Providio -INFO - Randomly selected menu number 4
+2023-11-16 16:49:59,292 - Providio -INFO - Total number of sub menus associated with the hovered menu 33
+2023-11-16 16:49:59,292 - Providio -INFO - Randomly selected sub menu number 10
+2023-11-16 16:50:17,807 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:50:17,820 - Providio -INFO - 1
+2023-11-16 16:50:17,821 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:50:25,765 - Providio -INFO - Total menus count is 8
+2023-11-16 16:50:25,765 - Providio -INFO - Randomly selected menu number 6
+2023-11-16 16:50:25,784 - Providio -INFO - Total number of sub menus associated with the hovered menu 14
+2023-11-16 16:50:25,784 - Providio -INFO - Randomly selected sub menu number 5
+2023-11-16 16:50:45,154 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:50:45,169 - Providio -INFO - 1
+2023-11-16 16:50:45,169 - Providio -INFO - PLP page is already loaded
+2023-11-16 16:50:45,218 - Providio -INFO - Succesfully clicked on  Home and navigated to Rings category
+2023-11-16 16:50:53,422 - Providio -INFO - Succesfully clicked on next page i.e, shown Rings before clicking on next page and also showed Rings
+2023-11-16 16:51:00,771 - Providio -INFO - Succesfullly Navigated to a random page i.e., random page number is 6 naviagtion of the page number is  6
+2023-11-16 16:51:00,926 - Providio -INFO - Total filters count is 7
+2023-11-16 16:51:00,926 - Providio -INFO - Randomly selected filters number 4
+2023-11-16 16:51:00,974 - Providio -INFO - Material Detail
+2023-11-16 16:51:00,996 - Providio -INFO - Total filters countofeachFilterbtns is 32
+2023-11-16 16:51:00,996 - Providio -INFO - Randomly selected subfilter number 26
+2023-11-16 16:51:01,029 - Providio -INFO - Original Text: Acrylic (4)
+2023-11-16 16:51:01,029 - Providio -INFO - Extracted Content: 4
+2023-11-16 16:51:01,029 - Providio -INFO - Text without Parentheses: Acrylic 
+2023-11-16 16:51:05,142 - Providio -INFO - Acrylic
+2023-11-16 16:51:05,169 - Providio -INFO - 4
+2023-11-16 16:51:05,169 - Providio -INFO - Material Detail Selected The Filter 4 And The Loaded Products are 4
+2023-11-16 16:51:16,650 - Providio -INFO - Total add to cart buttons: 4
+2023-11-16 16:51:16,651 - Providio -INFO - Randomly selected Add to Cart button index: 1
+2023-11-16 16:51:37,018 - Providio -INFO - Product input quantity 86
+2023-11-16 16:51:45,365 - Providio -INFO - The unit price of each prodcut is 4.65
+2023-11-16 16:51:45,390 - Providio -INFO - The quantity  is 86.0
+2023-11-16 16:51:45,420 - Providio -INFO - Extended value is 399.9
+2023-11-16 16:51:45,421 - Providio -INFO - Total price of all prodcuts in cart 399.9
+2023-11-16 16:51:51,512 - Providio -INFO - Entered shipping address
+2023-11-16 16:51:51,540 - Providio -INFO - Assortable price is 0.0
+2023-11-16 16:51:51,568 - Providio -INFO - Estimated and expected Pre total price tax 434.55
+2023-11-16 16:51:51,598 - Providio -INFO - Actual pre total-price is 434.55
+2023-11-16 16:51:51,599 - Providio -INFO - The caluated pre-total tax is 434.55 is equal to 434.55
+2023-11-16 16:52:07,814 - Providio -INFO - 1
+2023-11-16 16:52:09,951 - Providio -INFO - true
+2023-11-16 16:52:09,952 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 16:52:09,953 - Providio -INFO - Guest checkout
+2023-11-16 16:52:10,070 - Providio -INFO - Guest mail again
+2023-11-16 16:52:10,144 - Providio -INFO - Guest continue as guest
+2023-11-16 16:52:15,344 - Providio -INFO - Entered fname
+2023-11-16 16:52:15,447 - Providio -INFO - Entered lname
+2023-11-16 16:52:20,757 - Providio -INFO - Entered phone number
+2023-11-16 16:52:36,941 - Providio -INFO - Selected shipping method is 
+2023-11-16 16:52:42,154 - Providio -INFO - Payment Method
+2023-11-16 16:52:42,154 - Providio -INFO - Successfully clicked on the Payment button
+2023-11-16 16:52:43,433 - Providio -INFO - entered card name
+2023-11-16 16:52:43,585 - Providio -INFO - entered card number
+2023-11-16 16:52:43,704 - Providio -INFO - entered cvv
+2023-11-16 16:52:43,805 - Providio -INFO - entered exp
+2023-11-16 17:18:12,070 - Providio -INFO - Entered into url
+2023-11-16 17:18:12,080 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:18:18,255 - Providio -INFO - Total menus count is 8
+2023-11-16 17:18:18,256 - Providio -INFO - Randomly selected menu number 1
+2023-11-16 17:18:18,297 - Providio -INFO - Total number of sub menus associated with the hovered menu 36
+2023-11-16 17:18:18,302 - Providio -INFO - Randomly selected sub menu number 21
+2023-11-16 17:18:36,714 - Providio -INFO - PLP page is already loaded
+2023-11-16 17:18:36,726 - Providio -INFO - 1
+2023-11-16 17:18:36,727 - Providio -INFO - PLP page is already loaded
+2023-11-16 17:18:42,163 - Providio -INFO - next time me
+2023-11-16 17:18:42,564 - Providio -INFO - 10
+2023-11-16 17:18:44,711 - Providio -INFO - Product Name is displayed on the page and prodcut name is Seed bead, TOHO BEADS®, glass, opaque sunshine, (TR-11-42B), #11 round. Sold per 7.5-gram pkg.
+2023-11-16 17:18:44,755 - Providio -INFO - Product input quantity 113
+2023-11-16 17:18:50,004 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 17:18:55,900 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 17:20:13,035 - Providio -INFO - Entered into url
+2023-11-16 17:20:13,040 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:20:17,311 - Providio -INFO - next time me
+2023-11-16 17:20:17,663 - Providio -INFO - 12
+2023-11-16 17:20:19,915 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 17:20:19,980 - Providio -INFO - Product input quantity 114
+2023-11-16 17:20:25,232 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 17:20:27,898 - Providio -INFO - add to cart  button enabled
+2023-11-16 17:20:46,530 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 17:34:10,659 - Providio -INFO - Entered into url
+2023-11-16 17:34:10,665 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:34:13,768 - Providio -INFO - next time me
+2023-11-16 17:34:13,895 - Providio -INFO - 5
+2023-11-16 17:34:16,113 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 17:34:16,155 - Providio -INFO - Product input quantity 32
+2023-11-16 17:34:21,365 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 17:34:24,041 - Providio -INFO - No  Submition of question results as expected like [[ChromeDriver: chrome on windows (2b22258ad6f7dc5317f53e7aaf566b1f)] -> css selector: div.success-message]
+2023-11-16 17:34:27,398 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 17:37:58,797 - Providio -INFO - Entered into url
+2023-11-16 17:37:58,802 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:38:02,219 - Providio -INFO - next time me
+2023-11-16 17:38:03,055 - Providio -INFO - 5
+2023-11-16 17:38:05,328 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 17:38:05,384 - Providio -INFO - Product input quantity 60
+2023-11-16 17:38:10,618 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 17:38:13,369 - Providio -INFO - No  Submition of question results as expected like Thank you
+A Customer Service Representative will be in touch with you in about 2-3 business days.
+2023-11-16 17:38:13,428 - Providio -INFO - add to cart  button enabled
+2023-11-16 17:38:32,044 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 17:39:17,407 - Providio -INFO - Entered into url
+2023-11-16 17:39:17,415 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:39:21,121 - Providio -INFO - next time me
+2023-11-16 17:39:22,215 - Providio -INFO - 5
+2023-11-16 17:39:24,581 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 17:39:24,644 - Providio -INFO - Product input quantity 73
+2023-11-16 17:39:29,884 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 17:39:32,759 - Providio -INFO - No  Submition of question results as expected like Thank you
+A Customer Service Representative will be in touch with you in about 2-3 business days.
+2023-11-16 17:40:00,273 - Providio -INFO - add to cart  button enabled
+2023-11-16 17:43:09,603 - Providio -INFO - Entered into url
+2023-11-16 17:43:09,614 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:43:12,935 - Providio -INFO - next time me
+2023-11-16 17:43:13,055 - Providio -INFO - 5
+2023-11-16 17:43:15,308 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 17:43:15,364 - Providio -INFO - Product input quantity 102
+2023-11-16 17:43:20,629 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 17:43:23,351 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 17:43:35,339 - Providio -INFO - add to cart  button enabled
+2023-11-16 17:48:40,736 - Providio -INFO - Entered into url
+2023-11-16 17:48:40,748 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:48:50,164 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 17:49:14,574 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 17:53:23,133 - Providio -INFO - Entered into url
+2023-11-16 17:53:23,152 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:53:31,631 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 17:53:55,751 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 17:56:24,077 - Providio -INFO - Entered into url
+2023-11-16 17:56:24,082 - Providio -INFO - Placing the order as guest user
+2023-11-16 17:56:31,981 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 17:56:51,998 - Providio -INFO - Gc in cart
+2023-11-16 17:56:52,016 - Providio -INFO - Total price of all prodcuts in cart 0.0
+2023-11-16 17:56:57,536 - Providio -INFO - Entered shipping address
+2023-11-16 17:56:57,600 - Providio -INFO - Assortable price is 0.0
+2023-11-16 17:56:57,631 - Providio -INFO - Estimated and expected Pre total price tax 0.0
+2023-11-16 17:56:57,661 - Providio -INFO - Actual pre total-price is 200.0
+2023-11-16 17:56:57,662 - Providio -INFO - The caluated pre-total tax is 0.0 is not equal to 200.0
+2023-11-16 17:57:13,611 - Providio -INFO - 1
+2023-11-16 17:57:15,744 - Providio -INFO - true
+2023-11-16 17:57:15,744 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 17:57:15,746 - Providio -INFO - Guest checkout
+2023-11-16 17:57:15,855 - Providio -INFO - Guest mail again
+2023-11-16 17:57:15,937 - Providio -INFO - Guest continue as guest
+2023-11-16 17:57:22,255 - Providio -INFO - Entered fname
+2023-11-16 17:57:23,348 - Providio -INFO - Entered lname
+2023-11-16 17:57:27,738 - Providio -INFO - Entered phone number
+2023-11-16 17:57:33,041 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:04:56,467 - Providio -INFO - Entered into url
+2023-11-16 18:04:56,487 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:05:04,312 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:05:06,886 - Providio -INFO - Entered into url
+2023-11-16 18:05:06,886 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:05:10,404 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:05:13,284 - Providio -INFO - Entered into url
+2023-11-16 18:05:13,285 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:05:17,060 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:05:19,457 - Providio -INFO - Entered into url
+2023-11-16 18:05:19,457 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:05:22,937 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:05:25,340 - Providio -INFO - Entered into url
+2023-11-16 18:05:25,341 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:05:28,854 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:05:52,727 - Providio -INFO - Entered into url
+2023-11-16 18:05:52,756 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:06:02,219 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:06:24,794 - Providio -INFO - Gc in cart
+2023-11-16 18:06:30,746 - Providio -INFO - Entered shipping address
+2023-11-16 18:06:30,797 - Providio -INFO - Assortable price is 0.0
+2023-11-16 18:06:30,850 - Providio -INFO - Estimated and expected Pre total price tax 0.0
+2023-11-16 18:06:30,900 - Providio -INFO - Actual pre total-price is 50.0
+2023-11-16 18:06:30,901 - Providio -INFO - The caluated pre-total tax is 0.0 is not equal to 50.0
+2023-11-16 18:06:45,190 - Providio -INFO - 1
+2023-11-16 18:06:47,335 - Providio -INFO - true
+2023-11-16 18:06:47,335 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:06:47,337 - Providio -INFO - Guest checkout
+2023-11-16 18:06:47,454 - Providio -INFO - Guest mail again
+2023-11-16 18:06:47,531 - Providio -INFO - Guest continue as guest
+2023-11-16 18:06:53,845 - Providio -INFO - Entered fname
+2023-11-16 18:06:54,933 - Providio -INFO - Entered lname
+2023-11-16 18:06:59,348 - Providio -INFO - Entered phone number
+2023-11-16 18:07:04,673 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:09:00,402 - Providio -INFO - Entered into url
+2023-11-16 18:09:00,407 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:09:07,578 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:09:32,119 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:10:22,800 - Providio -INFO - Entered into url
+2023-11-16 18:10:22,805 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:10:31,545 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:10:36,730 - Providio -INFO - next time me
+2023-11-16 18:10:36,817 - Providio -INFO - 5
+2023-11-16 18:10:39,060 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:10:39,080 - Providio -INFO - Product input quantity 96
+2023-11-16 18:10:44,256 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:10:44,257 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:10:48,970 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:11:06,331 - Providio -INFO - 1
+2023-11-16 18:11:11,468 - Providio -INFO - 1
+2023-11-16 18:11:24,507 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:11:45,101 - Providio -INFO - Entered into url
+2023-11-16 18:11:45,116 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:11:53,694 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:12:30,700 - Providio -INFO - Entered into url
+2023-11-16 18:12:30,706 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:12:37,720 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:12:43,096 - Providio -INFO - next time me
+2023-11-16 18:12:43,210 - Providio -INFO - 5
+2023-11-16 18:12:45,431 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:12:45,451 - Providio -INFO - Product input quantity 133
+2023-11-16 18:12:50,664 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:12:50,665 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:12:55,356 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:13:14,065 - Providio -INFO - Product input quantity 24
+2023-11-16 18:13:22,425 - Providio -INFO - The unit price of each prodcut is 3.4
+2023-11-16 18:13:22,457 - Providio -INFO - The quantity  is 24.0
+2023-11-16 18:13:22,485 - Providio -INFO - Extended value is 81.6
+2023-11-16 18:13:22,486 - Providio -INFO - Total price of all prodcuts in cart 81.600006
+2023-11-16 18:13:29,033 - Providio -INFO - Entered shipping address
+2023-11-16 18:13:29,070 - Providio -INFO - Assortable price is 11.52
+2023-11-16 18:13:29,104 - Providio -INFO - Estimated and expected Pre total price tax 116.25001
+2023-11-16 18:13:29,140 - Providio -INFO - Actual pre total-price is 166.25
+2023-11-16 18:13:29,141 - Providio -INFO - The caluated pre-total tax is 116.26 is not equal to 166.25
+2023-11-16 18:13:43,838 - Providio -INFO - 1
+2023-11-16 18:13:46,006 - Providio -INFO - true
+2023-11-16 18:13:46,007 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:13:46,009 - Providio -INFO - Guest checkout
+2023-11-16 18:13:46,132 - Providio -INFO - Guest mail again
+2023-11-16 18:13:46,211 - Providio -INFO - Guest continue as guest
+2023-11-16 18:13:51,439 - Providio -INFO - Entered fname
+2023-11-16 18:13:51,553 - Providio -INFO - Entered lname
+2023-11-16 18:13:57,084 - Providio -INFO - Entered phone number
+2023-11-16 18:14:13,552 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:18:58,216 - Providio -INFO - Entered into url
+2023-11-16 18:18:58,252 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:19:10,063 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:19:30,212 - Providio -INFO - Gc in cart
+2023-11-16 18:19:44,643 - Providio -INFO - 1
+2023-11-16 18:19:46,766 - Providio -INFO - true
+2023-11-16 18:19:46,766 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:19:46,768 - Providio -INFO - Guest checkout
+2023-11-16 18:19:46,891 - Providio -INFO - Guest mail again
+2023-11-16 18:19:46,969 - Providio -INFO - Guest continue as guest
+2023-11-16 18:19:53,240 - Providio -INFO - Entered fname
+2023-11-16 18:19:54,373 - Providio -INFO - Entered lname
+2023-11-16 18:19:58,815 - Providio -INFO - Entered phone number
+2023-11-16 18:20:04,135 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:20:06,740 - Providio -INFO - Entered into url
+2023-11-16 18:20:06,748 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:20:14,632 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:20:19,788 - Providio -INFO - next time me
+2023-11-16 18:20:19,887 - Providio -INFO - 5
+2023-11-16 18:20:22,107 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:20:22,127 - Providio -INFO - Product input quantity 22
+2023-11-16 18:20:27,382 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:20:27,383 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:20:32,113 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:20:50,971 - Providio -INFO - Product input quantity 86
+2023-11-16 18:20:59,310 - Providio -INFO - The unit price of each prodcut is 2.94
+2023-11-16 18:20:59,350 - Providio -INFO - The quantity  is 86.0
+2023-11-16 18:20:59,381 - Providio -INFO - Extended value is 252.84
+2023-11-16 18:20:59,381 - Providio -INFO - Total price of all prodcuts in cart 252.84001
+2023-11-16 18:21:06,009 - Providio -INFO - Entered shipping address
+2023-11-16 18:21:06,044 - Providio -INFO - Assortable price is 80.84
+2023-11-16 18:21:06,072 - Providio -INFO - Estimated and expected Pre total price tax 287.49002
+2023-11-16 18:21:06,101 - Providio -INFO - Actual pre total-price is 787.49
+2023-11-16 18:21:06,102 - Providio -INFO - The caluated pre-total tax is 287.5 is not equal to 787.49
+2023-11-16 18:21:20,748 - Providio -INFO - 1
+2023-11-16 18:21:22,895 - Providio -INFO - true
+2023-11-16 18:21:22,896 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:21:22,897 - Providio -INFO - Guest checkout
+2023-11-16 18:21:23,053 - Providio -INFO - Guest mail again
+2023-11-16 18:21:23,128 - Providio -INFO - Guest continue as guest
+2023-11-16 18:21:28,321 - Providio -INFO - Entered fname
+2023-11-16 18:21:28,455 - Providio -INFO - Entered lname
+2023-11-16 18:21:33,790 - Providio -INFO - Entered phone number
+2023-11-16 18:21:49,923 - Providio -INFO - Selected shipping method is 
+2023-11-16 18:21:56,750 - Providio -INFO - A click to Enter into paypal
+2023-11-16 18:22:16,930 - Providio -INFO - Clicked on paypal button
+2023-11-16 18:22:38,216 - Providio -INFO - Successfully Order is Placed and the Order number is 20007710
+2023-11-16 18:22:38,344 - Providio -INFO - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-16 18:24:53,754 - Providio -INFO - Entered into url
+2023-11-16 18:24:53,769 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:25:02,991 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:25:08,090 - Providio -INFO - next time me
+2023-11-16 18:25:08,234 - Providio -INFO - 5
+2023-11-16 18:25:10,450 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:25:10,473 - Providio -INFO - Product input quantity 20
+2023-11-16 18:25:15,737 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:25:15,738 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:25:20,449 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:25:37,503 - Providio -INFO - Product input quantity 29
+2023-11-16 18:25:45,839 - Providio -INFO - The unit price of each prodcut is 3.4
+2023-11-16 18:25:45,872 - Providio -INFO - The quantity  is 29.0
+2023-11-16 18:25:45,901 - Providio -INFO - Extended value is 98.6
+2023-11-16 18:25:45,901 - Providio -INFO - Total price of all prodcuts in cart 98.600006
+2023-11-16 18:25:51,886 - Providio -INFO - Entered shipping address
+2023-11-16 18:25:51,946 - Providio -INFO - Assortable price is 13.92
+2023-11-16 18:25:51,971 - Providio -INFO - Estimated and expected Pre total price tax 133.25
+2023-11-16 18:25:51,999 - Providio -INFO - Actual pre total-price is 433.25
+2023-11-16 18:25:52,000 - Providio -INFO - The caluated pre-total tax is 133.25 is not equal to 433.25
+2023-11-16 18:26:05,136 - Providio -INFO - 1
+2023-11-16 18:26:07,256 - Providio -INFO - true
+2023-11-16 18:26:07,256 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:26:07,257 - Providio -INFO - Guest checkout
+2023-11-16 18:26:07,365 - Providio -INFO - Guest mail again
+2023-11-16 18:26:07,431 - Providio -INFO - Guest continue as guest
+2023-11-16 18:26:12,649 - Providio -INFO - Entered fname
+2023-11-16 18:26:12,771 - Providio -INFO - Entered lname
+2023-11-16 18:26:18,081 - Providio -INFO - Entered phone number
+2023-11-16 18:26:31,627 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:36:16,264 - Providio -INFO - Entered into url
+2023-11-16 18:36:16,271 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:36:24,121 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:36:32,882 - Providio -INFO - next time me
+2023-11-16 18:36:33,190 - Providio -INFO - 12
+2023-11-16 18:36:35,426 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:36:35,445 - Providio -INFO - Product input quantity 18
+2023-11-16 18:36:40,611 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:36:40,611 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:36:45,377 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:37:03,081 - Providio -INFO - Product input quantity 14
+2023-11-16 18:37:11,397 - Providio -INFO - The unit price of each prodcut is 3.88
+2023-11-16 18:37:11,637 - Providio -INFO - The quantity  is 14.0
+2023-11-16 18:37:11,674 - Providio -INFO - Extended value is 54.32
+2023-11-16 18:37:11,674 - Providio -INFO - 108.64
+2023-11-16 18:37:11,675 - Providio -INFO - Total price of all prodcuts in cart 108.64
+2023-11-16 18:37:18,335 - Providio -INFO - Entered shipping address
+2023-11-16 18:37:18,371 - Providio -INFO - Assortable price is 0.0
+2023-11-16 18:37:18,396 - Providio -INFO - Estimated and expected Pre total price tax 143.29001
+2023-11-16 18:37:18,422 - Providio -INFO - Actual pre total-price is 588.97
+2023-11-16 18:37:18,423 - Providio -INFO - The caluated pre-total tax is 143.3 is not equal to 588.97
+2023-11-16 18:37:35,522 - Providio -INFO - 1
+2023-11-16 18:37:37,654 - Providio -INFO - true
+2023-11-16 18:37:37,654 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:37:37,655 - Providio -INFO - Guest checkout
+2023-11-16 18:37:37,767 - Providio -INFO - Guest mail again
+2023-11-16 18:37:37,851 - Providio -INFO - Guest continue as guest
+2023-11-16 18:37:43,072 - Providio -INFO - Entered fname
+2023-11-16 18:37:43,201 - Providio -INFO - Entered lname
+2023-11-16 18:37:48,559 - Providio -INFO - Entered phone number
+2023-11-16 18:38:01,901 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:39:41,351 - Providio -INFO - Entered into url
+2023-11-16 18:39:41,359 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:39:48,348 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:39:53,447 - Providio -INFO - next time me
+2023-11-16 18:39:53,534 - Providio -INFO - 5
+2023-11-16 18:39:55,814 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:39:55,864 - Providio -INFO - Product input quantity 142
+2023-11-16 18:40:01,119 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:40:01,120 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:40:05,816 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:40:23,500 - Providio -INFO - Product input quantity 147
+2023-11-16 18:40:31,812 - Providio -INFO - The unit price of each prodcut is 2.46
+2023-11-16 18:40:31,847 - Providio -INFO - The quantity  is 134.0
+2023-11-16 18:40:31,874 - Providio -INFO - Extended value is 329.64
+2023-11-16 18:40:31,875 - Providio -INFO - 659.28
+2023-11-16 18:40:31,876 - Providio -INFO - Total price of all prodcuts in cart 659.28
+2023-11-16 18:40:38,335 - Providio -INFO - Entered shipping address
+2023-11-16 18:40:38,364 - Providio -INFO - Assortable price is 190.28
+2023-11-16 18:40:38,398 - Providio -INFO - Estimated and expected Pre total price tax 693.93005
+2023-11-16 18:40:38,425 - Providio -INFO - Actual pre total-price is 864.29
+2023-11-16 18:40:38,426 - Providio -INFO - The caluated pre-total tax is 693.94 is not equal to 864.29
+2023-11-16 18:40:55,098 - Providio -INFO - 0
+2023-11-16 18:40:58,449 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:44:29,805 - Providio -INFO - Entered into url
+2023-11-16 18:44:29,811 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:44:36,572 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:44:41,605 - Providio -INFO - next time me
+2023-11-16 18:44:41,698 - Providio -INFO - 5
+2023-11-16 18:44:43,915 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:44:43,935 - Providio -INFO - Product input quantity 113
+2023-11-16 18:44:49,140 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:44:49,140 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:44:53,839 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:45:12,016 - Providio -INFO - Product input quantity 102
+2023-11-16 18:45:20,565 - Providio -INFO - The unit price of each prodcut is 2.46
+2023-11-16 18:45:20,596 - Providio -INFO - The quantity  is 102.0
+2023-11-16 18:45:20,627 - Providio -INFO - Extended value is 250.92
+2023-11-16 18:45:20,628 - Providio -INFO - 752.76
+2023-11-16 18:45:20,628 - Providio -INFO - Total price of all prodcuts in cart 752.76
+2023-11-16 18:45:27,227 - Providio -INFO - Entered shipping address
+2023-11-16 18:45:27,260 - Providio -INFO - Assortable price is 144.84
+2023-11-16 18:45:27,287 - Providio -INFO - Estimated and expected Pre total price tax 787.41003
+2023-11-16 18:45:27,315 - Providio -INFO - Actual pre total-price is 360.57
+2023-11-16 18:45:27,316 - Providio -INFO - The caluated pre-total tax is 787.41 is not equal to 360.57
+2023-11-16 18:45:42,060 - Providio -INFO - 1
+2023-11-16 18:45:44,198 - Providio -INFO - true
+2023-11-16 18:45:44,199 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 18:45:44,200 - Providio -INFO - Guest checkout
+2023-11-16 18:45:44,314 - Providio -INFO - Guest mail again
+2023-11-16 18:45:44,393 - Providio -INFO - Guest continue as guest
+2023-11-16 18:45:49,569 - Providio -INFO - Entered fname
+2023-11-16 18:45:49,701 - Providio -INFO - Entered lname
+2023-11-16 18:45:55,035 - Providio -INFO - Entered phone number
+2023-11-16 18:46:08,388 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:48:32,828 - Providio -INFO - Entered into url
+2023-11-16 18:48:32,854 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:48:45,764 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:48:51,430 - Providio -INFO - next time me
+2023-11-16 18:48:51,534 - Providio -INFO - 5
+2023-11-16 18:48:53,752 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:48:53,773 - Providio -INFO - Product input quantity 76
+2023-11-16 18:48:58,964 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:48:58,965 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:49:03,702 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:49:21,281 - Providio -INFO - Product input quantity 71
+2023-11-16 18:49:29,677 - Providio -INFO - The unit price of each prodcut is 2.94
+2023-11-16 18:49:29,709 - Providio -INFO - The quantity  is 71.0
+2023-11-16 18:49:29,736 - Providio -INFO - Extended value is 208.74
+2023-11-16 18:49:29,756 - Providio -INFO - Extended value is 208.74
+2023-11-16 18:49:29,756 - Providio -INFO - Total price of all prodcuts in cart 417.48
+2023-11-16 18:49:36,333 - Providio -INFO - Entered shipping address
+2023-11-16 18:49:36,372 - Providio -INFO - Assortable price is 66.74
+2023-11-16 18:49:36,399 - Providio -INFO - Estimated and expected Pre total price tax 452.13
+2023-11-16 18:49:36,425 - Providio -INFO - Actual pre total-price is 1243.39
+2023-11-16 18:49:36,426 - Providio -INFO - The caluated pre-total tax is 452.13 is not equal to 1243.39
+2023-11-16 18:49:54,974 - Providio -INFO - 0
+2023-11-16 18:49:58,369 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 18:56:36,704 - Providio -INFO - Entered into url
+2023-11-16 18:56:36,711 - Providio -INFO - Placing the order as guest user
+2023-11-16 18:56:43,699 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 18:56:52,021 - Providio -INFO - next time me
+2023-11-16 18:56:52,134 - Providio -INFO - 5
+2023-11-16 18:56:54,388 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 18:56:54,411 - Providio -INFO - Product input quantity 58
+2023-11-16 18:56:59,581 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 18:56:59,582 - Providio -INFO - add to cart  button enabled
+2023-11-16 18:57:04,322 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 18:57:22,076 - Providio -INFO - Product input quantity 2
+2023-11-16 18:57:30,472 - Providio -INFO - The unit price of each prodcut is 3.88
+2023-11-16 18:57:30,503 - Providio -INFO - The quantity  is 2.0
+2023-11-16 18:57:30,530 - Providio -INFO - Extended value is 7.76
+2023-11-16 18:57:30,578 - Providio -INFO - Extended value is 7.76
+2023-11-16 18:57:30,578 - Providio -INFO - Total price of all prodcuts in cart 15.52
+2023-11-16 18:57:37,512 - Providio -INFO - Entered shipping address
+2023-11-16 18:57:38,338 - Providio -INFO - Assortable price is 0.0
+2023-11-16 18:57:38,369 - Providio -INFO - Estimated and expected Pre total price tax 50.170002
+2023-11-16 18:57:39,043 - Providio -INFO - Actual pre total-price is 142.41
+2023-11-16 18:57:39,044 - Providio -INFO - The caluated pre-total tax is 50.17 is not equal to 142.41
+2023-11-16 18:57:55,638 - Providio -INFO - 0
+2023-11-16 18:57:59,571 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 19:08:06,232 - Providio -INFO - Entered into url
+2023-11-16 19:08:06,251 - Providio -INFO - Placing the order as guest user
+2023-11-16 19:08:14,944 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 19:08:20,856 - Providio -INFO - next time me
+2023-11-16 19:08:21,047 - Providio -INFO - 8
+2023-11-16 19:08:23,335 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 19:08:23,359 - Providio -INFO - Product input quantity 69
+2023-11-16 19:08:28,581 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 19:08:28,581 - Providio -INFO - add to cart  button enabled
+2023-11-16 19:08:33,440 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 19:08:50,720 - Providio -INFO - Product input quantity 143
+2023-11-16 19:08:59,152 - Providio -INFO - The unit price of each prodcut is 2.46
+2023-11-16 19:08:59,182 - Providio -INFO - The quantity  is 134.0
+2023-11-16 19:08:59,211 - Providio -INFO - Extended value is 329.64
+2023-11-16 19:08:59,267 - Providio -INFO - Extended value is 400.0
+2023-11-16 19:08:59,267 - Providio -INFO - Total price of all prodcuts in cart 1059.28
+2023-11-16 19:09:06,021 - Providio -INFO - Entered shipping address
+2023-11-16 19:09:06,081 - Providio -INFO - Assortable price is 190.28
+2023-11-16 19:09:06,107 - Providio -INFO - Estimated and expected Pre total price tax 1093.93
+2023-11-16 19:09:06,141 - Providio -INFO - Actual pre total-price is 764.29
+2023-11-16 19:09:06,141 - Providio -INFO - The caluated pre-total tax is 1093.94 is not equal to 764.29
+2023-11-16 19:09:21,828 - Providio -INFO - 0
+2023-11-16 19:09:25,585 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 19:13:08,124 - Providio -INFO - Entered into url
+2023-11-16 19:13:08,131 - Providio -INFO - Placing the order as guest user
+2023-11-16 19:13:16,103 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 19:13:21,640 - Providio -INFO - next time me
+2023-11-16 19:13:21,741 - Providio -INFO - 5
+2023-11-16 19:13:23,981 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 19:13:24,002 - Providio -INFO - Product input quantity 79
+2023-11-16 19:13:29,242 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 19:13:29,243 - Providio -INFO - add to cart  button enabled
+2023-11-16 19:13:33,943 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 19:13:51,924 - Providio -INFO - Product input quantity 67
+2023-11-16 19:14:00,574 - Providio -INFO - The unit price of each prodcut is 2.94
+2023-11-16 19:14:00,606 - Providio -INFO - The quantity  is 67.0
+2023-11-16 19:14:00,638 - Providio -INFO - Extended value is 196.98
+2023-11-16 19:14:00,693 - Providio -INFO - Extended value is 10.0
+2023-11-16 19:14:00,693 - Providio -INFO - Total price of all prodcuts in cart 413.96002
+2023-11-16 19:14:06,386 - Providio -INFO - Entered shipping address
+2023-11-16 19:14:06,439 - Providio -INFO - Assortable price is 62.98
+2023-11-16 19:14:06,466 - Providio -INFO - Estimated and expected Pre total price tax 448.61002
+2023-11-16 19:14:06,501 - Providio -INFO - Actual pre total-price is 241.63
+2023-11-16 19:14:06,504 - Providio -INFO - The caluated pre-total tax is 448.61 is not equal to 241.63
+2023-11-16 19:14:20,886 - Providio -INFO - 1
+2023-11-16 19:14:23,016 - Providio -INFO - true
+2023-11-16 19:14:23,016 - Providio -INFO - The user did not enter the email and clicked the guest checkout, and the error is displayed
+2023-11-16 19:14:23,018 - Providio -INFO - Guest checkout
+2023-11-16 19:14:23,133 - Providio -INFO - Guest mail again
+2023-11-16 19:14:23,213 - Providio -INFO - Guest continue as guest
+2023-11-16 19:14:28,411 - Providio -INFO - Entered fname
+2023-11-16 19:14:28,547 - Providio -INFO - Entered lname
+2023-11-16 19:14:33,935 - Providio -INFO - Entered phone number
+2023-11-16 19:14:50,134 - Providio -INFO - Selected shipping method is 
+2023-11-16 19:14:57,214 - Providio -INFO - A click to Enter into paypal
+2023-11-16 19:15:13,095 - Providio -INFO - Entered into url
+2023-11-16 19:15:13,756 - Providio -INFO - Placing the order as guest user
+2023-11-16 19:15:20,741 - Providio -INFO - Clicked on paypal button
+2023-11-16 19:15:24,822 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 19:15:31,496 - Providio -INFO - next time me
+2023-11-16 19:15:31,799 - Providio -INFO - 12
+2023-11-16 19:15:34,078 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 19:15:34,101 - Providio -INFO - Product input quantity 52
+2023-11-16 19:15:39,331 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 19:15:39,331 - Providio -INFO - add to cart  button enabled
+2023-11-16 19:15:42,087 - Providio -INFO - Successfully Order is Placed and the Order number is 20007718
+2023-11-16 19:15:42,265 - Providio -INFO - Successfully Order is Placed and the Order number is PayPal
+rahulnaik@etisbew.com
+2023-11-16 19:15:44,216 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 19:16:01,681 - Providio -INFO - Test case failed and returned into homepage
+2023-11-16 19:16:44,060 - Providio -INFO - Entered into url
+2023-11-16 19:16:44,065 - Providio -INFO - Placing the order as guest user
+2023-11-16 19:16:51,581 - Providio -INFO - Gift Certificate added to cart
+2023-11-16 19:17:00,733 - Providio -INFO - next time me
+2023-11-16 19:17:01,056 - Providio -INFO - 12
+2023-11-16 19:17:03,291 - Providio -INFO - Product Name is displayed on the page and prodcut name is Wire, sterling silver-filled, dead-soft, round, 26 gauge. Sold per 10-foot spool.
+2023-11-16 19:17:03,312 - Providio -INFO - Product input quantity 31
+2023-11-16 19:17:08,508 - Providio -INFO - Updating the quantity in Pdp page 
+2023-11-16 19:17:08,509 - Providio -INFO - add to cart  button enabled
+2023-11-16 19:17:13,198 - Providio -INFO - Succesfully Submition of question results this  Thank you
+2023-11-16 19:17:30,904 - Providio -INFO - Product input quantity 82
+2023-11-16 19:17:39,296 - Providio -INFO - The unit price of each prodcut is 2.94
+2023-11-16 19:17:39,329 - Providio -INFO - The quantity  is 67.0
+2023-11-16 19:17:39,357 - Providio -INFO - Extended value is 196.98
+2023-11-16 19:17:39,411 - Providio -INFO - Extended value is 200.0
+2023-11-16 19:17:39,412 - Providio -INFO - Total price of all prodcuts in cart 596.98
+2023-11-16 19:17:46,355 - Providio -INFO - Entered shipping address
+2023-11-16 19:17:46,404 - Providio -INFO - Assortable price is 62.98
+2023-11-16 19:17:46,434 - Providio -INFO - Estimated and expected Pre total price tax 631.63
+2023-11-16 19:17:46,461 - Providio -INFO - Actual pre total-price is 431.63
+2023-11-16 19:17:46,462 - Providio -INFO - The caluated pre-total tax is 631.63 is not equal to 431.63
+2023-11-16 19:18:04,758 - Providio -INFO - 0
+2023-11-16 19:18:08,304 - Providio -INFO - Test case failed and returned into homepage

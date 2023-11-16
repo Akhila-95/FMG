@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--1002334457\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-1329094989\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc" class="method navigator-link" hash-for-method="guestlogin">guestlogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser" class="method navigator-link" hash-for-method="OnlyGiftCards">OnlyGiftCards</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,21 +121,19 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc</span>
+              <span class="class-name">com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="guestlogin">
-                  </a> <!-- guestlogin -->
-                  <span class="method-name">guestlogin</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: empty String
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
-	at java.base/java.lang.Float.parseFloat(Float.java:476)
-	at com.PageObjects.viewCartPage.shippingCalculations(viewCartPage.java:257)
-	at com.paymentProccess.MinicartViewCartProcess.checkoutprocess(MinicartViewCartProcess.java:67)
-	at com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc.guestlogin(tc__RandomProduct_GuestUser_InCc.java:29)
+                  <a name="OnlyGiftCards">
+                  </a> <!-- OnlyGiftCards -->
+                  <span class="method-name">OnlyGiftCards</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: bound must be positive
+	at java.base/java.util.Random.nextInt(Random.java:322)
+	at com.commonfunctionality.allAddress.ShippingAddressAndShippingMethod(allAddress.java:119)
+	at com.paymentProccess.MinicartViewCartProcess.checkoutprocess(MinicartViewCartProcess.java:82)
+	at com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser.OnlyGiftCards(tc__OnlyGiftCards_CheckoutPaypal_GuestUser.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -173,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--1002334457\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-1329094989\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -182,7 +180,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc&quot;/&gt;
+      &lt;class name=&quot;com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -224,14 +222,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'guestlogin')
-data.setCell(0, 2, 'com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc')
-data.setCell(0, 3, 46406);
+data.setCell(0, 1, 'OnlyGiftCards')
+data.setCell(0, 2, 'com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser')
+data.setCell(0, 3, 87701);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -257,29 +255,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUpforReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3519 ms</span>
+                <span class="method-start">3425 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">guestlogin</span>
-                <span class="method-start">5582 ms</span>
+                <span class="method-name">OnlyGiftCards</span>
+                <span class="method-start">5501 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=guestlogin status=FAILURE method=tc__RandomProduct_GuestUser_InCc.guestlogin()[pri:...)</span>
-                <span class="method-start">51993 ms</span>
+                <span class="method-name">afterMethod([TestResult name=OnlyGiftCards status=FAILURE method=tc__OnlyGiftCards_CheckoutPaypal_GuestUser.Only...)</span>
+                <span class="method-start">93206 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-suite after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">55326 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

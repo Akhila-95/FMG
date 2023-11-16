@@ -185,7 +185,7 @@ public class baseClass {
 	}
 
 	
-	   @AfterSuite
+	//   @AfterSuite
 	    public void tearDown() throws IOException, EmailException, InterruptedException {
 		  
 		  

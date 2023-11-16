@@ -9,11 +9,8 @@ import org.openqa.selenium.WebElement;
 import com.PageObjects.checkOutPage;
 import com.PageObjects.miniCartPage;
 import com.PageObjects.viewCartPage;
-import com.Validations.miniCartAndCartValidation;
-import com.commonfunctionality.FullAddressDetails;
 import com.commonfunctionality.GuestCheckout;
 import com.commonfunctionality.allAddress;
-import com.commonfunctionality.CommonProccessFromMiniCartForViewCartAndCheckout;
 import com.testcases.baseClass;
 
 public class MinicartViewCartProcess extends baseClass {
@@ -52,22 +49,24 @@ public class MinicartViewCartProcess extends baseClass {
 	                viewCartPage vcp = new viewCartPage(driver);
 	                
 	                if(minicartProductCountValue > 2) {
-	                	vcp.saveForLater();
+	                	//vcp.saveForLater();
 	                    
-	                    vcp.removeBtn();
+	                  //  vcp.removeBtn();
 	                }
 	                
 	                //items count in cart
 	                vcp.itemsNameInCart();
 	                
+	                //qunatity insertion
+	                vcp.quantityInsertionInCartPage();
+	                
 	                //product price
 	                vcp.productCal();
 	                
 	                //calcuates shipping charges
-	                vcp.shippingCalculations();
+	                vcp.estimatedshippingCalculations();
 	              
-	                // Click the "Checkout" button in the view cart page
-	                
+	                // Click the "Checkout" button in the view cart page	                
 	                Thread.sleep(5000);
 	                vcp.clickCheckout(driver);
 
@@ -80,7 +79,7 @@ public class MinicartViewCartProcess extends baseClass {
 	                // Handle the shipping address
 	                
 	                allAddress sd = new allAddress();
-	                sd.ShippingAddress();
+	                sd.ShippingAddressAndShippingMethod();
 
 	                
 	                checkOutPage cp = new checkOutPage(driver);

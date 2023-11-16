@@ -1,27 +1,18 @@
 package com.Validations;
 
- 
-
- 
-
 import java.util.List;
-
- 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.PageObjects.CreateAccount;
+import com.PageObjects.ProductListingPage;
 import com.PageObjects.guestUserLoginPage;
 import com.PageObjects.loginPage;
 import com.PageObjects.miniCartPage;
-import com.PageObjects.navigationPage;
-import com.PageObjects.productListingPage;
 import com.commonfunctionality.addtoCartValidation;
 import com.commonfunctionality.allAttributesinOneFile;
-
 import com.github.javafaker.Faker;
 import com.logout.tc__LogOut;
 import com.testcases.baseClass;
@@ -80,7 +71,7 @@ public class CheckoutPage1_Validation extends baseClass {
 
          //plp page    
      
-         productListingPage.selectRandomProduct();
+         ProductListingPage.selectRandomProduct();
          logger.info("Entered into plp page");
 
  

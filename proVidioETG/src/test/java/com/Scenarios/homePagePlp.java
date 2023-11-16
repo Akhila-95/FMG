@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import com.PageObjects.ProductListingPage;
 import com.PageObjects.homePage;
 import com.testcases.baseClass;
 
@@ -23,7 +24,7 @@ public class homePagePlp extends baseClass{
         if (plpPagecheck.size() > 0) {
             logger.info("PLP page is already loaded");
             // Initialize and execute the PLP page scenario to add a product to the cart
-            plpPage.addtocartplp();
+            ProductListingPage.addToCartFromPlp();
         } else {
             // If the PDP (Product Detail Page) is loaded, log that it's already loaded.
             logger.info("PDP page is already loaded");

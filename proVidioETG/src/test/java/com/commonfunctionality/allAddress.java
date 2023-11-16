@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
@@ -12,7 +13,7 @@ import com.testcases.baseClass;
 
 public class allAddress extends baseClass{
 	
-public void ShippingAddress() throws InterruptedException {
+public void ShippingAddressAndShippingMethod() throws InterruptedException {
 	
 	List<WebElement> shippingAddressList = driver.findElements(By.xpath("(//h2[contains(text(),'Shipping Address')])[1]"));
     
@@ -103,7 +104,36 @@ public void ShippingAddress() throws InterruptedException {
 	    		 }
 	    	 }	  
        	 }
-    }
+      }
+    
+    //shipping method
+    		List<WebElement> shippingMethodList= driver.findElements(By.cssSelector("div.single-shipping-method"));	
+    		int shippingMethodCount = shippingMethodList.size();
+    		
+    		JavascriptExecutor js = (JavascriptExecutor) driver;
+    		js.executeScript("window.scrollBy(0,700)", "");
+    		System.out.println(shippingMethodCount);
+			// Create a random number generator.
+		    Random random = new Random();
+	        // Generate a random index to insert the qunatity
+		    int randomShippingMtd = random.nextInt(shippingMethodCount) + 1;
+		   
+		 	WebElement shippingMtd = driver.findElement(By.xpath("(//input[contains(@class,'form-check-input')])[" + randomShippingMtd  + "]"));	
+		 
+		 	((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", shippingMtd);
+			String textOfShippingMethod = shippingMtd.getText();
+			Thread.sleep(3000);
+		 	//shippingMtd.click();
+		 
+			//js.executeScript("arguments[0].click();",shippingMtd);
+			js.executeScript("window.scrollBy(0,700)", "");
+			js.executeScript("arguments[0].click();",shippingMtd);
+			
+			//shippingMtd.click();
+			//shippingMtd.click();
+		 	Thread.sleep(3000);
+		 	
+		 	logger.info("Selected shipping method is " + textOfShippingMethod);
     	
     }
 

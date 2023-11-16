@@ -9,533 +9,103 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import com.PageObjects.homePage;
-import com.PageObjects.productListingPage;
 import com.testcases.baseClass;
 
 
 public class SelectingFilterFromPlp extends baseClass{
 
 	
- 	List<WebElement> categoryFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Category')])[1]"));
- 
-    List<WebElement> subCategoryFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Sub-Category')]"));
-    // Collect a list of size buttons
-   
-    // Collect a list of price range buttons
-    List<WebElement> colorFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Color')]"));
-    // Collect a list of brand buttons
-    List<WebElement> shapeFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Shape')]"));
-    
-    List<WebElement> brandFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Brand')]"));
-    // Collect a list of type buttons
-    List<WebElement> baseMetalFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Base Metal')]"));
-    // Collect a list of GPS type buttons
-    List<WebElement> wireHardnessFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Wire Hardness')]"));
-    // Collect a list of GPS feature buttons
-    List<WebElement> gaugeFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Gauge')]"));
-    // Collect a list of resolution buttons
-    List<WebElement> priceFilter =  driver.findElements(By.xpath("(//h6[contains(text(),'Price')])[1]"));
-    // Collect a list of display size buttons
-
-    List<WebElement> holesLoopsFilter =  driver.findElements(By.xpath("//h6[contains(text(),'Number of Holes/Loops')]"));
-    
-    
-    public static void selectingTheFilters() throws InterruptedException {
-    	
-    	//reseting if any filter is applied before
-    	List<WebElement> resetList = driver.findElements(By.xpath("//button[@class = 'reset btn p-0']"));
-    	if(resetList.size()>0) {
-    		productListingPage plp = new productListingPage(driver);
-    		plp.selecttheResetButton();
-   		
-    	}
-    	
-        test.info("Selecting filters from Plp");
-        List<WebElement> moreList = driver.findElements(By.xpath("//div[contains(text(),'More...')]"));
-        if (moreList.size() > 0) {
-            for (WebElement moreListElement : moreList) {
-                JavascriptExecutor js = (JavascriptExecutor) driver;
-                js.executeScript("arguments[0].click();", moreListElement);
-                break;
-            }
-        }
-        Thread.sleep(1000);
+	//filters from plp 
+	public static void selectFilterFromPLP() throws InterruptedException {
+		// Find the element using the dynamic XPath with a wildcard
+        List<WebElement> TotalNumberofFilters =  driver.findElements(By.xpath("//div[contains(@class, 'refinement refinement-')]"));
+        // Get the total count of top-level menu elements.
+        int Filterscount = TotalNumberofFilters.size();
+        logger.info("Total filters count is " + Filterscount);
+        // Create a random number generator.
+        Random random = new Random();
+        // Generate a random index to select a top-level menu item.
+        int randomNumberFilter = random.nextInt(Filterscount) + 1;
+        logger.info("Randomly selected filters number " + randomNumberFilter);
+        
+        // get the name of the Main filter 
+        WebElement mainFilterName = driver.findElement(By.xpath("(//div[contains(@class, 'refinement refinement-')]//h6)["+randomNumberFilter+"]"));
+        // Get and print the text of the found element
+        String NameofFilterText = mainFilterName.getText();
+        logger.info(NameofFilterText);
+        
+        //number of sub filtes associate with the main filter
+        List<WebElement> numberofFiltersinOneFilter =  driver.findElements(By.xpath("(//div[contains(@class, 'refinement refinement-')]//div[contains(@id, 'refinement-')])["+randomNumberFilter+"]//button"));
+        // Get the total count of top-level menu elements.
+        int countofeachFilterbtns = numberofFiltersinOneFilter.size();
+        logger.info("Total filters countofeachFilterbtns is " + countofeachFilterbtns);
+        // Generate a random index to select a top-level menu item.
+        int randomNumbercountofeachFilterbtns = random.nextInt(countofeachFilterbtns) + 1;
+        logger.info("Randomly selected subfilter number " + randomNumbercountofeachFilterbtns);
+        
+      //name of the selected radio icon
+        WebElement selectedName = driver.findElement(By.xpath("(//div[contains(@class, 'refinement refinement-')]//div[contains(@id, 'refinement-')])["+randomNumberFilter+"]//span[@class='refinement-value ']"));
+        // Get and print the text of the found element
+        String SelectedTextname = selectedName.getText();
+        
+        // Extract content within parentheses using regular expressions and seperate the text
+        String extractedContent = extractContentWithinParentheses(SelectedTextname);
+        String textWithoutParentheses = removeContentWithinParentheses(SelectedTextname);
+        // Print the result
+        logger.info("Original Text: " + SelectedTextname);
+        logger.info("Extracted Content: " + extractedContent);
+        logger.info("Text without Parentheses: " + textWithoutParentheses);
+        
+        //Radio icon of the filter
+        WebElement selectRadioIcon = driver.findElement(By.xpath("(//div[contains(@class, 'refinement refinement-')]//div[contains(@id, 'refinement-')])["+randomNumberFilter+"]//button"));
+        //selectRadioIcon.click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,-700)", "");
+        //((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selectRadioIcon);
+        js.executeScript("arguments[0].click();", selectRadioIcon);
+        Thread.sleep(4000);
         
-        allFilters();
-    
+        //get the filters name which is selected 
+        WebElement selectedNameinFilters = driver.findElement(By.xpath("//div[contains(@class, 'refinement-device')]//span"));
+        // Get and print the text of the found element
+        String SelectedTextofFiltersname = selectedNameinFilters.getText();
+        logger.info(SelectedTextofFiltersname);
         
-    }
-    
-    public static void allFilters() throws InterruptedException {
-    	
-	    Random random = new Random();
-       
-       int randomNumber = random.nextInt(9) + 1;
-        System.out.println("random number is " + randomNumber);
-
-    	 SelectingFilterFromPlp plp = new SelectingFilterFromPlp();
-        switch (randomNumber) {
-            case 1:
-                plp.baseMetalFilter();
-                break;
-            case 2:
-                plp.brandFilter();
-                break;
-             case 3:
-                plp.categoryFilter();
-                 break;                    
-             case 4:
-                 plp.colorFilter();
-                 break;
-             case 5:
-                plp.priceFilter();
-                 break;
-             case 6:
-                plp.gaugeFilter();
-                 break;
-             case 7:
-                 plp.shapeFilter();
-                 break;
-             case 8:
-                plp.holesLoopsFilter();
-                 break;
-             case 9:
-                 plp.wireHardnessFilter();
-                  break;
-             
-             default:
-                 System.out.println("Invalid random number.");
-         }
- }
-    
-//filters in plp
-
-	public void categoryFilter() throws InterruptedException {
-
-		// size buttons
-		if (!categoryFilter.isEmpty()) {
-			productListingPage plpPage =new productListingPage(driver);
-			Pair<String, String> result = plpPage.selectCategoryFilter(driver)  ;
-			  String text = result.getLeft();
-			  String digits = result.getRight();
-			  
-			  System.out.println( text);
-			  System.out.println( digits);
-			
-			Thread.sleep(4000);
-			// text of selected product and count of it   
-			 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-			 if(selectedFiltersList.size()>0) {
-				 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-				 String selectedFilterText= selectedFiltersBar.getText();
-				 System.out.println("Selected filter in  " +selectedFilterText);
-				 
-				 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-				 String count= countOfProductsSelected.getText();
-				 count = count.replaceAll(",", "");
-				 System.out.println("Count of prodcuts after selecting the filter " +count);
-				 
-					 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {					 
-						test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-						logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-	
-					 }else {
-						 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-						 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-					
-					 }
-				 }else {
-					 test.info("no filter is selected");
-				 }
-		} else {
-		    test.info("No availability of Category Filter");
-		    SelectingFilterFromPlp.selectingTheFilters();
-			
-		}
+        //get How many prodcts loaded
+        WebElement loadedProductsCount = driver.findElement(By.xpath("(//span[@class='count-value'])[1]"));
+        // Get and print the text of the found element
+        String productsCount = loadedProductsCount.getText();
+        logger.info(productsCount);
+        
+      //check the condition for which filter is selected
+        if((textWithoutParentheses.equals(SelectedTextofFiltersname))|| (extractedContent.equals(productsCount))) {
+        	logger.info(NameofFilterText+" Selected The Filter "+extractedContent+" And The Loaded Products are "+productsCount);
+        	test.pass(NameofFilterText+" Selected The Filter "+extractedContent+" And The Loaded Products are "+productsCount);
+        }else {
+        	logger.info(NameofFilterText+" Not Selected The Filter "+extractedContent+" And The Loaded Products are "+productsCount);
+        	test.pass(NameofFilterText+" Not Selected The Filter "+extractedContent+" And The Loaded Products are "+productsCount);
+        }
+        
+        Thread.sleep(4000);
 	}
-	
-	public void colorFilter() throws InterruptedException {
-			//  price range buttons
-			if (! colorFilter.isEmpty()) {
-				productListingPage plpPage =new productListingPage(driver);
-				Pair<String, String> result =plpPage.selectColorFilter(driver);
-				  String text = result.getLeft();
-				  String digits = result.getRight();
-				  
-				  System.out.println( text);
-				  System.out.println( digits);
-				
-				Thread.sleep(4000);
-				// text of selected product and count of it   
-				 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-				 if(selectedFiltersList.size()>0) {
-					 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 String selectedFilterText= selectedFiltersBar.getText();
-					 System.out.println("Selected filter in  " +selectedFilterText);
-					 
-					 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-					 String count= countOfProductsSelected.getText();
-					 count = count.replaceAll(",", "");
-					 System.out.println("Count of prodcuts after selecting the filter " +count);
-					 
-						 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {
-						 
-							test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-							logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-		
-						 }else {
-							 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-						
-						 }
-					 }else {
-						 test.info("no filter is selected");
-					 }
-			} else {
-				test.info("No availability of color Filter");
-				 SelectingFilterFromPlp.selectingTheFilters();
-			}
-	}
-	
-		public void shapeFilter() throws InterruptedException {
-	//  price range buttons
-			if (!shapeFilter.isEmpty()) {
-				productListingPage plpPage =new productListingPage(driver);
-				Pair<String, String> result =plpPage.selectshapeFilter(driver);
-				  String text = result.getLeft();
-				  String digits = result.getRight();
-				  
-				  System.out.println( text);
-				  System.out.println( digits);
-				
-				Thread.sleep(4000);
-				// text of selected product and count of it   
-				 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-				 if(selectedFiltersList.size()>0) {
-					 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 String selectedFilterText= selectedFiltersBar.getText();
-					 System.out.println("Selected filter in  " +selectedFilterText);
-					 
-					 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-					 String count= countOfProductsSelected.getText();
-					 count = count.replaceAll(",", "");
-					 System.out.println("Count of prodcuts after selecting the filter " +count);
-					 
-						 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {						 
-							test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-							logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-		
-						 }else {
-							 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-						
-						 }
-					 }else {
-						 test.info("no filter is selected");
-					 }
-			} else {
-				 test.info("No availability of shape Filter");
-				 SelectingFilterFromPlp.selectingTheFilters();
-				
-			}
-		}
-		public void brandFilter() throws InterruptedException {
-		//  price range buttons
-			if (!brandFilter.isEmpty()) {
-				productListingPage plpPage =new productListingPage(driver);
-				Pair<String, String> result =plpPage.selectbrandFilter(driver);
-				  String text = result.getLeft();
-				  String digits = result.getRight();
-				  
-				  System.out.println( text);
-				  System.out.println( digits);
-				
-				Thread.sleep(4000);
-				// text of selected product and count of it   
-				// text of selected product and count of it   
-				 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-				 if(selectedFiltersList.size()>0) {
-					 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 String selectedFilterText= selectedFiltersBar.getText();
-					 System.out.println("Selected filter in  " +selectedFilterText);
-					 
-					 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-					 String count= countOfProductsSelected.getText();
-					 count = count.replaceAll(",", "");
-					 System.out.println("Count of prodcuts after selecting the filter " +count);
-					 
-						 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {						 
-							test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-							logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-		
-						 }else {
-							 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-						
-						 }
-					 }else {
-						 test.info("no filter is selected");
-					 }
-			} else {
-				test.info("No availability of brand Filter");
-				 SelectingFilterFromPlp.selectingTheFilters();
-			}
-		}	
-			
-			public void baseMetalFilter() throws InterruptedException {
-			// sub category 
-				if (!baseMetalFilter.isEmpty()) {
-					// getting the selected filter text an count from another class during the selection
-					productListingPage plpPage =new productListingPage(driver);
-					Pair<String, String> result = plpPage.selectbaseMetalFilter(driver);
-					  String text = result.getLeft();
-					  String digits = result.getRight();
-					  
-					  System.out.println(text);
-					  System.out.println(digits);
-					
-					Thread.sleep(3000);
-					// text of selected product and count of it   
-					 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 if(selectedFiltersList.size()>0) {
-						 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-						 String selectedFilterText= selectedFiltersBar.getText();
-						 System.out.println("Selected filter in  " +selectedFilterText);
-						 
-						 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-						 String count= countOfProductsSelected.getText();
-						 count = count.replaceAll(",", "");
-						 System.out.println("Count of prodcuts after selecting the filter " +count);
-						 
-							 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {							 
-								test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-								logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-			
-							 }else {
-								 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-								 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							
-							 }
-						 }else {
-							 test.info("no filter is selected");
-						 }
-				}else {
-					test.info("No availability of base metal Filter");
-					 SelectingFilterFromPlp.allFilters();
-				}
-			}
-			public void wireHardnessFilter() throws InterruptedException { 
-				// size buttons
-				if (!wireHardnessFilter.isEmpty()) {
-					productListingPage plpPage =new productListingPage(driver);
-					Pair<String, String> result = plpPage.selectwireHardnessFilter(driver)  ;
-					  String text = result.getLeft();
-					  String digits = result.getRight();
-					  
-					  System.out.println( text);
-					  System.out.println( digits);
-					
-					Thread.sleep(4000);
-					// text of selected product and count of it   
-					 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 if(selectedFiltersList.size()>0) {
-						 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-						 String selectedFilterText= selectedFiltersBar.getText();
-						 System.out.println("Selected filter in  " +selectedFilterText);
-						 
-						 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-						 String count= countOfProductsSelected.getText();
-						 count = count.replaceAll(",", "");
-						 System.out.println("Count of prodcuts after selecting the filter " +count);
-						 
-							 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {						 
-								test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-								logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-			
-							 }else {
-								 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-								 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							
-							 }
-						 }else {
-							 test.info("no filter is selected");
-						 }
-				} else {
-				    test.info("No availability of wire hardness Filter");
-				    SelectingFilterFromPlp.allFilters();
-					
-				}
-			}
-			public void gaugeFilter() throws InterruptedException {
-				//  price range buttons
-				if (!gaugeFilter.isEmpty()) {
-					productListingPage plpPage =new productListingPage(driver);
-					Pair<String, String> result =plpPage.selectgaugeFilter(driver);
-					  String text = result.getLeft();
-					  String digits = result.getRight();
-					  
-					  System.out.println( text);
-					  System.out.println( digits);
-					
-					Thread.sleep(4000);
-					// text of selected product and count of it   
-					 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 if(selectedFiltersList.size()>0) {
-						 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-						 String selectedFilterText= selectedFiltersBar.getText();
-						 System.out.println("Selected filter in  " +selectedFilterText);
-						 
-						 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-						 String count= countOfProductsSelected.getText();
-						 count = count.replaceAll(",", "");
-						 System.out.println("Count of prodcuts after selecting the filter " +count);
-						 
-							 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {							 
-								test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-								logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-			
-							 }else {
-								 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-								 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							
-							 }
-						 }else {
-							 test.info("no filter is selected");
-						 }
-				} else {
-					test.info("No availability of gauge Filter");
-					 SelectingFilterFromPlp.allFilters();
-				}
-			}
-			public void priceFilter() throws InterruptedException {
-				if(!priceFilter.isEmpty()) {
-						productListingPage plpPage =new productListingPage(driver);
-						Pair<String, String> result =plpPage.selectpriceFilter(driver);
-						  String text = result.getLeft();
-						  String digits = result.getRight();
-						  
-						  System.out.println( text);
-						  System.out.println( digits);
-						
-						Thread.sleep(4000);
-						// text of selected product and count of it   
-						 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-						 if(selectedFiltersList.size()>0) {
-							 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-							 String selectedFilterText= selectedFiltersBar.getText();
-							 System.out.println("Selected filter in  " +selectedFilterText);
-							 
-							 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-							 String count= countOfProductsSelected.getText();
-							 count = count.replaceAll(",", "");
-							 System.out.println("Count of prodcuts after selecting the filter " +count);
-							 
-								 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {								 
-									test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-									logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-				
-								 }else {
-									 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-									 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-								
-								 }
-							 }else {
-								 test.info("no filter is selected");
-							 }
-					} else {
-						test.info("No availability of color Filter");
-						 SelectingFilterFromPlp.allFilters();
-					}
-			}
-			public void holesLoopsFilter() throws InterruptedException {
-			
-				if(!holesLoopsFilter.isEmpty()) {
-					productListingPage plpPage =new productListingPage(driver);
-					Pair<String, String> result =plpPage.selectholesLoopsFilter(driver);
-					  String text = result.getLeft();
-					  String digits = result.getRight();
-					  
-					  System.out.println( text);
-					  System.out.println( digits);
-					
-					Thread.sleep(4000);
-					// text of selected product and count of it   
-					 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 if(selectedFiltersList.size()>0) {
-						 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-						 String selectedFilterText= selectedFiltersBar.getText();
-						 System.out.println("Selected filter in  " +selectedFilterText);
-						 
-						 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-						 String count= countOfProductsSelected.getText();
-						 count = count.replaceAll(",", "");
-						 System.out.println("Count of prodcuts after selecting the filter " +count);
-						 
-							 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {							 
-								test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-								logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-			
-							 }else {
-								 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-								 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							
-							 }
-						 }else {
-							 test.info("no filter is selected");
-						 }
-				} else {
-					test.info("No availability of color Filter");
-					 SelectingFilterFromPlp.selectingTheFilters();
-				}
-			
-		//After selecting filters click on reset button
 
-		//plp.selecttheResetButton();
-	}
-	 public void subCategoryFilter() throws InterruptedException {
-			// sub category 
-			if (!subCategoryFilter.isEmpty()) {
-				// getting the selected filter text an count from another class during the selection
-				productListingPage plpPage =new productListingPage(driver);
-				Pair<String, String> result = plpPage.selectSubCategoryFilter(driver);
-				  String text = result.getLeft();
-				  String digits = result.getRight();
-				  
-				  System.out.println(text);
-				  System.out.println(digits);
-				
-				Thread.sleep(3000);
-				// text of selected product and count of it   
-				 List<WebElement> selectedFiltersList =  driver.findElements(By.xpath("(//span[@class='filter-value-element'])[2]"));
-				 if(selectedFiltersList.size()>0) {
-					 WebElement selectedFiltersBar =  driver.findElement(By.xpath("(//span[@class='filter-value-element'])[2]"));
-					 String selectedFilterText= selectedFiltersBar.getText();
-					 System.out.println("Selected filter in  " +selectedFilterText);
-					 
-					 WebElement countOfProductsSelected =  driver.findElement(By.xpath("(//span[@class='count-value'])[1]")); 
-					 String count= countOfProductsSelected.getText();
-					 count = count.replaceAll(",", "");
-					 System.out.println("Count of prodcuts after selecting the filter " +count);
-					 
-						 if (text.trim().equals(selectedFilterText.trim()) && digits.equals(count)) {					 
-							test.pass("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-							logger.info("Succesfully selected the "+ selectedFilterText+ "and count of the selected products " + count);
-		
-						 }else {
-							 test.fail("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-							 logger.info("The selected filter is "+text+ "but displayed filter is  " + selectedFilterText);
-						
-						 }
-					 }else {
-						 test.info("no filter is selected");
-					 }
-			}else {
-				test.info("No availability of sub Category Filter");
-				 SelectingFilterFromPlp.allFilters();
-			}
-     }
-	 
-	
+	 private static String extractContentWithinParentheses(String input) {
+	        // Use regular expression to match content within parentheses
+	        // and capture the content using groups
+	        String regex = "\\(([^)]+)\\)";
+	        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(regex);
+	        java.util.regex.Matcher matcher = pattern.matcher(input);
+
+	        // Check if there is a match
+	        if (matcher.find()) {
+	            return matcher.group(1); // Extract content within parentheses
+	        } else {
+	            return ""; // Return empty string if no match found
+	        }
+	    }
+	 private static String removeContentWithinParentheses(String input) {
+	        // Use regular expression to match content within parentheses
+	        // and remove it from the input string
+	        String regex = "\\([^)]+\\)";
+	        return input.replaceAll(regex, "");
+	    }
 }

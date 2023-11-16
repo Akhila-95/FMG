@@ -7,13 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
-import com.PageObjects.navigationPage;
-import com.PageObjects.productDescriptionPage;
-import com.PageObjects.productListingPage;
-import com.Scenarios.plpPage;
-import com.Validations.navigationProcessWithValidation;
+import com.PageObjects.ProductDescriptionPage;
+import com.PageObjects.viewCartPage;
+import com.Scenarios.PdpPage;
 import com.testcases.baseClass;
 
 public class allAttributesinOneFile extends baseClass{
@@ -37,6 +34,13 @@ public class allAttributesinOneFile extends baseClass{
      	    	
      	    	List<WebElement> addtoCartButton = driver.findElements(By.xpath("//span[contains(text(),'Add to Cart')]"));
      	    
+     	    	//product Name
+     	    	ProductDescriptionPage.productName();
+     	    	
+     	    	//quanitity insertion
+     	    	 viewCartPage vcp = new viewCartPage(driver);
+     			 vcp.quantityInsertionInCartPage();
+     			 
      	    	//addtocartbutton is enabled
      	    	test.info("Verify that the product is avaliable");
      	    	if(addtoCartButton.size()>0) {
@@ -55,7 +59,7 @@ public class allAttributesinOneFile extends baseClass{
     	 	
      	    	//navigating to random menu adding into navigating to plp r pdp page
      	    // selecting random product from plp
-     	    	SelectionFromNavToPdp.selectingFromPdp();
+     	    	PdpPage.addtoCartPDP();
      }	    
 	     
 	}

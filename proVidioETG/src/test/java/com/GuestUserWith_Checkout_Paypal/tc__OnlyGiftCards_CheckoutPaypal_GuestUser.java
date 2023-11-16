@@ -3,6 +3,7 @@ package com.GuestUserWith_Checkout_Paypal;
 import org.testng.annotations.Test;
 
 import com.PageObjects.GiftCertificate;
+import com.Scenarios.PdpPage;
 import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CheckOutProcessByPayPal;
 import com.paymentProccess.MinicartViewCartProcess;
@@ -22,6 +23,10 @@ public class tc__OnlyGiftCards_CheckoutPaypal_GuestUser extends baseClass{
 		 //adding GC into cart
 		    giftCard gc = new giftCard();
 		    gc.giftCards();
+		    
+		    driver.get("https://utsf.firemountain.org/1980wr/1980WR.html");
+		    
+		    PdpPage.addtoCartPDP();
 		
 		 //checkoutProcess
 			 MinicartViewCartProcess cp = new MinicartViewCartProcess();				     

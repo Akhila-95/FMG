@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import com.PageObjects.CLPpage;
+import com.PageObjects.ProductListingPage;
 import com.PageObjects.homePage;
-import com.PageObjects.productListingPage;
 import com.testcases.baseClass;
 
 public class homePageClp extends baseClass{
@@ -24,7 +24,7 @@ public class homePageClp extends baseClass{
         
         // If banners are found on the page, select a hero banner.
         if (bannerscheck.size() > 0) {
-            productListingPage plp = new productListingPage(driver);
+            ProductListingPage plp = new ProductListingPage(driver);
             plp.selectHeroBanner();
         } else if (clpPagecheck.size() > 0) {
             // Move to CLP (Category Listing Page) from the home page.
@@ -37,7 +37,7 @@ public class homePageClp extends baseClass{
                 logger.info("PLP page is already loaded");
                 test.pass("PLP page is loaded successfully");
                 // Initialize and execute the PLP page scenario to add a product to the cart
-                 plpPage.addtocartplp();
+                ProductListingPage.addToCartFromPlp();
                 List<WebElement> pdpPagecheck = driver.findElements(By.xpath("//div[contains(@class,'product-main-block')]"));
                 if (pdpPagecheck.size() > 0) {
             	    logger.info("PDP page is already loaded");

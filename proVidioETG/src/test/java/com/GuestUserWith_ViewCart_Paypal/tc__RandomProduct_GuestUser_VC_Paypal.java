@@ -2,7 +2,6 @@ package com.GuestUserWith_ViewCart_Paypal;
 
 import org.testng.annotations.Test;
 
-import com.PageObjects.productListingPage;
 import com.commonfunctionality.SelectionFromNavToPdp;
 import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CheckOutProcessByPayPal;

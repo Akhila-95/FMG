@@ -3,10 +3,8 @@ package com.GuestUserWith_GcAndCC;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
+import com.Scenarios.PlpPage;
 import com.commonfunctionality.Gc__CC_Paypal;
-import com.commonfunctionality.SelectionFromNavToPdp;
-import com.commonfunctionality.SelectionFromNavToPlp;
 import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.MinicartViewCartProcess;
 import com.testcases.baseClass;
@@ -24,7 +22,7 @@ public class tc__RandomProductsGuestUser_InGcAndCC extends baseClass{
 		
 			
 			// selecting random menu and product and adding to cart
-			 SelectionFromNavToPlp.selectionFromNavToPlp();
+			PlpPage.plp();
 			
 	        //checkoutProcess	        
 	        MinicartViewCartProcess cp = new MinicartViewCartProcess();	        

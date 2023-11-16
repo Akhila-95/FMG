@@ -9,8 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.PageObjects.CLPpage;
+import com.PageObjects.ProductListingPage;
 import com.PageObjects.homePage;
-import com.PageObjects.productListingPage;
 import com.testcases.baseClass;
 
 public class MenuSelection extends baseClass {
@@ -58,7 +58,7 @@ public class MenuSelection extends baseClass {
         	Thread.sleep(2000);
         	//sales.click();
         	//select a banner form the listed below
-        	productListingPage hm = new productListingPage(driver);
+        	ProductListingPage hm = new ProductListingPage(driver);
         	hm.selectHeroBanner();
 
         	// Check if the PLP (Product Listing Page) or PDP (Product Detail Page) is already loaded.
@@ -68,7 +68,7 @@ public class MenuSelection extends baseClass {
         	if (plpPagecheck.size() > 0) {
         	    logger.info("PLP page is already loaded");
         	    // Initialize and execute the PLP page scenario to add a product to the cart
-        	    plpPage.addtocartplp();
+        	    ProductListingPage.addToCartFromPlp();
         	} else if (pdpPagecheck.size() > 0) {
         	    logger.info("PDP page is already loaded");
         	    pdpPage.addtoCartPDP();

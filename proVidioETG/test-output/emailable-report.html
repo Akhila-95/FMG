@@ -9,17 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">51,807</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">93,275</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc</td><td><a href="#m0">guestlogin</a></td><td rowspan="1">1700056800083</td><td rowspan="1">46406</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser</td><td><a href="#m0">OnlyGiftCards</a></td><td rowspan="1">1700142397133</td><td rowspan="1">87701</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc#guestlogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: empty String
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
-	at java.base/java.lang.Float.parseFloat(Float.java:476)
-	at com.PageObjects.viewCartPage.shippingCalculations(viewCartPage.java:257)
-	at com.paymentProccess.MinicartViewCartProcess.checkoutprocess(MinicartViewCartProcess.java:67)
-	at com.GuestUserWith_CreditCard.tc__RandomProduct_GuestUser_InCc.guestlogin(tc__RandomProduct_GuestUser_InCc.java:29)
+<h2>Default test</h2><h3 id="m0">com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser#OnlyGiftCards</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: bound must be positive
+	at java.base/java.util.Random.nextInt(Random.java:322)
+	at com.commonfunctionality.allAddress.ShippingAddressAndShippingMethod(allAddress.java:119)
+	at com.paymentProccess.MinicartViewCartProcess.checkoutprocess(MinicartViewCartProcess.java:82)
+	at com.GuestUserWith_Checkout_Paypal.tc__OnlyGiftCards_CheckoutPaypal_GuestUser.OnlyGiftCards(tc__OnlyGiftCards_CheckoutPaypal_GuestUser.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

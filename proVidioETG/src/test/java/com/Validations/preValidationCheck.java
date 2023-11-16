@@ -6,9 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.PageObjects.ProductDescriptionPage;
 import com.PageObjects.homePage;
-import com.PageObjects.productDescriptionPage;
-import com.PageObjects.productListingPage;
 import com.testcases.baseClass;
 
 public class preValidationCheck extends baseClass{
@@ -51,7 +50,7 @@ public class preValidationCheck extends baseClass{
 	}
 	*/
 	public static void preValidationPDP() {
-		productDescriptionPage pdp = new productDescriptionPage(driver);
+		ProductDescriptionPage pdp = new ProductDescriptionPage(driver);
 		
 		//product name
 		pdp.productNameValidation(driver);
@@ -86,17 +85,7 @@ public class preValidationCheck extends baseClass{
 			        logger.info("Click failed");
 			    }
 		    }
-		    
-		//  //soft assertions payment page
-		//  
-		//  softAssert.assertEquals(ActualTitleofpaymentPage, ExpectedTitlepaymentPage, "Page title does not match expected value");
-		//  
-		//  //Hard assertions payment page
-		//  
-		//  Assert.assertEquals(ActualTitleofpaymentPage, ExpectedTitlepaymentPage, "Page title does not match expected value");
-		
-		   
-			
+
 		}
 	
 }

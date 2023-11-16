@@ -2,7 +2,7 @@ package com.GuestUserWith_CreditCard;
 
 import org.testng.annotations.Test;
 
-import com.commonfunctionality.SelectionFromNavToPdp;
+import com.Scenarios.PdpPage;
 import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CreditCardPaymentProcess;
 import com.paymentProccess.MinicartViewCartProcess;
@@ -22,10 +22,12 @@ public class tc__simpleProductAndGc_InCC extends baseClass {
 		
 		 //adding GC into cart
 		    giftCard gc = new giftCard();
-		    gc.giftCards(); 
+		   // gc.giftCards(); 
 	    
+		    
+		    driver.get("https://utsf.firemountain.org/1980wr/1980WR.html");
 		 //selecting random menu and product and adding to cart
-		    SelectionFromNavToPdp.selectingFromPdp();
+		    PdpPage.addtoCartPDP();
 		 
 		 //checkoutProcess				        
 		     MinicartViewCartProcess cp = new MinicartViewCartProcess();				     

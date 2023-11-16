@@ -4,7 +4,7 @@ package com.GuestUserWith_CreditCard;
 
 import org.testng.annotations.Test;
 
-import com.commonfunctionality.SelectionFromNavToPdp;
+import com.Scenarios.PlpPage;
 import com.launchingbrowser.launchBrowsering;
 import com.paymentProccess.CreditCardPaymentProcess;
 import com.paymentProccess.MinicartViewCartProcess;
@@ -20,16 +20,15 @@ public class tc__RandomProduct_GuestUser_InCc extends baseClass {
 		lb.chromeBrowser();
 		
     	
-		// selecting random menu and product and adding to cart
-		SelectionFromNavToPdp.selectingFromPdp();
-        
-    	
+		// selecting random menu and product and adding to cart		
+		PlpPage.plp();	
+  	
         //check out process
 	     MinicartViewCartProcess cp = new MinicartViewCartProcess();			     
 	     cp.checkoutprocess();
 	     
 	     //Payment process		     
-	  //   CreditCardPaymentProcess cc = new CreditCardPaymentProcess();			     
-	 //    cc.paymentByCreditCard();
+	     CreditCardPaymentProcess cc = new CreditCardPaymentProcess();			     
+	     cc.paymentByCreditCard();
     }
 }

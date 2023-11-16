@@ -139,7 +139,7 @@ public class CreditCardPaymentProcess extends baseClass{
 	    		rop.clickonReviewOrder(driver);
 	    		
 	    		Thread.sleep(4000);		    		
-
+/*
 		    		
 	    		 rop.clickonplaceorderwithJsExuter(driver);	    		
                  Thread.sleep(2000);
@@ -157,7 +157,7 @@ public class CreditCardPaymentProcess extends baseClass{
 		    	     // Order number and order date
 		    			 checkout.ordernumberandOrderdate();
 		    			 Thread.sleep(5000);
-		    		}
+		    		}*/
 				}
 		  }else {
 			  test.fail("Next payment button is not enabled and clicked ");

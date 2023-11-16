@@ -1,5 +1,6 @@
 package com.PageObjects;
 
+import java.text.DecimalFormat;
 import java.util.List;
 import java.util.Random;
 
@@ -27,10 +28,13 @@ WebDriver lDriver;
 	   Float  unitPrice = (float) 0 ;
        Float quantity = (float) 0 ;
        Float productValue = (float) 0 ;
+       Float giftCardValue = (float) 0 ;   
        Float totalEachProduct = (float) 0 ;
        Float totalProduct = (float) 0 ;
        Float shippingValue = (float) 0 ;
-       Float preTotalTax = (float) 0 ;
+       Float expectedPreTotalTax = (float) 0 ;
+       Float actualPreTotalTax = (float) 0 ;
+       Float assortablePrice = (float) 0 ;
 	
 	//Checkout :- 
 		@FindBy(xpath="//a[contains(text(),'Checkout')]")
@@ -204,69 +208,178 @@ WebDriver lDriver;
 				
 				//unit price
 				 List<WebElement> totalProducts = driver.findElements(By.xpath("//div[contains(@class, 'card product-info product-detail  uuid-')]"));
-				 for (int i = 1; i <=  totalProducts.size(); i++) {
-					    WebElement unitPriceText = driver.findElement(By.xpath("(//span[@class='value'])[" + i + "]"));
-					    String unitPriceString = unitPriceText.getText();
-					    String unitPriceValue = unitPriceString.replaceAll("[^\\d.]+", "");
-					    unitPrice = Float.parseFloat(unitPriceValue);
-					    System.out.println("The unit price of each prodcut is "+unitPrice);
-	
+				 List<WebElement> giftCerificateList = driver.findElements(By.xpath("//div[contains(@class, 'card product-info gift-certificate uuid-')]"));
+				 if(totalProducts.size()>0 ) {
+					 test.info("Products are in cart wihout GC");
+					 for (int i = 1; i <=  totalProducts.size(); i++) {
+						    WebElement unitPriceText = driver.findElement(By.xpath("(//span[@class='sales']//span[@class='value'])[" + i + "]"));
+						    String unitPriceString = unitPriceText.getText();
+						    System.out.println(unitPriceString);
+						    String unitPriceValue = unitPriceString.replaceAll("[^\\d.]+", "");
+						    unitPrice = Float.parseFloat(unitPriceValue);
+						    logger.info("The unit price of each prodcut is "+unitPrice);
+		
+						
+						    WebElement quantityListText = driver.findElement(By.xpath("(//input[@name='quantity'])[" + i + "]"));
+						    String quantityValue = quantityListText.getAttribute("value");
+						  
+						    quantity = Float.parseFloat(quantityValue);
+						    logger.info("The quantity  is "+quantity);
 					
-					    WebElement quantityListText = driver.findElement(By.xpath("(//input[@name='quantity'])[" + i + "]"));
-					    String quantityValue = quantityListText.getAttribute("value");
-					  //  String quantityString = quantityListText.getText();		
-					    System.out.println(quantityValue);
-					    quantity = Float.parseFloat(quantityValue);
-					    System.out.println("The quantity  is "+quantity);
-				
-				 
-				
-					    WebElement eachProductValue = driver.findElement(By.xpath("(//div[contains(@class, 'pricing line-item-total-price-amount item-total')])[" + i + "]"));
-					    String eachProductValueText= eachProductValue.getText();
-					    String productValue1 = eachProductValueText.replaceAll("[^\\d.]+", "");
-					    productValue = Float.parseFloat(productValue1);
-					    System.out.println("Extended value is " +productValue);
-
 					 
+					
+						    WebElement eachProductValue = driver.findElement(By.xpath("(//div[contains(@class, 'pricing line-item-total-price-amount item-total')])[" + i + "]"));
+						    String eachProductValueText= eachProductValue.getText();
+						    String productValue1 = eachProductValueText.replaceAll("[^\\d.]+", "");
+						    productValue = Float.parseFloat(productValue1);
+						    logger.info("Extended value is " +productValue);
+	
+						 
+						 
+						    float totalProduct = unitPrice * quantity;
+						    totalEachProduct += totalProduct;				    
+						    System.out.println("The total price of each product is " + totalProduct +"[" + i + "]" );
+						    totalEachProduct += totalProduct;	
+							 
+							 if(giftCerificateList.size()>0) {
+								 WebElement lineItemName = driver.findElement(By.xpath("//div[@class='line-item-name']//a"));
+								 String lineItemNametext = lineItemName.getText();
+								 System.out.println(lineItemNametext);
+								 String gc= "Gift Certificate";
+								 	
+								 if(lineItemNametext.equals(gc)) {
+									 int countOfGc= giftCerificateList.size();
+									 for(int j=1;j<=countOfGc;j++) {
+										 WebElement eachProductValue1 = driver.findElement(By.xpath("(//div[contains(@class, 'card product-info gift-certificate uuid-')]//div[contains(@class, 'pricing line-item-total-price-amount item-total')])[" + j + "]"));
+									     String eachProductValueText1= eachProductValue1.getText();
+									     String productValue2 = eachProductValueText1.replaceAll("[^\\d.]+", "");
+									     giftCardValue = Float.parseFloat(productValue2);
+									     logger.info("Extended value is " + giftCardValue );
+									     giftCardValue+=giftCardValue;
+									     
+									 }
+							 }
+						}
+					 }
 					 
-					    float totalProduct = unitPrice * quantity;
-					    totalEachProduct += totalProduct;				    
-					    System.out.println("The total price of each product is " + totalProduct +"[" + i + "]" );
+					 totalEachProduct= productValue+giftCardValue;
+					 
+					 logger.info("Total price of all prodcuts in cart "+totalEachProduct);
+				 }else {
+					 test.info("Gc is cart ");
+					 
 				 }
-				 
-				 totalEachProduct += totalProduct;	
-				 logger.info("Total price of all prodcuts in cart "+totalEachProduct);
 			}
 			
+			
+			public void quantityInsertionInCartPage() throws InterruptedException {
+						
+				List<WebElement> quantityInput = driver.findElements(By.xpath("//input[@name='quantity']"));
+		
+				if(quantityInput.size()>0) {
+				
+					int productQuantityCount = quantityInput.size();
+					int productCount = 150;
+					// Create a random number generator.
+				    Random random = new Random();
+			        // Generate a random index to insert the qunatity
+				    int randomquantityInput = random.nextInt(productQuantityCount) + 1;
+				    int inputQuantiy = random.nextInt(productCount)+1;
+				    logger.info("Product input quantity "+inputQuantiy);
+				    // Find the quantity input field associated with the clicked button and set the quantity.
+			        WebElement inctheQuantity = driver.findElement(By.xpath("(//input[@name='quantity'])[" + randomquantityInput + "]"));
+			        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", inctheQuantity);
+			        Thread.sleep(2000);
+			        inctheQuantity.clear(); // Clear the existing value
+			        Thread.sleep(2000);
+			        inctheQuantity.sendKeys(String.valueOf(inputQuantiy));
+			        Thread.sleep(1000);
+			    
+			       //update the qunatity
+			        List<WebElement> updateQuantityList = driver.findElements(By.xpath("//div[contains(text(),' Update')]"));
+			     
+			        if(updateQuantityList.size()>0) {
+				       WebElement updateQuantity = driver.findElement(By.xpath("(//div[contains(text(),' Update')])[" + randomquantityInput + "]"));
+				       if(updateQuantity.isDisplayed()) {
+				    	   updateQuantity.click();
+				    	   Thread.sleep(3000);
+				       }
+			       }else {
+			    	   logger.info("Updating the quantity in Pdp page ");
+			       }
+		       
+				}else {
+					logger.info("Gc in cart");
+				}
+			}
 			//shipping calculation			
-			public void shippingCalculations() throws InterruptedException {	 
+			public void estimatedshippingCalculations() throws InterruptedException {	 
+				
+				 List<WebElement> giftCerificate = driver.findElements(By.xpath("//div[contains(@class, 'card product-info gift-certificate uuid-')]"));
+				 List<WebElement> totalProducts = driver.findElements(By.xpath("//div[contains(@class, 'card product-info product-detail  uuid-')]"));
+				 
+				 if((giftCerificate.size()>0 && totalProducts.size()>0) || (totalProducts.size()>0) ) {
 					 //country
-					 countryDropDown();
-					 logger.info("Entered shipping address");
+					 	countryDropDown();
+					 	logger.info("Entered shipping address");
 
-					    WebElement shippingValueElement = driver.findElement(By.xpath("//p[contains(@class,'shipping-cost')]"));
+					 	WebElement assortablePriceElement = driver.findElement(By.xpath("//p[contains(@class,'assortable-price')]"));
+					    String assortablePriceText= assortablePriceElement.getText();
+						String assortablePriceText1 = assortablePriceText.replaceAll("[^\\d.]+", "");
+						assortablePrice = Float.parseFloat(assortablePriceText1);
+						logger.info("Assortable price is " +assortablePrice);
+					 	
+					 	test.info("Calculating the pre-total tax with the estimated shipping cost");
+					    WebElement shippingValueElement = driver.findElement(By.xpath("//p[@class='text-right shipping-cost accessibility-element']"));
 					    
 					    String eachShippingValueText= shippingValueElement.getText();
+					    System.out.println("Shipping cost "+eachShippingValueText);
 					 // Remove all non-numeric characters using regular expression
 					    String shippingValueText = eachShippingValueText.replaceAll("[^\\d.]+", "");
 
-					    // Now, you have a string with only numeric characters
-					    System.out.println("Extended value is " + shippingValueText);
-
-					    // If you need a float value, you can convert it
+					 // If you need a float value, you can convert it
 					    float shippingValue = Float.parseFloat(shippingValueText);
-					  /* 
-					  
-					    String shippingValueText = eachShippingValueText.replaceAll("[^\\d.]+", "");
-					   
-					    shippingValue = Float.parseFloat(shippingValueText);
-					    System.out.println("Extended value is " +shippingValue);
-*/
-					    preTotalTax=shippingValue +totalEachProduct;
-					    logger.info("Pre total price tax " +preTotalTax);
+					 
+					    float formattedPreTotalTax =(shippingValue +totalEachProduct);
+					    logger.info("Estimated and expected Pre total price tax " +formattedPreTotalTax);					    
+					    test.info("The total pre-tax calculation is " +formattedPreTotalTax);
+					    
+					    
+					    // Round up the number
+				        double roundedNumber = Math.ceil(formattedPreTotalTax * 100) / 100; // Round up to two decimal places
+
+				        // Format the number to have only two digits after the decimal point
+				        DecimalFormat df = new DecimalFormat("#.##");
+				        String pretotalString = df.format(roundedNumber);
+				        //convert string to float
+				        expectedPreTotalTax = Float.parseFloat(pretotalString);
+
+				        // Print the result
+				        System.out.println("Original Number: " + expectedPreTotalTax);
+				        System.out.println("Rounded and Formatted Number: " + formattedPreTotalTax);	
+				        
+					  //actual pre total tax
+					    WebElement preTotalTaxGrandTotal = driver.findElement(By.xpath("//p[contains(@class,'grand-total')]"));
+					    String preTotalTaxGrandTotalText= preTotalTaxGrandTotal.getText();
+						String preTotalTaxGrandTotalTextText1 = preTotalTaxGrandTotalText.replaceAll("[^\\d.]+", "");
+						actualPreTotalTax = Float.parseFloat( preTotalTaxGrandTotalTextText1);
+						logger.info("Actual pre total-price is " +actualPreTotalTax);
+						
+						
+						
+						if( expectedPreTotalTax.equals(actualPreTotalTax)) {
+							test.pass("The caluated pre-total tax is " + expectedPreTotalTax + " is equal to " + actualPreTotalTax);
+							logger.info("The caluated pre-total tax is " + expectedPreTotalTax + " is equal to " + actualPreTotalTax);
+						}else {
+							test.fail("The caluated pre-total tax is " + expectedPreTotalTax + " is not equal to " + actualPreTotalTax);
+							logger.info("The caluated pre-total tax is " + expectedPreTotalTax + " is not equal to " + actualPreTotalTax);
+						}
+				 } else {
+					 test.info("Cart contain only Gc products");
+				 }
 			}
 			
-			public static void countryDropDown() {
+			public static void countryDropDown() throws InterruptedException {
 				 // Locate the dropdown element by its ID
 		        WebElement countryDropdown = driver.findElement(By.id("shippingCountrydefault"));
 
@@ -285,7 +398,6 @@ WebDriver lDriver;
 
 		        // Select the random option by its index
 		        select.selectByIndex(randomIndex);
-			}
-			
-			
+		        Thread.sleep(5000);
+			}		
 }
